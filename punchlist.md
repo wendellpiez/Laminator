@@ -1,15 +1,17 @@
 # Project punchlist
 
 κάτθανʼ ὁμῶς ὅ τʼ ἀεργὸς ἀνὴρ ὅ τε πολλὰ ἐοργώς. (Iliad IX 320)
-"Death comes alike to the useless and to those who do much"
+"And alike will perish the man who is useless, and he who does much"
 
-For those who know the history, it is easiest to think of Laminator as a (partial) LMNL implementation in an XProc/XSLT-based library, suitable for reuse and adaptation, but interesting not only for what it does, but what it is: an XML alternative on an XML-based platform.
+For those who know the history, it is easiest to think of Laminator as a (partial) LMNL implementation in an XProc/XSLT-based library, suitable for reuse and adaptation, but interesting not only for what it does, but what it is: an other-worldly XML alternative on an XML-based platform.
 
-If LMNL means nothing to you, think of xMNML - the 'pivot' format used by Laminator, as an XML-based serialization not of a document hierarchy, but document-as-qualified-text, the 'text' in xMNML being considered any continuous range or substring of text treated as sequence of characters. This model can be straightforwardly mapped to its own syntax (which happens to be LMNL 'sawtooth' syntax) as well as processed using operations over its ranges. Critically - and differentiating it from the conventional XML hierarchy - in xMNML (and MNML conceptually as well as LMNL, of which MNML is a formal subset), *ranges can overlap*.
+If LMNL means nothing to you, think of xMNML - the 'pivot' format used by Laminator, as an XML-based serialization not of a document hierarchy, but document-as-qualified-text, the 'text' in xMNML being considered any continuous range or substring of text treated as sequence of characters. This model can be straightforwardly mapped to its own syntax (which happens to be LMNL 'sawtooth' syntax) as well as processed with operations over its ranges. Critically - and differentiating it from the conventional XML hierarchy - in xMNML (and MNML conceptually as well as LMNL, of which MNML is a formal subset), *ranges can overlap* and *multiple concurrent hierarchies* are normal, because no hierarchy rules over others.
 
-This makes MNML and xMNML useful technologies for applications over documents that reward treating overlap as a 'normal' phenomenon, easily represented and not relying on second-order logic (in baroque transformations) to do with XML hierarchies, what is easy with LMNL ranges. Many more alternatives for approaching this are available in a world constrained to work with one hierarchy at a time.
+This makes MNML and xMNML useful technologies for applications over documents that reward treating overlap as a 'normal' phenomenon, easily represented and not relying on second-order logic (in baroque transformations) to make XML do complicated things, that are easy with LMNL ranges. When hierarchies are only implicit, we can work with more than one hierarchy at a time. When hierarchies get in the way, we can do without.
 
 For researchers, this is interesting because it turns the world of XML upside down, sometimes in unexpected ways. Things that are easy are now not so easy, but things that are hard in XML are just ... easy. An example is merging two documents with the same text but different structures.
+
+And one thing that is not so hard is to turn a range model back into a hierarchy - so we still have XML any time we need it.
 
 As a demonstration, this site offers an application of MNML, producing SVG graphics from MNML LMNL inputs.
 
@@ -31,7 +33,7 @@ Provide instructions for using as a Git submodule?
 ## Proposed directory organization
 
 //test - anything can have a 'test' folder
-//cicd - anything can have a 'cicd' folder for regression testing
+  including 'cicd' tests (for automation)
 
 /bin - XProc, XSLT etc.
   /bin/in - producing xMNML from sources
