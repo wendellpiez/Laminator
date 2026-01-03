@@ -1,10 +1,18 @@
-# Laminator - Prospectus
+![Laminator logotype](./laminator-logotype.svg)
+
+# Laminator 
 
 A MNML LMNL processing library on an XML stack (XProc, XSLT, iXML)
 
 MNML LMNL is Minimally Annotated Markup in LMNL. LMNL is the Layered Markup and Annotation Language (sc Tennison and Piez, 2001).
 
-LMNL is a data model supporting applications in text processing. In contrast to XML (or object-serialization notations such as JSON) it represents a text not as a hierarchy of elements, but as a sequence of characters with a set of ranges over those characters. Ranges can be named (typically by their type) and annotated (in MNML LMNL, minimally, using controlled values or simple strings). Annotations can include tagging such as identifiers or classifications that expose higher-level semantic relations between ranges.
+Think of XML, except - (1) funky syntax, and (2) allows overlap (because ranges, not elements)
+
+In this repository, find working code, demonstrations, and links to demonstrations.
+
+## Prospectus
+
+LMNL is a data model supporting applications in text processing. In contrast to XML (or object-serialization notations such as JSON) it represents a text not as a hierarchy of elements, but as a **set of ranges** defined over a  **sequence of characters**. Ranges can be named (typically by their type) and *annotated* (in MNML LMNL, minimally, using controlled values or simple strings). Annotations can include tagging such as identifiers or classifications asserting higher-level semantic properties including links (relations) between ranges. Since ranges can overlap other ranges, LMNL does not form hierarchies and represents overlap as overlap.
 
 Applications for which this approach to markup is well suited include the analysis, translation and representation of literary texts.
 
