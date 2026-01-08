@@ -30,28 +30,6 @@ Later - develop out as a submodule used in a different application (Scholia202x)
   
 Provide instructions for using as a Git submodule?
 
-## Proposed directory organization
-
-//test - anything can have a 'test' folder
-  including 'cicd' tests (for automation)
-
-/bin - XProc, XSLT etc.
-  /bin/in - producing xMNML from sources
-    /bin/in/sawteeth w/ iXML parsing
-    /bin/in/xml
-  /bin/out  - producing results from xMNML
-  /bin/across - non-xMNML XML to sawteeth, including 'semantic' versions (TEI pb to 'page' ranges)
-  /bin/rules - schemas, validation and regularization tools
-  /bin/common - functions and utilities
-    range induction (e.g. sentence/phrase segmenters), xMNML merge, filter etc.
-/demo - XProc for publishing demo including page sources (Markdown?)
-/data - all kinds of LMNL data (MNML LMNL)
-  /data/misc
-  /data/folger
-  /data/sonnets
-/docs - target directory for Pages publication
-/papers - e.g. iXML workshop 2026
-
 ## MNML LMNL
 
 See more definitions and descriptions in the code base.
