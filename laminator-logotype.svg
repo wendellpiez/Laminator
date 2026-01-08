@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200"
-    width="800" height="200"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200"
+    width="600" height="200"
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
         <rect id="page" fill="whitesmoke"
@@ -10,9 +10,9 @@
     </defs>
     
     <desc></desc>
-    <!--<rect width="100%" height="100%" fill="black"/>-->
+    <rect width="100%" height="100%" fill="black"/>
     
-    <g alignment-baseline="baseline" transform="translate(50 100) skewX(-10)"
+    <g alignment-baseline="baseline" transform="translate(20 100) skewX(-10)"
         font-size="90" fill="white" fill-opacity="0.7" stroke="black"
         stroke-width="2"
         font-weight="bold" text-anchor="middle" font-family="sans-serif">
