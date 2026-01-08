@@ -48,9 +48,11 @@ Laminator is a library of functions and utilities supporting MNML LMNL (syntax a
 
 In its basic form, the Laminator offers a set of XProc 3.0/3.1 pipelines, to be executed using an XProc engine either from the command line (when working as a developer), within a development environment, or automated under CI/CD (continuous integration/continuous development).
 
-These pipelines provide generalized processing in the service of xMNML, XML and LMNL 'sawtooth' syntax, to be imported and used by application logic.
+This makes it possible to use the Laminator in either an active way - writing pipelines and transformations to exploit it in the service of markup-for-overlap - or in a passive mode, simply editing data (such as XML or LMNL data) and then using a Laminator-based application as a "renderer".
 
-A simple application that does this is available for study: see the [demo](demo) folder.
+Under either scenario these pipelines provide generalized processing in the service of xMNML, XML and LMNL 'sawtooth' syntax, to be imported and used by application logic.
+
+A simple application with an XProc pipeline using the Laminator libraries is available for study: see the [demo](demo) folder.
 
 For more on XProc:
 
