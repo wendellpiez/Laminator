@@ -12,9 +12,9 @@
                             
     -->
     
-    <p:import href="../../lib/xMNML-into/sawtooth-syntax/sawteeth-to-xMNML.xpl"/>
+    <p:import href="../../lib/xMNML/up/sawtooth-syntax/sawteeth-to-xMNML.xpl"/>
     
-    <p:import href="../../lib/xMNML-into/sawtooth-syntax/xMNML-cleaner.xpl"/>
+    <p:import href="../../lib/xMNML/up/sawtooth-syntax/xMNML-cleaner.xpl"/>
     
     <p:output port="result" serialization="map { 'indent': true(), 'omit-xml-declaration': true() }"/>
 

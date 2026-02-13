@@ -1,6 +1,9 @@
 # oXygen project file
 laminator-dev.xpr
 
+# local punchlist
+punchlist.md
+
 # Any 'working' folder
 working/
 
