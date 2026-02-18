@@ -22,15 +22,8 @@ This is a LMNL version of a data set available as an XML demonstration since 200
 
 The markup takes the form of two overlapping hierarchies:
 
-A line/stanza hierarchy - ranges include lines and line groups such as couplets, quatrains, sestets and octaves.
+- A line/stanza hierarchy - ranges include lines and line groups such as couplets, quatrains, sestets and octaves.
 
-A phrase/sentence hierarchy - range types include **s** for sentance and **phr** for phrase. Sentences are always aggregates of one or more phrases.
+- A phrase/sentence hierarchy - range types include **s** for sentance and **phr** for phrase. Sentences are always aggregates of one or more phrases.
 
 
-## Tasks / Come back to
-
-These XSLTs were migrated from Luminescent, modified only to the point where they work with the new models.
-
-They could be greatly improved if rewritten using new features including new syntax features of XSLT (TVTs etc.)
-
-For now, they work well enough to be suggestive.

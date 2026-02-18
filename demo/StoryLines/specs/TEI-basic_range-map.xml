@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Made for Peregrine's End 2026 - extensible -->
+<RANGEMAP padding="30" width="1200" font-size="8"
+  font-family="'Cambria'" fill="skyblue" fill-opacity="0.2">
+  <title x="30" y="30" font-size="14">Peregrine's End - a map of the text</title>
+  <course ranges="page" w="150" drop="10" r="0" fill="white" stroke="black"
+    fill-opacity="0.6">
+    <label font-style="italic" transform="translate(0 6) rotate(-30)">{n}</label>
+  </course>
+  <course ranges="div" w="110" drop="30" r="8" fill="gainsboro" stroke="black" fill-opacity="0.9">
+    <label font-weight="bold">{n}</label>
+  </course>
+  <course ranges="salute" w="40" drop="45" r="2" fill="rosybrown"    stroke="black" fill-opacity="0.6"/>
+  <course ranges="p"      w="40" drop="50" r="2" fill="rosybrown"    stroke="black" fill-opacity="0.6"/>
+  <course ranges="q"      w="30" drop="70" r="2" fill="midnightblue" stroke="black" fill-opacity="0.4">
+    <!-- color-coding for speakers in ../data/PeregrinesDemise_tei.lmnl -->
+    <track signature="[who}Lucian{]"  drop="6"  fill-opacity="0.2" stroke-width="2" stroke="pink"/>
+    <track signature="[who}Speaker{]" drop="12" fill-opacity="0.2" stroke-width="2" stroke="gold" stroke-opacity="0.5"/>
+    <track signature="[who}Proteus{]" drop="18" fill-opacity="0.2" stroke-width="2" stroke="darkred"/>
+  </course>
+  <course ranges="soCalled" w="30" drop="80"  r="2" fill="slateblue"  stroke="black" fill-opacity="0.2"/>
+  <course ranges="quote"    w="30" drop="90"  r="2" fill="darkorange" stroke="black" fill-opacity="0.4"/>
+  <course ranges="l"        w="30" drop="100" r="2" fill="darkred"    stroke="black" fill-opacity="0.4"/>
+</RANGEMAP>

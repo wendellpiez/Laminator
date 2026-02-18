@@ -42,7 +42,6 @@
         </p:with-input>
     </p:insert>
     
-    
     <p:string-replace match="/*" replace="string(.)"/>
     
     <p:store href="sonnet-list.md" message="... Storing sonnet-list.md ..."/>

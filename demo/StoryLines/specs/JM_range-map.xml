@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RANGEMAP padding="30" width="1200" font-size="8"
+  font-family="'Cambria'" fill="lemonchiffon" fill-opacity="0.2">
+  <title x="30" y="30" font-size="14">Julian and Maddalo (Percy Shelley) - Range Map</title>
+
+  <!-- The poem is in rhymed couplets arranged in verse paragraphs -->
+  <course ranges="verse-para" w="150" drop="10" r="0" fill="white" stroke="black" fill-opacity="0.6"/>
+  <course ranges="lg" w="40" drop="50" r="2" fill="rosybrown" stroke="black" fill-opacity="0.6"/>
+  <course ranges="l"  w="40" drop="60" r="2" fill="darkred"   stroke="black" fill-opacity="0.4"/>
+
+  <!-- With dialogue -->
+  <course ranges="q"  w="30"  drop="70" r="2" fill="midnightblue" stroke="black" fill-opacity="0.4">
+    <track signature="[who}Maddalo{]" drop="6"  fill-opacity="0.2" stroke-width="2" stroke="pink"/>
+    <track signature="[who}Julian{]"  drop="12" fill-opacity="0.2" stroke-width="2" stroke="forestgreen" stroke-opacity="0.5"/>
+    <track signature="[who}madman{]"  drop="18" fill-opacity="0.2" stroke-width="2" stroke="darkred"/>
+  </course>
+  
+  <!-- ... and things --> 
+  <course ranges="soCalled" w="30" drop="80" r="2" fill="slateblue"  stroke="black" fill-opacity="0.2"/>
+  <course ranges="emph"     w="30" drop="90" r="2" fill="darkorange" stroke="black" fill-opacity="0.4"/>
+</RANGEMAP>

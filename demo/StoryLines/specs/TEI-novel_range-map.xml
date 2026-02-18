@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Made for Frankenstein 1831, adjusted by hand, needs work -->
+<RANGEMAP padding="30" width="1200" font-size="8" font-family="'Cambria'" fill="lemonchiffon"
+  fill-opacity="0.2">
+  <title x="30" y="30" font-size="14">Frankenstein or, the Modern Prometheus - Range Map</title>
+  
+  <course ranges="text" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  
+  <course ranges="volume" w="120" drop="0" r="0" fill="whitesmoke" stroke="darkgrey" stroke-opacity="0.6" stroke-width="4" fill-opacity="0.4"/>
+  <course ranges="preface" w="40" drop="10" r="2" fill="cornsilk" stroke="black" fill-opacity="0.4"/>
+  <course ranges="body" w="40" drop="10" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="story" w="100" drop="20" r="2" stroke="black" fill-opacity="0.4">
+    <track signature="[who}Walton{]"       drop="6" fill="blue" fill-opacity="0.2" stroke-width="3" stroke="midnightblue"/>
+    <track signature="[who}Frankenstein{]" drop="6" fill="gold" fill-opacity="0.2" stroke-width="3" stroke="orange"/>
+    <track signature="[who}The creature{]" drop="6" fill="rosybrown" fill-opacity="0.2" stroke-width="3"
+      stroke="darkred"/>
+  </course>
+  
+  <course ranges="letter"  w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="chapter" w="60" drop="40" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  
+  <course ranges="said" w="40" drop="80" r="0" fill="none" stroke="darkgreen" fill-opacity="0.4">
+    <label font-style="italic" transform="translate(0 6) rotate(-30)">{who}</label>
+  </course>
+  
+  <course ranges="front" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="titlePage" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="docTitle" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="titlePart" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="docAuthor" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="epigraph" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="lg" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="l" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="bibl" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  
+  <course ranges="page" w="80" drop="70" r="0" fill="none" stroke="black" fill-opacity="0.4"/>
+  
+  <course ranges="introduction" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="head" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="p" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="title" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  
+  <course ranges="q" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  
+  <course ranges="soCalled" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="hi" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="signed" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="trailer" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  
+  <course ranges="opener" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="salute" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="entry" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="line" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="place" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="date" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="lb" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="dialogue" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="interject" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="dateline" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  
+  <!--<course ranges="cit" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="note" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="term" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="reflect" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="ref" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>
+  <course ranges="foreign" w="40" drop="50" r="2" fill="none" stroke="black" fill-opacity="0.4"/>-->
+</RANGEMAP>
