@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="627">
+      <annotation gi="id">sonnetIII</annotation>
+      <annotation gi="author">John Addington Symonds</annotation>
+      <annotation gi="title">The Sonnet (III)</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="626"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="344"/>
+   <start gi="s" rID="r04_s" off="1" ext="344"/>
+   <start gi="quatrain" rID="r05_quatrain" off="1" ext="174"/>
+   <start gi="line" rID="r06_line" off="1" ext="44"/>
+   <start gi="phr" rID="r07_phr" off="1" ext="22"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r06_line r07_phr"
+         off="1"
+         ext="22">The Sonnet is a world,</text>
+   <end gi="phr" rID="r07_phr" off="23" ext="22"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r06_line"
+         off="23"
+         ext="1"> </text>
+   <start gi="phr" rID="r08_phr" off="24" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r06_line r08_phr"
+         off="24"
+         ext="21">where feelings caught</text>
+   <end gi="line" rID="r06_line" off="45" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r08_phr"
+         off="45"
+         ext="1">
+</text>
+   <start gi="line" rID="r09_line" off="46" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r08_phr r09_line"
+         off="46"
+         ext="20">In webs of phantasy,</text>
+   <end gi="phr" rID="r08_phr" off="66" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r09_line"
+         off="66"
+         ext="1"> </text>
+   <start gi="phr" rID="r10_phr" off="67" ext="108"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r09_line r10_phr"
+         off="67"
+         ext="16">combine and fuse</text>
+   <end gi="line" rID="r09_line" off="83" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r10_phr"
+         off="83"
+         ext="1">
+</text>
+   <start gi="line" rID="r11_line" off="84" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r10_phr r11_line"
+         off="84"
+         ext="41">Their kindred elements 'neath mystic dews</text>
+   <end gi="line" rID="r11_line" off="125" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r10_phr"
+         off="125"
+         ext="1">
+</text>
+   <start gi="line" rID="r12_line" off="126" ext="49"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r10_phr r12_line"
+         off="126"
+         ext="49">Shed from the ether round man's dwelling wrought;</text>
+   <end gi="line" rID="r12_line" off="175" ext="49"/>
+   <end gi="phr" rID="r10_phr" off="175" ext="108"/>
+   <end gi="quatrain" rID="r05_quatrain" off="175" ext="174"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s" off="175" ext="1">
+</text>
+   <start gi="quatrain" rID="r13_quatrain" off="176" ext="169"/>
+   <start gi="line" rID="r14_line" off="176" ext="50"/>
+   <start gi="phr" rID="r15_phr" off="176" ext="27"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r13_quatrain r14_line r15_phr"
+         off="176"
+         ext="27">Distilling heart's content,</text>
+   <end gi="phr" rID="r15_phr" off="203" ext="27"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r13_quatrain r14_line"
+         off="203"
+         ext="1"> </text>
+   <start gi="phr" rID="r16_phr" off="204" ext="141"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r13_quatrain r14_line r16_phr"
+         off="204"
+         ext="22">star-fragrance fraught</text>
+   <end gi="line" rID="r14_line" off="226" ext="50"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r13_quatrain r16_phr"
+         off="226"
+         ext="1">
+</text>
+   <start gi="line" rID="r17_line" off="227" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r13_quatrain r16_phr r17_line"
+         off="227"
+         ext="40">With influences from the breathing fires</text>
+   <end gi="line" rID="r17_line" off="267" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r13_quatrain r16_phr"
+         off="267"
+         ext="1">
+</text>
+   <start gi="line" rID="r18_line" off="268" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r13_quatrain r16_phr r18_line"
+         off="268"
+         ext="38">Of heaven in everlasting endless gyres</text>
+   <end gi="line" rID="r18_line" off="306" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r13_quatrain r16_phr"
+         off="306"
+         ext="1">
+</text>
+   <start gi="line" rID="r19_line" off="307" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r13_quatrain r16_phr r19_line"
+         off="307"
+         ext="38">Ending and encircling orbs of thought.</text>
+   <end gi="line" rID="r19_line" off="345" ext="38"/>
+   <end gi="phr" rID="r16_phr" off="345" ext="141"/>
+   <end gi="quatrain" rID="r13_quatrain" off="345" ext="169"/>
+   <end gi="s" rID="r04_s" off="345" ext="344"/>
+   <end gi="octave" rID="r03_octave" off="345" ext="344"/>
+   <text cf="r01_sonneteer r02_sonnet" off="345" ext="1">
+</text>
+   <start gi="sestet" rID="r20_sestet" off="346" ext="281"/>
+   <start gi="s" rID="r21_s" off="346" ext="281"/>
+   <start gi="tercet" rID="r22_tercet" off="346" ext="145"/>
+   <start gi="line" rID="r23_line" off="346" ext="46"/>
+   <start gi="phr" rID="r24_phr" off="346" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_s r22_tercet r23_line r24_phr"
+         off="346"
+         ext="46">Our Sonnet's world hath two fix'd hemispheres:</text>
+   <end gi="phr" rID="r24_phr" off="392" ext="46"/>
+   <end gi="line" rID="r23_line" off="392" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_s r22_tercet"
+         off="392"
+         ext="1">
+</text>
+   <start gi="line" rID="r25_line" off="393" ext="50"/>
+   <start gi="phr" rID="r26_phr" off="393" ext="5"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_s r22_tercet r25_line r26_phr"
+         off="393"
+         ext="5">This,</text>
+   <end gi="phr" rID="r26_phr" off="398" ext="5"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_s r22_tercet r25_line"
+         off="398"
+         ext="1"> </text>
+   <start gi="phr" rID="r27_phr" off="399" ext="92"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_s r22_tercet r25_line r27_phr"
+         off="399"
+         ext="44">where the sun with fierce strength masculine</text>
+   <end gi="line" rID="r25_line" off="443" ext="50"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_s r22_tercet r27_phr"
+         off="443"
+         ext="1">
+</text>
+   <start gi="line" rID="r28_line" off="444" ext="47"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_s r22_tercet r27_phr r28_line"
+         off="444"
+         ext="47">Pours his keen rays and bids the noonday shine;</text>
+   <end gi="line" rID="r28_line" off="491" ext="47"/>
+   <end gi="phr" rID="r27_phr" off="491" ext="92"/>
+   <end gi="tercet" rID="r22_tercet" off="491" ext="145"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_s" off="491" ext="1">
+</text>
+   <start gi="tercet" rID="r29_tercet" off="492" ext="135"/>
+   <start gi="line" rID="r30_line" off="492" ext="54"/>
+   <start gi="phr" rID="r31_phr" off="492" ext="5"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_s r29_tercet r30_line r31_phr"
+         off="492"
+         ext="5">That,</text>
+   <end gi="phr" rID="r31_phr" off="497" ext="5"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_s r29_tercet r30_line"
+         off="497"
+         ext="1"> </text>
+   <start gi="phr" rID="r32_phr" off="498" ext="29"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_s r29_tercet r30_line r32_phr"
+         off="498"
+         ext="29">where the moon and the stars,</text>
+   <end gi="phr" rID="r32_phr" off="527" ext="29"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_s r29_tercet r30_line"
+         off="527"
+         ext="1"> </text>
+   <start gi="phr" rID="r33_phr" off="528" ext="18"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_s r29_tercet r30_line r33_phr"
+         off="528"
+         ext="18">concordant powers,</text>
+   <end gi="phr" rID="r33_phr" off="546" ext="18"/>
+   <end gi="line" rID="r30_line" off="546" ext="54"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_s r29_tercet"
+         off="546"
+         ext="1">
+</text>
+   <start gi="line" rID="r34_line" off="547" ext="41"/>
+   <start gi="phr" rID="r35_phr" off="547" ext="17"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_s r29_tercet r34_line r35_phr"
+         off="547"
+         ext="17">Shed milder rays,</text>
+   <end gi="phr" rID="r35_phr" off="564" ext="17"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_s r29_tercet r34_line"
+         off="564"
+         ext="1"> </text>
+   <start gi="phr" rID="r36_phr" off="565" ext="62"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_s r29_tercet r34_line r36_phr"
+         off="565"
+         ext="23">and daylight disappears</text>
+   <end gi="line" rID="r34_line" off="588" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_s r29_tercet r36_phr"
+         off="588"
+         ext="1">
+</text>
+   <start gi="line" rID="r37_line" off="589" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_s r29_tercet r36_phr r37_line"
+         off="589"
+         ext="38">In low melodious music of still hours.</text>
+   <end gi="line" rID="r37_line" off="627" ext="38"/>
+   <end gi="phr" rID="r36_phr" off="627" ext="62"/>
+   <end gi="tercet" rID="r29_tercet" off="627" ext="135"/>
+   <end gi="s" rID="r21_s" off="627" ext="281"/>
+   <end gi="sestet" rID="r20_sestet" off="627" ext="281"/>
+   <end gi="sonnet" rID="r02_sonnet" off="627" ext="626"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="627" ext="627"/>
+</LMNL>

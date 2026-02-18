@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="narrowroom"
+           author="William Wordsworth"
+           title="Nuns fret not at their convent's narrow room">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>Nuns fret not at their convent's narrow room</line>
+            <line>And hermits are contented with their cells;</line>
+            <line>And students with their pensive citadels;</line>
+            <line>Maids at the wheel, the weaver at his loom,</line>
+         </quatrain>
+         <quatrain>
+            <line>Sit blithe and happy; bees that soar for bloom,</line>
+            <line>High as the highest Peak of Furness-fells,</line>
+            <line>Will murmur by the hour in foxglove bells:</line>
+            <line>In truth the prison, into which we doom</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <tercet>
+            <line>Ourselves, no prison is: and hence for me,</line>
+            <line>In sundry moods, 'twas pastime to be bound</line>
+            <line>Within the Sonnet's scanty plot of ground;</line>
+         </tercet>
+         <tercet>
+            <line>Pleased if some Souls (for such there needs must be)</line>
+            <line>Who have felt the weight of too much liberty,</line>
+            <line>Should find brief solace there, as I have found.</line>
+         </tercet>
+      </sestet>
+   </sonnet>
+</sonneteer>

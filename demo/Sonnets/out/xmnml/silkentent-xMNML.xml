@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="561">
+      <annotation gi="id">silkentent</annotation>
+      <annotation gi="author">Robert Frost</annotation>
+      <annotation gi="title">A Silken Tent</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="560"/>
+   <text cf="r01_sonneteer r02_sonnet" off="1" ext="1">
+</text>
+   <start gi="octave" rID="r03_octave" off="2" ext="312"/>
+   <start gi="quatrain" rID="r04_quatrain" off="2" ext="158"/>
+   <start gi="line" rID="r05_line" off="2" ext="34"/>
+   <start gi="s" rID="r06_s" off="2" ext="558"/>
+   <start gi="phr" rID="r07_phr" off="2" ext="117"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_line r06_s r07_phr"
+         off="2"
+         ext="34">She is as in a field a silken tent</text>
+   <end gi="line" rID="r05_line" off="36" ext="34"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r06_s r07_phr"
+         off="36"
+         ext="1">
+</text>
+   <start gi="line" rID="r08_line" off="37" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r06_s r07_phr r08_line"
+         off="37"
+         ext="38">At midday when the sunny summer breeze</text>
+   <end gi="line" rID="r08_line" off="75" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r06_s r07_phr"
+         off="75"
+         ext="1">
+</text>
+   <start gi="line" rID="r09_line" off="76" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r06_s r07_phr r09_line"
+         off="76"
+         ext="43">Has dried the dew and all its ropes relent,</text>
+   <end gi="phr" rID="r07_phr" off="119" ext="117"/>
+   <end gi="line" rID="r09_line" off="119" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r06_s"
+         off="119"
+         ext="1">
+</text>
+   <start gi="line" rID="r10_line" off="120" ext="40"/>
+   <start gi="phr" rID="r11_phr" off="120" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r06_s r10_line r11_phr"
+         off="120"
+         ext="40">So that in guys it gently sways at ease,</text>
+   <end gi="phr" rID="r11_phr" off="160" ext="40"/>
+   <end gi="line" rID="r10_line" off="160" ext="40"/>
+   <end gi="quatrain" rID="r04_quatrain" off="160" ext="158"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r06_s" off="160" ext="1">
+</text>
+   <start gi="quatrain" rID="r12_quatrain" off="161" ext="153"/>
+   <start gi="line" rID="r13_line" off="161" ext="38"/>
+   <start gi="phr" rID="r14_phr" off="161" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r06_s r12_quatrain r13_line r14_phr"
+         off="161"
+         ext="38">And its supporting central cedar pole,</text>
+   <end gi="phr" rID="r14_phr" off="199" ext="38"/>
+   <end gi="line" rID="r13_line" off="199" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r06_s r12_quatrain"
+         off="199"
+         ext="1">
+</text>
+   <start gi="line" rID="r15_line" off="200" ext="34"/>
+   <start gi="phr" rID="r16_phr" off="200" ext="74"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r06_s r12_quatrain r15_line r16_phr"
+         off="200"
+         ext="34">That is its pinnacle to heavenward</text>
+   <end gi="line" rID="r15_line" off="234" ext="34"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r06_s r12_quatrain r16_phr"
+         off="234"
+         ext="1">
+</text>
+   <start gi="line" rID="r17_line" off="235" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r06_s r12_quatrain r16_phr r17_line"
+         off="235"
+         ext="39">And signifies the sureness of the soul,</text>
+   <end gi="phr" rID="r16_phr" off="274" ext="74"/>
+   <end gi="line" rID="r17_line" off="274" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r06_s r12_quatrain"
+         off="274"
+         ext="1">
+</text>
+   <start gi="line" rID="r18_line" off="275" ext="39"/>
+   <start gi="phr" rID="r19_phr" off="275" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r06_s r12_quatrain r18_line r19_phr"
+         off="275"
+         ext="39">Seems to owe naught to any single cord,</text>
+   <end gi="phr" rID="r19_phr" off="314" ext="39"/>
+   <end gi="line" rID="r18_line" off="314" ext="39"/>
+   <end gi="quatrain" rID="r12_quatrain" off="314" ext="153"/>
+   <end gi="octave" rID="r03_octave" off="314" ext="312"/>
+   <text cf="r01_sonneteer r02_sonnet r06_s" off="314" ext="1">
+</text>
+   <start gi="sestet" rID="r20_sestet" off="315" ext="245"/>
+   <start gi="quatrain" rID="r21_quatrain" off="315" ext="169"/>
+   <start gi="line" rID="r22_line" off="315" ext="43"/>
+   <start gi="phr" rID="r23_phr" off="315" ext="26"/>
+   <text cf="r01_sonneteer r02_sonnet r06_s r20_sestet r21_quatrain r22_line r23_phr"
+         off="315"
+         ext="26">But strictly held by none,</text>
+   <end gi="phr" rID="r23_phr" off="341" ext="26"/>
+   <text cf="r01_sonneteer r02_sonnet r06_s r20_sestet r21_quatrain r22_line"
+         off="341"
+         ext="1"> </text>
+   <start gi="phr" rID="r24_phr" off="342" ext="104"/>
+   <text cf="r01_sonneteer r02_sonnet r06_s r20_sestet r21_quatrain r22_line r24_phr"
+         off="342"
+         ext="16">is loosely bound</text>
+   <end gi="line" rID="r22_line" off="358" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r06_s r20_sestet r21_quatrain r24_phr"
+         off="358"
+         ext="1">
+</text>
+   <start gi="line" rID="r25_line" off="359" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r06_s r20_sestet r21_quatrain r24_phr r25_line"
+         off="359"
+         ext="44">By countless silken ties of love and thought</text>
+   <end gi="line" rID="r25_line" off="403" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r06_s r20_sestet r21_quatrain r24_phr"
+         off="403"
+         ext="1">
+</text>
+   <start gi="line" rID="r26_line" off="404" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r06_s r20_sestet r21_quatrain r24_phr r26_line"
+         off="404"
+         ext="42">To every thing on earth the compass round,</text>
+   <end gi="phr" rID="r24_phr" off="446" ext="104"/>
+   <end gi="line" rID="r26_line" off="446" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r06_s r20_sestet r21_quatrain"
+         off="446"
+         ext="1">
+</text>
+   <start gi="line" rID="r27_line" off="447" ext="37"/>
+   <start gi="phr" rID="r28_phr" off="447" ext="113"/>
+   <text cf="r01_sonneteer r02_sonnet r06_s r20_sestet r21_quatrain r27_line r28_phr"
+         off="447"
+         ext="37">And only by one's going slightly taut</text>
+   <end gi="line" rID="r27_line" off="484" ext="37"/>
+   <end gi="quatrain" rID="r21_quatrain" off="484" ext="169"/>
+   <text cf="r01_sonneteer r02_sonnet r06_s r20_sestet r28_phr"
+         off="484"
+         ext="1">
+</text>
+   <start gi="couplet" rID="r29_couplet" off="485" ext="75"/>
+   <start gi="line" rID="r30_line" off="485" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r06_s r20_sestet r28_phr r29_couplet r30_line"
+         off="485"
+         ext="35">In the capriciousness of summer air</text>
+   <end gi="line" rID="r30_line" off="520" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r06_s r20_sestet r28_phr r29_couplet"
+         off="520"
+         ext="1">
+</text>
+   <start gi="line" rID="r31_line" off="521" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r06_s r20_sestet r28_phr r29_couplet r31_line"
+         off="521"
+         ext="39">Is of the slightest bondage made aware.</text>
+   <end gi="phr" rID="r28_phr" off="560" ext="113"/>
+   <end gi="s" rID="r06_s" off="560" ext="558"/>
+   <end gi="line" rID="r31_line" off="560" ext="39"/>
+   <end gi="couplet" rID="r29_couplet" off="560" ext="75"/>
+   <end gi="sestet" rID="r20_sestet" off="560" ext="245"/>
+   <text cf="r01_sonneteer r02_sonnet" off="560" ext="1">
+</text>
+   <end gi="sonnet" rID="r02_sonnet" off="561" ext="560"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="561" ext="561"/>
+   <text off="561" ext="1">
+</text>
+</LMNL>

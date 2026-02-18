@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="sonnetmachine" author="The Sonneteer" title="Sonnet Machine">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>The sonnet is a form of poetry</line>
+            <line>ringing in English since the Renaissance</line>
+            <line>courtiers renewed our verse with this jouissance</line>
+            <line>of rhyme and macaronic melody:</line>
+         </quatrain>
+         <quatrain>
+            <line>an octave (these eight lines) is followed by</line>
+            <line>a shift in tone, or theme, in a sestet,</line>
+            <line>never but lining hope with fond regret,</line>
+            <line>never but linking words in rhymery.</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <quatrain>
+            <line>So to a form, when electric words grow quick</line>
+            <line>in newfound power as code, compiled and freed</line>
+            <line>to answer with dispatch any answerable need,</line>
+            <line>they drive a counting machine to draw in strict</line>
+         </quatrain>
+         <couplet>
+            <line>straight lines the formal frames half-hidden there,</line>
+            <line>inside sings out: sunshine in stained-glass prayer.</line>
+         </couplet>
+      </sestet>
+   </sonnet>
+</sonneteer>

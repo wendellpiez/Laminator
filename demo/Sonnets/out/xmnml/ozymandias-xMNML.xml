@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="629">
+      <annotation gi="id">ozymandias</annotation>
+      <annotation gi="author">Percy Bysshe Shelley</annotation>
+      <annotation gi="title">Ozymandias</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="628"/>
+   <start gi="s" rID="r03_s" off="1" ext="501"/>
+   <start gi="octave" rID="r04_octave" off="1" ext="380"/>
+   <start gi="quatrain" rID="r05_quatrain" off="1" ext="183"/>
+   <start gi="line" rID="r06_line" off="1" ext="39"/>
+   <start gi="phr" rID="r07_phr" off="1" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain r06_line r07_phr"
+         off="1"
+         ext="39">I met a traveller from an antique land,</text>
+   <end gi="phr" rID="r07_phr" off="40" ext="39"/>
+   <end gi="line" rID="r06_line" off="40" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain"
+         off="40"
+         ext="1">
+</text>
+   <start gi="line" rID="r08_line" off="41" ext="48"/>
+   <start gi="phr" rID="r09_phr" off="41" ext="10"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain r08_line r09_phr"
+         off="41"
+         ext="10">Who said —</text>
+   <end gi="phr" rID="r09_phr" off="51" ext="10"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain r08_line"
+         off="51"
+         ext="1"> </text>
+   <start gi="phr" rID="r10_phr" off="52" ext="61"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain r08_line r10_phr"
+         off="52"
+         ext="37">“Two vast and trunkless legs of stone</text>
+   <end gi="line" rID="r08_line" off="89" ext="48"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain r10_phr"
+         off="89"
+         ext="1">
+</text>
+   <start gi="line" rID="r11_line" off="90" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain r10_phr r11_line"
+         off="90"
+         ext="23">Stand in the desart....</text>
+   <end gi="phr" rID="r10_phr" off="113" ext="61"/>
+   <start gi="phr" rID="r12_phr" off="113" ext="10"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain r11_line r12_phr"
+         off="113"
+         ext="10">Near them,</text>
+   <end gi="phr" rID="r12_phr" off="123" ext="10"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain r11_line"
+         off="123"
+         ext="1"> </text>
+   <start gi="phr" rID="r13_phr" off="124" ext="12"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain r11_line r13_phr"
+         off="124"
+         ext="12">on the sand,</text>
+   <end gi="phr" rID="r13_phr" off="136" ext="12"/>
+   <end gi="line" rID="r11_line" off="136" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain"
+         off="136"
+         ext="1">
+</text>
+   <start gi="line" rID="r14_line" off="137" ext="47"/>
+   <start gi="phr" rID="r15_phr" off="137" ext="34"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain r14_line r15_phr"
+         off="137"
+         ext="34">Half sunk a shattered visage lies,</text>
+   <end gi="phr" rID="r15_phr" off="171" ext="34"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain r14_line"
+         off="171"
+         ext="1"> </text>
+   <start gi="phr" rID="r16_phr" off="172" ext="12"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain r14_line r16_phr"
+         off="172"
+         ext="12">whose frown,</text>
+   <end gi="phr" rID="r16_phr" off="184" ext="12"/>
+   <end gi="line" rID="r14_line" off="184" ext="47"/>
+   <end gi="quatrain" rID="r05_quatrain" off="184" ext="183"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave" off="184" ext="1">
+</text>
+   <start gi="quatrain" rID="r17_quatrain" off="185" ext="196"/>
+   <start gi="line" rID="r18_line" off="185" ext="44"/>
+   <start gi="phr" rID="r19_phr" off="185" ext="17"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r17_quatrain r18_line r19_phr"
+         off="185"
+         ext="17">And wrinkled lip,</text>
+   <end gi="phr" rID="r19_phr" off="202" ext="17"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r17_quatrain r18_line"
+         off="202"
+         ext="1"> </text>
+   <start gi="phr" rID="r20_phr" off="203" ext="26"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r17_quatrain r18_line r20_phr"
+         off="203"
+         ext="26">and sneer of cold command,</text>
+   <end gi="phr" rID="r20_phr" off="229" ext="26"/>
+   <end gi="line" rID="r18_line" off="229" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r17_quatrain"
+         off="229"
+         ext="1">
+</text>
+   <start gi="phr" rID="r21_phr" off="230" ext="66"/>
+   <start gi="line" rID="r22_line" off="230" ext="47"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r17_quatrain r21_phr r22_line"
+         off="230"
+         ext="47">Tell that its sculptor well those passions read</text>
+   <end gi="line" rID="r22_line" off="277" ext="47"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r17_quatrain r21_phr"
+         off="277"
+         ext="1">
+</text>
+   <start gi="line" rID="r23_line" off="278" ext="52"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r17_quatrain r21_phr r23_line"
+         off="278"
+         ext="18">Which yet survive,</text>
+   <end gi="phr" rID="r21_phr" off="296" ext="66"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r17_quatrain r23_line"
+         off="296"
+         ext="1"> </text>
+   <start gi="phr" rID="r24_phr" off="297" ext="33"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r17_quatrain r23_line r24_phr"
+         off="297"
+         ext="33">stamped on these lifeless things,</text>
+   <end gi="phr" rID="r24_phr" off="330" ext="33"/>
+   <end gi="line" rID="r23_line" off="330" ext="52"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r17_quatrain"
+         off="330"
+         ext="1">
+</text>
+   <start gi="line" rID="r25_line" off="331" ext="50"/>
+   <start gi="phr" rID="r26_phr" off="331" ext="26"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r17_quatrain r25_line r26_phr"
+         off="331"
+         ext="26">The hand that mocked them,</text>
+   <end gi="phr" rID="r26_phr" off="357" ext="26"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r17_quatrain r25_line"
+         off="357"
+         ext="1"> </text>
+   <start gi="phr" rID="r27_phr" off="358" ext="23"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r17_quatrain r25_line r27_phr"
+         off="358"
+         ext="23">and the heart that fed;</text>
+   <end gi="phr" rID="r27_phr" off="381" ext="23"/>
+   <end gi="line" rID="r25_line" off="381" ext="50"/>
+   <end gi="quatrain" rID="r17_quatrain" off="381" ext="196"/>
+   <end gi="octave" rID="r04_octave" off="381" ext="380"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s" off="381" ext="1">
+</text>
+   <start gi="sestet" rID="r28_sestet" off="382" ext="247"/>
+   <start gi="tercet" rID="r29_tercet" off="382" ext="120"/>
+   <start gi="line" rID="r30_line" off="382" ext="40"/>
+   <start gi="phr" rID="r31_phr" off="382" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r28_sestet r29_tercet r30_line r31_phr"
+         off="382"
+         ext="20">And on the pedestal,</text>
+   <end gi="phr" rID="r31_phr" off="402" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r28_sestet r29_tercet r30_line"
+         off="402"
+         ext="1"> </text>
+   <start gi="phr" rID="r32_phr" off="403" ext="19"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r28_sestet r29_tercet r30_line r32_phr"
+         off="403"
+         ext="19">these words appear:</text>
+   <end gi="phr" rID="r32_phr" off="422" ext="19"/>
+   <end gi="line" rID="r30_line" off="422" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r28_sestet r29_tercet"
+         off="422"
+         ext="1">
+</text>
+   <start gi="line" rID="r33_line" off="423" ext="37"/>
+   <start gi="phr" rID="r34_phr" off="423" ext="22"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r28_sestet r29_tercet r33_line r34_phr"
+         off="423"
+         ext="22">My name is Ozymandias,</text>
+   <end gi="phr" rID="r34_phr" off="445" ext="22"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r28_sestet r29_tercet r33_line"
+         off="445"
+         ext="1"> </text>
+   <start gi="phr" rID="r35_phr" off="446" ext="14"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r28_sestet r29_tercet r33_line r35_phr"
+         off="446"
+         ext="14">King of Kings,</text>
+   <end gi="phr" rID="r35_phr" off="460" ext="14"/>
+   <end gi="line" rID="r33_line" off="460" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r28_sestet r29_tercet"
+         off="460"
+         ext="1">
+</text>
+   <start gi="line" rID="r36_line" off="461" ext="41"/>
+   <start gi="phr" rID="r37_phr" off="461" ext="17"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r28_sestet r29_tercet r36_line r37_phr"
+         off="461"
+         ext="17">Look on my Works,</text>
+   <end gi="phr" rID="r37_phr" off="478" ext="17"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r28_sestet r29_tercet r36_line"
+         off="478"
+         ext="1"> </text>
+   <start gi="phr" rID="r38_phr" off="479" ext="10"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r28_sestet r29_tercet r36_line r38_phr"
+         off="479"
+         ext="10">ye Mighty,</text>
+   <end gi="phr" rID="r38_phr" off="489" ext="10"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r28_sestet r29_tercet r36_line"
+         off="489"
+         ext="1"> </text>
+   <start gi="phr" rID="r39_phr" off="490" ext="12"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r28_sestet r29_tercet r36_line r39_phr"
+         off="490"
+         ext="12">and despair!</text>
+   <end gi="phr" rID="r39_phr" off="502" ext="12"/>
+   <end gi="line" rID="r36_line" off="502" ext="41"/>
+   <end gi="tercet" rID="r29_tercet" off="502" ext="120"/>
+   <end gi="s" rID="r03_s" off="502" ext="501"/>
+   <text cf="r01_sonneteer r02_sonnet r28_sestet" off="502" ext="1">
+</text>
+   <start gi="tercet" rID="r40_tercet" off="503" ext="126"/>
+   <start gi="line" rID="r41_line" off="503" ext="39"/>
+   <start gi="s" rID="r42_s" off="503" ext="23"/>
+   <start gi="phr" rID="r43_phr" off="503" ext="23"/>
+   <text cf="r01_sonneteer r02_sonnet r28_sestet r40_tercet r41_line r42_s r43_phr"
+         off="503"
+         ext="23">Nothing beside remains.</text>
+   <end gi="phr" rID="r43_phr" off="526" ext="23"/>
+   <end gi="s" rID="r42_s" off="526" ext="23"/>
+   <text cf="r01_sonneteer r02_sonnet r28_sestet r40_tercet r41_line"
+         off="526"
+         ext="1"> </text>
+   <start gi="s" rID="r44_s" off="527" ext="102"/>
+   <start gi="phr" rID="r45_phr" off="527" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r28_sestet r40_tercet r41_line r44_s r45_phr"
+         off="527"
+         ext="15">Round the decay</text>
+   <end gi="line" rID="r41_line" off="542" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r28_sestet r40_tercet r44_s r45_phr"
+         off="542"
+         ext="1">
+</text>
+   <start gi="line" rID="r46_line" off="543" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r28_sestet r40_tercet r44_s r45_phr r46_line"
+         off="543"
+         ext="23">Of that colossal Wreck,</text>
+   <end gi="phr" rID="r45_phr" off="566" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r28_sestet r40_tercet r44_s r46_line"
+         off="566"
+         ext="1"> </text>
+   <start gi="phr" rID="r47_phr" off="567" ext="61"/>
+   <text cf="r01_sonneteer r02_sonnet r28_sestet r40_tercet r44_s r46_line r47_phr"
+         off="567"
+         ext="18">boundless and bare</text>
+   <end gi="line" rID="r46_line" off="585" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r28_sestet r40_tercet r44_s r47_phr"
+         off="585"
+         ext="1">
+</text>
+   <start gi="line" rID="r48_line" off="586" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r28_sestet r40_tercet r44_s r47_phr r48_line"
+         off="586"
+         ext="42">The lone and level sands stretch far away.</text>
+   <end gi="phr" rID="r47_phr" off="628" ext="61"/>
+   <text cf="r01_sonneteer r02_sonnet r28_sestet r40_tercet r44_s r48_line"
+         off="628"
+         ext="1">”</text>
+   <end gi="line" rID="r48_line" off="629" ext="43"/>
+   <end gi="s" rID="r44_s" off="629" ext="102"/>
+   <end gi="tercet" rID="r40_tercet" off="629" ext="126"/>
+   <end gi="sestet" rID="r28_sestet" off="629" ext="247"/>
+   <end gi="sonnet" rID="r02_sonnet" off="629" ext="628"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="629" ext="629"/>
+</LMNL>

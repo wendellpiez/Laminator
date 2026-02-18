@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="530">
+      <annotation gi="id">larborgentil</annotation>
+      <annotation gi="author">Francesco Petrarca</annotation>
+      <annotation gi="title">L’arbor gentil che forte amai molt’anni</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="529"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="307"/>
+   <start gi="quatrain" rID="r04_quatrain" off="1" ext="157"/>
+   <start gi="line" rID="r05_line" off="1" ext="40"/>
+   <start gi="s" rID="r06_s" off="1" ext="157"/>
+   <start gi="phr" rID="r07_phr" off="1" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_line r06_s r07_phr"
+         off="1"
+         ext="40">L’arbor gentil che forte amai molt’anni,</text>
+   <end gi="phr" rID="r07_phr" off="41" ext="40"/>
+   <end gi="line" rID="r05_line" off="41" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r06_s"
+         off="41"
+         ext="1">
+</text>
+   <start gi="line" rID="r08_line" off="42" ext="38"/>
+   <start gi="phr" rID="r09_phr" off="42" ext="90"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r06_s r08_line r09_phr"
+         off="42"
+         ext="38">mentre i bei rami non m’ebber a sdegno</text>
+   <end gi="line" rID="r08_line" off="80" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r06_s r09_phr"
+         off="80"
+         ext="1">
+</text>
+   <start gi="line" rID="r10_line" off="81" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r06_s r09_phr r10_line"
+         off="81"
+         ext="35">fiorir faceva il mio debile ingegno</text>
+   <end gi="line" rID="r10_line" off="116" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r06_s r09_phr"
+         off="116"
+         ext="1">
+</text>
+   <start gi="line" rID="r11_line" off="117" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r06_s r09_phr r11_line"
+         off="117"
+         ext="15">e la sua ombra,</text>
+   <end gi="phr" rID="r09_phr" off="132" ext="90"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r06_s r11_line"
+         off="132"
+         ext="1"> </text>
+   <start gi="phr" rID="r12_phr" off="133" ext="25"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r06_s r11_line r12_phr"
+         off="133"
+         ext="25">et crescer negli affanni.</text>
+   <end gi="phr" rID="r12_phr" off="158" ext="25"/>
+   <end gi="s" rID="r06_s" off="158" ext="157"/>
+   <end gi="line" rID="r11_line" off="158" ext="41"/>
+   <end gi="quatrain" rID="r04_quatrain" off="158" ext="157"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave" off="158" ext="1">
+</text>
+   <start gi="quatrain" rID="r13_quatrain" off="159" ext="149"/>
+   <start gi="line" rID="r14_line" off="159" ext="35"/>
+   <start gi="s" rID="r15_s" off="159" ext="149"/>
+   <start gi="phr" rID="r16_phr" off="159" ext="8"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r14_line r15_s r16_phr"
+         off="159"
+         ext="8">Poi che,</text>
+   <end gi="phr" rID="r16_phr" off="167" ext="8"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r14_line r15_s"
+         off="167"
+         ext="1"> </text>
+   <start gi="phr" rID="r17_phr" off="168" ext="26"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r14_line r15_s r17_phr"
+         off="168"
+         ext="26">securo me di tali inganni,</text>
+   <end gi="phr" rID="r17_phr" off="194" ext="26"/>
+   <end gi="line" rID="r14_line" off="194" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r15_s"
+         off="194"
+         ext="1">
+</text>
+   <start gi="line" rID="r18_line" off="195" ext="32"/>
+   <start gi="phr" rID="r19_phr" off="195" ext="32"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r15_s r18_line r19_phr"
+         off="195"
+         ext="32">fece di dolce sé spietato legno,</text>
+   <end gi="phr" rID="r19_phr" off="227" ext="32"/>
+   <end gi="line" rID="r18_line" off="227" ext="32"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r15_s"
+         off="227"
+         ext="1">
+</text>
+   <start gi="line" rID="r20_line" off="228" ext="40"/>
+   <start gi="phr" rID="r21_phr" off="228" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r15_s r20_line r21_phr"
+         off="228"
+         ext="40">i’ rivolsi i pensier’ tutti ad un segno,</text>
+   <end gi="phr" rID="r21_phr" off="268" ext="40"/>
+   <end gi="line" rID="r20_line" off="268" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r15_s"
+         off="268"
+         ext="1">
+</text>
+   <start gi="line" rID="r22_line" off="269" ext="39"/>
+   <start gi="phr" rID="r23_phr" off="269" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r15_s r22_line r23_phr"
+         off="269"
+         ext="39">che parlan sempre de’ lor tristi danni.</text>
+   <end gi="phr" rID="r23_phr" off="308" ext="39"/>
+   <end gi="s" rID="r15_s" off="308" ext="149"/>
+   <end gi="line" rID="r22_line" off="308" ext="39"/>
+   <end gi="quatrain" rID="r13_quatrain" off="308" ext="149"/>
+   <end gi="octave" rID="r03_octave" off="308" ext="307"/>
+   <text cf="r01_sonneteer r02_sonnet" off="308" ext="1">
+</text>
+   <start gi="sestet" rID="r24_sestet" off="309" ext="221"/>
+   <start gi="tercet" rID="r25_tercet" off="309" ext="110"/>
+   <start gi="line" rID="r26_line" off="309" ext="34"/>
+   <start gi="s" rID="r27_s" off="309" ext="110"/>
+   <start gi="phr" rID="r28_phr" off="309" ext="34"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_tercet r26_line r27_s r28_phr"
+         off="309"
+         ext="34">Che porà dir chi per amor sospira,</text>
+   <end gi="phr" rID="r28_phr" off="343" ext="34"/>
+   <end gi="line" rID="r26_line" off="343" ext="34"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_tercet r27_s"
+         off="343"
+         ext="1">
+</text>
+   <start gi="line" rID="r29_line" off="344" ext="33"/>
+   <start gi="phr" rID="r30_phr" off="344" ext="51"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_tercet r27_s r29_line r30_phr"
+         off="344"
+         ext="33">s’altra speranza le mie rime nove</text>
+   <end gi="line" rID="r29_line" off="377" ext="33"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_tercet r27_s r30_phr"
+         off="377"
+         ext="1">
+</text>
+   <start gi="line" rID="r31_line" off="378" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_tercet r27_s r30_phr r31_line"
+         off="378"
+         ext="17">gli avessir data,</text>
+   <end gi="phr" rID="r30_phr" off="395" ext="51"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_tercet r27_s r31_line"
+         off="395"
+         ext="1"> </text>
+   <start gi="phr" rID="r32_phr" off="396" ext="23"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_tercet r27_s r31_line r32_phr"
+         off="396"
+         ext="23">et per costei la perde?</text>
+   <end gi="phr" rID="r32_phr" off="419" ext="23"/>
+   <end gi="s" rID="r27_s" off="419" ext="110"/>
+   <end gi="line" rID="r31_line" off="419" ext="41"/>
+   <end gi="tercet" rID="r25_tercet" off="419" ext="110"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet" off="419" ext="1">
+</text>
+   <start gi="tercet" rID="r33_tercet" off="420" ext="110"/>
+   <start gi="line" rID="r34_line" off="420" ext="31"/>
+   <start gi="s" rID="r35_s" off="420" ext="110"/>
+   <start gi="phr" rID="r36_phr" off="420" ext="22"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r33_tercet r34_line r35_s r36_phr"
+         off="420"
+         ext="22">Né poeta ne colga mai,</text>
+   <end gi="phr" rID="r36_phr" off="442" ext="22"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r33_tercet r34_line r35_s"
+         off="442"
+         ext="1"> </text>
+   <start gi="phr" rID="r37_phr" off="443" ext="22"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r33_tercet r34_line r35_s r37_phr"
+         off="443"
+         ext="8">né Giove</text>
+   <end gi="line" rID="r34_line" off="451" ext="31"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r33_tercet r35_s r37_phr"
+         off="451"
+         ext="1">
+</text>
+   <start gi="line" rID="r38_line" off="452" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r33_tercet r35_s r37_phr r38_line"
+         off="452"
+         ext="13">la privilegi,</text>
+   <end gi="phr" rID="r37_phr" off="465" ext="22"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r33_tercet r35_s r38_line"
+         off="465"
+         ext="1"> </text>
+   <start gi="phr" rID="r39_phr" off="466" ext="23"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r33_tercet r35_s r38_line r39_phr"
+         off="466"
+         ext="23">et al Sol venga in ira,</text>
+   <end gi="phr" rID="r39_phr" off="489" ext="23"/>
+   <end gi="line" rID="r38_line" off="489" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r33_tercet r35_s"
+         off="489"
+         ext="1">
+</text>
+   <start gi="line" rID="r40_line" off="490" ext="40"/>
+   <start gi="phr" rID="r41_phr" off="490" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r33_tercet r35_s r40_line r41_phr"
+         off="490"
+         ext="40">tal che si secchi ogni sua foglia verde.</text>
+   <end gi="phr" rID="r41_phr" off="530" ext="40"/>
+   <end gi="s" rID="r35_s" off="530" ext="110"/>
+   <end gi="line" rID="r40_line" off="530" ext="40"/>
+   <end gi="tercet" rID="r33_tercet" off="530" ext="110"/>
+   <end gi="sestet" rID="r24_sestet" off="530" ext="221"/>
+   <end gi="sonnet" rID="r02_sonnet" off="530" ext="529"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="530" ext="530"/>
+</LMNL>

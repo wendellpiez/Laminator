@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="sonnetIII"
+           author="John Addington Symonds"
+           title="The Sonnet (III)">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>The Sonnet is a world, where feelings caught</line>
+            <line>In webs of phantasy, combine and fuse</line>
+            <line>Their kindred elements 'neath mystic dews</line>
+            <line>Shed from the ether round man's dwelling wrought;</line>
+         </quatrain>
+         <quatrain>
+            <line>Distilling heart's content, star-fragrance fraught</line>
+            <line>With influences from the breathing fires</line>
+            <line>Of heaven in everlasting endless gyres</line>
+            <line>Ending and encircling orbs of thought.</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <tercet>
+            <line>Our Sonnet's world hath two fix'd hemispheres:</line>
+            <line>This, where the sun with fierce strength masculine</line>
+            <line>Pours his keen rays and bids the noonday shine;</line>
+         </tercet>
+         <tercet>
+            <line>That, where the moon and the stars, concordant powers,</line>
+            <line>Shed milder rays, and daylight disappears</line>
+            <line>In low melodious music of still hours.</line>
+         </tercet>
+      </sestet>
+   </sonnet>
+</sonneteer>

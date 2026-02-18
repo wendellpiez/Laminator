@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="silkentent" author="Robert Frost" title="A Silken Tent">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>She is as in a field a silken tent</line>
+            <line>At midday when the sunny summer breeze</line>
+            <line>Has dried the dew and all its ropes relent,</line>
+            <line>So that in guys it gently sways at ease,</line>
+         </quatrain>
+         <quatrain>
+            <line>And its supporting central cedar pole,</line>
+            <line>That is its pinnacle to heavenward</line>
+            <line>And signifies the sureness of the soul,</line>
+            <line>Seems to owe naught to any single cord,</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <quatrain>
+            <line>But strictly held by none, is loosely bound</line>
+            <line>By countless silken ties of love and thought</line>
+            <line>To every thing on earth the compass round,</line>
+            <line>And only by one's going slightly taut</line>
+         </quatrain>
+         <couplet>
+            <line>In the capriciousness of summer air</line>
+            <line>Is of the slightest bondage made aware.</line>
+         </couplet>
+      </sestet>
+   </sonnet>
+</sonneteer>

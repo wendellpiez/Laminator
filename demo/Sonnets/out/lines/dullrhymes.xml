@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="dullrhymes"
+           author="John Keats"
+           title="If by dull rhymes our English must be chain'd">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>If by dull rhymes our English must be chain'd,</line>
+            <line>And, like Andromeda, the Sonnet sweet</line>
+            <line>Fetter'd, in spite of pained loveliness;</line>
+            <line>Let us find out, if we must be constrain'd,</line>
+         </quatrain>
+         <quatrain>
+            <line>Sandals more interwoven and complete</line>
+            <line>To fit the naked foot of poesy;</line>
+            <line>Let us inspect the lyre, and weigh the stress</line>
+            <line>Of every chord, and see what may be gain'd</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <quatrain>
+            <line>By ear industrious, and attention meet:</line>
+            <line>Misers of sound and syllable, no less</line>
+            <line>Than Midas of his coinage, let us be</line>
+            <line>Jealous of dead leaves in the bay wreath crown;</line>
+         </quatrain>
+         <couplet>
+            <line>So, if we may not let the Muse be free,</line>
+            <line>She will be bound with garlands of her own.</line>
+         </couplet>
+      </sestet>
+   </sonnet>
+</sonneteer>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="modernlove30" author="George Meredith" title="Modern Love XXX">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>What are we first? First, animals; and next</line>
+            <line>Intelligences at a leap; on whom</line>
+            <line>Pale lies the distant shadow of the tomb,</line>
+            <line>And all that draweth on the tomb for text.</line>
+         </quatrain>
+         <quatrain>
+            <line>Into which state comes Love, the crowning sun:</line>
+            <line>Beneath whose light the shadow loses form.</line>
+            <line>We are the lords of life, and life is warm.</line>
+            <line>Intelligence and instinct now are one.</line>
+         </quatrain>
+      </octave>
+      <octave>
+         <quatrain>
+            <line>But nature says: ‘My children most they seem</line>
+            <line>When they least know me: therefore I decree</line>
+            <line>That they shall suffer.’ Swift doth young Love flee,</line>
+            <line>And we stand wakened, shivering from our dream.</line>
+         </quatrain>
+         <quatrain>
+            <line>Then if we study Nature we are wise.</line>
+            <line>Thus do the few who live but with the day:</line>
+            <line>The scientific animals are they.</line>
+            <line>Lady, this is my sonnet to your eyes.</line>
+         </quatrain>
+      </octave>
+   </sonnet>
+</sonneteer>

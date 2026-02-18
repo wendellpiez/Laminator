@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="momentsmonument"
+           author="Dante Gabriel Rossetti"
+           title="A Sonnet is a moment's monument">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>A Sonnet is a moment's monument, — </line>
+            <line>Memorial from the Soul's eternity</line>
+            <line>To one dead deathless hour. Look that it be,</line>
+            <line>Whether for lustral rite or dire portent,</line>
+         </quatrain>
+         <quatrain>
+            <line>Of its own arduous fulness reverent:</line>
+            <line>Carve it in ivory or in ebony,</line>
+            <line>As Day or Night may rule; and let Time see</line>
+            <line>Its flowering crest impearled and orient.</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <quatrain>
+            <line>A Sonnet is a coin: its face reveals</line>
+            <line>The soul, — its converse, to what Power 'tis due: — </line>
+            <line>Whether for tribute to the august appeals</line>
+            <line>Of Life, or dower in Love's high retinue,</line>
+         </quatrain>
+         <couplet>
+            <line>It serve, or, 'mid the dark wharf's cavernous breath,</line>
+            <line>In Charon's palm it pay the toll to Death.</line>
+         </couplet>
+      </sestet>
+   </sonnet>
+</sonneteer>

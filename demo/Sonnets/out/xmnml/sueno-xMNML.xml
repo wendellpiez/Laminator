@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="516">
+      <annotation gi="id">sueno</annotation>
+      <annotation gi="author">Jorge Luis Borges</annotation>
+      <annotation gi="title">El Sueño</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="515"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="292"/>
+   <start gi="quatrain" rID="r04_quatrain" off="1" ext="149"/>
+   <start gi="s" rID="r05_s" off="1" ext="149"/>
+   <start gi="phr" rID="r06_phr" off="1" ext="42"/>
+   <start gi="line" rID="r07_line" off="1" ext="34"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_phr r07_line"
+         off="1"
+         ext="34">Si el sueño fuera (como dicen) una</text>
+   <end gi="line" rID="r07_line" off="35" ext="34"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_phr"
+         off="35"
+         ext="1">
+</text>
+   <start gi="line" rID="r08_line" off="36" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_phr r08_line"
+         off="36"
+         ext="7">tregua,</text>
+   <end gi="phr" rID="r06_phr" off="43" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_line"
+         off="43"
+         ext="1"> </text>
+   <start gi="phr" rID="r09_phr" off="44" ext="27"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_line r09_phr"
+         off="44"
+         ext="27">un puro reposo de la mente,</text>
+   <end gi="phr" rID="r09_phr" off="71" ext="27"/>
+   <end gi="line" rID="r08_line" off="71" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s"
+         off="71"
+         ext="1">
+</text>
+   <start gi="line" rID="r10_line" off="72" ext="39"/>
+   <start gi="phr" rID="r11_phr" off="72" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r10_line r11_phr"
+         off="72"
+         ext="9">¿por qué,</text>
+   <end gi="phr" rID="r11_phr" off="81" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r10_line"
+         off="81"
+         ext="1"> </text>
+   <start gi="phr" rID="r12_phr" off="82" ext="29"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r10_line r12_phr"
+         off="82"
+         ext="29">si te despiertan bruscamente,</text>
+   <end gi="phr" rID="r12_phr" off="111" ext="29"/>
+   <end gi="line" rID="r10_line" off="111" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s"
+         off="111"
+         ext="1">
+</text>
+   <start gi="line" rID="r13_line" off="112" ext="38"/>
+   <start gi="phr" rID="r14_phr" off="112" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r13_line r14_phr"
+         off="112"
+         ext="38">sientes que te han robado una fortuna?</text>
+   <end gi="phr" rID="r14_phr" off="150" ext="38"/>
+   <end gi="line" rID="r13_line" off="150" ext="38"/>
+   <end gi="s" rID="r05_s" off="150" ext="149"/>
+   <end gi="quatrain" rID="r04_quatrain" off="150" ext="149"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave" off="150" ext="1">
+</text>
+   <start gi="quatrain" rID="r15_quatrain" off="151" ext="142"/>
+   <start gi="line" rID="r16_line" off="151" ext="40"/>
+   <start gi="s" rID="r17_s" off="151" ext="32"/>
+   <start gi="phr" rID="r18_phr" off="151" ext="32"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r16_line r17_s r18_phr"
+         off="151"
+         ext="32">¿Por qué es tan triste madrugar?</text>
+   <end gi="phr" rID="r18_phr" off="183" ext="32"/>
+   <end gi="s" rID="r17_s" off="183" ext="32"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r16_line"
+         off="183"
+         ext="1"> </text>
+   <start gi="s" rID="r19_s" off="184" ext="262"/>
+   <start gi="phr" rID="r20_phr" off="184" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r16_line r19_s r20_phr"
+         off="184"
+         ext="7">La hora</text>
+   <end gi="line" rID="r16_line" off="191" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r19_s r20_phr"
+         off="191"
+         ext="1">
+</text>
+   <start gi="line" rID="r21_line" off="192" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r19_s r20_phr r21_line"
+         off="192"
+         ext="35">nos despoja de un don inconcebible,</text>
+   <end gi="line" rID="r21_line" off="227" ext="35"/>
+   <end gi="phr" rID="r20_phr" off="227" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r19_s"
+         off="227"
+         ext="1">
+</text>
+   <start gi="phr" rID="r22_phr" off="228" ext="76"/>
+   <start gi="line" rID="r23_line" off="228" ext="33"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r19_s r22_phr r23_line"
+         off="228"
+         ext="33">tan íntimo que sólo es traducible</text>
+   <end gi="line" rID="r23_line" off="261" ext="33"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r19_s r22_phr"
+         off="261"
+         ext="1">
+</text>
+   <start gi="line" rID="r24_line" off="262" ext="31"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r19_s r22_phr r24_line"
+         off="262"
+         ext="31">en un sopor que la vigilia dora</text>
+   <end gi="line" rID="r24_line" off="293" ext="31"/>
+   <end gi="quatrain" rID="r15_quatrain" off="293" ext="142"/>
+   <end gi="octave" rID="r03_octave" off="293" ext="292"/>
+   <text cf="r01_sonneteer r02_sonnet r19_s r22_phr" off="293" ext="1">
+</text>
+   <start gi="sestet" rID="r25_sestet" off="294" ext="222"/>
+   <start gi="quatrain" rID="r26_quatrain" off="294" ext="152"/>
+   <start gi="line" rID="r27_line" off="294" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r19_s r22_phr r25_sestet r26_quatrain r27_line"
+         off="294"
+         ext="10">de sueños,</text>
+   <end gi="phr" rID="r22_phr" off="304" ext="76"/>
+   <text cf="r01_sonneteer r02_sonnet r19_s r25_sestet r26_quatrain r27_line"
+         off="304"
+         ext="1"> </text>
+   <start gi="phr" rID="r28_phr" off="305" ext="65"/>
+   <text cf="r01_sonneteer r02_sonnet r19_s r25_sestet r26_quatrain r27_line r28_phr"
+         off="305"
+         ext="28">que bien pueden ser reflejos</text>
+   <end gi="line" rID="r27_line" off="333" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r19_s r25_sestet r26_quatrain r28_phr"
+         off="333"
+         ext="1">
+</text>
+   <start gi="line" rID="r29_line" off="334" ext="36"/>
+   <text cf="r01_sonneteer r02_sonnet r19_s r25_sestet r26_quatrain r28_phr r29_line"
+         off="334"
+         ext="36">truncos de los tesoros de la sombra,</text>
+   <end gi="line" rID="r29_line" off="370" ext="36"/>
+   <end gi="phr" rID="r28_phr" off="370" ext="65"/>
+   <text cf="r01_sonneteer r02_sonnet r19_s r25_sestet r26_quatrain"
+         off="370"
+         ext="1">
+</text>
+   <start gi="phr" rID="r30_phr" off="371" ext="75"/>
+   <start gi="line" rID="r31_line" off="371" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r19_s r25_sestet r26_quatrain r30_phr r31_line"
+         off="371"
+         ext="38">de un orbe intemporal que no se nombra</text>
+   <end gi="line" rID="r31_line" off="409" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r19_s r25_sestet r26_quatrain r30_phr"
+         off="409"
+         ext="1">
+</text>
+   <start gi="line" rID="r32_line" off="410" ext="36"/>
+   <text cf="r01_sonneteer r02_sonnet r19_s r25_sestet r26_quatrain r30_phr r32_line"
+         off="410"
+         ext="36">y que el día deforma en sus espejos.</text>
+   <end gi="line" rID="r32_line" off="446" ext="36"/>
+   <end gi="phr" rID="r30_phr" off="446" ext="75"/>
+   <end gi="quatrain" rID="r26_quatrain" off="446" ext="152"/>
+   <end gi="s" rID="r19_s" off="446" ext="262"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet" off="446" ext="1">
+</text>
+   <start gi="couplet" rID="r33_couplet" off="447" ext="69"/>
+   <start gi="s" rID="r34_s" off="447" ext="69"/>
+   <start gi="phr" rID="r35_phr" off="447" ext="43"/>
+   <start gi="line" rID="r36_line" off="447" ext="36"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r33_couplet r34_s r35_phr r36_line"
+         off="447"
+         ext="36">¿Quién serás esta noche en el oscuro</text>
+   <end gi="line" rID="r36_line" off="483" ext="36"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r33_couplet r34_s r35_phr"
+         off="483"
+         ext="1">
+</text>
+   <start gi="line" rID="r37_line" off="484" ext="32"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r33_couplet r34_s r35_phr r37_line"
+         off="484"
+         ext="6">sueño,</text>
+   <end gi="phr" rID="r35_phr" off="490" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r33_couplet r34_s r37_line"
+         off="490"
+         ext="1"> </text>
+   <start gi="phr" rID="r38_phr" off="491" ext="25"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r33_couplet r34_s r37_line r38_phr"
+         off="491"
+         ext="25">del otro lado de su muro?</text>
+   <end gi="phr" rID="r38_phr" off="516" ext="25"/>
+   <end gi="line" rID="r37_line" off="516" ext="32"/>
+   <end gi="s" rID="r34_s" off="516" ext="69"/>
+   <end gi="couplet" rID="r33_couplet" off="516" ext="69"/>
+   <end gi="sestet" rID="r25_sestet" off="516" ext="222"/>
+   <end gi="sonnet" rID="r02_sonnet" off="516" ext="515"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="516" ext="516"/>
+</LMNL>

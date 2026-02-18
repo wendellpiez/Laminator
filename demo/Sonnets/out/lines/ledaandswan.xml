@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="ledaandswan"
+           author="William Butler Yeats"
+           title="Leda and the Swan">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>A sudden blow: the great wings beating still</line>
+            <line>Above the staggering girl, her thighs caressed</line>
+            <line>By the dark webs, her nape caught in his bill,</line>
+            <line>He holds her helpless breast upon his breast.</line>
+         </quatrain>
+         <quatrain>
+            <line>How can those terrified vague fingers push</line>
+            <line>The feathered glory from her loosening thighs?</line>
+            <line>And how can body, laid in that white rush,</line>
+            <line>But feel the strange heart beating where it lies?</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <tercet>
+            <line>A shudder in the loins engenders there</line>
+            <line>The broken wall, the burning roof and tower</line>
+            <line>And Agamemnon dead. Being so caught up,</line>
+         </tercet>
+         <tercet>
+            <line>So mastered by the brute blood of the air,</line>
+            <line>Did she put on his knowledge with his power</line>
+            <line>Before the indifferent beak could let her drop?</line>
+         </tercet>
+      </sestet>
+   </sonnet>
+</sonneteer>

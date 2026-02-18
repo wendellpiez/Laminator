@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="611">
+      <annotation gi="id">kissandpart</annotation>
+      <annotation gi="author">Michael Drayton</annotation>
+      <annotation gi="title">Since there's no help, come let us kiss and part</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="610"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="329"/>
+   <start gi="s" rID="r04_s" off="1" ext="329"/>
+   <start gi="quatrain" rID="r05_quatrain" off="1" ext="173"/>
+   <start gi="line" rID="r06_line" off="1" ext="49"/>
+   <start gi="phr" rID="r07_phr" off="1" ext="22"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r06_line r07_phr"
+         off="1"
+         ext="22">Since there's no help,</text>
+   <end gi="phr" rID="r07_phr" off="23" ext="22"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r06_line"
+         off="23"
+         ext="1"> </text>
+   <start gi="phr" rID="r08_phr" off="24" ext="26"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r06_line r08_phr"
+         off="24"
+         ext="26">come let us kiss and part,</text>
+   <end gi="phr" rID="r08_phr" off="50" ext="26"/>
+   <end gi="line" rID="r06_line" off="50" ext="49"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain"
+         off="50"
+         ext="1">
+</text>
+   <start gi="line" rID="r09_line" off="51" ext="39"/>
+   <start gi="phr" rID="r10_phr" off="51" ext="16"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r09_line r10_phr"
+         off="51"
+         ext="16">Nay I have done,</text>
+   <end gi="phr" rID="r10_phr" off="67" ext="16"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r09_line"
+         off="67"
+         ext="1"> </text>
+   <start gi="phr" rID="r11_phr" off="68" ext="22"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r09_line r11_phr"
+         off="68"
+         ext="22">you get no more of me;</text>
+   <end gi="phr" rID="r11_phr" off="90" ext="22"/>
+   <end gi="line" rID="r09_line" off="90" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain"
+         off="90"
+         ext="1">
+</text>
+   <start gi="line" rID="r12_line" off="91" ext="43"/>
+   <start gi="phr" rID="r13_phr" off="91" ext="14"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r12_line r13_phr"
+         off="91"
+         ext="14">And I am glad,</text>
+   <end gi="phr" rID="r13_phr" off="105" ext="14"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r12_line"
+         off="105"
+         ext="1"> </text>
+   <start gi="phr" rID="r14_phr" off="106" ext="4"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r12_line r14_phr"
+         off="106"
+         ext="4">yea,</text>
+   <end gi="phr" rID="r14_phr" off="110" ext="4"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r12_line"
+         off="110"
+         ext="1"> </text>
+   <start gi="phr" rID="r15_phr" off="111" ext="23"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r12_line r15_phr"
+         off="111"
+         ext="23">glad with all my heart,</text>
+   <end gi="phr" rID="r15_phr" off="134" ext="23"/>
+   <end gi="line" rID="r12_line" off="134" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain"
+         off="134"
+         ext="1">
+</text>
+   <start gi="line" rID="r16_line" off="135" ext="39"/>
+   <start gi="phr" rID="r17_phr" off="135" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r16_line r17_phr"
+         off="135"
+         ext="39">That thus so cleanly I myself can free;</text>
+   <end gi="phr" rID="r17_phr" off="174" ext="39"/>
+   <end gi="line" rID="r16_line" off="174" ext="39"/>
+   <end gi="quatrain" rID="r05_quatrain" off="174" ext="173"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s" off="174" ext="1">
+</text>
+   <start gi="quatrain" rID="r18_quatrain" off="175" ext="155"/>
+   <start gi="line" rID="r19_line" off="175" ext="42"/>
+   <start gi="phr" rID="r20_phr" off="175" ext="21"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r18_quatrain r19_line r20_phr"
+         off="175"
+         ext="21">Shake hands for ever,</text>
+   <end gi="phr" rID="r20_phr" off="196" ext="21"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r18_quatrain r19_line"
+         off="196"
+         ext="1"> </text>
+   <start gi="phr" rID="r21_phr" off="197" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r18_quatrain r19_line r21_phr"
+         off="197"
+         ext="20">cancel all our vows,</text>
+   <end gi="phr" rID="r21_phr" off="217" ext="20"/>
+   <end gi="line" rID="r19_line" off="217" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r18_quatrain"
+         off="217"
+         ext="1">
+</text>
+   <start gi="line" rID="r22_line" off="218" ext="35"/>
+   <start gi="phr" rID="r23_phr" off="218" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r18_quatrain r22_line r23_phr"
+         off="218"
+         ext="35">And when we meet at any time again,</text>
+   <end gi="phr" rID="r23_phr" off="253" ext="35"/>
+   <end gi="line" rID="r22_line" off="253" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r18_quatrain"
+         off="253"
+         ext="1">
+</text>
+   <start gi="phr" rID="r24_phr" off="254" ext="76"/>
+   <start gi="line" rID="r25_line" off="254" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r18_quatrain r24_phr r25_line"
+         off="254"
+         ext="37">Be it not seen in either of our brows</text>
+   <end gi="line" rID="r25_line" off="291" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r18_quatrain r24_phr"
+         off="291"
+         ext="1">
+</text>
+   <start gi="line" rID="r26_line" off="292" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r18_quatrain r24_phr r26_line"
+         off="292"
+         ext="38">That we one lot of former love retain.</text>
+   <end gi="line" rID="r26_line" off="330" ext="38"/>
+   <end gi="phr" rID="r24_phr" off="330" ext="76"/>
+   <end gi="quatrain" rID="r18_quatrain" off="330" ext="155"/>
+   <end gi="s" rID="r04_s" off="330" ext="329"/>
+   <end gi="octave" rID="r03_octave" off="330" ext="329"/>
+   <text cf="r01_sonneteer r02_sonnet" off="330" ext="1">
+</text>
+   <start gi="sestet" rID="r27_sestet" off="331" ext="280"/>
+   <start gi="s" rID="r28_s" off="331" ext="280"/>
+   <start gi="quatrain" rID="r29_quatrain" off="331" ext="176"/>
+   <start gi="line" rID="r30_line" off="331" ext="45"/>
+   <start gi="phr" rID="r31_phr" off="331" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r30_line r31_phr"
+         off="331"
+         ext="45">Now at the last gasp of love's latest breath,</text>
+   <end gi="phr" rID="r31_phr" off="376" ext="45"/>
+   <end gi="line" rID="r30_line" off="376" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain"
+         off="376"
+         ext="1">
+</text>
+   <start gi="line" rID="r32_line" off="377" ext="48"/>
+   <start gi="phr" rID="r33_phr" off="377" ext="23"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r32_line r33_phr"
+         off="377"
+         ext="23">When his pulse failing,</text>
+   <end gi="phr" rID="r33_phr" off="400" ext="23"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r32_line"
+         off="400"
+         ext="1"> </text>
+   <start gi="phr" rID="r34_phr" off="401" ext="24"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r32_line r34_phr"
+         off="401"
+         ext="24">passion speechless lies,</text>
+   <end gi="phr" rID="r34_phr" off="425" ext="24"/>
+   <end gi="line" rID="r32_line" off="425" ext="48"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain"
+         off="425"
+         ext="1">
+</text>
+   <start gi="line" rID="r35_line" off="426" ext="43"/>
+   <start gi="phr" rID="r36_phr" off="426" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r35_line r36_phr"
+         off="426"
+         ext="43">When faith is kneeling by his bed of death,</text>
+   <end gi="phr" rID="r36_phr" off="469" ext="43"/>
+   <end gi="line" rID="r35_line" off="469" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain"
+         off="469"
+         ext="1">
+</text>
+   <start gi="line" rID="r37_line" off="470" ext="37"/>
+   <start gi="phr" rID="r38_phr" off="470" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r37_line r38_phr"
+         off="470"
+         ext="37">And innocence is closing up his eyes,</text>
+   <end gi="phr" rID="r38_phr" off="507" ext="37"/>
+   <end gi="line" rID="r37_line" off="507" ext="37"/>
+   <end gi="quatrain" rID="r29_quatrain" off="507" ext="176"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s" off="507" ext="1">
+</text>
+   <start gi="couplet" rID="r39_couplet" off="508" ext="103"/>
+   <start gi="line" rID="r40_line" off="508" ext="53"/>
+   <start gi="phr" rID="r41_phr" off="508" ext="23"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r39_couplet r40_line r41_phr"
+         off="508"
+         ext="23">— Now if thou would'st,</text>
+   <end gi="phr" rID="r41_phr" off="531" ext="23"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r39_couplet r40_line"
+         off="531"
+         ext="1"> </text>
+   <start gi="phr" rID="r42_phr" off="532" ext="29"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r39_couplet r40_line r42_phr"
+         off="532"
+         ext="29">when all have given him over,</text>
+   <end gi="phr" rID="r42_phr" off="561" ext="29"/>
+   <end gi="line" rID="r40_line" off="561" ext="53"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r39_couplet"
+         off="561"
+         ext="1">
+</text>
+   <start gi="line" rID="r43_line" off="562" ext="49"/>
+   <start gi="phr" rID="r44_phr" off="562" ext="49"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r39_couplet r43_line r44_phr"
+         off="562"
+         ext="49">From death to life thou might'st him yet recover!</text>
+   <end gi="phr" rID="r44_phr" off="611" ext="49"/>
+   <end gi="line" rID="r43_line" off="611" ext="49"/>
+   <end gi="couplet" rID="r39_couplet" off="611" ext="103"/>
+   <end gi="s" rID="r28_s" off="611" ext="280"/>
+   <end gi="sestet" rID="r27_sestet" off="611" ext="280"/>
+   <end gi="sonnet" rID="r02_sonnet" off="611" ext="610"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="611" ext="611"/>
+</LMNL>

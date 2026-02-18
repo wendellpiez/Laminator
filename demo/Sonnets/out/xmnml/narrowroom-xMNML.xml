@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="626">
+      <annotation gi="id">narrowroom</annotation>
+      <annotation gi="author">William Wordsworth</annotation>
+      <annotation gi="title">Nuns fret not at their convent's narrow room</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="625"/>
+   <start gi="s" rID="r03_s" off="1" ext="625"/>
+   <start gi="octave" rID="r04_octave" off="1" ext="348"/>
+   <start gi="quatrain" rID="r05_quatrain" off="1" ext="174"/>
+   <start gi="line" rID="r06_line" off="1" ext="44"/>
+   <start gi="phr" rID="r07_phr" off="1" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain r06_line r07_phr"
+         off="1"
+         ext="44">Nuns fret not at their convent's narrow room</text>
+   <end gi="phr" rID="r07_phr" off="45" ext="44"/>
+   <end gi="line" rID="r06_line" off="45" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain"
+         off="45"
+         ext="1">
+</text>
+   <start gi="line" rID="r08_line" off="46" ext="43"/>
+   <start gi="phr" rID="r09_phr" off="46" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain r08_line r09_phr"
+         off="46"
+         ext="43">And hermits are contented with their cells;</text>
+   <end gi="phr" rID="r09_phr" off="89" ext="43"/>
+   <end gi="line" rID="r08_line" off="89" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain"
+         off="89"
+         ext="1">
+</text>
+   <start gi="line" rID="r10_line" off="90" ext="41"/>
+   <start gi="phr" rID="r11_phr" off="90" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain r10_line r11_phr"
+         off="90"
+         ext="41">And students with their pensive citadels;</text>
+   <end gi="phr" rID="r11_phr" off="131" ext="41"/>
+   <end gi="line" rID="r10_line" off="131" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain"
+         off="131"
+         ext="1">
+</text>
+   <start gi="line" rID="r12_line" off="132" ext="43"/>
+   <start gi="phr" rID="r13_phr" off="132" ext="19"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain r12_line r13_phr"
+         off="132"
+         ext="19">Maids at the wheel,</text>
+   <end gi="phr" rID="r13_phr" off="151" ext="19"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain r12_line"
+         off="151"
+         ext="1"> </text>
+   <start gi="phr" rID="r14_phr" off="152" ext="23"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r05_quatrain r12_line r14_phr"
+         off="152"
+         ext="23">the weaver at his loom,</text>
+   <end gi="phr" rID="r14_phr" off="175" ext="23"/>
+   <end gi="line" rID="r12_line" off="175" ext="43"/>
+   <end gi="quatrain" rID="r05_quatrain" off="175" ext="174"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave" off="175" ext="1">
+</text>
+   <start gi="quatrain" rID="r15_quatrain" off="176" ext="173"/>
+   <start gi="line" rID="r16_line" off="176" ext="47"/>
+   <start gi="phr" rID="r17_phr" off="176" ext="21"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r15_quatrain r16_line r17_phr"
+         off="176"
+         ext="21">Sit blithe and happy;</text>
+   <end gi="phr" rID="r17_phr" off="197" ext="21"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r15_quatrain r16_line"
+         off="197"
+         ext="1"> </text>
+   <start gi="phr" rID="r18_phr" off="198" ext="25"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r15_quatrain r16_line r18_phr"
+         off="198"
+         ext="25">bees that soar for bloom,</text>
+   <end gi="phr" rID="r18_phr" off="223" ext="25"/>
+   <end gi="line" rID="r16_line" off="223" ext="47"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r15_quatrain"
+         off="223"
+         ext="1">
+</text>
+   <start gi="line" rID="r19_line" off="224" ext="42"/>
+   <start gi="phr" rID="r20_phr" off="224" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r15_quatrain r19_line r20_phr"
+         off="224"
+         ext="42">High as the highest Peak of Furness-fells,</text>
+   <end gi="phr" rID="r20_phr" off="266" ext="42"/>
+   <end gi="line" rID="r19_line" off="266" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r15_quatrain"
+         off="266"
+         ext="1">
+</text>
+   <start gi="line" rID="r21_line" off="267" ext="42"/>
+   <start gi="phr" rID="r22_phr" off="267" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r15_quatrain r21_line r22_phr"
+         off="267"
+         ext="42">Will murmur by the hour in foxglove bells:</text>
+   <end gi="phr" rID="r22_phr" off="309" ext="42"/>
+   <end gi="line" rID="r21_line" off="309" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r15_quatrain"
+         off="309"
+         ext="1">
+</text>
+   <start gi="line" rID="r23_line" off="310" ext="39"/>
+   <start gi="phr" rID="r24_phr" off="310" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r15_quatrain r23_line r24_phr"
+         off="310"
+         ext="20">In truth the prison,</text>
+   <end gi="phr" rID="r24_phr" off="330" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r15_quatrain r23_line"
+         off="330"
+         ext="1"> </text>
+   <start gi="phr" rID="r25_phr" off="331" ext="29"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r04_octave r15_quatrain r23_line r25_phr"
+         off="331"
+         ext="18">into which we doom</text>
+   <end gi="line" rID="r23_line" off="349" ext="39"/>
+   <end gi="quatrain" rID="r15_quatrain" off="349" ext="173"/>
+   <end gi="octave" rID="r04_octave" off="349" ext="348"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r25_phr" off="349" ext="1">
+</text>
+   <start gi="sestet" rID="r26_sestet" off="350" ext="276"/>
+   <start gi="tercet" rID="r27_tercet" off="350" ext="128"/>
+   <start gi="line" rID="r28_line" off="350" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r25_phr r26_sestet r27_tercet r28_line"
+         off="350"
+         ext="10">Ourselves,</text>
+   <end gi="phr" rID="r25_phr" off="360" ext="29"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet r27_tercet r28_line"
+         off="360"
+         ext="1"> </text>
+   <start gi="phr" rID="r29_phr" off="361" ext="13"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet r27_tercet r28_line r29_phr"
+         off="361"
+         ext="13">no prison is:</text>
+   <end gi="phr" rID="r29_phr" off="374" ext="13"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet r27_tercet r28_line"
+         off="374"
+         ext="1"> </text>
+   <start gi="phr" rID="r30_phr" off="375" ext="17"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet r27_tercet r28_line r30_phr"
+         off="375"
+         ext="17">and hence for me,</text>
+   <end gi="phr" rID="r30_phr" off="392" ext="17"/>
+   <end gi="line" rID="r28_line" off="392" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet r27_tercet"
+         off="392"
+         ext="1">
+</text>
+   <start gi="line" rID="r31_line" off="393" ext="42"/>
+   <start gi="phr" rID="r32_phr" off="393" ext="16"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet r27_tercet r31_line r32_phr"
+         off="393"
+         ext="16">In sundry moods,</text>
+   <end gi="phr" rID="r32_phr" off="409" ext="16"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet r27_tercet r31_line"
+         off="409"
+         ext="1"> </text>
+   <start gi="phr" rID="r33_phr" off="410" ext="68"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet r27_tercet r31_line r33_phr"
+         off="410"
+         ext="25">'twas pastime to be bound</text>
+   <end gi="line" rID="r31_line" off="435" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet r27_tercet r33_phr"
+         off="435"
+         ext="1">
+</text>
+   <start gi="line" rID="r34_line" off="436" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet r27_tercet r33_phr r34_line"
+         off="436"
+         ext="42">Within the Sonnet's scanty plot of ground;</text>
+   <end gi="line" rID="r34_line" off="478" ext="42"/>
+   <end gi="phr" rID="r33_phr" off="478" ext="68"/>
+   <end gi="tercet" rID="r27_tercet" off="478" ext="128"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet" off="478" ext="1">
+</text>
+   <start gi="tercet" rID="r35_tercet" off="479" ext="147"/>
+   <start gi="line" rID="r36_line" off="479" ext="52"/>
+   <start gi="phr" rID="r37_phr" off="479" ext="21"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet r35_tercet r36_line r37_phr"
+         off="479"
+         ext="21">Pleased if some Souls</text>
+   <end gi="phr" rID="r37_phr" off="500" ext="21"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet r35_tercet r36_line"
+         off="500"
+         ext="1"> </text>
+   <start gi="phr" rID="r38_phr" off="501" ext="30"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet r35_tercet r36_line r38_phr"
+         off="501"
+         ext="30">(for such there needs must be)</text>
+   <end gi="phr" rID="r38_phr" off="531" ext="30"/>
+   <end gi="line" rID="r36_line" off="531" ext="52"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet r35_tercet"
+         off="531"
+         ext="1">
+</text>
+   <start gi="line" rID="r39_line" off="532" ext="45"/>
+   <start gi="phr" rID="r40_phr" off="532" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet r35_tercet r39_line r40_phr"
+         off="532"
+         ext="45">Who have felt the weight of too much liberty,</text>
+   <end gi="phr" rID="r40_phr" off="577" ext="45"/>
+   <end gi="line" rID="r39_line" off="577" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet r35_tercet"
+         off="577"
+         ext="1">
+</text>
+   <start gi="line" rID="r41_line" off="578" ext="48"/>
+   <start gi="phr" rID="r42_phr" off="578" ext="31"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet r35_tercet r41_line r42_phr"
+         off="578"
+         ext="31">Should find brief solace there,</text>
+   <end gi="phr" rID="r42_phr" off="609" ext="31"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet r35_tercet r41_line"
+         off="609"
+         ext="1"> </text>
+   <start gi="phr" rID="r43_phr" off="610" ext="16"/>
+   <text cf="r01_sonneteer r02_sonnet r03_s r26_sestet r35_tercet r41_line r43_phr"
+         off="610"
+         ext="16">as I have found.</text>
+   <end gi="phr" rID="r43_phr" off="626" ext="16"/>
+   <end gi="line" rID="r41_line" off="626" ext="48"/>
+   <end gi="tercet" rID="r35_tercet" off="626" ext="147"/>
+   <end gi="sestet" rID="r26_sestet" off="626" ext="276"/>
+   <end gi="s" rID="r03_s" off="626" ext="625"/>
+   <end gi="sonnet" rID="r02_sonnet" off="626" ext="625"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="626" ext="626"/>
+</LMNL>

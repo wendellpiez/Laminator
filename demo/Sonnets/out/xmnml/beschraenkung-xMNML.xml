@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="599">
+      <annotation gi="id">beschraenkung</annotation>
+      <annotation gi="author">Johann Wolfgang von Goethe</annotation>
+      <annotation gi="title">Natur und Kunst sie scheinen sich zu fliehen</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="598"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="343"/>
+   <start gi="quatrain" rID="r04_quatrain" off="1" ext="174"/>
+   <start gi="s" rID="r05_s" off="1" ext="174"/>
+   <start gi="line" rID="r06_line" off="1" ext="45"/>
+   <start gi="phr" rID="r07_phr" off="1" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_line r07_phr"
+         off="1"
+         ext="45">Natur und Kunst sie scheinen sich zu fliehen,</text>
+   <end gi="phr" rID="r07_phr" off="46" ext="45"/>
+   <end gi="line" rID="r06_line" off="46" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s"
+         off="46"
+         ext="1">
+</text>
+   <start gi="line" rID="r08_line" off="47" ext="43"/>
+   <start gi="phr" rID="r09_phr" off="47" ext="15"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_line r09_phr"
+         off="47"
+         ext="15">Und haben sich,</text>
+   <end gi="phr" rID="r09_phr" off="62" ext="15"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_line"
+         off="62"
+         ext="1"> </text>
+   <start gi="phr" rID="r10_phr" off="63" ext="17"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_line r10_phr"
+         off="63"
+         ext="17">eh' man es denkt,</text>
+   <end gi="phr" rID="r10_phr" off="80" ext="17"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_line"
+         off="80"
+         ext="1"> </text>
+   <start gi="phr" rID="r11_phr" off="81" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_line r11_phr"
+         off="81"
+         ext="9">gefunden;</text>
+   <end gi="phr" rID="r11_phr" off="90" ext="9"/>
+   <end gi="line" rID="r08_line" off="90" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s"
+         off="90"
+         ext="1">
+</text>
+   <start gi="line" rID="r12_line" off="91" ext="41"/>
+   <start gi="phr" rID="r13_phr" off="91" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r12_line r13_phr"
+         off="91"
+         ext="41">Der Widerwille ist auch mir verschwunden,</text>
+   <end gi="phr" rID="r13_phr" off="132" ext="41"/>
+   <end gi="line" rID="r12_line" off="132" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s"
+         off="132"
+         ext="1">
+</text>
+   <start gi="line" rID="r14_line" off="133" ext="42"/>
+   <start gi="phr" rID="r15_phr" off="133" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r14_line r15_phr"
+         off="133"
+         ext="42">Und beide scheinen gleich mich anzuziehen.</text>
+   <end gi="phr" rID="r15_phr" off="175" ext="42"/>
+   <end gi="line" rID="r14_line" off="175" ext="42"/>
+   <end gi="s" rID="r05_s" off="175" ext="174"/>
+   <end gi="quatrain" rID="r04_quatrain" off="175" ext="174"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave" off="175" ext="1">
+</text>
+   <start gi="quatrain" rID="r16_quatrain" off="176" ext="168"/>
+   <start gi="line" rID="r17_line" off="176" ext="39"/>
+   <start gi="s" rID="r18_s" off="176" ext="39"/>
+   <start gi="phr" rID="r19_phr" off="176" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r17_line r18_s r19_phr"
+         off="176"
+         ext="39">Es gilt wohl nur ein redliches Bemühen!</text>
+   <end gi="phr" rID="r19_phr" off="215" ext="39"/>
+   <end gi="s" rID="r18_s" off="215" ext="39"/>
+   <end gi="line" rID="r17_line" off="215" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain"
+         off="215"
+         ext="1">
+</text>
+   <start gi="s" rID="r20_s" off="216" ext="128"/>
+   <start gi="phr" rID="r21_phr" off="216" ext="88"/>
+   <start gi="line" rID="r22_line" off="216" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r20_s r21_phr r22_line"
+         off="216"
+         ext="41">Und wenn wir erst in abgemess'nen Stunden</text>
+   <end gi="line" rID="r22_line" off="257" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r20_s r21_phr"
+         off="257"
+         ext="1">
+</text>
+   <start gi="line" rID="r23_line" off="258" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r20_s r21_phr r23_line"
+         off="258"
+         ext="46">Mit Geist und Fleiß uns an die Kunst gebunden,</text>
+   <end gi="line" rID="r23_line" off="304" ext="46"/>
+   <end gi="phr" rID="r21_phr" off="304" ext="88"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r20_s"
+         off="304"
+         ext="1">
+</text>
+   <start gi="line" rID="r24_line" off="305" ext="39"/>
+   <start gi="phr" rID="r25_phr" off="305" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r20_s r24_line r25_phr"
+         off="305"
+         ext="39">Mag frei Natur im Herzen wieder glühen.</text>
+   <end gi="phr" rID="r25_phr" off="344" ext="39"/>
+   <end gi="line" rID="r24_line" off="344" ext="39"/>
+   <end gi="s" rID="r20_s" off="344" ext="128"/>
+   <end gi="quatrain" rID="r16_quatrain" off="344" ext="168"/>
+   <end gi="octave" rID="r03_octave" off="344" ext="343"/>
+   <text cf="r01_sonneteer r02_sonnet" off="344" ext="1">
+</text>
+   <start gi="sestet" rID="r26_sestet" off="345" ext="254"/>
+   <start gi="tercet" rID="r27_tercet" off="345" ext="120"/>
+   <start gi="s" rID="r28_s" off="345" ext="120"/>
+   <start gi="line" rID="r29_line" off="345" ext="43"/>
+   <start gi="phr" rID="r30_phr" off="345" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r27_tercet r28_s r29_line r30_phr"
+         off="345"
+         ext="43">So ist's mit aller Bildung auch beschaffen:</text>
+   <end gi="phr" rID="r30_phr" off="388" ext="43"/>
+   <end gi="line" rID="r29_line" off="388" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r27_tercet r28_s"
+         off="388"
+         ext="1">
+</text>
+   <start gi="phr" rID="r31_phr" off="389" ext="76"/>
+   <start gi="line" rID="r32_line" off="389" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r27_tercet r28_s r31_phr r32_line"
+         off="389"
+         ext="35">Vergebens werden ungebundne Geister</text>
+   <end gi="line" rID="r32_line" off="424" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r27_tercet r28_s r31_phr"
+         off="424"
+         ext="1">
+</text>
+   <start gi="line" rID="r33_line" off="425" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r27_tercet r28_s r31_phr r33_line"
+         off="425"
+         ext="40">Nach der Vollendung reiner Höhe streben.</text>
+   <end gi="line" rID="r33_line" off="465" ext="40"/>
+   <end gi="phr" rID="r31_phr" off="465" ext="76"/>
+   <end gi="s" rID="r28_s" off="465" ext="120"/>
+   <end gi="tercet" rID="r27_tercet" off="465" ext="120"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet" off="465" ext="1">
+</text>
+   <start gi="tercet" rID="r34_tercet" off="466" ext="133"/>
+   <start gi="s" rID="r35_s" off="466" ext="133"/>
+   <start gi="line" rID="r36_line" off="466" ext="40"/>
+   <start gi="phr" rID="r37_phr" off="466" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r34_tercet r35_s r36_line r37_phr"
+         off="466"
+         ext="40">Wer Großes will muß sich zusammenraffen;</text>
+   <end gi="phr" rID="r37_phr" off="506" ext="40"/>
+   <end gi="line" rID="r36_line" off="506" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r34_tercet r35_s"
+         off="506"
+         ext="1">
+</text>
+   <start gi="line" rID="r38_line" off="507" ext="48"/>
+   <start gi="phr" rID="r39_phr" off="507" ext="48"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r34_tercet r35_s r38_line r39_phr"
+         off="507"
+         ext="48">In der Beschränkung zeigt sich erst der Meister,</text>
+   <end gi="phr" rID="r39_phr" off="555" ext="48"/>
+   <end gi="line" rID="r38_line" off="555" ext="48"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r34_tercet r35_s"
+         off="555"
+         ext="1">
+</text>
+   <start gi="line" rID="r40_line" off="556" ext="43"/>
+   <start gi="phr" rID="r41_phr" off="556" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r34_tercet r35_s r40_line r41_phr"
+         off="556"
+         ext="43">Und das Gesetz nur kann uns Freiheit geben.</text>
+   <end gi="phr" rID="r41_phr" off="599" ext="43"/>
+   <end gi="line" rID="r40_line" off="599" ext="43"/>
+   <end gi="s" rID="r35_s" off="599" ext="133"/>
+   <end gi="tercet" rID="r34_tercet" off="599" ext="133"/>
+   <end gi="sestet" rID="r26_sestet" off="599" ext="254"/>
+   <end gi="sonnet" rID="r02_sonnet" off="599" ext="598"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="599" ext="599"/>
+</LMNL>

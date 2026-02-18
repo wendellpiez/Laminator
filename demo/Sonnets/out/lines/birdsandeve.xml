@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="birdsandeve"
+           author="Robert Frost"
+           title="Never again would birds' song be the same">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>He would have said, and could himself believe</line>
+            <line>That the birds there in all the garden round</line>
+            <line>Had gathered from the day-long voice of Eve</line>
+            <line>And added to their own, an oversound,</line>
+         </quatrain>
+         <quatrain>
+            <line>Her tone of meaning, though without the words.</line>
+            <line>Admittedly an eloquence so soft</line>
+            <line>Could only have been taken up by birds</line>
+            <line>When call or laughter carried them aloft.</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <quatrain>
+            <line>Be that as may be, she was in their song.</line>
+            <line>Moreover, her voice upon their voices crossed</line>
+            <line>Had now re-echoed in the woods so long</line>
+            <line>That probably they never would be lost.</line>
+         </quatrain>
+         <couplet>
+            <line>Never again would birds' song be the same.</line>
+            <line>And to do that to birds, was why she came.</line>
+         </couplet>
+      </sestet>
+   </sonnet>
+</sonneteer>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="622">
+      <annotation gi="id">strewnthoughts</annotation>
+      <annotation gi="author">George Santayana</annotation>
+      <annotation gi="title">These strewn thoughts, by the mountain pathway sprung</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="621"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="362"/>
+   <start gi="quatrain" rID="r04_quatrain" off="1" ext="195"/>
+   <start gi="s" rID="r05_s" off="1" ext="195"/>
+   <start gi="line" rID="r06_line" off="1" ext="54"/>
+   <start gi="phr" rID="r07_phr" off="1" ext="22"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_line r07_phr"
+         off="1"
+         ext="22">These strewn thoughts,</text>
+   <end gi="phr" rID="r07_phr" off="23" ext="22"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_line"
+         off="23"
+         ext="1"> </text>
+   <start gi="phr" rID="r08_phr" off="24" ext="31"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_line r08_phr"
+         off="24"
+         ext="31">by the mountain pathway sprung,</text>
+   <end gi="phr" rID="r08_phr" off="55" ext="31"/>
+   <end gi="line" rID="r06_line" off="55" ext="54"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s"
+         off="55"
+         ext="1">
+</text>
+   <start gi="line" rID="r09_line" off="56" ext="46"/>
+   <start gi="phr" rID="r10_phr" off="56" ext="21"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r09_line r10_phr"
+         off="56"
+         ext="21">I conned for comfort,</text>
+   <end gi="phr" rID="r10_phr" off="77" ext="21"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r09_line"
+         off="77"
+         ext="1"> </text>
+   <start gi="phr" rID="r11_phr" off="78" ext="24"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r09_line r11_phr"
+         off="78"
+         ext="24">till I ceased to grieve,</text>
+   <end gi="phr" rID="r11_phr" off="102" ext="24"/>
+   <end gi="line" rID="r09_line" off="102" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s"
+         off="102"
+         ext="1">
+</text>
+   <start gi="phr" rID="r12_phr" off="103" ext="58"/>
+   <start gi="line" rID="r13_line" off="103" ext="47"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r12_phr r13_line"
+         off="103"
+         ext="47">And with these flowering thorns I dare to weave</text>
+   <end gi="line" rID="r13_line" off="150" ext="47"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r12_phr"
+         off="150"
+         ext="1">
+</text>
+   <start gi="line" rID="r14_line" off="151" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r12_phr r14_line"
+         off="151"
+         ext="10">The crown,</text>
+   <end gi="phr" rID="r12_phr" off="161" ext="58"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r14_line"
+         off="161"
+         ext="1"> </text>
+   <start gi="phr" rID="r15_phr" off="162" ext="13"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r14_line r15_phr"
+         off="162"
+         ext="13">great Mother,</text>
+   <end gi="phr" rID="r15_phr" off="175" ext="13"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r14_line"
+         off="175"
+         ext="1"> </text>
+   <start gi="phr" rID="r16_phr" off="176" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r14_line r16_phr"
+         off="176"
+         ext="20">on thine altar hung.</text>
+   <end gi="phr" rID="r16_phr" off="196" ext="20"/>
+   <end gi="line" rID="r14_line" off="196" ext="45"/>
+   <end gi="s" rID="r05_s" off="196" ext="195"/>
+   <end gi="quatrain" rID="r04_quatrain" off="196" ext="195"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave" off="196" ext="1">
+</text>
+   <start gi="quatrain" rID="r17_quatrain" off="197" ext="166"/>
+   <start gi="s" rID="r18_s" off="197" ext="166"/>
+   <start gi="line" rID="r19_line" off="197" ext="47"/>
+   <start gi="phr" rID="r20_phr" off="197" ext="47"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r17_quatrain r18_s r19_line r20_phr"
+         off="197"
+         ext="47">Teach thou a larger speech to my loosed tongue,</text>
+   <end gi="phr" rID="r20_phr" off="244" ext="47"/>
+   <end gi="line" rID="r19_line" off="244" ext="47"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r17_quatrain r18_s"
+         off="244"
+         ext="1">
+</text>
+   <start gi="line" rID="r21_line" off="245" ext="41"/>
+   <start gi="phr" rID="r22_phr" off="245" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r17_quatrain r18_s r21_line r22_phr"
+         off="245"
+         ext="41">And to mine opened eyes thy secrets give,</text>
+   <end gi="phr" rID="r22_phr" off="286" ext="41"/>
+   <end gi="line" rID="r21_line" off="286" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r17_quatrain r18_s"
+         off="286"
+         ext="1">
+</text>
+   <start gi="line" rID="r23_line" off="287" ext="41"/>
+   <start gi="phr" rID="r24_phr" off="287" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r17_quatrain r18_s r23_line r24_phr"
+         off="287"
+         ext="41">That in thy perfect love I learn to live,</text>
+   <end gi="phr" rID="r24_phr" off="328" ext="41"/>
+   <end gi="line" rID="r23_line" off="328" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r17_quatrain r18_s"
+         off="328"
+         ext="1">
+</text>
+   <start gi="line" rID="r25_line" off="329" ext="34"/>
+   <start gi="phr" rID="r26_phr" off="329" ext="34"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r17_quatrain r18_s r25_line r26_phr"
+         off="329"
+         ext="34">And in thine immortality be young.</text>
+   <end gi="phr" rID="r26_phr" off="363" ext="34"/>
+   <end gi="line" rID="r25_line" off="363" ext="34"/>
+   <end gi="s" rID="r18_s" off="363" ext="166"/>
+   <end gi="quatrain" rID="r17_quatrain" off="363" ext="166"/>
+   <end gi="octave" rID="r03_octave" off="363" ext="362"/>
+   <text cf="r01_sonneteer r02_sonnet" off="363" ext="1">
+</text>
+   <start gi="sestet" rID="r27_sestet" off="364" ext="258"/>
+   <start gi="tercet" rID="r28_tercet" off="364" ext="120"/>
+   <start gi="s" rID="r29_s" off="364" ext="120"/>
+   <start gi="line" rID="r30_line" off="364" ext="39"/>
+   <start gi="phr" rID="r31_phr" off="364" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_tercet r29_s r30_line r31_phr"
+         off="364"
+         ext="39">The soul is not on earth an alien thing</text>
+   <end gi="phr" rID="r31_phr" off="403" ext="39"/>
+   <end gi="line" rID="r30_line" off="403" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_tercet r29_s"
+         off="403"
+         ext="1">
+</text>
+   <start gi="line" rID="r32_line" off="404" ext="45"/>
+   <start gi="phr" rID="r33_phr" off="404" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_tercet r29_s r32_line r33_phr"
+         off="404"
+         ext="45">That hath her life's rich sources otherwhere;</text>
+   <end gi="phr" rID="r33_phr" off="449" ext="45"/>
+   <end gi="line" rID="r32_line" off="449" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_tercet r29_s"
+         off="449"
+         ext="1">
+</text>
+   <start gi="line" rID="r34_line" off="450" ext="34"/>
+   <start gi="phr" rID="r35_phr" off="450" ext="34"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_tercet r29_s r34_line r35_phr"
+         off="450"
+         ext="34">She is a parcel of the sacred air.</text>
+   <end gi="phr" rID="r35_phr" off="484" ext="34"/>
+   <end gi="line" rID="r34_line" off="484" ext="34"/>
+   <end gi="s" rID="r29_s" off="484" ext="120"/>
+   <end gi="tercet" rID="r28_tercet" off="484" ext="120"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet" off="484" ext="1">
+</text>
+   <start gi="tercet" rID="r36_tercet" off="485" ext="137"/>
+   <start gi="s" rID="r37_s" off="485" ext="137"/>
+   <start gi="line" rID="r38_line" off="485" ext="46"/>
+   <start gi="phr" rID="r39_phr" off="485" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r36_tercet r37_s r38_line r39_phr"
+         off="485"
+         ext="46">She takes her being from the breath of Spring,</text>
+   <end gi="phr" rID="r39_phr" off="531" ext="46"/>
+   <end gi="line" rID="r38_line" off="531" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r36_tercet r37_s"
+         off="531"
+         ext="1">
+</text>
+   <start gi="line" rID="r40_line" off="532" ext="44"/>
+   <start gi="phr" rID="r41_phr" off="532" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r36_tercet r37_s r40_line r41_phr"
+         off="532"
+         ext="44">The glance of Phoebus is her fount of light,</text>
+   <end gi="phr" rID="r41_phr" off="576" ext="44"/>
+   <end gi="line" rID="r40_line" off="576" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r36_tercet r37_s"
+         off="576"
+         ext="1">
+</text>
+   <start gi="line" rID="r42_line" off="577" ext="45"/>
+   <start gi="phr" rID="r43_phr" off="577" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r36_tercet r37_s r42_line r43_phr"
+         off="577"
+         ext="45">And her long sleep a draught of primal night.</text>
+   <end gi="phr" rID="r43_phr" off="622" ext="45"/>
+   <end gi="line" rID="r42_line" off="622" ext="45"/>
+   <end gi="s" rID="r37_s" off="622" ext="137"/>
+   <end gi="tercet" rID="r36_tercet" off="622" ext="137"/>
+   <end gi="sestet" rID="r27_sestet" off="622" ext="258"/>
+   <end gi="sonnet" rID="r02_sonnet" off="622" ext="621"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="622" ext="622"/>
+</LMNL>

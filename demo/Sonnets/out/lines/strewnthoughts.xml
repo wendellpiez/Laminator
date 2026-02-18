@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="strewnthoughts"
+           author="George Santayana"
+           title="These strewn thoughts, by the mountain pathway sprung">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>These strewn thoughts, by the mountain pathway sprung,</line>
+            <line>I conned for comfort, till I ceased to grieve,</line>
+            <line>And with these flowering thorns I dare to weave</line>
+            <line>The crown, great Mother, on thine altar hung.</line>
+         </quatrain>
+         <quatrain>
+            <line>Teach thou a larger speech to my loosed tongue,</line>
+            <line>And to mine opened eyes thy secrets give,</line>
+            <line>That in thy perfect love I learn to live,</line>
+            <line>And in thine immortality be young.</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <tercet>
+            <line>The soul is not on earth an alien thing</line>
+            <line>That hath her life's rich sources otherwhere;</line>
+            <line>She is a parcel of the sacred air.</line>
+         </tercet>
+         <tercet>
+            <line>She takes her being from the breath of Spring,</line>
+            <line>The glance of Phoebus is her fount of light,</line>
+            <line>And her long sleep a draught of primal night.</line>
+         </tercet>
+      </sestet>
+   </sonnet>
+</sonneteer>

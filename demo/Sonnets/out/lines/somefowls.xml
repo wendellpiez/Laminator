@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="somefowls" author="Sir Thomas Wyatt" title="Sonnet XV">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>Some fowls there be that have so perfect sight</line>
+            <line>Again the sun their eyes for to defend;</line>
+            <line>And some because the light doth them offend</line>
+            <line>Do never 'pear but in the dark or night.</line>
+         </quatrain>
+         <quatrain>
+            <line>Other rejoice that see the fire bright</line>
+            <line>And ween to play in it, as they do pretend,</line>
+            <line>And find the contrary of it that they intend.</line>
+            <line>Alas, of that sort I may be by right,</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <quatrain>
+            <line>For to withstand her look I am not able</line>
+            <line>And yet can I not hide me in no dark place,</line>
+            <line>Remembrance so followeth me of that face.</line>
+            <line>So that with teary eyen, swollen and unstable,</line>
+         </quatrain>
+         <couplet>
+            <line>My destiny to behold her doth me lead,</line>
+            <line>Yet do I know I run into the gleed.</line>
+         </couplet>
+      </sestet>
+   </sonnet>
+</sonneteer>

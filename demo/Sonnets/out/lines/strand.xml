@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="strand" author="Edmund Spenser" title="Amoretti LXXV">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>One day I wrote her name upon the strand,</line>
+            <line>But came the waves and washed it away:</line>
+            <line>Again I wrote it with a second hand,</line>
+            <line>But came the tide, and made my pains his prey.</line>
+         </quatrain>
+         <quatrain>
+            <line>Vain man, said she, that dost in vain assay</line>
+            <line>A mortal thing so to immortalize!</line>
+            <line>For I myself shall like to this decay,</line>
+            <line>And eek my name be wiped out likewise.</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <quatrain>
+            <line>Not so (quoth I), let baser things devise</line>
+            <line>To die in dust, but you shall live by fame:</line>
+            <line>My verse your virtues rare shall eternize,</line>
+            <line>And in the heavens write your glorious name;</line>
+         </quatrain>
+         <couplet>
+            <line>Where, whenas death shall all the world subdue,</line>
+            <line>Our love shall live, and later life renew.</line>
+         </couplet>
+      </sestet>
+   </sonnet>
+</sonneteer>

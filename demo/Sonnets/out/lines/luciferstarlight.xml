@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="luciferstarlight"
+           author="George Meredith"
+           title="Lucifer in Starlight">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>On a starred night Prince Lucifer uprose.</line>
+            <line>Tired of his dark dominion swung the fiend</line>
+            <line>Above the rolling ball in cloud part screened,</line>
+            <line>Where sinners hugged their spectre of repose.</line>
+         </quatrain>
+         <quatrain>
+            <line>Poor prey to his hot fit of pride were those.</line>
+            <line>And now upon his western wing he leaned,</line>
+            <line>Now his huge bulk o'er Afric's sands careened,</line>
+            <line>Now the black planet shadowed Arctic snows.</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <tercet>
+            <line>Soaring through wider zones that pricked his scars</line>
+            <line>With memory of the old revolt from Awe,</line>
+            <line>He reached a middle height, and at the stars,</line>
+         </tercet>
+         <tercet>
+            <line>Which are the brain of heaven, he looked, and sank.</line>
+            <line>Around the ancient track marched, rank on rank,</line>
+            <line>The army of unalterable law.</line>
+         </tercet>
+      </sestet>
+   </sonnet>
+</sonneteer>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="622">
+      <annotation gi="id">luciferstarlight</annotation>
+      <annotation gi="author">George Meredith</annotation>
+      <annotation gi="title">Lucifer in Starlight</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="621"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="355"/>
+   <start gi="quatrain" rID="r04_quatrain" off="1" ext="177"/>
+   <start gi="line" rID="r05_line" off="1" ext="41"/>
+   <start gi="s" rID="r06_s" off="1" ext="41"/>
+   <start gi="phr" rID="r07_phr" off="1" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_line r06_s r07_phr"
+         off="1"
+         ext="41">On a starred night Prince Lucifer uprose.</text>
+   <end gi="phr" rID="r07_phr" off="42" ext="41"/>
+   <end gi="s" rID="r06_s" off="42" ext="41"/>
+   <end gi="line" rID="r05_line" off="42" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain"
+         off="42"
+         ext="1">
+</text>
+   <start gi="s" rID="r08_s" off="43" ext="135"/>
+   <start gi="phr" rID="r09_phr" off="43" ext="89"/>
+   <start gi="line" rID="r10_line" off="43" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r08_s r09_phr r10_line"
+         off="43"
+         ext="42">Tired of his dark dominion swung the fiend</text>
+   <end gi="line" rID="r10_line" off="85" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r08_s r09_phr"
+         off="85"
+         ext="1">
+</text>
+   <start gi="line" rID="r11_line" off="86" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r08_s r09_phr r11_line"
+         off="86"
+         ext="46">Above the rolling ball in cloud part screened,</text>
+   <end gi="line" rID="r11_line" off="132" ext="46"/>
+   <end gi="phr" rID="r09_phr" off="132" ext="89"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r08_s"
+         off="132"
+         ext="1">
+</text>
+   <start gi="line" rID="r12_line" off="133" ext="45"/>
+   <start gi="phr" rID="r13_phr" off="133" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r08_s r12_line r13_phr"
+         off="133"
+         ext="45">Where sinners hugged their spectre of repose.</text>
+   <end gi="phr" rID="r13_phr" off="178" ext="45"/>
+   <end gi="line" rID="r12_line" off="178" ext="45"/>
+   <end gi="s" rID="r08_s" off="178" ext="135"/>
+   <end gi="quatrain" rID="r04_quatrain" off="178" ext="177"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave" off="178" ext="1">
+</text>
+   <start gi="quatrain" rID="r14_quatrain" off="179" ext="177"/>
+   <start gi="line" rID="r15_line" off="179" ext="45"/>
+   <start gi="s" rID="r16_s" off="179" ext="45"/>
+   <start gi="phr" rID="r17_phr" off="179" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r14_quatrain r15_line r16_s r17_phr"
+         off="179"
+         ext="45">Poor prey to his hot fit of pride were those.</text>
+   <end gi="phr" rID="r17_phr" off="224" ext="45"/>
+   <end gi="s" rID="r16_s" off="224" ext="45"/>
+   <end gi="line" rID="r15_line" off="224" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r14_quatrain"
+         off="224"
+         ext="1">
+</text>
+   <start gi="s" rID="r18_s" off="225" ext="131"/>
+   <start gi="line" rID="r19_line" off="225" ext="40"/>
+   <start gi="phr" rID="r20_phr" off="225" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r14_quatrain r18_s r19_line r20_phr"
+         off="225"
+         ext="40">And now upon his western wing he leaned,</text>
+   <end gi="phr" rID="r20_phr" off="265" ext="40"/>
+   <end gi="line" rID="r19_line" off="265" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r14_quatrain r18_s"
+         off="265"
+         ext="1">
+</text>
+   <start gi="line" rID="r21_line" off="266" ext="46"/>
+   <start gi="phr" rID="r22_phr" off="266" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r14_quatrain r18_s r21_line r22_phr"
+         off="266"
+         ext="46">Now his huge bulk o'er Afric's sands careened,</text>
+   <end gi="phr" rID="r22_phr" off="312" ext="46"/>
+   <end gi="line" rID="r21_line" off="312" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r14_quatrain r18_s"
+         off="312"
+         ext="1">
+</text>
+   <start gi="line" rID="r23_line" off="313" ext="43"/>
+   <start gi="phr" rID="r24_phr" off="313" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r14_quatrain r18_s r23_line r24_phr"
+         off="313"
+         ext="43">Now the black planet shadowed Arctic snows.</text>
+   <end gi="phr" rID="r24_phr" off="356" ext="43"/>
+   <end gi="line" rID="r23_line" off="356" ext="43"/>
+   <end gi="s" rID="r18_s" off="356" ext="131"/>
+   <end gi="quatrain" rID="r14_quatrain" off="356" ext="177"/>
+   <end gi="octave" rID="r03_octave" off="356" ext="355"/>
+   <text cf="r01_sonneteer r02_sonnet" off="356" ext="1">
+</text>
+   <start gi="sestet" rID="r25_sestet" off="357" ext="265"/>
+   <start gi="s" rID="r26_s" off="357" ext="188"/>
+   <start gi="tercet" rID="r27_tercet" off="357" ext="136"/>
+   <start gi="phr" rID="r28_phr" off="357" ext="90"/>
+   <start gi="line" rID="r29_line" off="357" ext="50"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_s r27_tercet r28_phr r29_line"
+         off="357"
+         ext="50">Soaring through wider zones that pricked his scars</text>
+   <end gi="line" rID="r29_line" off="407" ext="50"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_s r27_tercet r28_phr"
+         off="407"
+         ext="1">
+</text>
+   <start gi="line" rID="r30_line" off="408" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_s r27_tercet r28_phr r30_line"
+         off="408"
+         ext="39">With memory of the old revolt from Awe,</text>
+   <end gi="line" rID="r30_line" off="447" ext="39"/>
+   <end gi="phr" rID="r28_phr" off="447" ext="90"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_s r27_tercet"
+         off="447"
+         ext="1">
+</text>
+   <start gi="line" rID="r31_line" off="448" ext="45"/>
+   <start gi="phr" rID="r32_phr" off="448" ext="27"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_s r27_tercet r31_line r32_phr"
+         off="448"
+         ext="27">He reached a middle height,</text>
+   <end gi="phr" rID="r32_phr" off="475" ext="27"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_s r27_tercet r31_line"
+         off="475"
+         ext="1"> </text>
+   <start gi="phr" rID="r33_phr" off="476" ext="17"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_s r27_tercet r31_line r33_phr"
+         off="476"
+         ext="17">and at the stars,</text>
+   <end gi="phr" rID="r33_phr" off="493" ext="17"/>
+   <end gi="line" rID="r31_line" off="493" ext="45"/>
+   <end gi="tercet" rID="r27_tercet" off="493" ext="136"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_s" off="493" ext="1">
+</text>
+   <start gi="tercet" rID="r34_tercet" off="494" ext="128"/>
+   <start gi="line" rID="r35_line" off="494" ext="51"/>
+   <start gi="phr" rID="r36_phr" off="494" ext="30"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_s r34_tercet r35_line r36_phr"
+         off="494"
+         ext="30">Which are the brain of heaven,</text>
+   <end gi="phr" rID="r36_phr" off="524" ext="30"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_s r34_tercet r35_line"
+         off="524"
+         ext="1"> </text>
+   <start gi="phr" rID="r37_phr" off="525" ext="10"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_s r34_tercet r35_line r37_phr"
+         off="525"
+         ext="10">he looked,</text>
+   <end gi="phr" rID="r37_phr" off="535" ext="10"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_s r34_tercet r35_line"
+         off="535"
+         ext="1"> </text>
+   <start gi="phr" rID="r38_phr" off="536" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_s r34_tercet r35_line r38_phr"
+         off="536"
+         ext="9">and sank.</text>
+   <end gi="phr" rID="r38_phr" off="545" ext="9"/>
+   <end gi="line" rID="r35_line" off="545" ext="51"/>
+   <end gi="s" rID="r26_s" off="545" ext="188"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r34_tercet"
+         off="545"
+         ext="1">
+</text>
+   <start gi="s" rID="r39_s" off="546" ext="76"/>
+   <start gi="line" rID="r40_line" off="546" ext="47"/>
+   <start gi="phr" rID="r41_phr" off="546" ext="33"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r34_tercet r39_s r40_line r41_phr"
+         off="546"
+         ext="33">Around the ancient track marched,</text>
+   <end gi="phr" rID="r41_phr" off="579" ext="33"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r34_tercet r39_s r40_line"
+         off="579"
+         ext="1"> </text>
+   <start gi="phr" rID="r42_phr" off="580" ext="13"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r34_tercet r39_s r40_line r42_phr"
+         off="580"
+         ext="13">rank on rank,</text>
+   <end gi="phr" rID="r42_phr" off="593" ext="13"/>
+   <end gi="line" rID="r40_line" off="593" ext="47"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r34_tercet r39_s"
+         off="593"
+         ext="1">
+</text>
+   <start gi="line" rID="r43_line" off="594" ext="28"/>
+   <start gi="phr" rID="r44_phr" off="594" ext="28"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r34_tercet r39_s r43_line r44_phr"
+         off="594"
+         ext="28">The army of unalterable law.</text>
+   <end gi="phr" rID="r44_phr" off="622" ext="28"/>
+   <end gi="line" rID="r43_line" off="622" ext="28"/>
+   <end gi="s" rID="r39_s" off="622" ext="76"/>
+   <end gi="tercet" rID="r34_tercet" off="622" ext="128"/>
+   <end gi="sestet" rID="r25_sestet" off="622" ext="265"/>
+   <end gi="sonnet" rID="r02_sonnet" off="622" ext="621"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="622" ext="622"/>
+</LMNL>

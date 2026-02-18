@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="510">
+      <annotation gi="id">spinoza</annotation>
+      <annotation gi="author">Jorge Luis Borges</annotation>
+      <annotation gi="title">Spinoza</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="509"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="290"/>
+   <start gi="quatrain" rID="r04_quatrain" off="1" ext="144"/>
+   <start gi="s" rID="r05_s" off="1" ext="105"/>
+   <start gi="phr" rID="r06_phr" off="1" ext="105"/>
+   <start gi="line" rID="r07_line" off="1" ext="31"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_phr r07_line"
+         off="1"
+         ext="31">Las traslúcidas manos del judío</text>
+   <end gi="line" rID="r07_line" off="32" ext="31"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_phr"
+         off="32"
+         ext="1">
+</text>
+   <start gi="line" rID="r08_line" off="33" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_phr r08_line"
+         off="33"
+         ext="35">Labran en la penumbra los cristales</text>
+   <end gi="line" rID="r08_line" off="68" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_phr"
+         off="68"
+         ext="1">
+</text>
+   <start gi="line" rID="r09_line" off="69" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_phr r09_line"
+         off="69"
+         ext="37">Y la tarde que muere es miedo y frío.</text>
+   <end gi="line" rID="r09_line" off="106" ext="37"/>
+   <end gi="phr" rID="r06_phr" off="106" ext="105"/>
+   <end gi="s" rID="r05_s" off="106" ext="105"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain"
+         off="106"
+         ext="1">
+</text>
+   <start gi="line" rID="r10_line" off="107" ext="38"/>
+   <start gi="s" rID="r11_s" off="107" ext="38"/>
+   <start gi="phr" rID="r12_phr" off="107" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r10_line r11_s r12_phr"
+         off="107"
+         ext="38">(Las tardes a las tardes son iguales.)</text>
+   <end gi="phr" rID="r12_phr" off="145" ext="38"/>
+   <end gi="s" rID="r11_s" off="145" ext="38"/>
+   <end gi="line" rID="r10_line" off="145" ext="38"/>
+   <end gi="quatrain" rID="r04_quatrain" off="145" ext="144"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave" off="145" ext="1">
+</text>
+   <start gi="quatrain" rID="r13_quatrain" off="146" ext="145"/>
+   <start gi="s" rID="r14_s" off="146" ext="145"/>
+   <start gi="phr" rID="r15_phr" off="146" ext="145"/>
+   <start gi="line" rID="r16_line" off="146" ext="33"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r14_s r15_phr r16_line"
+         off="146"
+         ext="33">Las manos y el espacio de jacinto</text>
+   <end gi="line" rID="r16_line" off="179" ext="33"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r14_s r15_phr"
+         off="179"
+         ext="1">
+</text>
+   <start gi="line" rID="r17_line" off="180" ext="36"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r14_s r15_phr r17_line"
+         off="180"
+         ext="36">Que palidece en el confín del Ghetto</text>
+   <end gi="line" rID="r17_line" off="216" ext="36"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r14_s r15_phr"
+         off="216"
+         ext="1">
+</text>
+   <start gi="line" rID="r18_line" off="217" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r14_s r15_phr r18_line"
+         off="217"
+         ext="37">Casi no existen para el hombre quieto</text>
+   <end gi="line" rID="r18_line" off="254" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r14_s r15_phr"
+         off="254"
+         ext="1">
+</text>
+   <start gi="line" rID="r19_line" off="255" ext="36"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r14_s r15_phr r19_line"
+         off="255"
+         ext="36">Que está soñando un claro laberinto.</text>
+   <end gi="line" rID="r19_line" off="291" ext="36"/>
+   <end gi="phr" rID="r15_phr" off="291" ext="145"/>
+   <end gi="s" rID="r14_s" off="291" ext="145"/>
+   <end gi="quatrain" rID="r13_quatrain" off="291" ext="145"/>
+   <end gi="octave" rID="r03_octave" off="291" ext="290"/>
+   <text cf="r01_sonneteer r02_sonnet" off="291" ext="1">
+</text>
+   <start gi="sestet" rID="r20_sestet" off="292" ext="218"/>
+   <start gi="tercet" rID="r21_tercet" off="292" ext="108"/>
+   <start gi="s" rID="r22_s" off="292" ext="108"/>
+   <start gi="line" rID="r23_line" off="292" ext="32"/>
+   <start gi="phr" rID="r24_phr" off="292" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_tercet r22_s r23_line r24_phr"
+         off="292"
+         ext="20">No lo turba la fama,</text>
+   <end gi="phr" rID="r24_phr" off="312" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_tercet r22_s r23_line"
+         off="312"
+         ext="1"> </text>
+   <start gi="phr" rID="r25_phr" off="313" ext="49"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_tercet r22_s r23_line r25_phr"
+         off="313"
+         ext="11">ese reflejo</text>
+   <end gi="line" rID="r23_line" off="324" ext="32"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_tercet r22_s r25_phr"
+         off="324"
+         ext="1">
+</text>
+   <start gi="line" rID="r26_line" off="325" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_tercet r22_s r25_phr r26_line"
+         off="325"
+         ext="37">De sueños en el sueño de otro espejo,</text>
+   <end gi="line" rID="r26_line" off="362" ext="37"/>
+   <end gi="phr" rID="r25_phr" off="362" ext="49"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_tercet r22_s"
+         off="362"
+         ext="1">
+</text>
+   <start gi="line" rID="r27_line" off="363" ext="37"/>
+   <start gi="phr" rID="r28_phr" off="363" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r21_tercet r22_s r27_line r28_phr"
+         off="363"
+         ext="37">Ni el temeroso amor de las doncellas.</text>
+   <end gi="phr" rID="r28_phr" off="400" ext="37"/>
+   <end gi="line" rID="r27_line" off="400" ext="37"/>
+   <end gi="s" rID="r22_s" off="400" ext="108"/>
+   <end gi="tercet" rID="r21_tercet" off="400" ext="108"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet" off="400" ext="1">
+</text>
+   <start gi="tercet" rID="r29_tercet" off="401" ext="109"/>
+   <start gi="s" rID="r30_s" off="401" ext="109"/>
+   <start gi="phr" rID="r31_phr" off="401" ext="55"/>
+   <start gi="line" rID="r32_line" off="401" ext="31"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r29_tercet r30_s r31_phr r32_line"
+         off="401"
+         ext="31">Libre de la metáfora y del mito</text>
+   <end gi="line" rID="r32_line" off="432" ext="31"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r29_tercet r30_s r31_phr"
+         off="432"
+         ext="1">
+</text>
+   <start gi="line" rID="r33_line" off="433" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r29_tercet r30_s r31_phr r33_line"
+         off="433"
+         ext="23">Labra un arduo cristal:</text>
+   <end gi="phr" rID="r31_phr" off="456" ext="55"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r29_tercet r30_s r33_line"
+         off="456"
+         ext="1"> </text>
+   <start gi="phr" rID="r34_phr" off="457" ext="53"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r29_tercet r30_s r33_line r34_phr"
+         off="457"
+         ext="11">el infinito</text>
+   <end gi="line" rID="r33_line" off="468" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r29_tercet r30_s r34_phr"
+         off="468"
+         ext="1">
+</text>
+   <start gi="line" rID="r35_line" off="469" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r20_sestet r29_tercet r30_s r34_phr r35_line"
+         off="469"
+         ext="41">mapa de Aquel que es todas Sus estrellas.</text>
+   <end gi="line" rID="r35_line" off="510" ext="41"/>
+   <end gi="phr" rID="r34_phr" off="510" ext="53"/>
+   <end gi="s" rID="r30_s" off="510" ext="109"/>
+   <end gi="tercet" rID="r29_tercet" off="510" ext="109"/>
+   <end gi="sestet" rID="r20_sestet" off="510" ext="218"/>
+   <end gi="sonnet" rID="r02_sonnet" off="510" ext="509"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="510" ext="510"/>
+</LMNL>

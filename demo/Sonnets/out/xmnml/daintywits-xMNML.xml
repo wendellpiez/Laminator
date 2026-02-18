@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="636">
+      <annotation gi="id">daintywits</annotation>
+      <annotation gi="author">Sir Philip Sidney</annotation>
+      <annotation gi="title">Astrophel and Stella III</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="635"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="361"/>
+   <start gi="s" rID="r04_s" off="1" ext="361"/>
+   <start gi="quatrain" rID="r05_quatrain" off="1" ext="187"/>
+   <start gi="line" rID="r06_line" off="1" ext="40"/>
+   <start gi="phr" rID="r07_phr" off="1" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r06_line r07_phr"
+         off="1"
+         ext="40">Let dainty wits cry on the sisters nine,</text>
+   <end gi="phr" rID="r07_phr" off="41" ext="40"/>
+   <end gi="line" rID="r06_line" off="41" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain"
+         off="41"
+         ext="1">
+</text>
+   <start gi="line" rID="r08_line" off="42" ext="48"/>
+   <start gi="phr" rID="r09_phr" off="42" ext="5"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r08_line r09_phr"
+         off="42"
+         ext="5">That,</text>
+   <end gi="phr" rID="r09_phr" off="47" ext="5"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r08_line"
+         off="47"
+         ext="1"> </text>
+   <start gi="phr" rID="r10_phr" off="48" ext="15"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r08_line r10_phr"
+         off="48"
+         ext="15">bravely masked,</text>
+   <end gi="phr" rID="r10_phr" off="63" ext="15"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r08_line"
+         off="63"
+         ext="1"> </text>
+   <start gi="phr" rID="r11_phr" off="64" ext="26"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r08_line r11_phr"
+         off="64"
+         ext="26">their fancies may be told;</text>
+   <end gi="phr" rID="r11_phr" off="90" ext="26"/>
+   <end gi="line" rID="r08_line" off="90" ext="48"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain"
+         off="90"
+         ext="1">
+</text>
+   <start gi="line" rID="r12_line" off="91" ext="45"/>
+   <start gi="phr" rID="r13_phr" off="91" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r12_line r13_phr"
+         off="91"
+         ext="45">Or Pindar's apes flaunt they in phrases fine,</text>
+   <end gi="phr" rID="r13_phr" off="136" ext="45"/>
+   <end gi="line" rID="r12_line" off="136" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain"
+         off="136"
+         ext="1">
+</text>
+   <start gi="line" rID="r14_line" off="137" ext="51"/>
+   <start gi="phr" rID="r15_phr" off="137" ext="51"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r14_line r15_phr"
+         off="137"
+         ext="51">Enam'ling with pied flowers their thoughts of gold;</text>
+   <end gi="phr" rID="r15_phr" off="188" ext="51"/>
+   <end gi="line" rID="r14_line" off="188" ext="51"/>
+   <end gi="quatrain" rID="r05_quatrain" off="188" ext="187"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s" off="188" ext="1">
+</text>
+   <start gi="quatrain" rID="r16_quatrain" off="189" ext="173"/>
+   <start gi="line" rID="r17_line" off="189" ext="42"/>
+   <start gi="phr" rID="r18_phr" off="189" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r16_quatrain r17_line r18_phr"
+         off="189"
+         ext="42">Or else let them in statelier glory shine,</text>
+   <end gi="phr" rID="r18_phr" off="231" ext="42"/>
+   <end gi="line" rID="r17_line" off="231" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r16_quatrain"
+         off="231"
+         ext="1">
+</text>
+   <start gi="line" rID="r19_line" off="232" ext="45"/>
+   <start gi="phr" rID="r20_phr" off="232" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r16_quatrain r19_line r20_phr"
+         off="232"
+         ext="45">Ennobling new-found tropes with problems old;</text>
+   <end gi="phr" rID="r20_phr" off="277" ext="45"/>
+   <end gi="line" rID="r19_line" off="277" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r16_quatrain"
+         off="277"
+         ext="1">
+</text>
+   <start gi="line" rID="r21_line" off="278" ext="41"/>
+   <start gi="phr" rID="r22_phr" off="278" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r16_quatrain r21_line r22_phr"
+         off="278"
+         ext="41">Or with strange similes enrich each line,</text>
+   <end gi="phr" rID="r22_phr" off="319" ext="41"/>
+   <end gi="line" rID="r21_line" off="319" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r16_quatrain"
+         off="319"
+         ext="1">
+</text>
+   <start gi="line" rID="r23_line" off="320" ext="42"/>
+   <start gi="phr" rID="r24_phr" off="320" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r16_quatrain r23_line r24_phr"
+         off="320"
+         ext="42">Of herbs or beasts with Ind or Afric hold.</text>
+   <end gi="phr" rID="r24_phr" off="362" ext="42"/>
+   <end gi="line" rID="r23_line" off="362" ext="42"/>
+   <end gi="quatrain" rID="r16_quatrain" off="362" ext="173"/>
+   <end gi="s" rID="r04_s" off="362" ext="361"/>
+   <end gi="octave" rID="r03_octave" off="362" ext="361"/>
+   <text cf="r01_sonneteer r02_sonnet" off="362" ext="1">
+</text>
+   <start gi="sestet" rID="r25_sestet" off="363" ext="273"/>
+   <start gi="tercet" rID="r26_tercet" off="363" ext="141"/>
+   <start gi="s" rID="r27_s" off="363" ext="141"/>
+   <start gi="line" rID="r28_line" off="363" ext="41"/>
+   <start gi="phr" rID="r29_phr" off="363" ext="7"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_tercet r27_s r28_line r29_phr"
+         off="363"
+         ext="7">For me,</text>
+   <end gi="phr" rID="r29_phr" off="370" ext="7"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_tercet r27_s r28_line"
+         off="370"
+         ext="1"> </text>
+   <start gi="phr" rID="r30_phr" off="371" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_tercet r27_s r28_line r30_phr"
+         off="371"
+         ext="9">in sooth,</text>
+   <end gi="phr" rID="r30_phr" off="380" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_tercet r27_s r28_line"
+         off="380"
+         ext="1"> </text>
+   <start gi="phr" rID="r31_phr" off="381" ext="23"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_tercet r27_s r28_line r31_phr"
+         off="381"
+         ext="23">no Muse but one I know;</text>
+   <end gi="phr" rID="r31_phr" off="404" ext="23"/>
+   <end gi="line" rID="r28_line" off="404" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_tercet r27_s"
+         off="404"
+         ext="1">
+</text>
+   <start gi="line" rID="r32_line" off="405" ext="43"/>
+   <start gi="phr" rID="r33_phr" off="405" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_tercet r27_s r32_line r33_phr"
+         off="405"
+         ext="43">Phrases and problems from my reach do grow,</text>
+   <end gi="phr" rID="r33_phr" off="448" ext="43"/>
+   <end gi="line" rID="r32_line" off="448" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_tercet r27_s"
+         off="448"
+         ext="3">
+  </text>
+   <start gi="line" rID="r34_line" off="451" ext="53"/>
+   <start gi="phr" rID="r35_phr" off="451" ext="53"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_tercet r27_s r34_line r35_phr"
+         off="451"
+         ext="53">And strange things cost too dear for my poor sprites.</text>
+   <end gi="phr" rID="r35_phr" off="504" ext="53"/>
+   <end gi="line" rID="r34_line" off="504" ext="53"/>
+   <end gi="s" rID="r27_s" off="504" ext="141"/>
+   <end gi="tercet" rID="r26_tercet" off="504" ext="141"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet" off="504" ext="3">
+  </text>
+   <start gi="tercet" rID="r36_tercet" off="507" ext="129"/>
+   <start gi="s" rID="r37_s" off="507" ext="129"/>
+   <start gi="line" rID="r38_line" off="507" ext="44"/>
+   <start gi="phr" rID="r39_phr" off="507" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r36_tercet r37_s r38_line r39_phr"
+         off="507"
+         ext="9">How then?</text>
+   <end gi="phr" rID="r39_phr" off="516" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r36_tercet r37_s r38_line"
+         off="516"
+         ext="1"> </text>
+   <start gi="phr" rID="r40_phr" off="517" ext="10"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r36_tercet r37_s r38_line r40_phr"
+         off="517"
+         ext="10">even thus,</text>
+   <end gi="phr" rID="r40_phr" off="527" ext="10"/>
+   <start gi="phr" rID="r41_phr" off="527" ext="49"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r36_tercet r37_s r38_line r41_phr"
+         off="527"
+         ext="24">—in Stella's face I read</text>
+   <end gi="line" rID="r38_line" off="551" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r36_tercet r37_s r41_phr"
+         off="551"
+         ext="1">
+</text>
+   <start gi="line" rID="r42_line" off="552" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r36_tercet r37_s r41_phr r42_line"
+         off="552"
+         ext="24">What love and beauty be,</text>
+   <end gi="phr" rID="r41_phr" off="576" ext="49"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r36_tercet r37_s r42_line"
+         off="576"
+         ext="1"> </text>
+   <start gi="phr" rID="r43_phr" off="577" ext="32"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r36_tercet r37_s r42_line r43_phr"
+         off="577"
+         ext="16">then all my deed</text>
+   <end gi="line" rID="r42_line" off="593" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r36_tercet r37_s r43_phr"
+         off="593"
+         ext="1">
+</text>
+   <start gi="line" rID="r44_line" off="594" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r36_tercet r37_s r43_phr r44_line"
+         off="594"
+         ext="15">But copying is,</text>
+   <end gi="phr" rID="r43_phr" off="609" ext="32"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r36_tercet r37_s r44_line"
+         off="609"
+         ext="1"> </text>
+   <start gi="phr" rID="r45_phr" off="610" ext="26"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r36_tercet r37_s r44_line r45_phr"
+         off="610"
+         ext="26">what in her Nature writes.</text>
+   <end gi="phr" rID="r45_phr" off="636" ext="26"/>
+   <end gi="line" rID="r44_line" off="636" ext="42"/>
+   <end gi="s" rID="r37_s" off="636" ext="129"/>
+   <end gi="tercet" rID="r36_tercet" off="636" ext="129"/>
+   <end gi="sestet" rID="r25_sestet" off="636" ext="273"/>
+   <end gi="sonnet" rID="r02_sonnet" off="636" ext="635"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="636" ext="636"/>
+</LMNL>

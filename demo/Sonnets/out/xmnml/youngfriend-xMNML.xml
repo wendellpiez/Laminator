@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="613">
+      <annotation gi="id">youngfriend</annotation>
+      <annotation gi="author">Caroline Symmons</annotation>
+      <annotation gi="title">To Her Young Friend</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="612"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="347"/>
+   <start gi="quatrain" rID="r04_quatrain" off="1" ext="170"/>
+   <start gi="s" rID="r05_s" off="1" ext="170"/>
+   <start gi="line" rID="r06_line" off="1" ext="43"/>
+   <start gi="phr" rID="r07_phr" off="1" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_line r07_phr"
+         off="1"
+         ext="43">No moon now blushes on the enamoured sight;</text>
+   <end gi="phr" rID="r07_phr" off="44" ext="43"/>
+   <end gi="line" rID="r06_line" off="44" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s"
+         off="44"
+         ext="1">
+</text>
+   <start gi="phr" rID="r08_phr" off="45" ext="126"/>
+   <start gi="line" rID="r09_line" off="45" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_phr r09_line"
+         off="45"
+         ext="38">No genial sun now warms the torpid lay</text>
+   <end gi="line" rID="r09_line" off="83" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_phr"
+         off="83"
+         ext="1">
+</text>
+   <start gi="line" rID="r10_line" off="84" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_phr r10_line"
+         off="84"
+         ext="38">Since February sternly checked his ray</text>
+   <end gi="line" rID="r10_line" off="122" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_phr"
+         off="122"
+         ext="1">
+</text>
+   <start gi="line" rID="r11_line" off="123" ext="48"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_phr r11_line"
+         off="123"
+         ext="48">When Lucy's eyes first beamed their azure light.</text>
+   <end gi="line" rID="r11_line" off="171" ext="48"/>
+   <end gi="phr" rID="r08_phr" off="171" ext="126"/>
+   <end gi="s" rID="r05_s" off="171" ext="170"/>
+   <end gi="quatrain" rID="r04_quatrain" off="171" ext="170"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave" off="171" ext="1">
+</text>
+   <start gi="quatrain" rID="r12_quatrain" off="172" ext="176"/>
+   <start gi="s" rID="r13_s" off="172" ext="176"/>
+   <start gi="phr" rID="r14_phr" off="172" ext="88"/>
+   <start gi="line" rID="r15_line" off="172" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain r13_s r14_phr r15_line"
+         off="172"
+         ext="44">What though no vernal flowers my hand invite</text>
+   <end gi="line" rID="r15_line" off="216" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain r13_s r14_phr"
+         off="216"
+         ext="1">
+</text>
+   <start gi="line" rID="r16_line" off="217" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain r13_s r14_phr r16_line"
+         off="217"
+         ext="43">To crop their fragrance for your natal day;</text>
+   <end gi="line" rID="r16_line" off="260" ext="43"/>
+   <end gi="phr" rID="r14_phr" off="260" ext="88"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain r13_s"
+         off="260"
+         ext="1">
+</text>
+   <start gi="line" rID="r17_line" off="261" ext="38"/>
+   <start gi="phr" rID="r18_phr" off="261" ext="5"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain r13_s r17_line r18_phr"
+         off="261"
+         ext="5">Lucy,</text>
+   <end gi="phr" rID="r18_phr" off="266" ext="5"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain r13_s r17_line"
+         off="266"
+         ext="1"> </text>
+   <start gi="phr" rID="r19_phr" off="267" ext="81"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain r13_s r17_line r19_phr"
+         off="267"
+         ext="32">for you the snowdrop and the bay</text>
+   <end gi="line" rID="r17_line" off="299" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain r13_s r19_phr"
+         off="299"
+         ext="1">
+</text>
+   <start gi="line" rID="r20_line" off="300" ext="48"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain r13_s r19_phr r20_line"
+         off="300"
+         ext="48">Shall blend the unfading green and modest white.</text>
+   <end gi="line" rID="r20_line" off="348" ext="48"/>
+   <end gi="phr" rID="r19_phr" off="348" ext="81"/>
+   <end gi="s" rID="r13_s" off="348" ext="176"/>
+   <end gi="quatrain" rID="r12_quatrain" off="348" ext="176"/>
+   <end gi="octave" rID="r03_octave" off="348" ext="347"/>
+   <text cf="r01_sonneteer r02_sonnet" off="348" ext="1">
+</text>
+   <start gi="sestet" rID="r21_sestet" off="349" ext="264"/>
+   <start gi="s" rID="r22_s" off="349" ext="264"/>
+   <start gi="quatrain" rID="r23_quatrain" off="349" ext="180"/>
+   <start gi="phr" rID="r24_phr" off="349" ext="62"/>
+   <start gi="line" rID="r25_line" off="349" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r21_sestet r22_s r23_quatrain r24_phr r25_line"
+         off="349"
+         ext="42">Though on your natal day with aspect bleak</text>
+   <end gi="line" rID="r25_line" off="391" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r21_sestet r22_s r23_quatrain r24_phr"
+         off="391"
+         ext="1">
+</text>
+   <start gi="line" rID="r26_line" off="392" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r21_sestet r22_s r23_quatrain r24_phr r26_line"
+         off="392"
+         ext="19">Stern winter frown,</text>
+   <end gi="phr" rID="r24_phr" off="411" ext="62"/>
+   <text cf="r01_sonneteer r02_sonnet r21_sestet r22_s r23_quatrain r26_line"
+         off="411"
+         ext="1"> </text>
+   <start gi="phr" rID="r27_phr" off="412" ext="24"/>
+   <text cf="r01_sonneteer r02_sonnet r21_sestet r22_s r23_quatrain r26_line r27_phr"
+         off="412"
+         ext="24">in icy garments dressed,</text>
+   <end gi="phr" rID="r27_phr" off="436" ext="24"/>
+   <end gi="line" rID="r26_line" off="436" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r21_sestet r22_s r23_quatrain"
+         off="436"
+         ext="1">
+</text>
+   <start gi="line" rID="r28_line" off="437" ext="41"/>
+   <start gi="phr" rID="r29_phr" off="437" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r21_sestet r22_s r23_quatrain r28_line r29_phr"
+         off="437"
+         ext="41">Still may the rosy summer robe your cheek</text>
+   <end gi="phr" rID="r29_phr" off="478" ext="41"/>
+   <end gi="line" rID="r28_line" off="478" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r21_sestet r22_s r23_quatrain"
+         off="478"
+         ext="1">
+</text>
+   <start gi="line" rID="r30_line" off="479" ext="50"/>
+   <start gi="phr" rID="r31_phr" off="479" ext="50"/>
+   <text cf="r01_sonneteer r02_sonnet r21_sestet r22_s r23_quatrain r30_line r31_phr"
+         off="479"
+         ext="50">And the green spring still bud within your breast:</text>
+   <end gi="phr" rID="r31_phr" off="529" ext="50"/>
+   <end gi="line" rID="r30_line" off="529" ext="50"/>
+   <end gi="quatrain" rID="r23_quatrain" off="529" ext="180"/>
+   <text cf="r01_sonneteer r02_sonnet r21_sestet r22_s" off="529" ext="1">
+</text>
+   <start gi="couplet" rID="r32_couplet" off="530" ext="83"/>
+   <start gi="line" rID="r33_line" off="530" ext="44"/>
+   <start gi="phr" rID="r34_phr" off="530" ext="5"/>
+   <text cf="r01_sonneteer r02_sonnet r21_sestet r22_s r32_couplet r33_line r34_phr"
+         off="530"
+         ext="5">Till,</text>
+   <end gi="phr" rID="r34_phr" off="535" ext="5"/>
+   <text cf="r01_sonneteer r02_sonnet r21_sestet r22_s r32_couplet r33_line"
+         off="535"
+         ext="1"> </text>
+   <start gi="phr" rID="r35_phr" off="536" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r21_sestet r22_s r32_couplet r33_line r35_phr"
+         off="536"
+         ext="38">the world fading on your closing eyes,</text>
+   <end gi="phr" rID="r35_phr" off="574" ext="38"/>
+   <end gi="line" rID="r33_line" off="574" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r21_sestet r22_s r32_couplet"
+         off="574"
+         ext="1">
+</text>
+   <start gi="line" rID="r36_line" off="575" ext="38"/>
+   <start gi="phr" rID="r37_phr" off="575" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r21_sestet r22_s r32_couplet r36_line r37_phr"
+         off="575"
+         ext="38">You find a golden autumn in the skies.</text>
+   <end gi="phr" rID="r37_phr" off="613" ext="38"/>
+   <end gi="line" rID="r36_line" off="613" ext="38"/>
+   <end gi="couplet" rID="r32_couplet" off="613" ext="83"/>
+   <end gi="s" rID="r22_s" off="613" ext="264"/>
+   <end gi="sestet" rID="r21_sestet" off="613" ext="264"/>
+   <end gi="sonnet" rID="r02_sonnet" off="613" ext="612"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="613" ext="613"/>
+</LMNL>

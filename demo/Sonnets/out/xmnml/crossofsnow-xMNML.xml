@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="606">
+      <annotation gi="id">crossofsnow</annotation>
+      <annotation gi="author">Henry Wadsworth Longfellow</annotation>
+      <annotation gi="title">The Cross of Snow</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="605"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="344"/>
+   <start gi="quatrain" rID="r04_quatrain" off="1" ext="179"/>
+   <start gi="s" rID="r05_s" off="1" ext="179"/>
+   <start gi="line" rID="r06_line" off="1" ext="44"/>
+   <start gi="phr" rID="r07_phr" off="1" ext="12"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_line r07_phr"
+         off="1"
+         ext="12">In the long,</text>
+   <end gi="phr" rID="r07_phr" off="13" ext="12"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_line"
+         off="13"
+         ext="1"> </text>
+   <start gi="phr" rID="r08_phr" off="14" ext="31"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_line r08_phr"
+         off="14"
+         ext="31">sleepless watches of the night,</text>
+   <end gi="phr" rID="r08_phr" off="45" ext="31"/>
+   <end gi="line" rID="r06_line" off="45" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s"
+         off="45"
+         ext="1">
+</text>
+   <start gi="line" rID="r09_line" off="46" ext="43"/>
+   <start gi="phr" rID="r10_phr" off="46" ext="15"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r09_line r10_phr"
+         off="46"
+         ext="15">A gentle face —</text>
+   <end gi="phr" rID="r10_phr" off="61" ext="15"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r09_line"
+         off="61"
+         ext="1"> </text>
+   <start gi="phr" rID="r11_phr" off="62" ext="27"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r09_line r11_phr"
+         off="62"
+         ext="27">the face of one long dead —</text>
+   <end gi="phr" rID="r11_phr" off="89" ext="27"/>
+   <end gi="line" rID="r09_line" off="89" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s"
+         off="89"
+         ext="1">
+</text>
+   <start gi="line" rID="r12_line" off="90" ext="47"/>
+   <start gi="phr" rID="r13_phr" off="90" ext="26"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r12_line r13_phr"
+         off="90"
+         ext="26">Looks at me from the wall,</text>
+   <end gi="phr" rID="r13_phr" off="116" ext="26"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r12_line"
+         off="116"
+         ext="1"> </text>
+   <start gi="phr" rID="r14_phr" off="117" ext="63"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r12_line r14_phr"
+         off="117"
+         ext="20">where round its head</text>
+   <end gi="line" rID="r12_line" off="137" ext="47"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r14_phr"
+         off="137"
+         ext="1">
+</text>
+   <start gi="line" rID="r15_line" off="138" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r14_phr r15_line"
+         off="138"
+         ext="42">The night-lamp casts a halo of pale light.</text>
+   <end gi="line" rID="r15_line" off="180" ext="42"/>
+   <end gi="phr" rID="r14_phr" off="180" ext="63"/>
+   <end gi="s" rID="r05_s" off="180" ext="179"/>
+   <end gi="quatrain" rID="r04_quatrain" off="180" ext="179"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave" off="180" ext="1">
+</text>
+   <start gi="quatrain" rID="r16_quatrain" off="181" ext="164"/>
+   <start gi="s" rID="r17_s" off="181" ext="164"/>
+   <start gi="line" rID="r18_line" off="181" ext="47"/>
+   <start gi="phr" rID="r19_phr" off="181" ext="27"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r17_s r18_line r19_phr"
+         off="181"
+         ext="27">Here in this room she died;</text>
+   <end gi="phr" rID="r19_phr" off="208" ext="27"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r17_s r18_line"
+         off="208"
+         ext="1"> </text>
+   <start gi="phr" rID="r20_phr" off="209" ext="74"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r17_s r18_line r20_phr"
+         off="209"
+         ext="19">and soul more white</text>
+   <end gi="line" rID="r18_line" off="228" ext="47"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r17_s r20_phr"
+         off="228"
+         ext="1">
+</text>
+   <start gi="line" rID="r21_line" off="229" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r17_s r20_phr r21_line"
+         off="229"
+         ext="39">Never through martyrdom of fire was led</text>
+   <end gi="line" rID="r21_line" off="268" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r17_s r20_phr"
+         off="268"
+         ext="1">
+</text>
+   <start gi="line" rID="r22_line" off="269" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r17_s r20_phr r22_line"
+         off="269"
+         ext="14">To its repose;</text>
+   <end gi="phr" rID="r20_phr" off="283" ext="74"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r17_s r22_line"
+         off="283"
+         ext="1"> </text>
+   <start gi="phr" rID="r23_phr" off="284" ext="61"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r17_s r22_line r23_phr"
+         off="284"
+         ext="24">nor can in books be read</text>
+   <end gi="line" rID="r22_line" off="308" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r17_s r23_phr"
+         off="308"
+         ext="1">
+</text>
+   <start gi="line" rID="r24_line" off="309" ext="36"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r17_s r23_phr r24_line"
+         off="309"
+         ext="36">The legend of a life more benedight.</text>
+   <end gi="line" rID="r24_line" off="345" ext="36"/>
+   <end gi="phr" rID="r23_phr" off="345" ext="61"/>
+   <end gi="s" rID="r17_s" off="345" ext="164"/>
+   <end gi="quatrain" rID="r16_quatrain" off="345" ext="164"/>
+   <end gi="octave" rID="r03_octave" off="345" ext="344"/>
+   <text cf="r01_sonneteer r02_sonnet" off="345" ext="1">
+</text>
+   <start gi="sestet" rID="r25_sestet" off="346" ext="260"/>
+   <start gi="tercet" rID="r26_tercet" off="346" ext="118"/>
+   <start gi="s" rID="r27_s" off="346" ext="118"/>
+   <start gi="phr" rID="r28_phr" off="346" ext="45"/>
+   <start gi="line" rID="r29_line" off="346" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_tercet r27_s r28_phr r29_line"
+         off="346"
+         ext="39">There is a mountain in the distant West</text>
+   <end gi="line" rID="r29_line" off="385" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_tercet r27_s r28_phr"
+         off="385"
+         ext="1">
+</text>
+   <start gi="line" rID="r30_line" off="386" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_tercet r27_s r28_phr r30_line"
+         off="386"
+         ext="5">That,</text>
+   <end gi="phr" rID="r28_phr" off="391" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_tercet r27_s r30_line"
+         off="391"
+         ext="1"> </text>
+   <start gi="phr" rID="r31_phr" off="392" ext="12"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_tercet r27_s r30_line r31_phr"
+         off="392"
+         ext="12">sun-defying,</text>
+   <end gi="phr" rID="r31_phr" off="404" ext="12"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_tercet r27_s r30_line"
+         off="404"
+         ext="1"> </text>
+   <start gi="phr" rID="r32_phr" off="405" ext="59"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_tercet r27_s r30_line r32_phr"
+         off="405"
+         ext="19">in its deep ravines</text>
+   <end gi="line" rID="r30_line" off="424" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_tercet r27_s r32_phr"
+         off="424"
+         ext="1">
+</text>
+   <start gi="line" rID="r33_line" off="425" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r26_tercet r27_s r32_phr r33_line"
+         off="425"
+         ext="39">Displays a cross of snow upon its side.</text>
+   <end gi="line" rID="r33_line" off="464" ext="39"/>
+   <end gi="phr" rID="r32_phr" off="464" ext="59"/>
+   <end gi="s" rID="r27_s" off="464" ext="118"/>
+   <end gi="tercet" rID="r26_tercet" off="464" ext="118"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet" off="464" ext="1">
+</text>
+   <start gi="tercet" rID="r34_tercet" off="465" ext="141"/>
+   <start gi="s" rID="r35_s" off="465" ext="141"/>
+   <start gi="phr" rID="r36_phr" off="465" ext="61"/>
+   <start gi="line" rID="r37_line" off="465" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r34_tercet r35_s r36_phr r37_line"
+         off="465"
+         ext="39">Such is the cross I wear upon my breast</text>
+   <end gi="line" rID="r37_line" off="504" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r34_tercet r35_s r36_phr"
+         off="504"
+         ext="1">
+</text>
+   <start gi="line" rID="r38_line" off="505" ext="53"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r34_tercet r35_s r36_phr r38_line"
+         off="505"
+         ext="21">These eighteen years,</text>
+   <end gi="phr" rID="r36_phr" off="526" ext="61"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r34_tercet r35_s r38_line"
+         off="526"
+         ext="1"> </text>
+   <start gi="phr" rID="r39_phr" off="527" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r34_tercet r35_s r38_line r39_phr"
+         off="527"
+         ext="31">through all the changing scenes</text>
+   <end gi="line" rID="r38_line" off="558" ext="53"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r34_tercet r35_s r39_phr"
+         off="558"
+         ext="1">
+</text>
+   <start gi="line" rID="r40_line" off="559" ext="47"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r34_tercet r35_s r39_phr r40_line"
+         off="559"
+         ext="12">And seasons,</text>
+   <end gi="phr" rID="r39_phr" off="571" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r34_tercet r35_s r40_line"
+         off="571"
+         ext="1"> </text>
+   <start gi="phr" rID="r41_phr" off="572" ext="34"/>
+   <text cf="r01_sonneteer r02_sonnet r25_sestet r34_tercet r35_s r40_line r41_phr"
+         off="572"
+         ext="34">changeless since the day she died.</text>
+   <end gi="phr" rID="r41_phr" off="606" ext="34"/>
+   <end gi="line" rID="r40_line" off="606" ext="47"/>
+   <end gi="s" rID="r35_s" off="606" ext="141"/>
+   <end gi="tercet" rID="r34_tercet" off="606" ext="141"/>
+   <end gi="sestet" rID="r25_sestet" off="606" ext="260"/>
+   <end gi="sonnet" rID="r02_sonnet" off="606" ext="605"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="606" ext="606"/>
+</LMNL>

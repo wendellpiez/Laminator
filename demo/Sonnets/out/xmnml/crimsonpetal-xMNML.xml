@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="581">
+      <annotation gi="id">crimsonpetal</annotation>
+      <annotation gi="author">Alfred, Lord Tennyson</annotation>
+      <annotation gi="title">Now Sleeps the Crimson Petal, Now the White</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="580"/>
+   <start gi="quatrain" rID="r03_quatrain" off="1" ext="172"/>
+   <start gi="s" rID="r04_s" off="1" ext="172"/>
+   <start gi="line" rID="r05_line" off="1" ext="44"/>
+   <start gi="phr" rID="r06_phr" off="1" ext="29"/>
+   <text cf="r01_sonneteer r02_sonnet r03_quatrain r04_s r05_line r06_phr"
+         off="1"
+         ext="29">Now sleeps the crimson petal,</text>
+   <end gi="phr" rID="r06_phr" off="30" ext="29"/>
+   <text cf="r01_sonneteer r02_sonnet r03_quatrain r04_s r05_line"
+         off="30"
+         ext="1"> </text>
+   <start gi="phr" rID="r07_phr" off="31" ext="14"/>
+   <text cf="r01_sonneteer r02_sonnet r03_quatrain r04_s r05_line r07_phr"
+         off="31"
+         ext="14">now the white;</text>
+   <end gi="phr" rID="r07_phr" off="45" ext="14"/>
+   <end gi="line" rID="r05_line" off="45" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r03_quatrain r04_s" off="45" ext="1">
+</text>
+   <start gi="line" rID="r08_line" off="46" ext="41"/>
+   <start gi="phr" rID="r09_phr" off="46" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_quatrain r04_s r08_line r09_phr"
+         off="46"
+         ext="41">Nor waves the cypress in the palace walk;</text>
+   <end gi="phr" rID="r09_phr" off="87" ext="41"/>
+   <end gi="line" rID="r08_line" off="87" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_quatrain r04_s" off="87" ext="1">
+</text>
+   <start gi="line" rID="r10_line" off="88" ext="44"/>
+   <start gi="phr" rID="r11_phr" off="88" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r03_quatrain r04_s r10_line r11_phr"
+         off="88"
+         ext="44">Nor winks the gold fin in the porphyry font:</text>
+   <end gi="phr" rID="r11_phr" off="132" ext="44"/>
+   <end gi="line" rID="r10_line" off="132" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r03_quatrain r04_s" off="132" ext="1">
+</text>
+   <start gi="line" rID="r12_line" off="133" ext="40"/>
+   <start gi="phr" rID="r13_phr" off="133" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r03_quatrain r04_s r12_line r13_phr"
+         off="133"
+         ext="20">The fire-fly wakens:</text>
+   <end gi="phr" rID="r13_phr" off="153" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r03_quatrain r04_s r12_line"
+         off="153"
+         ext="1"> </text>
+   <start gi="phr" rID="r14_phr" off="154" ext="19"/>
+   <text cf="r01_sonneteer r02_sonnet r03_quatrain r04_s r12_line r14_phr"
+         off="154"
+         ext="19">waken thou with me.</text>
+   <end gi="phr" rID="r14_phr" off="173" ext="19"/>
+   <end gi="line" rID="r12_line" off="173" ext="40"/>
+   <end gi="s" rID="r04_s" off="173" ext="172"/>
+   <end gi="quatrain" rID="r03_quatrain" off="173" ext="172"/>
+   <text cf="r01_sonneteer r02_sonnet" off="173" ext="1">
+</text>
+   <start gi="sestet" rID="r15_sestet" off="174" ext="251"/>
+   <start gi="couplet" rID="r16_couplet" off="174" ext="86"/>
+   <start gi="s" rID="r17_s" off="174" ext="86"/>
+   <start gi="line" rID="r18_line" off="174" ext="46"/>
+   <start gi="phr" rID="r19_phr" off="174" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r15_sestet r16_couplet r17_s r18_line r19_phr"
+         off="174"
+         ext="46">Now droops the milkwhite peacock like a ghost,</text>
+   <end gi="phr" rID="r19_phr" off="220" ext="46"/>
+   <end gi="line" rID="r18_line" off="220" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r15_sestet r16_couplet r17_s"
+         off="220"
+         ext="1">
+</text>
+   <start gi="line" rID="r20_line" off="221" ext="39"/>
+   <start gi="phr" rID="r21_phr" off="221" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r15_sestet r16_couplet r17_s r20_line r21_phr"
+         off="221"
+         ext="39">And like a ghost she glimmers on to me.</text>
+   <end gi="phr" rID="r21_phr" off="260" ext="39"/>
+   <end gi="line" rID="r20_line" off="260" ext="39"/>
+   <end gi="s" rID="r17_s" off="260" ext="86"/>
+   <end gi="couplet" rID="r16_couplet" off="260" ext="86"/>
+   <text cf="r01_sonneteer r02_sonnet r15_sestet" off="260" ext="1">
+</text>
+   <start gi="couplet" rID="r22_couplet" off="261" ext="79"/>
+   <start gi="s" rID="r23_s" off="261" ext="79"/>
+   <start gi="line" rID="r24_line" off="261" ext="42"/>
+   <start gi="phr" rID="r25_phr" off="261" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r15_sestet r22_couplet r23_s r24_line r25_phr"
+         off="261"
+         ext="42">Now lies the Earth all Danaë to the stars,</text>
+   <end gi="phr" rID="r25_phr" off="303" ext="42"/>
+   <end gi="line" rID="r24_line" off="303" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r15_sestet r22_couplet r23_s"
+         off="303"
+         ext="1">
+</text>
+   <start gi="line" rID="r26_line" off="304" ext="36"/>
+   <start gi="phr" rID="r27_phr" off="304" ext="36"/>
+   <text cf="r01_sonneteer r02_sonnet r15_sestet r22_couplet r23_s r26_line r27_phr"
+         off="304"
+         ext="36">And all thy heart lies open unto me.</text>
+   <end gi="phr" rID="r27_phr" off="340" ext="36"/>
+   <end gi="line" rID="r26_line" off="340" ext="36"/>
+   <end gi="s" rID="r23_s" off="340" ext="79"/>
+   <end gi="couplet" rID="r22_couplet" off="340" ext="79"/>
+   <text cf="r01_sonneteer r02_sonnet r15_sestet" off="340" ext="1">
+</text>
+   <start gi="couplet" rID="r28_couplet" off="341" ext="84"/>
+   <start gi="s" rID="r29_s" off="341" ext="84"/>
+   <start gi="line" rID="r30_line" off="341" ext="43"/>
+   <start gi="phr" rID="r31_phr" off="341" ext="32"/>
+   <text cf="r01_sonneteer r02_sonnet r15_sestet r28_couplet r29_s r30_line r31_phr"
+         off="341"
+         ext="32">Now slides the silent meteor on,</text>
+   <end gi="phr" rID="r31_phr" off="373" ext="32"/>
+   <text cf="r01_sonneteer r02_sonnet r15_sestet r28_couplet r29_s r30_line"
+         off="373"
+         ext="1"> </text>
+   <start gi="phr" rID="r32_phr" off="374" ext="28"/>
+   <text cf="r01_sonneteer r02_sonnet r15_sestet r28_couplet r29_s r30_line r32_phr"
+         off="374"
+         ext="10">and leaves</text>
+   <end gi="line" rID="r30_line" off="384" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r15_sestet r28_couplet r29_s r32_phr"
+         off="384"
+         ext="1">
+</text>
+   <start gi="line" rID="r33_line" off="385" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r15_sestet r28_couplet r29_s r32_phr r33_line"
+         off="385"
+         ext="17">A shining furrow,</text>
+   <end gi="phr" rID="r32_phr" off="402" ext="28"/>
+   <text cf="r01_sonneteer r02_sonnet r15_sestet r28_couplet r29_s r33_line"
+         off="402"
+         ext="1"> </text>
+   <start gi="phr" rID="r34_phr" off="403" ext="22"/>
+   <text cf="r01_sonneteer r02_sonnet r15_sestet r28_couplet r29_s r33_line r34_phr"
+         off="403"
+         ext="22">as thy thoughts in me.</text>
+   <end gi="phr" rID="r34_phr" off="425" ext="22"/>
+   <end gi="line" rID="r33_line" off="425" ext="40"/>
+   <end gi="s" rID="r29_s" off="425" ext="84"/>
+   <end gi="couplet" rID="r28_couplet" off="425" ext="84"/>
+   <end gi="sestet" rID="r15_sestet" off="425" ext="251"/>
+   <text cf="r01_sonneteer r02_sonnet" off="425" ext="1">
+</text>
+   <start gi="quatrain" rID="r35_quatrain" off="426" ext="155"/>
+   <start gi="s" rID="r36_s" off="426" ext="155"/>
+   <start gi="line" rID="r37_line" off="426" ext="40"/>
+   <start gi="phr" rID="r38_phr" off="426" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r35_quatrain r36_s r37_line r38_phr"
+         off="426"
+         ext="40">Now folds the lily all her sweetness up,</text>
+   <end gi="phr" rID="r38_phr" off="466" ext="40"/>
+   <end gi="line" rID="r37_line" off="466" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r35_quatrain r36_s" off="466" ext="1">
+</text>
+   <start gi="line" rID="r39_line" off="467" ext="37"/>
+   <start gi="phr" rID="r40_phr" off="467" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r35_quatrain r36_s r39_line r40_phr"
+         off="467"
+         ext="37">And slips into the bosom of the lake:</text>
+   <end gi="phr" rID="r40_phr" off="504" ext="37"/>
+   <end gi="line" rID="r39_line" off="504" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r35_quatrain r36_s" off="504" ext="1">
+</text>
+   <start gi="line" rID="r41_line" off="505" ext="43"/>
+   <start gi="phr" rID="r42_phr" off="505" ext="16"/>
+   <text cf="r01_sonneteer r02_sonnet r35_quatrain r36_s r41_line r42_phr"
+         off="505"
+         ext="16">So fold thyself,</text>
+   <end gi="phr" rID="r42_phr" off="521" ext="16"/>
+   <text cf="r01_sonneteer r02_sonnet r35_quatrain r36_s r41_line"
+         off="521"
+         ext="1"> </text>
+   <start gi="phr" rID="r43_phr" off="522" ext="11"/>
+   <text cf="r01_sonneteer r02_sonnet r35_quatrain r36_s r41_line r43_phr"
+         off="522"
+         ext="11">my dearest,</text>
+   <end gi="phr" rID="r43_phr" off="533" ext="11"/>
+   <text cf="r01_sonneteer r02_sonnet r35_quatrain r36_s r41_line"
+         off="533"
+         ext="1"> </text>
+   <start gi="phr" rID="r44_phr" off="534" ext="5"/>
+   <text cf="r01_sonneteer r02_sonnet r35_quatrain r36_s r41_line r44_phr"
+         off="534"
+         ext="5">thou,</text>
+   <end gi="phr" rID="r44_phr" off="539" ext="5"/>
+   <text cf="r01_sonneteer r02_sonnet r35_quatrain r36_s r41_line"
+         off="539"
+         ext="1"> </text>
+   <start gi="phr" rID="r45_phr" off="540" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r35_quatrain r36_s r41_line r45_phr"
+         off="540"
+         ext="8">and slip</text>
+   <end gi="line" rID="r41_line" off="548" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r35_quatrain r36_s r45_phr"
+         off="548"
+         ext="1">
+</text>
+   <start gi="line" rID="r46_line" off="549" ext="32"/>
+   <text cf="r01_sonneteer r02_sonnet r35_quatrain r36_s r45_phr r46_line"
+         off="549"
+         ext="32">Into my bosom and be lost in me.</text>
+   <end gi="line" rID="r46_line" off="581" ext="32"/>
+   <end gi="phr" rID="r45_phr" off="581" ext="41"/>
+   <end gi="s" rID="r36_s" off="581" ext="155"/>
+   <end gi="quatrain" rID="r35_quatrain" off="581" ext="155"/>
+   <end gi="sonnet" rID="r02_sonnet" off="581" ext="580"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="581" ext="581"/>
+</LMNL>

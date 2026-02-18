@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="blindness" author="John Milton" title="On his blindness">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>When I consider how my light is spent,</line>
+            <line>Ere half my days, in this dark world and wide,</line>
+            <line>And that one talent which is death to hide,</line>
+            <line>Lodged with me useless, though my soul more bent</line>
+         </quatrain>
+         <quatrain>
+            <line>To serve therewith my maker, and present</line>
+            <line>My true account, lest he returning chide,</line>
+            <line>Doth God exact day-labour, light denied?</line>
+            <line>I fondly ask; but Patience to prevent</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <tercet>
+            <line>That murmur, soon replies, God doth not need</line>
+            <line>Either man's work or his own gifts, who best</line>
+            <line>Bear his mild yoke, they serve him best, his state</line>
+         </tercet>
+         <tercet>
+            <line>Is kingly. Thousands at his bidding speed</line>
+            <line>And post o'er land and ocean without rest:</line>
+            <line>They also serve who only stand and wait.</line>
+         </tercet>
+      </sestet>
+   </sonnet>
+</sonneteer>

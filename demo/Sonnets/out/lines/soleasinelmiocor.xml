@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="soleasinelmiocor"
+           author="Francesco Petrarca"
+           title="Soleasi nel mio cor star bella et viva">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>Soleasi nel mio cor star bella et viva,</line>
+            <line>com’altra donna in loco humile et basso:</line>
+            <line>or son fatto io per l’ultimo suo passo</line>
+            <line>non pur mortal,ma morto,et ella è diva.</line>
+         </quatrain>
+         <quatrain>
+            <line>L’alma d’ogni suo ben spogliata et priva,</line>
+            <line>Amor de la sua luce ignudo et casso</line>
+            <line>devrian de la pietà romper un sasso,</line>
+            <line>ma non è chi lor duol riconti o scriva:</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <tercet>
+            <line>ché piangon dentro,ov’ogni orecchia è sorda,</line>
+            <line>se non la mia,cui tanta doglia ingombra,</line>
+            <line>ch’altro che sospirar nulla m’avanza.</line>
+         </tercet>
+         <tercet>
+            <line>Veramente siam noi polvere et ombra,</line>
+            <line>veramente la voglia cieca e ’ngorda,</line>
+            <line>veramente fallace è la speranza.</line>
+         </tercet>
+      </sestet>
+   </sonnet>
+</sonneteer>

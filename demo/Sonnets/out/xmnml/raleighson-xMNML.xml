@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="639">
+      <annotation gi="id">raleighson</annotation>
+      <annotation gi="author">Sir Walter Raleigh</annotation>
+      <annotation gi="title">Sir Walter Raleigh to His Son</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="638"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="358"/>
+   <start gi="quatrain" rID="r04_quatrain" off="1" ext="171"/>
+   <start gi="s" rID="r05_s" off="1" ext="171"/>
+   <start gi="phr" rID="r06_phr" off="1" ext="57"/>
+   <start gi="line" rID="r07_line" off="1" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_phr r07_line"
+         off="1"
+         ext="43">Three things there be that prosper up apace</text>
+   <end gi="line" rID="r07_line" off="44" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_phr"
+         off="44"
+         ext="1">
+</text>
+   <start gi="line" rID="r08_line" off="45" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_phr r08_line"
+         off="45"
+         ext="13">And flourish,</text>
+   <end gi="phr" rID="r06_phr" off="58" ext="57"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_line"
+         off="58"
+         ext="1"> </text>
+   <start gi="phr" rID="r09_phr" off="59" ext="29"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_line r09_phr"
+         off="59"
+         ext="29">whilst they grow asunder far;</text>
+   <end gi="phr" rID="r09_phr" off="88" ext="29"/>
+   <end gi="line" rID="r08_line" off="88" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s"
+         off="88"
+         ext="1">
+</text>
+   <start gi="line" rID="r10_line" off="89" ext="41"/>
+   <start gi="phr" rID="r11_phr" off="89" ext="13"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r10_line r11_phr"
+         off="89"
+         ext="13">But on a day,</text>
+   <end gi="phr" rID="r11_phr" off="102" ext="13"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r10_line"
+         off="102"
+         ext="1"> </text>
+   <start gi="phr" rID="r12_phr" off="103" ext="27"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r10_line r12_phr"
+         off="103"
+         ext="27">they meet all in one place,</text>
+   <end gi="phr" rID="r12_phr" off="130" ext="27"/>
+   <end gi="line" rID="r10_line" off="130" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s"
+         off="130"
+         ext="1">
+</text>
+   <start gi="line" rID="r13_line" off="131" ext="41"/>
+   <start gi="phr" rID="r14_phr" off="131" ext="19"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r13_line r14_phr"
+         off="131"
+         ext="19">And when they meet,</text>
+   <end gi="phr" rID="r14_phr" off="150" ext="19"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r13_line"
+         off="150"
+         ext="1"> </text>
+   <start gi="phr" rID="r15_phr" off="151" ext="21"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r13_line r15_phr"
+         off="151"
+         ext="21">they one another mar.</text>
+   <end gi="phr" rID="r15_phr" off="172" ext="21"/>
+   <end gi="line" rID="r13_line" off="172" ext="41"/>
+   <end gi="s" rID="r05_s" off="172" ext="171"/>
+   <end gi="quatrain" rID="r04_quatrain" off="172" ext="171"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave" off="172" ext="1">
+</text>
+   <start gi="quatrain" rID="r16_quatrain" off="173" ext="186"/>
+   <start gi="line" rID="r17_line" off="173" ext="47"/>
+   <start gi="s" rID="r18_s" off="173" ext="47"/>
+   <start gi="phr" rID="r19_phr" off="173" ext="18"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r17_line r18_s r19_phr"
+         off="173"
+         ext="18">And they be these:</text>
+   <end gi="phr" rID="r19_phr" off="191" ext="18"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r17_line r18_s"
+         off="191"
+         ext="1"> </text>
+   <start gi="phr" rID="r20_phr" off="192" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r17_line r18_s r20_phr"
+         off="192"
+         ext="9">the wood,</text>
+   <end gi="phr" rID="r20_phr" off="201" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r17_line r18_s"
+         off="201"
+         ext="1"> </text>
+   <start gi="phr" rID="r21_phr" off="202" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r17_line r18_s r21_phr"
+         off="202"
+         ext="9">the weed,</text>
+   <end gi="phr" rID="r21_phr" off="211" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r17_line r18_s"
+         off="211"
+         ext="1"> </text>
+   <start gi="phr" rID="r22_phr" off="212" ext="8"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r17_line r18_s r22_phr"
+         off="212"
+         ext="8">the wag.</text>
+   <end gi="phr" rID="r22_phr" off="220" ext="8"/>
+   <end gi="s" rID="r18_s" off="220" ext="47"/>
+   <end gi="line" rID="r17_line" off="220" ext="47"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain"
+         off="220"
+         ext="1">
+</text>
+   <start gi="s" rID="r23_s" off="221" ext="138"/>
+   <start gi="line" rID="r24_line" off="221" ext="45"/>
+   <start gi="phr" rID="r25_phr" off="221" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r23_s r24_line r25_phr"
+         off="221"
+         ext="45">The wood is that which makes the gallow tree;</text>
+   <end gi="phr" rID="r25_phr" off="266" ext="45"/>
+   <end gi="line" rID="r24_line" off="266" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r23_s"
+         off="266"
+         ext="1">
+</text>
+   <start gi="line" rID="r26_line" off="267" ext="49"/>
+   <start gi="phr" rID="r27_phr" off="267" ext="49"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r23_s r26_line r27_phr"
+         off="267"
+         ext="49">The weed is that which strings the hangman's bag;</text>
+   <end gi="phr" rID="r27_phr" off="316" ext="49"/>
+   <end gi="line" rID="r26_line" off="316" ext="49"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r23_s"
+         off="316"
+         ext="1">
+</text>
+   <start gi="line" rID="r28_line" off="317" ext="42"/>
+   <start gi="phr" rID="r29_phr" off="317" ext="8"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r23_s r28_line r29_phr"
+         off="317"
+         ext="8">The wag,</text>
+   <end gi="phr" rID="r29_phr" off="325" ext="8"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r23_s r28_line"
+         off="325"
+         ext="1"> </text>
+   <start gi="phr" rID="r30_phr" off="326" ext="16"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r23_s r28_line r30_phr"
+         off="326"
+         ext="16">my pretty knave,</text>
+   <end gi="phr" rID="r30_phr" off="342" ext="16"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r23_s r28_line"
+         off="342"
+         ext="1"> </text>
+   <start gi="phr" rID="r31_phr" off="343" ext="16"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r16_quatrain r23_s r28_line r31_phr"
+         off="343"
+         ext="16">betokeneth thee.</text>
+   <end gi="phr" rID="r31_phr" off="359" ext="16"/>
+   <end gi="line" rID="r28_line" off="359" ext="42"/>
+   <end gi="s" rID="r23_s" off="359" ext="138"/>
+   <end gi="quatrain" rID="r16_quatrain" off="359" ext="186"/>
+   <end gi="octave" rID="r03_octave" off="359" ext="358"/>
+   <text cf="r01_sonneteer r02_sonnet" off="359" ext="1">
+</text>
+   <start gi="sestet" rID="r32_sestet" off="360" ext="279"/>
+   <start gi="quatrain" rID="r33_quatrain" off="360" ext="191"/>
+   <start gi="s" rID="r34_s" off="360" ext="191"/>
+   <start gi="line" rID="r35_line" off="360" ext="47"/>
+   <start gi="phr" rID="r36_phr" off="360" ext="10"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r33_quatrain r34_s r35_line r36_phr"
+         off="360"
+         ext="10">Mark well,</text>
+   <end gi="phr" rID="r36_phr" off="370" ext="10"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r33_quatrain r34_s r35_line"
+         off="370"
+         ext="1"> </text>
+   <start gi="phr" rID="r37_phr" off="371" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r33_quatrain r34_s r35_line r37_phr"
+         off="371"
+         ext="9">dear boy,</text>
+   <end gi="phr" rID="r37_phr" off="380" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r33_quatrain r34_s r35_line"
+         off="380"
+         ext="1"> </text>
+   <start gi="phr" rID="r38_phr" off="381" ext="26"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r33_quatrain r34_s r35_line r38_phr"
+         off="381"
+         ext="26">whilst these assemble not,</text>
+   <end gi="phr" rID="r38_phr" off="407" ext="26"/>
+   <end gi="line" rID="r35_line" off="407" ext="47"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r33_quatrain r34_s"
+         off="407"
+         ext="1">
+</text>
+   <start gi="line" rID="r39_line" off="408" ext="52"/>
+   <start gi="phr" rID="r40_phr" off="408" ext="23"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r33_quatrain r34_s r39_line r40_phr"
+         off="408"
+         ext="23">Green springs the tree,</text>
+   <end gi="phr" rID="r40_phr" off="431" ext="23"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r33_quatrain r34_s r39_line"
+         off="431"
+         ext="1"> </text>
+   <start gi="phr" rID="r41_phr" off="432" ext="11"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r33_quatrain r34_s r39_line r41_phr"
+         off="432"
+         ext="11">hemp grows,</text>
+   <end gi="phr" rID="r41_phr" off="443" ext="11"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r33_quatrain r34_s r39_line"
+         off="443"
+         ext="1"> </text>
+   <start gi="phr" rID="r42_phr" off="444" ext="16"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r33_quatrain r34_s r39_line r42_phr"
+         off="444"
+         ext="16">the wag is wild;</text>
+   <end gi="phr" rID="r42_phr" off="460" ext="16"/>
+   <end gi="line" rID="r39_line" off="460" ext="52"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r33_quatrain r34_s"
+         off="460"
+         ext="1">
+</text>
+   <start gi="line" rID="r43_line" off="461" ext="44"/>
+   <start gi="phr" rID="r44_phr" off="461" ext="19"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r33_quatrain r34_s r43_line r44_phr"
+         off="461"
+         ext="19">But when they meet,</text>
+   <end gi="phr" rID="r44_phr" off="480" ext="19"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r33_quatrain r34_s r43_line"
+         off="480"
+         ext="1"> </text>
+   <start gi="phr" rID="r45_phr" off="481" ext="24"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r33_quatrain r34_s r43_line r45_phr"
+         off="481"
+         ext="24">it makes the timber rot,</text>
+   <end gi="phr" rID="r45_phr" off="505" ext="24"/>
+   <end gi="line" rID="r43_line" off="505" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r33_quatrain r34_s"
+         off="505"
+         ext="1">
+</text>
+   <start gi="line" rID="r46_line" off="506" ext="45"/>
+   <start gi="phr" rID="r47_phr" off="506" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r33_quatrain r34_s r46_line r47_phr"
+         off="506"
+         ext="20">It frets the halter,</text>
+   <end gi="phr" rID="r47_phr" off="526" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r33_quatrain r34_s r46_line"
+         off="526"
+         ext="1"> </text>
+   <start gi="phr" rID="r48_phr" off="527" ext="24"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r33_quatrain r34_s r46_line r48_phr"
+         off="527"
+         ext="24">and it chokes the child.</text>
+   <end gi="phr" rID="r48_phr" off="551" ext="24"/>
+   <end gi="line" rID="r46_line" off="551" ext="45"/>
+   <end gi="s" rID="r34_s" off="551" ext="191"/>
+   <end gi="quatrain" rID="r33_quatrain" off="551" ext="191"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet" off="551" ext="1">
+</text>
+   <start gi="couplet" rID="r49_couplet" off="552" ext="87"/>
+   <start gi="s" rID="r50_s" off="552" ext="87"/>
+   <start gi="line" rID="r51_line" off="552" ext="44"/>
+   <start gi="phr" rID="r52_phr" off="552" ext="16"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r49_couplet r50_s r51_line r52_phr"
+         off="552"
+         ext="16">Then bless thee,</text>
+   <end gi="phr" rID="r52_phr" off="568" ext="16"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r49_couplet r50_s r51_line"
+         off="568"
+         ext="1"> </text>
+   <start gi="phr" rID="r53_phr" off="569" ext="11"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r49_couplet r50_s r51_line r53_phr"
+         off="569"
+         ext="11">and beware,</text>
+   <end gi="phr" rID="r53_phr" off="580" ext="11"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r49_couplet r50_s r51_line"
+         off="580"
+         ext="1"> </text>
+   <start gi="phr" rID="r54_phr" off="581" ext="58"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r49_couplet r50_s r51_line r54_phr"
+         off="581"
+         ext="15">and let us pray</text>
+   <end gi="line" rID="r51_line" off="596" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r49_couplet r50_s r54_phr"
+         off="596"
+         ext="1">
+</text>
+   <start gi="line" rID="r55_line" off="597" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r32_sestet r49_couplet r50_s r54_phr r55_line"
+         off="597"
+         ext="42">We part not with thee at this meeting day.</text>
+   <end gi="line" rID="r55_line" off="639" ext="42"/>
+   <end gi="phr" rID="r54_phr" off="639" ext="58"/>
+   <end gi="s" rID="r50_s" off="639" ext="87"/>
+   <end gi="couplet" rID="r49_couplet" off="639" ext="87"/>
+   <end gi="sestet" rID="r32_sestet" off="639" ext="279"/>
+   <end gi="sonnet" rID="r02_sonnet" off="639" ext="638"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="639" ext="639"/>
+</LMNL>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="587">
+      <annotation gi="id">somefowls</annotation>
+      <annotation gi="author">Sir Thomas Wyatt</annotation>
+      <annotation gi="title">Sonnet XV</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="586"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="338"/>
+   <start gi="quatrain" rID="r04_quatrain" off="1" ext="171"/>
+   <start gi="s" rID="r05_s" off="1" ext="171"/>
+   <start gi="phr" rID="r06_phr" off="1" ext="86"/>
+   <start gi="line" rID="r07_line" off="1" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_phr r07_line"
+         off="1"
+         ext="46">Some fowls there be that have so perfect sight</text>
+   <end gi="line" rID="r07_line" off="47" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_phr"
+         off="47"
+         ext="1">
+</text>
+   <start gi="line" rID="r08_line" off="48" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_phr r08_line"
+         off="48"
+         ext="39">Again the sun their eyes for to defend;</text>
+   <end gi="line" rID="r08_line" off="87" ext="39"/>
+   <end gi="phr" rID="r06_phr" off="87" ext="86"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s"
+         off="87"
+         ext="1">
+</text>
+   <start gi="phr" rID="r09_phr" off="88" ext="84"/>
+   <start gi="line" rID="r10_line" off="88" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r09_phr r10_line"
+         off="88"
+         ext="43">And some because the light doth them offend</text>
+   <end gi="line" rID="r10_line" off="131" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r09_phr"
+         off="131"
+         ext="1">
+</text>
+   <start gi="line" rID="r11_line" off="132" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r09_phr r11_line"
+         off="132"
+         ext="40">Do never 'pear but in the dark or night.</text>
+   <end gi="line" rID="r11_line" off="172" ext="40"/>
+   <end gi="phr" rID="r09_phr" off="172" ext="84"/>
+   <end gi="s" rID="r05_s" off="172" ext="171"/>
+   <end gi="quatrain" rID="r04_quatrain" off="172" ext="171"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave" off="172" ext="1">
+</text>
+   <start gi="quatrain" rID="r12_quatrain" off="173" ext="166"/>
+   <start gi="s" rID="r13_s" off="173" ext="128"/>
+   <start gi="phr" rID="r14_phr" off="173" ext="62"/>
+   <start gi="line" rID="r15_line" off="173" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain r13_s r14_phr r15_line"
+         off="173"
+         ext="38">Other rejoice that see the fire bright</text>
+   <end gi="line" rID="r15_line" off="211" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain r13_s r14_phr"
+         off="211"
+         ext="1">
+</text>
+   <start gi="line" rID="r16_line" off="212" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain r13_s r14_phr r16_line"
+         off="212"
+         ext="23">And ween to play in it,</text>
+   <end gi="phr" rID="r14_phr" off="235" ext="62"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain r13_s r16_line"
+         off="235"
+         ext="1"> </text>
+   <start gi="phr" rID="r17_phr" off="236" ext="19"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain r13_s r16_line r17_phr"
+         off="236"
+         ext="19">as they do pretend,</text>
+   <end gi="phr" rID="r17_phr" off="255" ext="19"/>
+   <end gi="line" rID="r16_line" off="255" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain r13_s"
+         off="255"
+         ext="1">
+</text>
+   <start gi="line" rID="r18_line" off="256" ext="45"/>
+   <start gi="phr" rID="r19_phr" off="256" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain r13_s r18_line r19_phr"
+         off="256"
+         ext="45">And find the contrary of it that they intend.</text>
+   <end gi="phr" rID="r19_phr" off="301" ext="45"/>
+   <end gi="line" rID="r18_line" off="301" ext="45"/>
+   <end gi="s" rID="r13_s" off="301" ext="128"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain"
+         off="301"
+         ext="1">
+</text>
+   <start gi="s" rID="r20_s" off="302" ext="163"/>
+   <start gi="line" rID="r21_line" off="302" ext="37"/>
+   <start gi="phr" rID="r22_phr" off="302" ext="5"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain r20_s r21_line r22_phr"
+         off="302"
+         ext="5">Alas,</text>
+   <end gi="phr" rID="r22_phr" off="307" ext="5"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain r20_s r21_line"
+         off="307"
+         ext="1"> </text>
+   <start gi="phr" rID="r23_phr" off="308" ext="31"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r12_quatrain r20_s r21_line r23_phr"
+         off="308"
+         ext="31">of that sort I may be by right,</text>
+   <end gi="phr" rID="r23_phr" off="339" ext="31"/>
+   <end gi="line" rID="r21_line" off="339" ext="37"/>
+   <end gi="quatrain" rID="r12_quatrain" off="339" ext="166"/>
+   <end gi="octave" rID="r03_octave" off="339" ext="338"/>
+   <text cf="r01_sonneteer r02_sonnet r20_s" off="339" ext="1">
+</text>
+   <start gi="sestet" rID="r24_sestet" off="340" ext="247"/>
+   <start gi="quatrain" rID="r25_quatrain" off="340" ext="172"/>
+   <start gi="phr" rID="r26_phr" off="340" ext="83"/>
+   <start gi="line" rID="r27_line" off="340" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r20_s r24_sestet r25_quatrain r26_phr r27_line"
+         off="340"
+         ext="39">For to withstand her look I am not able</text>
+   <end gi="line" rID="r27_line" off="379" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r20_s r24_sestet r25_quatrain r26_phr"
+         off="379"
+         ext="1">
+</text>
+   <start gi="line" rID="r28_line" off="380" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r20_s r24_sestet r25_quatrain r26_phr r28_line"
+         off="380"
+         ext="43">And yet can I not hide me in no dark place,</text>
+   <end gi="line" rID="r28_line" off="423" ext="43"/>
+   <end gi="phr" rID="r26_phr" off="423" ext="83"/>
+   <text cf="r01_sonneteer r02_sonnet r20_s r24_sestet r25_quatrain"
+         off="423"
+         ext="1">
+</text>
+   <start gi="line" rID="r29_line" off="424" ext="41"/>
+   <start gi="phr" rID="r30_phr" off="424" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r20_s r24_sestet r25_quatrain r29_line r30_phr"
+         off="424"
+         ext="41">Remembrance so followeth me of that face.</text>
+   <end gi="phr" rID="r30_phr" off="465" ext="41"/>
+   <end gi="line" rID="r29_line" off="465" ext="41"/>
+   <end gi="s" rID="r20_s" off="465" ext="163"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_quatrain"
+         off="465"
+         ext="1">
+</text>
+   <start gi="s" rID="r31_s" off="466" ext="121"/>
+   <start gi="line" rID="r32_line" off="466" ext="46"/>
+   <start gi="phr" rID="r33_phr" off="466" ext="24"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_quatrain r31_s r32_line r33_phr"
+         off="466"
+         ext="24">So that with teary eyen,</text>
+   <end gi="phr" rID="r33_phr" off="490" ext="24"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_quatrain r31_s r32_line"
+         off="490"
+         ext="1"> </text>
+   <start gi="phr" rID="r34_phr" off="491" ext="21"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_quatrain r31_s r32_line r34_phr"
+         off="491"
+         ext="21">swollen and unstable,</text>
+   <end gi="phr" rID="r34_phr" off="512" ext="21"/>
+   <end gi="line" rID="r32_line" off="512" ext="46"/>
+   <end gi="quatrain" rID="r25_quatrain" off="512" ext="172"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r31_s" off="512" ext="1">
+</text>
+   <start gi="couplet" rID="r35_couplet" off="513" ext="74"/>
+   <start gi="line" rID="r36_line" off="513" ext="38"/>
+   <start gi="phr" rID="r37_phr" off="513" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r31_s r35_couplet r36_line r37_phr"
+         off="513"
+         ext="38">My destiny to behold her doth me lead,</text>
+   <end gi="phr" rID="r37_phr" off="551" ext="38"/>
+   <end gi="line" rID="r36_line" off="551" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r31_s r35_couplet"
+         off="551"
+         ext="1">
+</text>
+   <start gi="line" rID="r38_line" off="552" ext="35"/>
+   <start gi="phr" rID="r39_phr" off="552" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r31_s r35_couplet r38_line r39_phr"
+         off="552"
+         ext="35">Yet do I know I run into the gleed.</text>
+   <end gi="phr" rID="r39_phr" off="587" ext="35"/>
+   <end gi="line" rID="r38_line" off="587" ext="35"/>
+   <end gi="couplet" rID="r35_couplet" off="587" ext="74"/>
+   <end gi="s" rID="r31_s" off="587" ext="121"/>
+   <end gi="sestet" rID="r24_sestet" off="587" ext="247"/>
+   <end gi="sonnet" rID="r02_sonnet" off="587" ext="586"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="587" ext="587"/>
+</LMNL>

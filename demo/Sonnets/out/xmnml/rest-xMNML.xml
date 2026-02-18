@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="595">
+      <annotation gi="id">rest</annotation>
+      <annotation gi="author">Christina  Rossetti</annotation>
+      <annotation gi="title">Rest</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="594"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="351"/>
+   <start gi="quatrain" rID="r04_quatrain" off="1" ext="175"/>
+   <start gi="s" rID="r05_s" off="1" ext="80"/>
+   <start gi="line" rID="r06_line" off="1" ext="34"/>
+   <start gi="phr" rID="r07_phr" off="1" ext="34"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_line r07_phr"
+         off="1"
+         ext="34">O Earth lie heavily upon her eyes;</text>
+   <end gi="phr" rID="r07_phr" off="35" ext="34"/>
+   <end gi="line" rID="r06_line" off="35" ext="34"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s"
+         off="35"
+         ext="1">
+</text>
+   <start gi="line" rID="r08_line" off="36" ext="45"/>
+   <start gi="phr" rID="r09_phr" off="36" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_line r09_phr"
+         off="36"
+         ext="38">Seal her sweet eyes weary of watching,</text>
+   <end gi="phr" rID="r09_phr" off="74" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_line"
+         off="74"
+         ext="1"> </text>
+   <start gi="phr" rID="r10_phr" off="75" ext="6"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_line r10_phr"
+         off="75"
+         ext="6">Earth.</text>
+   <end gi="phr" rID="r10_phr" off="81" ext="6"/>
+   <end gi="line" rID="r08_line" off="81" ext="45"/>
+   <end gi="s" rID="r05_s" off="81" ext="80"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain"
+         off="81"
+         ext="1">
+</text>
+   <start gi="s" rID="r11_s" off="82" ext="94"/>
+   <start gi="line" rID="r12_line" off="82" ext="45"/>
+   <start gi="phr" rID="r13_phr" off="82" ext="21"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r11_s r12_line r13_phr"
+         off="82"
+         ext="21">Lie close around her,</text>
+   <end gi="phr" rID="r13_phr" off="103" ext="21"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r11_s r12_line"
+         off="103"
+         ext="1"> </text>
+   <start gi="phr" rID="r14_phr" off="104" ext="48"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r11_s r12_line r14_phr"
+         off="104"
+         ext="23">leave no room for mirth</text>
+   <end gi="line" rID="r12_line" off="127" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r11_s r14_phr"
+         off="127"
+         ext="1">
+</text>
+   <start gi="line" rID="r15_line" off="128" ext="48"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r11_s r14_phr r15_line"
+         off="128"
+         ext="24">With its harsh laughter,</text>
+   <end gi="phr" rID="r14_phr" off="152" ext="48"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r11_s r15_line"
+         off="152"
+         ext="1"> </text>
+   <start gi="phr" rID="r16_phr" off="153" ext="23"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r11_s r15_line r16_phr"
+         off="153"
+         ext="23">nor for sound of sighs.</text>
+   <end gi="phr" rID="r16_phr" off="176" ext="23"/>
+   <end gi="line" rID="r15_line" off="176" ext="48"/>
+   <end gi="s" rID="r11_s" off="176" ext="94"/>
+   <end gi="quatrain" rID="r04_quatrain" off="176" ext="175"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave" off="176" ext="1">
+</text>
+   <start gi="quatrain" rID="r17_quatrain" off="177" ext="175"/>
+   <start gi="s" rID="r18_s" off="177" ext="175"/>
+   <start gi="line" rID="r19_line" off="177" ext="43"/>
+   <start gi="phr" rID="r20_phr" off="177" ext="22"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r17_quatrain r18_s r19_line r20_phr"
+         off="177"
+         ext="22">She hath no questions,</text>
+   <end gi="phr" rID="r20_phr" off="199" ext="22"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r17_quatrain r18_s r19_line"
+         off="199"
+         ext="1"> </text>
+   <start gi="phr" rID="r21_phr" off="200" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r17_quatrain r18_s r19_line r21_phr"
+         off="200"
+         ext="20">she hath no replies,</text>
+   <end gi="phr" rID="r21_phr" off="220" ext="20"/>
+   <end gi="line" rID="r19_line" off="220" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r17_quatrain r18_s"
+         off="220"
+         ext="1">
+</text>
+   <start gi="phr" rID="r22_phr" off="221" ext="91"/>
+   <start gi="line" rID="r23_line" off="221" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r17_quatrain r18_s r22_phr r23_line"
+         off="221"
+         ext="45">Hushed in and curtained with a blessed dearth</text>
+   <end gi="line" rID="r23_line" off="266" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r17_quatrain r18_s r22_phr"
+         off="266"
+         ext="1">
+</text>
+   <start gi="line" rID="r24_line" off="267" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r17_quatrain r18_s r22_phr r24_line"
+         off="267"
+         ext="45">Of all that irked her from her hour of birth;</text>
+   <end gi="line" rID="r24_line" off="312" ext="45"/>
+   <end gi="phr" rID="r22_phr" off="312" ext="91"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r17_quatrain r18_s"
+         off="312"
+         ext="1">
+</text>
+   <start gi="line" rID="r25_line" off="313" ext="39"/>
+   <start gi="phr" rID="r26_phr" off="313" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r17_quatrain r18_s r25_line r26_phr"
+         off="313"
+         ext="39">With stillness that is almost Paradise.</text>
+   <end gi="phr" rID="r26_phr" off="352" ext="39"/>
+   <end gi="line" rID="r25_line" off="352" ext="39"/>
+   <end gi="s" rID="r18_s" off="352" ext="175"/>
+   <end gi="quatrain" rID="r17_quatrain" off="352" ext="175"/>
+   <end gi="octave" rID="r03_octave" off="352" ext="351"/>
+   <text cf="r01_sonneteer r02_sonnet" off="352" ext="1">
+</text>
+   <start gi="sestet" rID="r27_sestet" off="353" ext="242"/>
+   <start gi="s" rID="r28_s" off="353" ext="242"/>
+   <start gi="tercet" rID="r29_tercet" off="353" ext="123"/>
+   <start gi="line" rID="r30_line" off="353" ext="46"/>
+   <start gi="phr" rID="r31_phr" off="353" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_tercet r30_line r31_phr"
+         off="353"
+         ext="46">Darkness more clear than noon-day holdeth her,</text>
+   <end gi="phr" rID="r31_phr" off="399" ext="46"/>
+   <end gi="line" rID="r30_line" off="399" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_tercet"
+         off="399"
+         ext="1">
+</text>
+   <start gi="line" rID="r32_line" off="400" ext="35"/>
+   <start gi="phr" rID="r33_phr" off="400" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_tercet r32_line r33_phr"
+         off="400"
+         ext="35">Silence more musical than any song;</text>
+   <end gi="phr" rID="r33_phr" off="435" ext="35"/>
+   <end gi="line" rID="r32_line" off="435" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_tercet"
+         off="435"
+         ext="1">
+</text>
+   <start gi="line" rID="r34_line" off="436" ext="40"/>
+   <start gi="phr" rID="r35_phr" off="436" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_tercet r34_line r35_phr"
+         off="436"
+         ext="40">Even her very heart hath ceased to stir;</text>
+   <end gi="phr" rID="r35_phr" off="476" ext="40"/>
+   <end gi="line" rID="r34_line" off="476" ext="40"/>
+   <end gi="tercet" rID="r29_tercet" off="476" ext="123"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s" off="476" ext="1">
+</text>
+   <start gi="tercet" rID="r36_tercet" off="477" ext="118"/>
+   <start gi="phr" rID="r37_phr" off="477" ext="63"/>
+   <start gi="line" rID="r38_line" off="477" ext="29"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r36_tercet r37_phr r38_line"
+         off="477"
+         ext="29">Until the morning of Eternity</text>
+   <end gi="line" rID="r38_line" off="506" ext="29"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r36_tercet r37_phr"
+         off="506"
+         ext="1">
+</text>
+   <start gi="line" rID="r39_line" off="507" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r36_tercet r37_phr r39_line"
+         off="507"
+         ext="33">Her rest shall not begin nor end,</text>
+   <end gi="phr" rID="r37_phr" off="540" ext="63"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r36_tercet r39_line"
+         off="540"
+         ext="1"> </text>
+   <start gi="phr" rID="r40_phr" off="541" ext="7"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r36_tercet r39_line r40_phr"
+         off="541"
+         ext="7">but be,</text>
+   <end gi="phr" rID="r40_phr" off="548" ext="7"/>
+   <end gi="line" rID="r39_line" off="548" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r36_tercet"
+         off="548"
+         ext="1">
+</text>
+   <start gi="line" rID="r41_line" off="549" ext="46"/>
+   <start gi="phr" rID="r42_phr" off="549" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r36_tercet r41_line r42_phr"
+         off="549"
+         ext="46">And when she wakes she will not think it long.</text>
+   <end gi="phr" rID="r42_phr" off="595" ext="46"/>
+   <end gi="line" rID="r41_line" off="595" ext="46"/>
+   <end gi="tercet" rID="r36_tercet" off="595" ext="118"/>
+   <end gi="s" rID="r28_s" off="595" ext="242"/>
+   <end gi="sestet" rID="r27_sestet" off="595" ext="242"/>
+   <end gi="sonnet" rID="r02_sonnet" off="595" ext="594"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="595" ext="595"/>
+</LMNL>

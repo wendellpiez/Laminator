@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="590">
+      <annotation gi="id">howmanybards</annotation>
+      <annotation gi="author">John Keats</annotation>
+      <annotation gi="title">How many bards gild the lapses of time</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="589"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="321"/>
+   <start gi="quatrain" rID="r04_quatrain" off="1" ext="156"/>
+   <start gi="line" rID="r05_line" off="1" ext="39"/>
+   <start gi="s" rID="r06_s" off="1" ext="39"/>
+   <start gi="phr" rID="r07_phr" off="1" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_line r06_s r07_phr"
+         off="1"
+         ext="39">How many bards gild the lapses of time!</text>
+   <end gi="phr" rID="r07_phr" off="40" ext="39"/>
+   <end gi="s" rID="r06_s" off="40" ext="39"/>
+   <end gi="line" rID="r05_line" off="40" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain"
+         off="40"
+         ext="1">
+</text>
+   <start gi="s" rID="r08_s" off="41" ext="281"/>
+   <start gi="phr" rID="r09_phr" off="41" ext="60"/>
+   <start gi="line" rID="r10_line" off="41" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r08_s r09_phr r10_line"
+         off="41"
+         ext="37">A few of them have ever been the food</text>
+   <end gi="line" rID="r10_line" off="78" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r08_s r09_phr"
+         off="78"
+         ext="1">
+</text>
+   <start gi="line" rID="r11_line" off="79" ext="36"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r08_s r09_phr r11_line"
+         off="79"
+         ext="22">Of my delighted fancy,</text>
+   <end gi="phr" rID="r09_phr" off="101" ext="60"/>
+   <start gi="phr" rID="r12_phr" off="101" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r08_s r11_line r12_phr"
+         off="101"
+         ext="14">—I could brood</text>
+   <end gi="line" rID="r11_line" off="115" ext="36"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r08_s r12_phr"
+         off="115"
+         ext="1">
+</text>
+   <start gi="line" rID="r13_line" off="116" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r08_s r12_phr r13_line"
+         off="116"
+         ext="20">Over their beauties,</text>
+   <end gi="phr" rID="r12_phr" off="136" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r08_s r13_line"
+         off="136"
+         ext="1"> </text>
+   <start gi="phr" rID="r14_phr" off="137" ext="8"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r08_s r13_line r14_phr"
+         off="137"
+         ext="8">earthly,</text>
+   <end gi="phr" rID="r14_phr" off="145" ext="8"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r08_s r13_line"
+         off="145"
+         ext="1"> </text>
+   <start gi="phr" rID="r15_phr" off="146" ext="11"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r08_s r13_line r15_phr"
+         off="146"
+         ext="11">or sublime:</text>
+   <end gi="phr" rID="r15_phr" off="157" ext="11"/>
+   <end gi="line" rID="r13_line" off="157" ext="41"/>
+   <end gi="quatrain" rID="r04_quatrain" off="157" ext="156"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r08_s" off="157" ext="1">
+</text>
+   <start gi="quatrain" rID="r16_quatrain" off="158" ext="164"/>
+   <start gi="line" rID="r17_line" off="158" ext="39"/>
+   <start gi="phr" rID="r18_phr" off="158" ext="10"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r08_s r16_quatrain r17_line r18_phr"
+         off="158"
+         ext="10">And often,</text>
+   <end gi="phr" rID="r18_phr" off="168" ext="10"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r08_s r16_quatrain r17_line"
+         off="168"
+         ext="1"> </text>
+   <start gi="phr" rID="r19_phr" off="169" ext="28"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r08_s r16_quatrain r17_line r19_phr"
+         off="169"
+         ext="28">when I sit me down to rhyme,</text>
+   <end gi="phr" rID="r19_phr" off="197" ext="28"/>
+   <end gi="line" rID="r17_line" off="197" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r08_s r16_quatrain"
+         off="197"
+         ext="1">
+</text>
+   <start gi="line" rID="r20_line" off="198" ext="45"/>
+   <start gi="phr" rID="r21_phr" off="198" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r08_s r16_quatrain r20_line r21_phr"
+         off="198"
+         ext="45">These will in throngs before my mind intrude:</text>
+   <end gi="phr" rID="r21_phr" off="243" ext="45"/>
+   <end gi="line" rID="r20_line" off="243" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r08_s r16_quatrain"
+         off="243"
+         ext="1">
+</text>
+   <start gi="line" rID="r22_line" off="244" ext="37"/>
+   <start gi="phr" rID="r23_phr" off="244" ext="17"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r08_s r16_quatrain r22_line r23_phr"
+         off="244"
+         ext="17">But no confusion,</text>
+   <end gi="phr" rID="r23_phr" off="261" ext="17"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r08_s r16_quatrain r22_line"
+         off="261"
+         ext="1"> </text>
+   <start gi="phr" rID="r24_phr" off="262" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r08_s r16_quatrain r22_line r24_phr"
+         off="262"
+         ext="19">no disturbance rude</text>
+   <end gi="line" rID="r22_line" off="281" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r08_s r16_quatrain r24_phr"
+         off="281"
+         ext="1">
+</text>
+   <start gi="line" rID="r25_line" off="282" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r08_s r16_quatrain r24_phr r25_line"
+         off="282"
+         ext="17">Do they occasion;</text>
+   <end gi="phr" rID="r24_phr" off="299" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r08_s r16_quatrain r25_line"
+         off="299"
+         ext="1"> </text>
+   <start gi="phr" rID="r26_phr" off="300" ext="22"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r08_s r16_quatrain r25_line r26_phr"
+         off="300"
+         ext="22">’tis a pleasing chime.</text>
+   <end gi="phr" rID="r26_phr" off="322" ext="22"/>
+   <end gi="line" rID="r25_line" off="322" ext="40"/>
+   <end gi="quatrain" rID="r16_quatrain" off="322" ext="164"/>
+   <end gi="s" rID="r08_s" off="322" ext="281"/>
+   <end gi="octave" rID="r03_octave" off="322" ext="321"/>
+   <text cf="r01_sonneteer r02_sonnet" off="322" ext="1">
+</text>
+   <start gi="sestet" rID="r27_sestet" off="323" ext="267"/>
+   <start gi="s" rID="r28_s" off="323" ext="267"/>
+   <start gi="quatrain" rID="r29_quatrain" off="323" ext="185"/>
+   <start gi="line" rID="r30_line" off="323" ext="44"/>
+   <start gi="phr" rID="r31_phr" off="323" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r30_line r31_phr"
+         off="323"
+         ext="44">So the unnumber’d sounds that evening store;</text>
+   <end gi="phr" rID="r31_phr" off="367" ext="44"/>
+   <end gi="line" rID="r30_line" off="367" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain"
+         off="367"
+         ext="1">
+</text>
+   <start gi="line" rID="r32_line" off="368" ext="48"/>
+   <start gi="phr" rID="r33_phr" off="368" ext="19"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r32_line r33_phr"
+         off="368"
+         ext="19">The songs of birds—</text>
+   <end gi="phr" rID="r33_phr" off="387" ext="19"/>
+   <start gi="phr" rID="r34_phr" off="387" ext="29"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r32_line r34_phr"
+         off="387"
+         ext="29">the whisp’ring of the leaves—</text>
+   <end gi="phr" rID="r34_phr" off="416" ext="29"/>
+   <end gi="line" rID="r32_line" off="416" ext="48"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain"
+         off="416"
+         ext="1">
+</text>
+   <start gi="line" rID="r35_line" off="417" ext="46"/>
+   <start gi="phr" rID="r36_phr" off="417" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r35_line r36_phr"
+         off="417"
+         ext="20">The voice of waters—</text>
+   <end gi="phr" rID="r36_phr" off="437" ext="20"/>
+   <start gi="phr" rID="r37_phr" off="437" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r35_line r37_phr"
+         off="437"
+         ext="26">the great bell that heaves</text>
+   <end gi="line" rID="r35_line" off="463" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r37_phr"
+         off="463"
+         ext="1">
+</text>
+   <start gi="line" rID="r38_line" off="464" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r37_phr r38_line"
+         off="464"
+         ext="18">With solemn sound,</text>
+   <end gi="phr" rID="r37_phr" off="482" ext="45"/>
+   <start gi="phr" rID="r39_phr" off="482" ext="26"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r38_line r39_phr"
+         off="482"
+         ext="26">—and thousand others more,</text>
+   <end gi="phr" rID="r39_phr" off="508" ext="26"/>
+   <end gi="line" rID="r38_line" off="508" ext="44"/>
+   <end gi="quatrain" rID="r29_quatrain" off="508" ext="185"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s" off="508" ext="1">
+</text>
+   <start gi="couplet" rID="r40_couplet" off="509" ext="81"/>
+   <start gi="line" rID="r41_line" off="509" ext="39"/>
+   <start gi="phr" rID="r42_phr" off="509" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r40_couplet r41_line r42_phr"
+         off="509"
+         ext="39">That distance of recognizance bereaves,</text>
+   <end gi="phr" rID="r42_phr" off="548" ext="39"/>
+   <end gi="line" rID="r41_line" off="548" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r40_couplet"
+         off="548"
+         ext="1">
+</text>
+   <start gi="line" rID="r43_line" off="549" ext="41"/>
+   <start gi="phr" rID="r44_phr" off="549" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r40_couplet r43_line r44_phr"
+         off="549"
+         ext="20">Make pleasing music,</text>
+   <end gi="phr" rID="r44_phr" off="569" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r40_couplet r43_line"
+         off="569"
+         ext="1"> </text>
+   <start gi="phr" rID="r45_phr" off="570" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r40_couplet r43_line r45_phr"
+         off="570"
+         ext="20">and not wild uproar.</text>
+   <end gi="phr" rID="r45_phr" off="590" ext="20"/>
+   <end gi="line" rID="r43_line" off="590" ext="41"/>
+   <end gi="couplet" rID="r40_couplet" off="590" ext="81"/>
+   <end gi="s" rID="r28_s" off="590" ext="267"/>
+   <end gi="sestet" rID="r27_sestet" off="590" ext="267"/>
+   <end gi="sonnet" rID="r02_sonnet" off="590" ext="589"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="590" ext="590"/>
+</LMNL>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="581">
+      <annotation gi="id">momentsmonument</annotation>
+      <annotation gi="author">Dante Gabriel Rossetti</annotation>
+      <annotation gi="title">A Sonnet is a moment's monument</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="580"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="309"/>
+   <start gi="quatrain" rID="r04_quatrain" off="1" ext="156"/>
+   <start gi="s" rID="r05_s" off="1" ext="97"/>
+   <start gi="line" rID="r06_line" off="1" ext="35"/>
+   <start gi="phr" rID="r07_phr" off="1" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_line r07_phr"
+         off="1"
+         ext="35">A Sonnet is a moment's monument, — </text>
+   <end gi="phr" rID="r07_phr" off="36" ext="35"/>
+   <end gi="line" rID="r06_line" off="36" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s"
+         off="36"
+         ext="1">
+</text>
+   <start gi="phr" rID="r08_phr" off="37" ext="61"/>
+   <start gi="line" rID="r09_line" off="37" ext="33"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_phr r09_line"
+         off="37"
+         ext="33">Memorial from the Soul's eternity</text>
+   <end gi="line" rID="r09_line" off="70" ext="33"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_phr"
+         off="70"
+         ext="1">
+</text>
+   <start gi="line" rID="r10_line" off="71" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_phr r10_line"
+         off="71"
+         ext="27">To one dead deathless hour.</text>
+   <end gi="phr" rID="r08_phr" off="98" ext="61"/>
+   <end gi="s" rID="r05_s" off="98" ext="97"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r10_line"
+         off="98"
+         ext="1"> </text>
+   <start gi="s" rID="r11_s" off="99" ext="211"/>
+   <start gi="phr" rID="r12_phr" off="99" ext="16"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r10_line r11_s r12_phr"
+         off="99"
+         ext="16">Look that it be,</text>
+   <end gi="phr" rID="r12_phr" off="115" ext="16"/>
+   <end gi="line" rID="r10_line" off="115" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r11_s"
+         off="115"
+         ext="1">
+</text>
+   <start gi="line" rID="r13_line" off="116" ext="41"/>
+   <start gi="phr" rID="r14_phr" off="116" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r11_s r13_line r14_phr"
+         off="116"
+         ext="41">Whether for lustral rite or dire portent,</text>
+   <end gi="phr" rID="r14_phr" off="157" ext="41"/>
+   <end gi="line" rID="r13_line" off="157" ext="41"/>
+   <end gi="quatrain" rID="r04_quatrain" off="157" ext="156"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r11_s" off="157" ext="1">
+</text>
+   <start gi="quatrain" rID="r15_quatrain" off="158" ext="152"/>
+   <start gi="line" rID="r16_line" off="158" ext="36"/>
+   <start gi="phr" rID="r17_phr" off="158" ext="36"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r11_s r15_quatrain r16_line r17_phr"
+         off="158"
+         ext="36">Of its own arduous fulness reverent:</text>
+   <end gi="phr" rID="r17_phr" off="194" ext="36"/>
+   <end gi="line" rID="r16_line" off="194" ext="36"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r11_s r15_quatrain"
+         off="194"
+         ext="1">
+</text>
+   <start gi="line" rID="r18_line" off="195" ext="30"/>
+   <start gi="phr" rID="r19_phr" off="195" ext="30"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r11_s r15_quatrain r18_line r19_phr"
+         off="195"
+         ext="30">Carve it in ivory or in ebony,</text>
+   <end gi="phr" rID="r19_phr" off="225" ext="30"/>
+   <end gi="line" rID="r18_line" off="225" ext="30"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r11_s r15_quatrain"
+         off="225"
+         ext="1">
+</text>
+   <start gi="line" rID="r20_line" off="226" ext="42"/>
+   <start gi="phr" rID="r21_phr" off="226" ext="25"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r11_s r15_quatrain r20_line r21_phr"
+         off="226"
+         ext="25">As Day or Night may rule;</text>
+   <end gi="phr" rID="r21_phr" off="251" ext="25"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r11_s r15_quatrain r20_line"
+         off="251"
+         ext="1"> </text>
+   <start gi="phr" rID="r22_phr" off="252" ext="58"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r11_s r15_quatrain r20_line r22_phr"
+         off="252"
+         ext="16">and let Time see</text>
+   <end gi="line" rID="r20_line" off="268" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r11_s r15_quatrain r22_phr"
+         off="268"
+         ext="1">
+</text>
+   <start gi="line" rID="r23_line" off="269" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r11_s r15_quatrain r22_phr r23_line"
+         off="269"
+         ext="41">Its flowering crest impearled and orient.</text>
+   <end gi="line" rID="r23_line" off="310" ext="41"/>
+   <end gi="phr" rID="r22_phr" off="310" ext="58"/>
+   <end gi="quatrain" rID="r15_quatrain" off="310" ext="152"/>
+   <end gi="s" rID="r11_s" off="310" ext="211"/>
+   <end gi="octave" rID="r03_octave" off="310" ext="309"/>
+   <text cf="r01_sonneteer r02_sonnet" off="310" ext="1">
+</text>
+   <start gi="sestet" rID="r24_sestet" off="311" ext="270"/>
+   <start gi="s" rID="r25_s" off="311" ext="270"/>
+   <start gi="quatrain" rID="r26_quatrain" off="311" ext="173"/>
+   <start gi="line" rID="r27_line" off="311" ext="36"/>
+   <start gi="phr" rID="r28_phr" off="311" ext="19"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r26_quatrain r27_line r28_phr"
+         off="311"
+         ext="19">A Sonnet is a coin:</text>
+   <end gi="phr" rID="r28_phr" off="330" ext="19"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r26_quatrain r27_line"
+         off="330"
+         ext="1"> </text>
+   <start gi="phr" rID="r29_phr" off="331" ext="28"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r26_quatrain r27_line r29_phr"
+         off="331"
+         ext="16">its face reveals</text>
+   <end gi="line" rID="r27_line" off="347" ext="36"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r26_quatrain r29_phr"
+         off="347"
+         ext="1">
+</text>
+   <start gi="line" rID="r30_line" off="348" ext="52"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r26_quatrain r29_phr r30_line"
+         off="348"
+         ext="11">The soul, —</text>
+   <end gi="phr" rID="r29_phr" off="359" ext="28"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r26_quatrain r30_line"
+         off="359"
+         ext="1"> </text>
+   <start gi="phr" rID="r31_phr" off="360" ext="13"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r26_quatrain r30_line r31_phr"
+         off="360"
+         ext="13">its converse,</text>
+   <end gi="phr" rID="r31_phr" off="373" ext="13"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r26_quatrain r30_line"
+         off="373"
+         ext="1"> </text>
+   <start gi="phr" rID="r32_phr" off="374" ext="26"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r26_quatrain r30_line r32_phr"
+         off="374"
+         ext="26">to what Power 'tis due: — </text>
+   <end gi="phr" rID="r32_phr" off="400" ext="26"/>
+   <end gi="line" rID="r30_line" off="400" ext="52"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r26_quatrain"
+         off="400"
+         ext="1">
+</text>
+   <start gi="phr" rID="r33_phr" off="401" ext="50"/>
+   <start gi="line" rID="r34_line" off="401" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r26_quatrain r33_phr r34_line"
+         off="401"
+         ext="41">Whether for tribute to the august appeals</text>
+   <end gi="line" rID="r34_line" off="442" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r26_quatrain r33_phr"
+         off="442"
+         ext="1">
+</text>
+   <start gi="line" rID="r35_line" off="443" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r26_quatrain r33_phr r35_line"
+         off="443"
+         ext="8">Of Life,</text>
+   <end gi="phr" rID="r33_phr" off="451" ext="50"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r26_quatrain r35_line"
+         off="451"
+         ext="1"> </text>
+   <start gi="phr" rID="r36_phr" off="452" ext="32"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r26_quatrain r35_line r36_phr"
+         off="452"
+         ext="32">or dower in Love's high retinue,</text>
+   <end gi="phr" rID="r36_phr" off="484" ext="32"/>
+   <end gi="line" rID="r35_line" off="484" ext="41"/>
+   <end gi="quatrain" rID="r26_quatrain" off="484" ext="173"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s" off="484" ext="1">
+</text>
+   <start gi="couplet" rID="r37_couplet" off="485" ext="96"/>
+   <start gi="line" rID="r38_line" off="485" ext="53"/>
+   <start gi="phr" rID="r39_phr" off="485" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r37_couplet r38_line r39_phr"
+         off="485"
+         ext="9">It serve,</text>
+   <end gi="phr" rID="r39_phr" off="494" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r37_couplet r38_line"
+         off="494"
+         ext="1"> </text>
+   <start gi="phr" rID="r40_phr" off="495" ext="3"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r37_couplet r38_line r40_phr"
+         off="495"
+         ext="3">or,</text>
+   <end gi="phr" rID="r40_phr" off="498" ext="3"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r37_couplet r38_line"
+         off="498"
+         ext="1"> </text>
+   <start gi="phr" rID="r41_phr" off="499" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r37_couplet r38_line r41_phr"
+         off="499"
+         ext="39">'mid the dark wharf's cavernous breath,</text>
+   <end gi="phr" rID="r41_phr" off="538" ext="39"/>
+   <end gi="line" rID="r38_line" off="538" ext="53"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r37_couplet"
+         off="538"
+         ext="1">
+</text>
+   <start gi="line" rID="r42_line" off="539" ext="42"/>
+   <start gi="phr" rID="r43_phr" off="539" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r24_sestet r25_s r37_couplet r42_line r43_phr"
+         off="539"
+         ext="42">In Charon's palm it pay the toll to Death.</text>
+   <end gi="phr" rID="r43_phr" off="581" ext="42"/>
+   <end gi="line" rID="r42_line" off="581" ext="42"/>
+   <end gi="couplet" rID="r37_couplet" off="581" ext="96"/>
+   <end gi="s" rID="r25_s" off="581" ext="270"/>
+   <end gi="sestet" rID="r24_sestet" off="581" ext="270"/>
+   <end gi="sonnet" rID="r02_sonnet" off="581" ext="580"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="581" ext="581"/>
+</LMNL>

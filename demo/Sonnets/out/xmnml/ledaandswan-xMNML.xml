@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="626">
+      <annotation gi="id">ledaandswan</annotation>
+      <annotation gi="author">William Butler Yeats</annotation>
+      <annotation gi="title">Leda and the Swan</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="625"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="367"/>
+   <start gi="quatrain" rID="r04_quatrain" off="1" ext="184"/>
+   <start gi="s" rID="r05_s" off="1" ext="184"/>
+   <start gi="line" rID="r06_line" off="1" ext="44"/>
+   <start gi="phr" rID="r07_phr" off="1" ext="14"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_line r07_phr"
+         off="1"
+         ext="14">A sudden blow:</text>
+   <end gi="phr" rID="r07_phr" off="15" ext="14"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_line"
+         off="15"
+         ext="1"> </text>
+   <start gi="phr" rID="r08_phr" off="16" ext="56"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_line r08_phr"
+         off="16"
+         ext="29">the great wings beating still</text>
+   <end gi="line" rID="r06_line" off="45" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_phr"
+         off="45"
+         ext="1">
+</text>
+   <start gi="line" rID="r09_line" off="46" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_phr r09_line"
+         off="46"
+         ext="26">Above the staggering girl,</text>
+   <end gi="phr" rID="r08_phr" off="72" ext="56"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r09_line"
+         off="72"
+         ext="1"> </text>
+   <start gi="phr" rID="r10_phr" off="73" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r09_line r10_phr"
+         off="73"
+         ext="19">her thighs caressed</text>
+   <end gi="line" rID="r09_line" off="92" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r10_phr"
+         off="92"
+         ext="1">
+</text>
+   <start gi="line" rID="r11_line" off="93" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r10_phr r11_line"
+         off="93"
+         ext="17">By the dark webs,</text>
+   <end gi="phr" rID="r10_phr" off="110" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r11_line"
+         off="110"
+         ext="1"> </text>
+   <start gi="phr" rID="r12_phr" off="111" ext="28"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r11_line r12_phr"
+         off="111"
+         ext="28">her nape caught in his bill,</text>
+   <end gi="phr" rID="r12_phr" off="139" ext="28"/>
+   <end gi="line" rID="r11_line" off="139" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s"
+         off="139"
+         ext="1">
+</text>
+   <start gi="line" rID="r13_line" off="140" ext="45"/>
+   <start gi="phr" rID="r14_phr" off="140" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r13_line r14_phr"
+         off="140"
+         ext="45">He holds her helpless breast upon his breast.</text>
+   <end gi="phr" rID="r14_phr" off="185" ext="45"/>
+   <end gi="line" rID="r13_line" off="185" ext="45"/>
+   <end gi="s" rID="r05_s" off="185" ext="184"/>
+   <end gi="quatrain" rID="r04_quatrain" off="185" ext="184"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave" off="185" ext="1">
+</text>
+   <start gi="quatrain" rID="r15_quatrain" off="186" ext="182"/>
+   <start gi="s" rID="r16_s" off="186" ext="89"/>
+   <start gi="phr" rID="r17_phr" off="186" ext="89"/>
+   <start gi="line" rID="r18_line" off="186" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r16_s r17_phr r18_line"
+         off="186"
+         ext="42">How can those terrified vague fingers push</text>
+   <end gi="line" rID="r18_line" off="228" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r16_s r17_phr"
+         off="228"
+         ext="1">
+</text>
+   <start gi="line" rID="r19_line" off="229" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r16_s r17_phr r19_line"
+         off="229"
+         ext="46">The feathered glory from her loosening thighs?</text>
+   <end gi="line" rID="r19_line" off="275" ext="46"/>
+   <end gi="phr" rID="r17_phr" off="275" ext="89"/>
+   <end gi="s" rID="r16_s" off="275" ext="89"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain"
+         off="275"
+         ext="1">
+</text>
+   <start gi="s" rID="r20_s" off="276" ext="92"/>
+   <start gi="line" rID="r21_line" off="276" ext="42"/>
+   <start gi="phr" rID="r22_phr" off="276" ext="17"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r20_s r21_line r22_phr"
+         off="276"
+         ext="17">And how can body,</text>
+   <end gi="phr" rID="r22_phr" off="293" ext="17"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r20_s r21_line"
+         off="293"
+         ext="1"> </text>
+   <start gi="phr" rID="r23_phr" off="294" ext="24"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r20_s r21_line r23_phr"
+         off="294"
+         ext="24">laid in that white rush,</text>
+   <end gi="phr" rID="r23_phr" off="318" ext="24"/>
+   <end gi="line" rID="r21_line" off="318" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r20_s"
+         off="318"
+         ext="1">
+</text>
+   <start gi="line" rID="r24_line" off="319" ext="49"/>
+   <start gi="phr" rID="r25_phr" off="319" ext="49"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r20_s r24_line r25_phr"
+         off="319"
+         ext="49">But feel the strange heart beating where it lies?</text>
+   <end gi="phr" rID="r25_phr" off="368" ext="49"/>
+   <end gi="line" rID="r24_line" off="368" ext="49"/>
+   <end gi="s" rID="r20_s" off="368" ext="92"/>
+   <end gi="quatrain" rID="r15_quatrain" off="368" ext="182"/>
+   <end gi="octave" rID="r03_octave" off="368" ext="367"/>
+   <text cf="r01_sonneteer r02_sonnet" off="368" ext="1">
+</text>
+   <start gi="sestet" rID="r26_sestet" off="369" ext="257"/>
+   <start gi="tercet" rID="r27_tercet" off="369" ext="122"/>
+   <start gi="s" rID="r28_s" off="369" ext="102"/>
+   <start gi="phr" rID="r29_phr" off="369" ext="55"/>
+   <start gi="line" rID="r30_line" off="369" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r27_tercet r28_s r29_phr r30_line"
+         off="369"
+         ext="38">A shudder in the loins engenders there</text>
+   <end gi="line" rID="r30_line" off="407" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r27_tercet r28_s r29_phr"
+         off="407"
+         ext="1">
+</text>
+   <start gi="line" rID="r31_line" off="408" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r27_tercet r28_s r29_phr r31_line"
+         off="408"
+         ext="16">The broken wall,</text>
+   <end gi="phr" rID="r29_phr" off="424" ext="55"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r27_tercet r28_s r31_line"
+         off="424"
+         ext="1"> </text>
+   <start gi="phr" rID="r32_phr" off="425" ext="46"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r27_tercet r28_s r31_line r32_phr"
+         off="425"
+         ext="26">the burning roof and tower</text>
+   <end gi="line" rID="r31_line" off="451" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r27_tercet r28_s r32_phr"
+         off="451"
+         ext="1">
+</text>
+   <start gi="line" rID="r33_line" off="452" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r27_tercet r28_s r32_phr r33_line"
+         off="452"
+         ext="19">And Agamemnon dead.</text>
+   <end gi="phr" rID="r32_phr" off="471" ext="46"/>
+   <end gi="s" rID="r28_s" off="471" ext="102"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r27_tercet r33_line"
+         off="471"
+         ext="1"> </text>
+   <start gi="s" rID="r34_s" off="472" ext="154"/>
+   <start gi="phr" rID="r35_phr" off="472" ext="19"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r27_tercet r33_line r34_s r35_phr"
+         off="472"
+         ext="19">Being so caught up,</text>
+   <end gi="phr" rID="r35_phr" off="491" ext="19"/>
+   <end gi="line" rID="r33_line" off="491" ext="39"/>
+   <end gi="tercet" rID="r27_tercet" off="491" ext="122"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r34_s" off="491" ext="1">
+</text>
+   <start gi="tercet" rID="r36_tercet" off="492" ext="134"/>
+   <start gi="line" rID="r37_line" off="492" ext="42"/>
+   <start gi="phr" rID="r38_phr" off="492" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r34_s r36_tercet r37_line r38_phr"
+         off="492"
+         ext="42">So mastered by the brute blood of the air,</text>
+   <end gi="phr" rID="r38_phr" off="534" ext="42"/>
+   <end gi="line" rID="r37_line" off="534" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r34_s r36_tercet"
+         off="534"
+         ext="1">
+</text>
+   <start gi="phr" rID="r39_phr" off="535" ext="91"/>
+   <start gi="line" rID="r40_line" off="535" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r34_s r36_tercet r39_phr r40_line"
+         off="535"
+         ext="43">Did she put on his knowledge with his power</text>
+   <end gi="line" rID="r40_line" off="578" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r34_s r36_tercet r39_phr"
+         off="578"
+         ext="1">
+</text>
+   <start gi="line" rID="r41_line" off="579" ext="47"/>
+   <text cf="r01_sonneteer r02_sonnet r26_sestet r34_s r36_tercet r39_phr r41_line"
+         off="579"
+         ext="47">Before the indifferent beak could let her drop?</text>
+   <end gi="line" rID="r41_line" off="626" ext="47"/>
+   <end gi="phr" rID="r39_phr" off="626" ext="91"/>
+   <end gi="tercet" rID="r36_tercet" off="626" ext="134"/>
+   <end gi="s" rID="r34_s" off="626" ext="154"/>
+   <end gi="sestet" rID="r26_sestet" off="626" ext="257"/>
+   <end gi="sonnet" rID="r02_sonnet" off="626" ext="625"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="626" ext="626"/>
+</LMNL>

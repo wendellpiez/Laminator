@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="daintywits"
+           author="Sir Philip Sidney"
+           title="Astrophel and Stella III">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>Let dainty wits cry on the sisters nine,</line>
+            <line>That, bravely masked, their fancies may be told;</line>
+            <line>Or Pindar's apes flaunt they in phrases fine,</line>
+            <line>Enam'ling with pied flowers their thoughts of gold;</line>
+         </quatrain>
+         <quatrain>
+            <line>Or else let them in statelier glory shine,</line>
+            <line>Ennobling new-found tropes with problems old;</line>
+            <line>Or with strange similes enrich each line,</line>
+            <line>Of herbs or beasts with Ind or Afric hold.</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <tercet>
+            <line>For me, in sooth, no Muse but one I know;</line>
+            <line>Phrases and problems from my reach do grow,</line>
+            <line>And strange things cost too dear for my poor sprites.</line>
+         </tercet>
+         <tercet>
+            <line>How then? even thus,—in Stella's face I read</line>
+            <line>What love and beauty be, then all my deed</line>
+            <line>But copying is, what in her Nature writes.</line>
+         </tercet>
+      </sestet>
+   </sonnet>
+</sonneteer>

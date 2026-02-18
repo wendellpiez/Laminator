@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="kissandpart"
+           author="Michael Drayton"
+           title="Since there's no help, come let us kiss and part">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>Since there's no help, come let us kiss and part,</line>
+            <line>Nay I have done, you get no more of me;</line>
+            <line>And I am glad, yea, glad with all my heart,</line>
+            <line>That thus so cleanly I myself can free;</line>
+         </quatrain>
+         <quatrain>
+            <line>Shake hands for ever, cancel all our vows,</line>
+            <line>And when we meet at any time again,</line>
+            <line>Be it not seen in either of our brows</line>
+            <line>That we one lot of former love retain.</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <quatrain>
+            <line>Now at the last gasp of love's latest breath,</line>
+            <line>When his pulse failing, passion speechless lies,</line>
+            <line>When faith is kneeling by his bed of death,</line>
+            <line>And innocence is closing up his eyes,</line>
+         </quatrain>
+         <couplet>
+            <line>— Now if thou would'st, when all have given him over,</line>
+            <line>From death to life thou might'st him yet recover!</line>
+         </couplet>
+      </sestet>
+   </sonnet>
+</sonneteer>

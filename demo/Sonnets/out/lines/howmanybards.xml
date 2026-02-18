@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="howmanybards"
+           author="John Keats"
+           title="How many bards gild the lapses of time">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>How many bards gild the lapses of time!</line>
+            <line>A few of them have ever been the food</line>
+            <line>Of my delighted fancy,—I could brood</line>
+            <line>Over their beauties, earthly, or sublime:</line>
+         </quatrain>
+         <quatrain>
+            <line>And often, when I sit me down to rhyme,</line>
+            <line>These will in throngs before my mind intrude:</line>
+            <line>But no confusion, no disturbance rude</line>
+            <line>Do they occasion; ’tis a pleasing chime.</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <quatrain>
+            <line>So the unnumber’d sounds that evening store;</line>
+            <line>The songs of birds—the whisp’ring of the leaves—</line>
+            <line>The voice of waters—the great bell that heaves</line>
+            <line>With solemn sound,—and thousand others more,</line>
+         </quatrain>
+         <couplet>
+            <line>That distance of recognizance bereaves,</line>
+            <line>Make pleasing music, and not wild uproar.</line>
+         </couplet>
+      </sestet>
+   </sonnet>
+</sonneteer>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="580">
+      <annotation gi="id">orpheus1</annotation>
+      <annotation gi="author">Rainer Marie Rilke</annotation>
+      <annotation gi="title">Das I. Sonett</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="579"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="334"/>
+   <start gi="quatrain" rID="r04_quatrain" off="1" ext="172"/>
+   <start gi="line" rID="r05_line" off="1" ext="40"/>
+   <start gi="s" rID="r06_s" off="1" ext="18"/>
+   <start gi="phr" rID="r07_phr" off="1" ext="18"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_line r06_s r07_phr"
+         off="1"
+         ext="18">Da stieg ein Baum.</text>
+   <end gi="phr" rID="r07_phr" off="19" ext="18"/>
+   <end gi="s" rID="r06_s" off="19" ext="18"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_line"
+         off="19"
+         ext="1"> </text>
+   <start gi="s" rID="r08_s" off="20" ext="21"/>
+   <start gi="phr" rID="r09_phr" off="20" ext="21"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_line r08_s r09_phr"
+         off="20"
+         ext="21">O reine Übersteigung!</text>
+   <end gi="phr" rID="r09_phr" off="41" ext="21"/>
+   <end gi="s" rID="r08_s" off="41" ext="21"/>
+   <end gi="line" rID="r05_line" off="41" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain"
+         off="41"
+         ext="1">
+</text>
+   <start gi="line" rID="r10_line" off="42" ext="37"/>
+   <start gi="s" rID="r11_s" off="42" ext="16"/>
+   <start gi="phr" rID="r12_phr" off="42" ext="16"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r10_line r11_s r12_phr"
+         off="42"
+         ext="16">O Orpheus singt!</text>
+   <end gi="phr" rID="r12_phr" off="58" ext="16"/>
+   <end gi="s" rID="r11_s" off="58" ext="16"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r10_line"
+         off="58"
+         ext="1"> </text>
+   <start gi="s" rID="r13_s" off="59" ext="20"/>
+   <start gi="phr" rID="r14_phr" off="59" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r10_line r13_s r14_phr"
+         off="59"
+         ext="20">O hoher Baum in Ohr!</text>
+   <end gi="phr" rID="r14_phr" off="79" ext="20"/>
+   <end gi="s" rID="r13_s" off="79" ext="20"/>
+   <end gi="line" rID="r10_line" off="79" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain"
+         off="79"
+         ext="1">
+</text>
+   <start gi="line" rID="r15_line" off="80" ext="51"/>
+   <start gi="s" rID="r16_s" off="80" ext="18"/>
+   <start gi="phr" rID="r17_phr" off="80" ext="18"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r15_line r16_s r17_phr"
+         off="80"
+         ext="18">Und alles schwieg.</text>
+   <end gi="phr" rID="r17_phr" off="98" ext="18"/>
+   <end gi="s" rID="r16_s" off="98" ext="18"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r15_line"
+         off="98"
+         ext="1"> </text>
+   <start gi="s" rID="r18_s" off="99" ext="74"/>
+   <start gi="phr" rID="r19_phr" off="99" ext="51"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r15_line r18_s r19_phr"
+         off="99"
+         ext="32">Doch selbst in der Verschweigung</text>
+   <end gi="line" rID="r15_line" off="131" ext="51"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r18_s r19_phr"
+         off="131"
+         ext="1">
+</text>
+   <start gi="line" rID="r20_line" off="132" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r18_s r19_phr r20_line"
+         off="132"
+         ext="18">ging neuer Anfang,</text>
+   <end gi="phr" rID="r19_phr" off="150" ext="51"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r18_s r20_line"
+         off="150"
+         ext="1"> </text>
+   <start gi="phr" rID="r21_phr" off="151" ext="22"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r18_s r20_line r21_phr"
+         off="151"
+         ext="22">Wink und Wandlung vor.</text>
+   <end gi="phr" rID="r21_phr" off="173" ext="22"/>
+   <end gi="line" rID="r20_line" off="173" ext="41"/>
+   <end gi="s" rID="r18_s" off="173" ext="74"/>
+   <end gi="quatrain" rID="r04_quatrain" off="173" ext="172"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave" off="173" ext="1">
+</text>
+   <start gi="s" rID="r22_s" off="174" ext="180"/>
+   <start gi="quatrain" rID="r23_quatrain" off="174" ext="161"/>
+   <start gi="phr" rID="r24_phr" off="174" ext="75"/>
+   <start gi="line" rID="r25_line" off="174" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r22_s r23_quatrain r24_phr r25_line"
+         off="174"
+         ext="39">Tiere aus Stille drangen aus dem klaren</text>
+   <end gi="line" rID="r25_line" off="213" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r22_s r23_quatrain r24_phr"
+         off="213"
+         ext="1">
+</text>
+   <start gi="line" rID="r26_line" off="214" ext="35"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r22_s r23_quatrain r24_phr r26_line"
+         off="214"
+         ext="35">gelösten Wald von Lager und Genist;</text>
+   <end gi="line" rID="r26_line" off="249" ext="35"/>
+   <end gi="phr" rID="r24_phr" off="249" ext="75"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r22_s r23_quatrain"
+         off="249"
+         ext="1">
+</text>
+   <start gi="line" rID="r27_line" off="250" ext="41"/>
+   <start gi="phr" rID="r28_phr" off="250" ext="18"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r22_s r23_quatrain r27_line r28_phr"
+         off="250"
+         ext="18">und da ergab sich,</text>
+   <end gi="phr" rID="r28_phr" off="268" ext="18"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r22_s r23_quatrain r27_line"
+         off="268"
+         ext="1"> </text>
+   <start gi="phr" rID="r29_phr" off="269" ext="66"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r22_s r23_quatrain r27_line r29_phr"
+         off="269"
+         ext="22">daß sie nicht aus List</text>
+   <end gi="line" rID="r27_line" off="291" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r22_s r23_quatrain r29_phr"
+         off="291"
+         ext="1">
+</text>
+   <start gi="line" rID="r30_line" off="292" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r22_s r23_quatrain r29_phr r30_line"
+         off="292"
+         ext="43">und nicht aus Angst in sich so leise waren,</text>
+   <end gi="line" rID="r30_line" off="335" ext="43"/>
+   <end gi="phr" rID="r29_phr" off="335" ext="66"/>
+   <end gi="quatrain" rID="r23_quatrain" off="335" ext="161"/>
+   <end gi="octave" rID="r03_octave" off="335" ext="334"/>
+   <text cf="r01_sonneteer r02_sonnet r22_s" off="335" ext="1">
+</text>
+   <start gi="sestet" rID="r31_sestet" off="336" ext="244"/>
+   <start gi="tercet" rID="r32_tercet" off="336" ext="123"/>
+   <start gi="line" rID="r33_line" off="336" ext="42"/>
+   <start gi="phr" rID="r34_phr" off="336" ext="18"/>
+   <text cf="r01_sonneteer r02_sonnet r22_s r31_sestet r32_tercet r33_line r34_phr"
+         off="336"
+         ext="18">sondern aus Hören.</text>
+   <end gi="phr" rID="r34_phr" off="354" ext="18"/>
+   <end gi="s" rID="r22_s" off="354" ext="180"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r32_tercet r33_line"
+         off="354"
+         ext="1"> </text>
+   <start gi="s" rID="r35_s" off="355" ext="53"/>
+   <start gi="phr" rID="r36_phr" off="355" ext="8"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r32_tercet r33_line r35_s r36_phr"
+         off="355"
+         ext="8">Brüllen,</text>
+   <end gi="phr" rID="r36_phr" off="363" ext="8"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r32_tercet r33_line r35_s"
+         off="363"
+         ext="1"> </text>
+   <start gi="phr" rID="r37_phr" off="364" ext="7"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r32_tercet r33_line r35_s r37_phr"
+         off="364"
+         ext="7">Schrei,</text>
+   <end gi="phr" rID="r37_phr" off="371" ext="7"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r32_tercet r33_line r35_s"
+         off="371"
+         ext="1"> </text>
+   <start gi="phr" rID="r38_phr" off="372" ext="36"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r32_tercet r33_line r35_s r38_phr"
+         off="372"
+         ext="6">Geröhr</text>
+   <end gi="line" rID="r33_line" off="378" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r32_tercet r35_s r38_phr"
+         off="378"
+         ext="1">
+</text>
+   <start gi="line" rID="r39_line" off="379" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r32_tercet r35_s r38_phr r39_line"
+         off="379"
+         ext="29">schien klein in ihren Herzen.</text>
+   <end gi="phr" rID="r38_phr" off="408" ext="36"/>
+   <end gi="s" rID="r35_s" off="408" ext="53"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r32_tercet r39_line"
+         off="408"
+         ext="1"> </text>
+   <start gi="s" rID="r40_s" off="409" ext="171"/>
+   <start gi="phr" rID="r41_phr" off="409" ext="31"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r32_tercet r39_line r40_s r41_phr"
+         off="409"
+         ext="11">Und wo eben</text>
+   <end gi="line" rID="r39_line" off="420" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r32_tercet r40_s r41_phr"
+         off="420"
+         ext="1">
+</text>
+   <start gi="line" rID="r42_line" off="421" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r32_tercet r40_s r41_phr r42_line"
+         off="421"
+         ext="19">kaum ein Hütte war,</text>
+   <end gi="phr" rID="r41_phr" off="440" ext="31"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r32_tercet r40_s r42_line"
+         off="440"
+         ext="1"> </text>
+   <start gi="phr" rID="r43_phr" off="441" ext="18"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r32_tercet r40_s r42_line r43_phr"
+         off="441"
+         ext="18">dies zu empfangen,</text>
+   <end gi="phr" rID="r43_phr" off="459" ext="18"/>
+   <end gi="line" rID="r42_line" off="459" ext="38"/>
+   <end gi="tercet" rID="r32_tercet" off="459" ext="123"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r40_s" off="459" ext="1">
+</text>
+   <start gi="tercet" rID="r44_tercet" off="460" ext="120"/>
+   <start gi="phr" rID="r45_phr" off="460" ext="59"/>
+   <start gi="line" rID="r46_line" off="460" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r40_s r44_tercet r45_phr r46_line"
+         off="460"
+         ext="41">ein Unterschlupf aus dunkelstem Verlangen</text>
+   <end gi="line" rID="r46_line" off="501" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r40_s r44_tercet r45_phr"
+         off="501"
+         ext="1">
+</text>
+   <start gi="line" rID="r47_line" off="502" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r40_s r44_tercet r45_phr r47_line"
+         off="502"
+         ext="17">mit einem Zugang,</text>
+   <end gi="phr" rID="r45_phr" off="519" ext="59"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r40_s r44_tercet r47_line"
+         off="519"
+         ext="1"> </text>
+   <start gi="phr" rID="r48_phr" off="520" ext="23"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r40_s r44_tercet r47_line r48_phr"
+         off="520"
+         ext="23">dessen Pfosten beben, —</text>
+   <end gi="phr" rID="r48_phr" off="543" ext="23"/>
+   <end gi="line" rID="r47_line" off="543" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r40_s r44_tercet"
+         off="543"
+         ext="1">
+</text>
+   <start gi="line" rID="r49_line" off="544" ext="36"/>
+   <start gi="phr" rID="r50_phr" off="544" ext="36"/>
+   <text cf="r01_sonneteer r02_sonnet r31_sestet r40_s r44_tercet r49_line r50_phr"
+         off="544"
+         ext="36">da schufst du ihnen Tempel im Gehör.</text>
+   <end gi="line" rID="r49_line" off="580" ext="36"/>
+   <end gi="phr" rID="r50_phr" off="580" ext="36"/>
+   <end gi="tercet" rID="r44_tercet" off="580" ext="120"/>
+   <end gi="s" rID="r40_s" off="580" ext="171"/>
+   <end gi="sestet" rID="r31_sestet" off="580" ext="244"/>
+   <end gi="sonnet" rID="r02_sonnet" off="580" ext="579"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="580" ext="580"/>
+</LMNL>

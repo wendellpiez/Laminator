@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="586">
+      <annotation gi="id">strand</annotation>
+      <annotation gi="author">Edmund Spenser</annotation>
+      <annotation gi="title">Amoretti LXXV</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="585"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="320"/>
+   <start gi="quatrain" rID="r04_quatrain" off="1" ext="164"/>
+   <start gi="s" rID="r05_s" off="1" ext="164"/>
+   <start gi="line" rID="r06_line" off="1" ext="41"/>
+   <start gi="phr" rID="r07_phr" off="1" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r06_line r07_phr"
+         off="1"
+         ext="41">One day I wrote her name upon the strand,</text>
+   <end gi="phr" rID="r07_phr" off="42" ext="41"/>
+   <end gi="line" rID="r06_line" off="42" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s"
+         off="42"
+         ext="1">
+</text>
+   <start gi="line" rID="r08_line" off="43" ext="38"/>
+   <start gi="phr" rID="r09_phr" off="43" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r08_line r09_phr"
+         off="43"
+         ext="38">But came the waves and washed it away:</text>
+   <end gi="phr" rID="r09_phr" off="81" ext="38"/>
+   <end gi="line" rID="r08_line" off="81" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s"
+         off="81"
+         ext="1">
+</text>
+   <start gi="line" rID="r10_line" off="82" ext="36"/>
+   <start gi="phr" rID="r11_phr" off="82" ext="36"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r10_line r11_phr"
+         off="82"
+         ext="36">Again I wrote it with a second hand,</text>
+   <end gi="phr" rID="r11_phr" off="118" ext="36"/>
+   <end gi="line" rID="r10_line" off="118" ext="36"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s"
+         off="118"
+         ext="1">
+</text>
+   <start gi="line" rID="r12_line" off="119" ext="46"/>
+   <start gi="phr" rID="r13_phr" off="119" ext="18"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r12_line r13_phr"
+         off="119"
+         ext="18">But came the tide,</text>
+   <end gi="phr" rID="r13_phr" off="137" ext="18"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r12_line"
+         off="137"
+         ext="1"> </text>
+   <start gi="phr" rID="r14_phr" off="138" ext="27"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_quatrain r05_s r12_line r14_phr"
+         off="138"
+         ext="27">and made my pains his prey.</text>
+   <end gi="phr" rID="r14_phr" off="165" ext="27"/>
+   <end gi="line" rID="r12_line" off="165" ext="46"/>
+   <end gi="s" rID="r05_s" off="165" ext="164"/>
+   <end gi="quatrain" rID="r04_quatrain" off="165" ext="164"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave" off="165" ext="1">
+</text>
+   <start gi="quatrain" rID="r15_quatrain" off="166" ext="155"/>
+   <start gi="s" rID="r16_s" off="166" ext="77"/>
+   <start gi="line" rID="r17_line" off="166" ext="43"/>
+   <start gi="phr" rID="r18_phr" off="166" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r16_s r17_line r18_phr"
+         off="166"
+         ext="9">Vain man,</text>
+   <end gi="phr" rID="r18_phr" off="175" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r16_s r17_line"
+         off="175"
+         ext="1"> </text>
+   <start gi="phr" rID="r19_phr" off="176" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r16_s r17_line r19_phr"
+         off="176"
+         ext="9">said she,</text>
+   <end gi="phr" rID="r19_phr" off="185" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r16_s r17_line"
+         off="185"
+         ext="1"> </text>
+   <start gi="phr" rID="r20_phr" off="186" ext="57"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r16_s r17_line r20_phr"
+         off="186"
+         ext="23">that dost in vain assay</text>
+   <end gi="line" rID="r17_line" off="209" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r16_s r20_phr"
+         off="209"
+         ext="1">
+</text>
+   <start gi="line" rID="r21_line" off="210" ext="33"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r16_s r20_phr r21_line"
+         off="210"
+         ext="33">A mortal thing so to immortalize!</text>
+   <end gi="line" rID="r21_line" off="243" ext="33"/>
+   <end gi="phr" rID="r20_phr" off="243" ext="57"/>
+   <end gi="s" rID="r16_s" off="243" ext="77"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain"
+         off="243"
+         ext="1">
+</text>
+   <start gi="s" rID="r22_s" off="244" ext="77"/>
+   <start gi="line" rID="r23_line" off="244" ext="38"/>
+   <start gi="phr" rID="r24_phr" off="244" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r22_s r23_line r24_phr"
+         off="244"
+         ext="38">For I myself shall like to this decay,</text>
+   <end gi="phr" rID="r24_phr" off="282" ext="38"/>
+   <end gi="line" rID="r23_line" off="282" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r22_s"
+         off="282"
+         ext="1">
+</text>
+   <start gi="line" rID="r25_line" off="283" ext="38"/>
+   <start gi="phr" rID="r26_phr" off="283" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r15_quatrain r22_s r25_line r26_phr"
+         off="283"
+         ext="38">And eek my name be wiped out likewise.</text>
+   <end gi="phr" rID="r26_phr" off="321" ext="38"/>
+   <end gi="line" rID="r25_line" off="321" ext="38"/>
+   <end gi="s" rID="r22_s" off="321" ext="77"/>
+   <end gi="quatrain" rID="r15_quatrain" off="321" ext="155"/>
+   <end gi="octave" rID="r03_octave" off="321" ext="320"/>
+   <text cf="r01_sonneteer r02_sonnet" off="321" ext="1">
+</text>
+   <start gi="sestet" rID="r27_sestet" off="322" ext="264"/>
+   <start gi="s" rID="r28_s" off="322" ext="264"/>
+   <start gi="quatrain" rID="r29_quatrain" off="322" ext="173"/>
+   <start gi="line" rID="r30_line" off="322" ext="41"/>
+   <start gi="phr" rID="r31_phr" off="322" ext="17"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r30_line r31_phr"
+         off="322"
+         ext="17">Not so (quoth I),</text>
+   <end gi="phr" rID="r31_phr" off="339" ext="17"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r30_line"
+         off="339"
+         ext="1"> </text>
+   <start gi="phr" rID="r32_phr" off="340" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r30_line r32_phr"
+         off="340"
+         ext="23">let baser things devise</text>
+   <end gi="line" rID="r30_line" off="363" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r32_phr"
+         off="363"
+         ext="1">
+</text>
+   <start gi="line" rID="r33_line" off="364" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r32_phr r33_line"
+         off="364"
+         ext="15">To die in dust,</text>
+   <end gi="phr" rID="r32_phr" off="379" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r33_line"
+         off="379"
+         ext="1"> </text>
+   <start gi="phr" rID="r34_phr" off="380" ext="27"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r33_line r34_phr"
+         off="380"
+         ext="27">but you shall live by fame:</text>
+   <end gi="phr" rID="r34_phr" off="407" ext="27"/>
+   <end gi="line" rID="r33_line" off="407" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain"
+         off="407"
+         ext="1">
+</text>
+   <start gi="line" rID="r35_line" off="408" ext="42"/>
+   <start gi="phr" rID="r36_phr" off="408" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r35_line r36_phr"
+         off="408"
+         ext="42">My verse your virtues rare shall eternize,</text>
+   <end gi="phr" rID="r36_phr" off="450" ext="42"/>
+   <end gi="line" rID="r35_line" off="450" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain"
+         off="450"
+         ext="1">
+</text>
+   <start gi="line" rID="r37_line" off="451" ext="44"/>
+   <start gi="phr" rID="r38_phr" off="451" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r29_quatrain r37_line r38_phr"
+         off="451"
+         ext="44">And in the heavens write your glorious name;</text>
+   <end gi="phr" rID="r38_phr" off="495" ext="44"/>
+   <end gi="line" rID="r37_line" off="495" ext="44"/>
+   <end gi="quatrain" rID="r29_quatrain" off="495" ext="173"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s" off="495" ext="1">
+</text>
+   <start gi="couplet" rID="r39_couplet" off="496" ext="90"/>
+   <start gi="line" rID="r40_line" off="496" ext="47"/>
+   <start gi="phr" rID="r41_phr" off="496" ext="6"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r39_couplet r40_line r41_phr"
+         off="496"
+         ext="6">Where,</text>
+   <end gi="phr" rID="r41_phr" off="502" ext="6"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r39_couplet r40_line"
+         off="502"
+         ext="1"> </text>
+   <start gi="phr" rID="r42_phr" off="503" ext="40"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r39_couplet r40_line r42_phr"
+         off="503"
+         ext="40">whenas death shall all the world subdue,</text>
+   <end gi="phr" rID="r42_phr" off="543" ext="40"/>
+   <end gi="line" rID="r40_line" off="543" ext="47"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r39_couplet"
+         off="543"
+         ext="1">
+</text>
+   <start gi="line" rID="r43_line" off="544" ext="42"/>
+   <start gi="phr" rID="r44_phr" off="544" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r39_couplet r43_line r44_phr"
+         off="544"
+         ext="20">Our love shall live,</text>
+   <end gi="phr" rID="r44_phr" off="564" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r39_couplet r43_line"
+         off="564"
+         ext="1"> </text>
+   <start gi="phr" rID="r45_phr" off="565" ext="21"/>
+   <text cf="r01_sonneteer r02_sonnet r27_sestet r28_s r39_couplet r43_line r45_phr"
+         off="565"
+         ext="21">and later life renew.</text>
+   <end gi="phr" rID="r45_phr" off="586" ext="21"/>
+   <end gi="line" rID="r43_line" off="586" ext="42"/>
+   <end gi="couplet" rID="r39_couplet" off="586" ext="90"/>
+   <end gi="s" rID="r28_s" off="586" ext="264"/>
+   <end gi="sestet" rID="r27_sestet" off="586" ext="264"/>
+   <end gi="sonnet" rID="r02_sonnet" off="586" ext="585"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="586" ext="586"/>
+</LMNL>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="spinoza" author="Jorge Luis Borges" title="Spinoza">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>Las traslúcidas manos del judío</line>
+            <line>Labran en la penumbra los cristales</line>
+            <line>Y la tarde que muere es miedo y frío.</line>
+            <line>(Las tardes a las tardes son iguales.)</line>
+         </quatrain>
+         <quatrain>
+            <line>Las manos y el espacio de jacinto</line>
+            <line>Que palidece en el confín del Ghetto</line>
+            <line>Casi no existen para el hombre quieto</line>
+            <line>Que está soñando un claro laberinto.</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <tercet>
+            <line>No lo turba la fama, ese reflejo</line>
+            <line>De sueños en el sueño de otro espejo,</line>
+            <line>Ni el temeroso amor de las doncellas.</line>
+         </tercet>
+         <tercet>
+            <line>Libre de la metáfora y del mito</line>
+            <line>Labra un arduo cristal: el infinito</line>
+            <line>mapa de Aquel que es todas Sus estrellas.</line>
+         </tercet>
+      </sestet>
+   </sonnet>
+</sonneteer>

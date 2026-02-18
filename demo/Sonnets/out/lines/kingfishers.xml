@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="kingfishers"
+           author="Gerard Manley Hopkins"
+           title="As kingfishers catch fire">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>As kingfishers catch fire, dragonflies dráw fláme;</line>
+            <line>As tumbled over rim in roundy wells</line>
+            <line>Stones ring; like each tucked string tells, each hung bell's</line>
+            <line>Bow swung finds tongue to fling out broad its name;</line>
+         </quatrain>
+         <quatrain>
+            <line>Each mortal thing does one thing and the same:</line>
+            <line>Deals out that being indoors each one dwells;</line>
+            <line>Selves — goes itself; <stress>myself</stress> it speaks and spells,</line>
+            <line>Crying <stress>Whát I do is me: for that I came</stress>.</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <quatrain>
+            <line>Í say móre: the just man justices; </line>
+            <line>Kéeps gráce: thát keeps all his goings graces;</line>
+            <line>Acts in God's eye what in God's eye he is —</line>
+            <line>Chríst — for Christ plays in ten thousand places,</line>
+         </quatrain>
+         <couplet>
+            <line>Lovely in limbs, and lovely in eyes not his</line>
+            <line>To the Father through the features of men's faces.</line>
+         </couplet>
+      </sestet>
+   </sonnet>
+</sonneteer>

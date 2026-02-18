@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="youngfriend"
+           author="Caroline Symmons"
+           title="To Her Young Friend">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>No moon now blushes on the enamoured sight;</line>
+            <line>No genial sun now warms the torpid lay</line>
+            <line>Since February sternly checked his ray</line>
+            <line>When Lucy's eyes first beamed their azure light.</line>
+         </quatrain>
+         <quatrain>
+            <line>What though no vernal flowers my hand invite</line>
+            <line>To crop their fragrance for your natal day;</line>
+            <line>Lucy, for you the snowdrop and the bay</line>
+            <line>Shall blend the unfading green and modest white.</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <quatrain>
+            <line>Though on your natal day with aspect bleak</line>
+            <line>Stern winter frown, in icy garments dressed,</line>
+            <line>Still may the rosy summer robe your cheek</line>
+            <line>And the green spring still bud within your breast:</line>
+         </quatrain>
+         <couplet>
+            <line>Till, the world fading on your closing eyes,</line>
+            <line>You find a golden autumn in the skies.</line>
+         </couplet>
+      </sestet>
+   </sonnet>
+</sonneteer>

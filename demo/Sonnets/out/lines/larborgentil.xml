@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="larborgentil"
+           author="Francesco Petrarca"
+           title="L’arbor gentil che forte amai molt’anni">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>L’arbor gentil che forte amai molt’anni,</line>
+            <line>mentre i bei rami non m’ebber a sdegno</line>
+            <line>fiorir faceva il mio debile ingegno</line>
+            <line>e la sua ombra, et crescer negli affanni.</line>
+         </quatrain>
+         <quatrain>
+            <line>Poi che, securo me di tali inganni,</line>
+            <line>fece di dolce sé spietato legno,</line>
+            <line>i’ rivolsi i pensier’ tutti ad un segno,</line>
+            <line>che parlan sempre de’ lor tristi danni.</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <tercet>
+            <line>Che porà dir chi per amor sospira,</line>
+            <line>s’altra speranza le mie rime nove</line>
+            <line>gli avessir data, et per costei la perde?</line>
+         </tercet>
+         <tercet>
+            <line>Né poeta ne colga mai, né Giove</line>
+            <line>la privilegi, et al Sol venga in ira,</line>
+            <line>tal che si secchi ogni sua foglia verde.</line>
+         </tercet>
+      </sestet>
+   </sonnet>
+</sonneteer>

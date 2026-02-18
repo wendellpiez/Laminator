@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="586">
+      <annotation gi="id">birdsandeve</annotation>
+      <annotation gi="author">Robert Frost</annotation>
+      <annotation gi="title">Never again would birds' song be the same</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="sonnet" rID="r02_sonnet" off="1" ext="585"/>
+   <start gi="octave" rID="r03_octave" off="1" ext="332"/>
+   <start gi="s" rID="r04_s" off="1" ext="219"/>
+   <start gi="quatrain" rID="r05_quatrain" off="1" ext="172"/>
+   <start gi="line" rID="r06_line" off="1" ext="45"/>
+   <start gi="phr" rID="r07_phr" off="1" ext="19"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r06_line r07_phr"
+         off="1"
+         ext="19">He would have said,</text>
+   <end gi="phr" rID="r07_phr" off="20" ext="19"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r06_line"
+         off="20"
+         ext="1"> </text>
+   <start gi="phr" rID="r08_phr" off="21" ext="138"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r06_line r08_phr"
+         off="21"
+         ext="25">and could himself believe</text>
+   <end gi="line" rID="r06_line" off="46" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r08_phr"
+         off="46"
+         ext="1">
+</text>
+   <start gi="line" rID="r09_line" off="47" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r08_phr r09_line"
+         off="47"
+         ext="44">That the birds there in all the garden round</text>
+   <end gi="line" rID="r09_line" off="91" ext="44"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r08_phr"
+         off="91"
+         ext="1">
+</text>
+   <start gi="line" rID="r10_line" off="92" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r08_phr r10_line"
+         off="92"
+         ext="43">Had gathered from the day-long voice of Eve</text>
+   <end gi="line" rID="r10_line" off="135" ext="43"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r08_phr"
+         off="135"
+         ext="1">
+</text>
+   <start gi="line" rID="r11_line" off="136" ext="37"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r08_phr r11_line"
+         off="136"
+         ext="23">And added to their own,</text>
+   <end gi="phr" rID="r08_phr" off="159" ext="138"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r11_line"
+         off="159"
+         ext="1"> </text>
+   <start gi="phr" rID="r12_phr" off="160" ext="13"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r05_quatrain r11_line r12_phr"
+         off="160"
+         ext="13">an oversound,</text>
+   <end gi="phr" rID="r12_phr" off="173" ext="13"/>
+   <end gi="line" rID="r11_line" off="173" ext="37"/>
+   <end gi="quatrain" rID="r05_quatrain" off="173" ext="172"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s" off="173" ext="1">
+</text>
+   <start gi="quatrain" rID="r13_quatrain" off="174" ext="159"/>
+   <start gi="line" rID="r14_line" off="174" ext="46"/>
+   <start gi="phr" rID="r15_phr" off="174" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r13_quatrain r14_line r15_phr"
+         off="174"
+         ext="20">Her tone of meaning,</text>
+   <end gi="phr" rID="r15_phr" off="194" ext="20"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r13_quatrain r14_line"
+         off="194"
+         ext="1"> </text>
+   <start gi="phr" rID="r16_phr" off="195" ext="25"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r04_s r13_quatrain r14_line r16_phr"
+         off="195"
+         ext="25">though without the words.</text>
+   <end gi="phr" rID="r16_phr" off="220" ext="25"/>
+   <end gi="line" rID="r14_line" off="220" ext="46"/>
+   <end gi="s" rID="r04_s" off="220" ext="219"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain"
+         off="220"
+         ext="1">
+</text>
+   <start gi="s" rID="r17_s" off="221" ext="112"/>
+   <start gi="phr" rID="r18_phr" off="221" ext="112"/>
+   <start gi="line" rID="r19_line" off="221" ext="31"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r17_s r18_phr r19_line"
+         off="221"
+         ext="31">Admittedly an eloquence so soft</text>
+   <end gi="line" rID="r19_line" off="252" ext="31"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r17_s r18_phr"
+         off="252"
+         ext="1">
+</text>
+   <start gi="line" rID="r20_line" off="253" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r17_s r18_phr r20_line"
+         off="253"
+         ext="38">Could only have been taken up by birds</text>
+   <end gi="line" rID="r20_line" off="291" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r17_s r18_phr"
+         off="291"
+         ext="1">
+</text>
+   <start gi="line" rID="r21_line" off="292" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r03_octave r13_quatrain r17_s r18_phr r21_line"
+         off="292"
+         ext="41">When call or laughter carried them aloft.</text>
+   <end gi="line" rID="r21_line" off="333" ext="41"/>
+   <end gi="phr" rID="r18_phr" off="333" ext="112"/>
+   <end gi="s" rID="r17_s" off="333" ext="112"/>
+   <end gi="quatrain" rID="r13_quatrain" off="333" ext="159"/>
+   <end gi="octave" rID="r03_octave" off="333" ext="332"/>
+   <text cf="r01_sonneteer r02_sonnet" off="333" ext="1">
+</text>
+   <start gi="sestet" rID="r22_sestet" off="334" ext="252"/>
+   <start gi="quatrain" rID="r23_quatrain" off="334" ext="166"/>
+   <start gi="line" rID="r24_line" off="334" ext="41"/>
+   <start gi="s" rID="r25_s" off="334" ext="41"/>
+   <start gi="phr" rID="r26_phr" off="334" ext="18"/>
+   <text cf="r01_sonneteer r02_sonnet r22_sestet r23_quatrain r24_line r25_s r26_phr"
+         off="334"
+         ext="18">Be that as may be,</text>
+   <end gi="phr" rID="r26_phr" off="352" ext="18"/>
+   <text cf="r01_sonneteer r02_sonnet r22_sestet r23_quatrain r24_line r25_s"
+         off="352"
+         ext="1"> </text>
+   <start gi="phr" rID="r27_phr" off="353" ext="22"/>
+   <text cf="r01_sonneteer r02_sonnet r22_sestet r23_quatrain r24_line r25_s r27_phr"
+         off="353"
+         ext="22">she was in their song.</text>
+   <end gi="phr" rID="r27_phr" off="375" ext="22"/>
+   <end gi="s" rID="r25_s" off="375" ext="41"/>
+   <end gi="line" rID="r24_line" off="375" ext="41"/>
+   <text cf="r01_sonneteer r02_sonnet r22_sestet r23_quatrain"
+         off="375"
+         ext="1">
+</text>
+   <start gi="s" rID="r28_s" off="376" ext="124"/>
+   <start gi="line" rID="r29_line" off="376" ext="45"/>
+   <start gi="phr" rID="r30_phr" off="376" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r22_sestet r23_quatrain r28_s r29_line r30_phr"
+         off="376"
+         ext="9">Moreover,</text>
+   <end gi="phr" rID="r30_phr" off="385" ext="9"/>
+   <text cf="r01_sonneteer r02_sonnet r22_sestet r23_quatrain r28_s r29_line"
+         off="385"
+         ext="1"> </text>
+   <start gi="phr" rID="r31_phr" off="386" ext="114"/>
+   <text cf="r01_sonneteer r02_sonnet r22_sestet r23_quatrain r28_s r29_line r31_phr"
+         off="386"
+         ext="35">her voice upon their voices crossed</text>
+   <end gi="line" rID="r29_line" off="421" ext="45"/>
+   <text cf="r01_sonneteer r02_sonnet r22_sestet r23_quatrain r28_s r31_phr"
+         off="421"
+         ext="1">
+</text>
+   <start gi="line" rID="r32_line" off="422" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r22_sestet r23_quatrain r28_s r31_phr r32_line"
+         off="422"
+         ext="38">Had now re-echoed in the woods so long</text>
+   <end gi="line" rID="r32_line" off="460" ext="38"/>
+   <text cf="r01_sonneteer r02_sonnet r22_sestet r23_quatrain r28_s r31_phr"
+         off="460"
+         ext="1">
+</text>
+   <start gi="line" rID="r33_line" off="461" ext="39"/>
+   <text cf="r01_sonneteer r02_sonnet r22_sestet r23_quatrain r28_s r31_phr r33_line"
+         off="461"
+         ext="39">That probably they never would be lost.</text>
+   <end gi="line" rID="r33_line" off="500" ext="39"/>
+   <end gi="phr" rID="r31_phr" off="500" ext="114"/>
+   <end gi="s" rID="r28_s" off="500" ext="124"/>
+   <end gi="quatrain" rID="r23_quatrain" off="500" ext="166"/>
+   <text cf="r01_sonneteer r02_sonnet r22_sestet" off="500" ext="1">
+</text>
+   <start gi="couplet" rID="r34_couplet" off="501" ext="85"/>
+   <start gi="line" rID="r35_line" off="501" ext="42"/>
+   <start gi="s" rID="r36_s" off="501" ext="42"/>
+   <start gi="phr" rID="r37_phr" off="501" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r22_sestet r34_couplet r35_line r36_s r37_phr"
+         off="501"
+         ext="42">Never again would birds' song be the same.</text>
+   <end gi="phr" rID="r37_phr" off="543" ext="42"/>
+   <end gi="s" rID="r36_s" off="543" ext="42"/>
+   <end gi="line" rID="r35_line" off="543" ext="42"/>
+   <text cf="r01_sonneteer r02_sonnet r22_sestet r34_couplet"
+         off="543"
+         ext="1">
+</text>
+   <start gi="line" rID="r38_line" off="544" ext="42"/>
+   <start gi="s" rID="r39_s" off="544" ext="42"/>
+   <start gi="phr" rID="r40_phr" off="544" ext="24"/>
+   <text cf="r01_sonneteer r02_sonnet r22_sestet r34_couplet r38_line r39_s r40_phr"
+         off="544"
+         ext="24">And to do that to birds,</text>
+   <end gi="phr" rID="r40_phr" off="568" ext="24"/>
+   <text cf="r01_sonneteer r02_sonnet r22_sestet r34_couplet r38_line r39_s"
+         off="568"
+         ext="1"> </text>
+   <start gi="phr" rID="r41_phr" off="569" ext="17"/>
+   <text cf="r01_sonneteer r02_sonnet r22_sestet r34_couplet r38_line r39_s r41_phr"
+         off="569"
+         ext="17">was why she came.</text>
+   <end gi="phr" rID="r41_phr" off="586" ext="17"/>
+   <end gi="s" rID="r39_s" off="586" ext="42"/>
+   <end gi="line" rID="r38_line" off="586" ext="42"/>
+   <end gi="couplet" rID="r34_couplet" off="586" ext="85"/>
+   <end gi="sestet" rID="r22_sestet" off="586" ext="252"/>
+   <end gi="sonnet" rID="r02_sonnet" off="586" ext="585"/>
+   <end gi="sonneteer" rID="r01_sonneteer" off="586" ext="586"/>
+</LMNL>

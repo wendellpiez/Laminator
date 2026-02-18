@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="raleighson"
+           author="Sir Walter Raleigh"
+           title="Sir Walter Raleigh to His Son">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>Three things there be that prosper up apace</line>
+            <line>And flourish, whilst they grow asunder far;</line>
+            <line>But on a day, they meet all in one place,</line>
+            <line>And when they meet, they one another mar.</line>
+         </quatrain>
+         <quatrain>
+            <line>And they be these: the wood, the weed, the wag.</line>
+            <line>The wood is that which makes the gallow tree;</line>
+            <line>The weed is that which strings the hangman's bag;</line>
+            <line>The wag, my pretty knave, betokeneth thee.</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <quatrain>
+            <line>Mark well, dear boy, whilst these assemble not,</line>
+            <line>Green springs the tree, hemp grows, the wag is wild;</line>
+            <line>But when they meet, it makes the timber rot,</line>
+            <line>It frets the halter, and it chokes the child.</line>
+         </quatrain>
+         <couplet>
+            <line>Then bless thee, and beware, and let us pray</line>
+            <line>We part not with thee at this meeting day.</line>
+         </couplet>
+      </sestet>
+   </sonnet>
+</sonneteer>

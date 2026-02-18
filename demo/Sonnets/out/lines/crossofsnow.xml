@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="crossofsnow"
+           author="Henry Wadsworth Longfellow"
+           title="The Cross of Snow">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>In the long, sleepless watches of the night,</line>
+            <line>A gentle face — the face of one long dead —</line>
+            <line>Looks at me from the wall, where round its head</line>
+            <line>The night-lamp casts a halo of pale light.</line>
+         </quatrain>
+         <quatrain>
+            <line>Here in this room she died; and soul more white</line>
+            <line>Never through martyrdom of fire was led</line>
+            <line>To its repose; nor can in books be read</line>
+            <line>The legend of a life more benedight.</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <tercet>
+            <line>There is a mountain in the distant West</line>
+            <line>That, sun-defying, in its deep ravines</line>
+            <line>Displays a cross of snow upon its side.</line>
+         </tercet>
+         <tercet>
+            <line>Such is the cross I wear upon my breast</line>
+            <line>These eighteen years, through all the changing scenes</line>
+            <line>And seasons, changeless since the day she died.</line>
+         </tercet>
+      </sestet>
+   </sonnet>
+</sonneteer>

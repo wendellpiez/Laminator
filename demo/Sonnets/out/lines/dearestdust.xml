@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="dearestdust"
+           author="Lady Catherine Dyer"
+           title="Elegy for Sir William Dyer">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>My dearest dust, could not thy hasty day</line>
+            <line>Afford thy drowzy patience leave to stay</line>
+            <line>One hour longer: so that we might either</line>
+            <line>Sate up, or gone to bedd together?</line>
+         </quatrain>
+         <quatrain>
+            <line>But since thy finisht labor hath possest</line>
+            <line>Thy weary limbs with early rest,</line>
+            <line>Enjoy it sweetly: and thy widdowe bride</line>
+            <line>Shall soone repose her by thy slumbering side.</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <quatrain>
+            <line>Whose business, now, is only to prepare</line>
+            <line>My nightly dress, and call to prayre:</line>
+            <line>Mine eyes wax heavy and ye day growes old.</line>
+            <line>The dew falls thick, my beloved growes cold.</line>
+         </quatrain>
+         <couplet>
+            <line>Draw, draw ye closed curtaynes: and make room:</line>
+            <line>My dear, my dearest dust; I come, I come.</line>
+         </couplet>
+      </sestet>
+   </sonnet>
+</sonneteer>

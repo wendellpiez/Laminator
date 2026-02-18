@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="sueno" author="Jorge Luis Borges" title="El Sueño">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>Si el sueño fuera (como dicen) una</line>
+            <line>tregua, un puro reposo de la mente,</line>
+            <line>¿por qué, si te despiertan bruscamente,</line>
+            <line>sientes que te han robado una fortuna?</line>
+         </quatrain>
+         <quatrain>
+            <line>¿Por qué es tan triste madrugar? La hora</line>
+            <line>nos despoja de un don inconcebible,</line>
+            <line>tan íntimo que sólo es traducible</line>
+            <line>en un sopor que la vigilia dora</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <quatrain>
+            <line>de sueños, que bien pueden ser reflejos</line>
+            <line>truncos de los tesoros de la sombra,</line>
+            <line>de un orbe intemporal que no se nombra</line>
+            <line>y que el día deforma en sus espejos.</line>
+         </quatrain>
+         <couplet>
+            <line>¿Quién serás esta noche en el oscuro</line>
+            <line>sueño, del otro lado de su muro?</line>
+         </couplet>
+      </sestet>
+   </sonnet>
+</sonneteer>

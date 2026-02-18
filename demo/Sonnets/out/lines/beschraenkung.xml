@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="beschraenkung"
+           author="Johann Wolfgang von Goethe"
+           title="Natur und Kunst sie scheinen sich zu fliehen">
+   <sonnet>
+      <octave>
+         <quatrain>
+            <line>Natur und Kunst sie scheinen sich zu fliehen,</line>
+            <line>Und haben sich, eh' man es denkt, gefunden;</line>
+            <line>Der Widerwille ist auch mir verschwunden,</line>
+            <line>Und beide scheinen gleich mich anzuziehen.</line>
+         </quatrain>
+         <quatrain>
+            <line>Es gilt wohl nur ein redliches Bemühen!</line>
+            <line>Und wenn wir erst in abgemess'nen Stunden</line>
+            <line>Mit Geist und Fleiß uns an die Kunst gebunden,</line>
+            <line>Mag frei Natur im Herzen wieder glühen.</line>
+         </quatrain>
+      </octave>
+      <sestet>
+         <tercet>
+            <line>So ist's mit aller Bildung auch beschaffen:</line>
+            <line>Vergebens werden ungebundne Geister</line>
+            <line>Nach der Vollendung reiner Höhe streben.</line>
+         </tercet>
+         <tercet>
+            <line>Wer Großes will muß sich zusammenraffen;</line>
+            <line>In der Beschränkung zeigt sich erst der Meister,</line>
+            <line>Und das Gesetz nur kann uns Freiheit geben.</line>
+         </tercet>
+      </sestet>
+   </sonnet>
+</sonneteer>

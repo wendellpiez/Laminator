@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonneteer id="crimsonpetal"
+           author="Alfred, Lord Tennyson"
+           title="Now Sleeps the Crimson Petal, Now the White">
+   <sonnet>
+      <quatrain>
+         <line>Now sleeps the crimson petal, now the white;</line>
+         <line>Nor waves the cypress in the palace walk;</line>
+         <line>Nor winks the gold fin in the porphyry font:</line>
+         <line>The fire-fly wakens: waken thou with me.</line>
+      </quatrain>
+      <sestet>
+         <couplet>
+            <line>Now droops the milkwhite peacock like a ghost,</line>
+            <line>And like a ghost she glimmers on to me.</line>
+         </couplet>
+         <couplet>
+            <line>Now lies the Earth all Danaë to the stars,</line>
+            <line>And all thy heart lies open unto me.</line>
+         </couplet>
+         <couplet>
+            <line>Now slides the silent meteor on, and leaves</line>
+            <line>A shining furrow, as thy thoughts in me.</line>
+         </couplet>
+      </sestet>
+      <quatrain>
+         <line>Now folds the lily all her sweetness up,</line>
+         <line>And slips into the bosom of the lake:</line>
+         <line>So fold thyself, my dearest, thou, and slip</line>
+         <line>Into my bosom and be lost in me.</line>
+      </quatrain>
+   </sonnet>
+</sonneteer>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="sonneteer" rID="r01_sonneteer" off="0" ext="601">
+      <annotation gi="id">timenorelief</annotation>
+      <annotation gi="author">Edna St Vincent Millay</annotation>
+      <annotation gi="title">Time Does Not Bring Relief</annotation>
+   </start>
+   <text cf="r01_sonneteer" off="0" ext="1">
+</text>
+   <start gi="octave" rID="r02_octave" off="1" ext="350"/>
+   <start gi="line" rID="r03_line" off="1" ext="45"/>
+   <start gi="s" rID="r04_s" off="1" ext="350"/>
+   <start gi="phr" rID="r05_phr" off="1" ext="27"/>
+   <text cf="r01_sonneteer r02_octave r03_line r04_s r05_phr"
+         off="1"
+         ext="27">Time does not bring relief;</text>
+   <end gi="phr" rID="r05_phr" off="28" ext="27"/>
+   <text cf="r01_sonneteer r02_octave r03_line r04_s" off="28" ext="1"> </text>
+   <start gi="phr" rID="r06_phr" off="29" ext="60"/>
+   <text cf="r01_sonneteer r02_octave r03_line r04_s r06_phr"
+         off="29"
+         ext="17">you all have lied</text>
+   <end gi="line" rID="r03_line" off="46" ext="45"/>
+   <text cf="r01_sonneteer r02_octave r04_s r06_phr" off="46" ext="1">
+</text>
+   <start gi="line" rID="r07_line" off="47" ext="42"/>
+   <text cf="r01_sonneteer r02_octave r04_s r06_phr r07_line"
+         off="47"
+         ext="42">Who told me time would ease me of my pain!</text>
+   <end gi="phr" rID="r06_phr" off="89" ext="60"/>
+   <end gi="line" rID="r07_line" off="89" ext="42"/>
+   <text cf="r01_sonneteer r02_octave r04_s" off="89" ext="1">
+</text>
+   <start gi="line" rID="r08_line" off="90" ext="38"/>
+   <start gi="phr" rID="r09_phr" off="90" ext="38"/>
+   <text cf="r01_sonneteer r02_octave r04_s r08_line r09_phr"
+         off="90"
+         ext="38">I miss him in the weeping of the rain;</text>
+   <end gi="phr" rID="r09_phr" off="128" ext="38"/>
+   <end gi="line" rID="r08_line" off="128" ext="38"/>
+   <text cf="r01_sonneteer r02_octave r04_s" off="128" ext="1">
+</text>
+   <start gi="line" rID="r10_line" off="129" ext="40"/>
+   <start gi="phr" rID="r11_phr" off="129" ext="40"/>
+   <text cf="r01_sonneteer r02_octave r04_s r10_line r11_phr"
+         off="129"
+         ext="40">I want him at the shrinking of the tide;</text>
+   <end gi="phr" rID="r11_phr" off="169" ext="40"/>
+   <end gi="line" rID="r10_line" off="169" ext="40"/>
+   <text cf="r01_sonneteer r02_octave r04_s" off="169" ext="1">
+</text>
+   <start gi="line" rID="r12_line" off="170" ext="44"/>
+   <start gi="phr" rID="r13_phr" off="170" ext="44"/>
+   <text cf="r01_sonneteer r02_octave r04_s r12_line r13_phr"
+         off="170"
+         ext="44">The old snows melt from every mountain-side,</text>
+   <end gi="phr" rID="r13_phr" off="214" ext="44"/>
+   <end gi="line" rID="r12_line" off="214" ext="44"/>
+   <text cf="r01_sonneteer r02_octave r04_s" off="214" ext="1">
+</text>
+   <start gi="line" rID="r14_line" off="215" ext="47"/>
+   <start gi="phr" rID="r15_phr" off="215" ext="47"/>
+   <text cf="r01_sonneteer r02_octave r04_s r14_line r15_phr"
+         off="215"
+         ext="47">And last year's leaves are smoke in every lane;</text>
+   <end gi="phr" rID="r15_phr" off="262" ext="47"/>
+   <end gi="line" rID="r14_line" off="262" ext="47"/>
+   <text cf="r01_sonneteer r02_octave r04_s" off="262" ext="1">
+</text>
+   <start gi="line" rID="r16_line" off="263" ext="41"/>
+   <start gi="phr" rID="r17_phr" off="263" ext="61"/>
+   <text cf="r01_sonneteer r02_octave r04_s r16_line r17_phr"
+         off="263"
+         ext="41">But last year's bitter loving must remain</text>
+   <end gi="line" rID="r16_line" off="304" ext="41"/>
+   <text cf="r01_sonneteer r02_octave r04_s r17_phr" off="304" ext="1">
+</text>
+   <start gi="line" rID="r18_line" off="305" ext="46"/>
+   <text cf="r01_sonneteer r02_octave r04_s r17_phr r18_line"
+         off="305"
+         ext="19">Heaped on my heart,</text>
+   <end gi="phr" rID="r17_phr" off="324" ext="61"/>
+   <text cf="r01_sonneteer r02_octave r04_s r18_line" off="324" ext="1"> </text>
+   <start gi="phr" rID="r19_phr" off="325" ext="26"/>
+   <text cf="r01_sonneteer r02_octave r04_s r18_line r19_phr"
+         off="325"
+         ext="26">and my old thoughts abide!</text>
+   <end gi="phr" rID="r19_phr" off="351" ext="26"/>
+   <end gi="s" rID="r04_s" off="351" ext="350"/>
+   <end gi="line" rID="r18_line" off="351" ext="46"/>
+   <end gi="octave" rID="r02_octave" off="351" ext="350"/>
+   <text cf="r01_sonneteer" off="351" ext="1">
+</text>
+   <start gi="sestet" rID="r20_sestet" off="352" ext="248"/>
+   <text cf="r01_sonneteer r20_sestet" off="352" ext="1">
+</text>
+   <start gi="line" rID="r21_line" off="353" ext="39"/>
+   <start gi="s" rID="r22_s" off="353" ext="247"/>
+   <start gi="phr" rID="r23_phr" off="353" ext="46"/>
+   <text cf="r01_sonneteer r20_sestet r21_line r22_s r23_phr"
+         off="353"
+         ext="39">There are a hundred places where I fear</text>
+   <end gi="line" rID="r21_line" off="392" ext="39"/>
+   <text cf="r01_sonneteer r20_sestet r22_s r23_phr" off="392" ext="1">
+</text>
+   <start gi="line" rID="r24_line" off="393" ext="37"/>
+   <text cf="r01_sonneteer r20_sestet r22_s r23_phr r24_line"
+         off="393"
+         ext="6">To go,</text>
+   <end gi="phr" rID="r23_phr" off="399" ext="46"/>
+   <start gi="phr" rID="r25_phr" off="399" ext="31"/>
+   <text cf="r01_sonneteer r20_sestet r22_s r24_line r25_phr"
+         off="399"
+         ext="31">--so with his memory they brim!</text>
+   <end gi="phr" rID="r25_phr" off="430" ext="31"/>
+   <end gi="line" rID="r24_line" off="430" ext="37"/>
+   <text cf="r01_sonneteer r20_sestet r22_s" off="430" ext="1">
+</text>
+   <start gi="couplet" rID="r26_couplet" off="431" ext="85"/>
+   <start gi="line" rID="r27_line" off="431" ext="41"/>
+   <start gi="phr" rID="r28_phr" off="431" ext="92"/>
+   <text cf="r01_sonneteer r20_sestet r22_s r26_couplet r27_line r28_phr"
+         off="431"
+         ext="41">And entering with relief some quiet place</text>
+   <end gi="line" rID="r27_line" off="472" ext="41"/>
+   <text cf="r01_sonneteer r20_sestet r22_s r26_couplet r28_phr"
+         off="472"
+         ext="1">
+</text>
+   <start gi="line" rID="r29_line" off="473" ext="43"/>
+   <text cf="r01_sonneteer r20_sestet r22_s r26_couplet r28_phr r29_line"
+         off="473"
+         ext="43">Where never fell his foot or shone his face</text>
+   <end gi="line" rID="r29_line" off="516" ext="43"/>
+   <end gi="couplet" rID="r26_couplet" off="516" ext="85"/>
+   <text cf="r01_sonneteer r20_sestet r22_s r28_phr" off="516" ext="1">
+</text>
+   <start gi="line" rID="r30_line" off="517" ext="40"/>
+   <text cf="r01_sonneteer r20_sestet r22_s r28_phr r30_line"
+         off="517"
+         ext="6">I say,</text>
+   <end gi="phr" rID="r28_phr" off="523" ext="92"/>
+   <text cf="r01_sonneteer r20_sestet r22_s r30_line" off="523" ext="1"> </text>
+   <start gi="phr" rID="r31_phr" off="524" ext="33"/>
+   <text cf="r01_sonneteer r20_sestet r22_s r30_line r31_phr"
+         off="524"
+         ext="33">"There is no memory of him here!"</text>
+   <end gi="phr" rID="r31_phr" off="557" ext="33"/>
+   <end gi="line" rID="r30_line" off="557" ext="40"/>
+   <text cf="r01_sonneteer r20_sestet r22_s" off="557" ext="1">
+</text>
+   <start gi="line" rID="r32_line" off="558" ext="42"/>
+   <start gi="phr" rID="r33_phr" off="558" ext="22"/>
+   <text cf="r01_sonneteer r20_sestet r22_s r32_line r33_phr"
+         off="558"
+         ext="22">And so stand stricken,</text>
+   <end gi="phr" rID="r33_phr" off="580" ext="22"/>
+   <text cf="r01_sonneteer r20_sestet r22_s r32_line" off="580" ext="1"> </text>
+   <start gi="phr" rID="r34_phr" off="581" ext="19"/>
+   <text cf="r01_sonneteer r20_sestet r22_s r32_line r34_phr"
+         off="581"
+         ext="19">so remembering him!</text>
+   <end gi="phr" rID="r34_phr" off="600" ext="19"/>
+   <end gi="s" rID="r22_s" off="600" ext="247"/>
+   <end gi="line" rID="r32_line" off="600" ext="42"/>
+   <end gi="sestet" rID="r20_sestet" off="600" ext="248"/>
+   <text cf="r01_sonneteer" off="600" ext="1">
+</text>
+   <end gi="sonneteer" rID="r01_sonneteer" off="601" ext="601"/>
+</LMNL>
