@@ -4,6 +4,10 @@ laminator-dev.xpr
 # local punchlist
 punchlist.md
 
-# Any 'working' folder
+# Presumed to be HTML reports
+xspec/*.html
+
+# scratch folders
+old/
 working/
 
