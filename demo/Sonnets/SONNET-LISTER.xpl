@@ -25,7 +25,7 @@
         
         <p:identity message="Seeing '{ $title }' by { $author }">
             <p:with-input port="source" expand-text="true">
-                <p:inline>&#xA;&#xA;---&#xA;&#xA;{ $author }: *[{ $title }](../../sources/Sonneteer/sonnets/{$id}.lmnl)*&#xA;&#xA;![{ $title }](out/bubbles/{ $id }-bubbles.svg)</p:inline>
+                <p:inline>&#xA;&#xA;---&#xA;&#xA;{ $author }: [{ $title }](../../sources/Sonneteer/sonnets/{$id}.lmnl)*&#xA;&#xA;![{ $title }](out/bubbles/{ $id }-bubbles.svg)</p:inline>
             </p:with-input>
         </p:identity>
     </p:for-each>
