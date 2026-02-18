@@ -1,0 +1,27 @@
+{
+       MNML LMNL Sawtooth Syntax
+       For Minimally Annotated Markup in LMNL
+       (An implementation of a LMNL subset metalanguage)
+       - this syntax is one possible way to represent ranges over strings -
+       LMNL: the Layered Markup and Annotation Language
+           Jeni Tennison, Wendell Piez, Gavin Nicol, John Cowan
+           and friends, from 2001.
+}
+
+       LMNL: text**tag . { consecutive tags come with text between them }
+       text: char* .     { empties will just have to be tossed }
+      -char: ~["[";"{";"\"]; "\["; "\{"; "\\" . { \ as escape character is also escaped so we can represent '\[' }
+       -tag: (start | end | empty) .            { range delimiters }
+      start: -"[", name?, (ws?, annotation)*, ws?, -"}" . 
+        end: -"{", name?, (ws?, annotation)*, ws?, -"]" . 
+      empty: -"[", name?, (ws?, annotation)*, ws?, -"]" .
+      @name: -gi, ("#", cc+)? .
+         gi: ic, cc* .
+        -ic: [L] .
+        -cc: ic; ["0"-"9"]; "."; "_"; "-"; ":" .
+ annotation: ( -ann | -ean ) .
+        ann: -"[", @gi?, -"}", -text?, ae . 
+        -ae: -"{]" .
+        ean: -"[", @gi, -"]" .     { empty annotations must have a gi }
+        -ws: (" "|#9|#d|#a)+ .     { SPACE TAB CR LF }
+{ ende }

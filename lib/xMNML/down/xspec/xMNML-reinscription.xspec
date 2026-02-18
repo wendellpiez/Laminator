@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../xMNML-reinscribe.xsl"
+  run-as="external"
+  xmlns:ws="http://wendellpiez.com/ns/xproc-zone"> 
+  
+  <!-- Must be run-as external due to top-level parameter $frontier setting 
+       or can we mitigate that?
+  
+  -->
+
+  <x:helper stylesheet="testing/ws-scrub.xsl"/>
+
+  <x:scenario label="Basic throughput">
+    <x:context href="testing/Plutarch_Alexander_14_1-3_tei.xMNML" select="ws:scrub(/)"/>
+    <x:scenario label="Providing an xMNML document (model)">
+      <x:expect label="it comes back clean and unaltered" select="ws:scrub(/)"
+        href="testing/Plutarch_Alexander_14_1-3_tei.xMNML"/>
+    </x:scenario>
+  </x:scenario>
+  
+  <!--
+  Next: adding new ranges
+  Trying with $retain=false() to replace old ranges with new ranges
+  test with colliding rangeIDs
+  Try out with arbitrary overlap of more than usual complexity
+  
+  generic rID rewriter?
+  -->
+</x:description>

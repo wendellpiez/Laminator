@@ -1,0 +1,45 @@
+default namespace = "http://wendellpiez.com/ns/xMNML"
+
+# Created using Trang then factored out by hand
+
+# Assertions not validated by this schema
+
+# start, end and empty are all given in correctly in order wrt @off and @ext
+# starts and ends all pair up and align correctly
+# text/@cf always points to the open ranges (started not ended), no others
+
+start     = element LMNL { (start_tag | end_tag | empty_tag | text_span)* }
+
+
+start_tag = element start { range_attrs, position_attrs, annotation* }
+
+end_tag   = element end   { range_attrs, position_attrs, annotation* }
+
+empty_tag = element empty { range_attrs, offset_attr,    annotation* }
+
+text_span =
+    element text { position_attrs,
+        attribute cf { xsd:string }?, # referential integrity validated elsewhere
+        text                          # validated against unescaped delimiters \ [ { elsewhere
+    }
+
+
+annotation = 
+    element annotation { gi_attr,
+        text # validated against unescaped delimiters \ [ { elsewhere
+    }
+
+
+range_attrs    = gi_attr,
+    attribute id { xsd:integer }?,
+    attribute rID { xsd:NCName }
+
+position_attrs =  offset_attr,
+    attribute ext { xsd:integer }
+
+offset_attr    = attribute off { xsd:integer }
+
+gi_attr        = attribute gi { xsd:NCName }?
+
+
+# end

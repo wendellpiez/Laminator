@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec" stylesheet="xml-to-lmnl.xsl">
+
+
+    <x:scenario label="Basic start and end tagging">
+        <x:context>
+            <random>An XML Document</random>
+        </x:context>
+        <x:expect label="... is translated">
+            <x:text>[random}An XML Document{random]</x:text>
+        </x:expect>
+    </x:scenario>
+    <x:scenario label="Nesting one level deep">
+        <x:context>
+            <random>An XML Document with <em>emphatic</em> contents</random>
+        </x:context>
+        <x:expect label="... is translated">
+            <x:text>[random}An XML Document with [em}emphatic{em] contents{random]</x:text>
+        </x:expect>
+    </x:scenario>
+    <x:scenario label="A single attribute">
+        <x:context>
+            <random extra="special">An XML Document</random>
+        </x:context>
+        <x:expect label="... is translated">
+            <x:text>[random [extra}special{]}An XML Document{random]</x:text>
+        </x:expect>
+    </x:scenario>
+    <x:scenario label="A pair of attributes">
+        <x:context>
+            <random extra="special" qual="0">An XML Document</random>
+        </x:context>
+        <x:expect label="... is translated">
+            <x:text>[random [extra}special{][qual}0{]}An XML Document{random]</x:text>
+        </x:expect>
+    </x:scenario>
+  <x:scenario label="Some basic escaping">
+    <x:context>
+      <random>running text {  ]</random>
+    </x:context>
+    <x:expect label="... is translated">
+      <x:text>[random}running text \{  ]{random]</x:text>
+    </x:expect>
+  </x:scenario>
+  <x:scenario label="Open bracket">
+    <x:context>
+      <random>open bracket [  ]</random>
+    </x:context>
+    <x:expect label="... is translated">
+      <x:text>[random}open bracket \[  ]{random]</x:text>
+    </x:expect>
+  </x:scenario>
+  <x:scenario label="Open bracket, but in a flag">
+    <x:context>
+      <random flag="open bracketed [">stuff</random>
+    </x:context>
+    <x:expect label="... is translated">
+      <x:text>[random [flag}open bracketed \[{]}stuff{random]</x:text>
+    </x:expect>
+  </x:scenario>
+  
+
+</x:description>

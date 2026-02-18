@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../xMNML-write-sawteeth.xsl"
+  run-as="import"
+  xmlns:mn="http://wendellpiez.com/ns/xMNML"> 
+  
+  <x:helper stylesheet="testing/ws-scrub.xsl"/>
+
+  
+  <x:scenario label="A clean string with no funny characters">
+    <x:call function="mn:lmnl-escape">
+      <x:param  select="'We love you Conrad'"/>
+    </x:call>
+    <x:expect label=" comes through unchanged"  select="'We love you Conrad'"/>
+  </x:scenario>
+  
+  <x:scenario label="A string with an open bracket">
+    <x:call function="mn:lmnl-escape">
+      <x:param  select="'It started with a [bang]!!!'"/>
+    </x:call>
+    <x:expect label=" comes through escaped"  select="'It started with a \[bang]!!!'"/>
+  </x:scenario>
+  
+  <x:scenario label="A string with an open curly brace">
+    <x:call function="mn:lmnl-escape">
+      <x:param  select="'When considered to be an {attribute value template}'"/>
+    </x:call>
+    <x:expect label=" comes through escaped"  select="'When considered to be an \{attribute value template}'"/>
+  </x:scenario>
+  
+  <x:scenario label="A string with a reverse solidus ... or two ...">
+    <x:call function="mn:lmnl-escape">
+      <x:param  select="'MS-DOS started with \ and went to \\ and even beyond ... \\\'"/>
+    </x:call>
+    <x:expect label=" comes through escaped"  select="'MS-DOS started with \\ and went to \\\\ and even beyond ... \\\\\\'"/>
+  </x:scenario>
+  
+</x:description>
