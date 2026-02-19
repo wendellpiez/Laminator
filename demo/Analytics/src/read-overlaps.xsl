@@ -9,6 +9,8 @@
   
   <!-- Reads an xMNML instance and writes a REPORT listing ranges overlapping one another. -->
   
+  <xsl:output indent="true"/>
+  
   <xsl:variable name="xLMNL-document" select="/"/>
   
 <!-- overlaps are all text nodes whose preceding sibling contains ranges  -->
@@ -21,7 +23,7 @@
   <xsl:template match="start">
     <xsl:variable name="overlapping-start" select="mnml:starting-overlaps(.)"/>
     <xsl:variable name="overlapping-end"   select="mnml:ending-overlaps(.)"/>
-    <range rID="{ @rID}">
+    <range rID="{ @rID}" starting="{ @off }" ending="{ @off + @ext }">
       <xsl:if test="exists($overlapping-start)">
         <xsl:attribute name="overlaps-start" select="$overlapping-start" separator=" "/>
       </xsl:if>
@@ -53,8 +55,9 @@
     <xsl:variable name="text-first" select="key('texts-for-range', $r/@rID, $xLMNL-document)[1]"/>
     <xsl:variable name="text-last"  select="key('texts-for-range', $r/@rID, $xLMNL-document)[last()]"/>
     
-    <xsl:variable name="text-first-ranges" select="mnml:rangeIDs( $text-first)"/>
-    <xsl:variable name="text-last-ranges"  select="mnml:rangeIDs( $text-last)"/>
+    <!-- Should fail out nicely enough even on empty ranges or ranges that happen to be [empty}{empty] -->
+    <xsl:variable name="text-first-ranges" select="$text-first/mnml:rangeIDs(.)"/>
+    <xsl:variable name="text-last-ranges"  select="$text-last/mnml:rangeIDs(.)"/>
     <xsl:variable name="ends-inside"       select="$text-first-ranges[not(. = $text-last-ranges)]"/>
     
     <xsl:sequence select="$ends-inside[ . = $text-first/preceding-sibling::text[1]/mnml:rangeIDs(.) ]"/>
@@ -66,11 +69,11 @@
     <xsl:variable name="text-first" select="key('texts-for-range', $r/@rID, $xLMNL-document)[1]"/>
     <xsl:variable name="text-last" select="key('texts-for-range', $r/@rID, $xLMNL-document)[last()]"/>
     
-    <xsl:variable name="text-first-ranges" select="mnml:rangeIDs($text-first)"/>
-    <xsl:variable name="text-last-ranges" select="mnml:rangeIDs($text-last)"/>
-    <xsl:variable name="starts-inside" select="$text-last-ranges[not(. = $text-first-ranges)]"/>
+    <xsl:variable name="text-first-ranges" select="$text-first/mnml:rangeIDs(.)"/>
+    <xsl:variable name="text-last-ranges"  select="$text-last/mnml:rangeIDs(.)"/>
+    <xsl:variable name="starts-inside"     select="$text-last-ranges[not(. = $text-first-ranges)]"/>
 
-    <xsl:sequence select="$starts-inside[. = mnml:rangeIDs($text-last/following-sibling::text[1])]"/>
+    <xsl:sequence select="$starts-inside[. = $text-last/following-sibling::text[1]/mnml:rangeIDs(.)]"/>
   </xsl:function> 
   
   <!--

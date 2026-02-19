@@ -19611,10 +19611,30 @@
          font-size="8">
          <text dominant-baseline="hanging">line</text>
       </g>
+      <rect rx="2"
+            ry="2"
+            x="72.30102991934143"
+            y="98.07525747983536"
+            width="0.039452555418150945"
+            height="40.009863138854534"
+            stroke-width="0.1"
+            fill="none"
+            fill-opacity="0.4"
+            stroke="black"/>
       <g transform="translate(72.30102991934143 98.07525747983536)"
          font-size="8">
          <text dominant-baseline="hanging">place</text>
       </g>
+      <rect rx="2"
+            ry="2"
+            x="90.28087450857343"
+            y="102.57021862714336"
+            width="0.023671533250890567"
+            height="40.00591788331272"
+            stroke-width="0.1"
+            fill="none"
+            fill-opacity="0.4"
+            stroke="black"/>
       <g transform="translate(90.28087450857343 102.57021862714336)"
          font-size="8">
          <text dominant-baseline="hanging">place</text>
