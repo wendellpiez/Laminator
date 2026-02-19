@@ -18,7 +18,7 @@
   <p:output port="raw_parseresult"  primary="false" pipe="result@parsed-tags"
     serialization="map { 'indent': true(), 'omit-xml-declaration': true() }"/>
   
-  <p:output port="interim_measured" primary="false" pipe="result@linked"
+  <p:output port="interim_linked" primary="false" pipe="result@linked"
     serialization="map { 'indent': true(), 'omit-xml-declaration': true() }"/>
   
   <!-- [ten}[nine}[eight}... Here we go good luck -->
