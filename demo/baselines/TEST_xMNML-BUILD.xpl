@@ -43,14 +43,14 @@
     <!-- Remember we error out on no go ... -->
     <mnml:go-nogo name="comparing-simple">
         <p:with-input port="source">
-            <p:document  href="Housekeeper144-146.lmnl" content-type="text/plain"/>
+            <p:document  href="data/Housekeeper144-146.lmnl" content-type="text/plain"/>
         </p:with-input>
         <p:with-input port="expected" href="expected/Housekeeper-xMNML.xml"/>
     </mnml:go-nogo>
     
     <mnml:go-nogo name="comparing-edges">
         <p:with-input port="source">
-            <p:document  href="PLfragment.lmnl" content-type="text/plain"/>
+            <p:document  href="data/PLfragment.lmnl" content-type="text/plain"/>
         </p:with-input>
         <p:with-input port="expected" href="expected/PLfragment-xMNML.xml"/>
     </mnml:go-nogo>

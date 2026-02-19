@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL>
+   <start gi="excerpt" rID="r1_excerpt">
+      <annotation gi="author">Robert Frost</annotation>
+      <annotation gi="date">1915</annotation>
+      <annotation gi="title">The Housekeeper</annotation>
+   </start>
+   <text cf="r1_excerpt">
+</text>
+   <start gi="s" rID="r2_s"/>
+   <start gi="l" rID="r3_l">
+      <annotation gi="n">144</annotation>
+   </start>
+   <text cf="r1_excerpt r2_s r3_l">He manages to keep the upper hand</text>
+   <end gi="l" rID="r3_l"/>
+   <text cf="r1_excerpt r2_s">
+</text>
+   <start gi="l" rID="r4_l">
+      <annotation gi="n">145</annotation>
+   </start>
+   <text cf="r1_excerpt r2_s r4_l">On his own farm.</text>
+   <end gi="s" rID="r2_s"/>
+   <text cf="r1_excerpt r4_l"> </text>
+   <start gi="s" rID="r5_s"/>
+   <text cf="r1_excerpt r4_l r5_s">He's boss.</text>
+   <end gi="s" rID="r5_s"/>
+   <text cf="r1_excerpt r4_l"> </text>
+   <start gi="s" rID="r6_s"/>
+   <text cf="r1_excerpt r4_l r6_s">But as to hens:</text>
+   <end gi="l" rID="r4_l"/>
+   <text cf="r1_excerpt r6_s">
+</text>
+   <start gi="l" rID="r7_l">
+      <annotation gi="n">146</annotation>
+   </start>
+   <text cf="r1_excerpt r6_s r7_l">We fence our flowers in and the hens range.</text>
+   <end gi="l" rID="r7_l"/>
+   <end gi="s" rID="r6_s"/>
+   <text cf="r1_excerpt">
+</text>
+   <end gi="excerpt" rID="r1_excerpt"/>
+   <text cf="">
+</text>
+</LMNL>

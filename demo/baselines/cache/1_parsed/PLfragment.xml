@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL>
+   <text/>
+   <start name="excerpt">
+      <annotation gi="title">Paradise Lost I 1-26</annotation>
+      <annotation gi="book">I</annotation>
+      <annotation gi="ll">1-26</annotation>
+      <annotation gi="author">John Milton</annotation>
+   </start>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.1</annotation>
+   </start>
+   <text/>
+   <start name="s"/>
+   <text/>
+   <start name="phr"/>
+   <text>Of Man's first disobedience,</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>and </text>
+   <start name="np#1"/>
+   <text>the fruit</text>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.2</annotation>
+   </start>
+   <text>Of </text>
+   <start name="np#2"/>
+   <text>that forbidden tree</text>
+   <end name="np#1"/>
+   <text> whose mortal taste</text>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.3</annotation>
+   </start>
+   <text>Brought death into the World,</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>and all our woe,</text>
+   <end name="phr"/>
+   <text/>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.4</annotation>
+   </start>
+   <text/>
+   <start name="phr"/>
+   <text>With loss of Eden,</text>
+   <end name="np#2"/>
+   <text/>
+   <end name="phr"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>till one greater Man</text>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.5</annotation>
+   </start>
+   <text>Restore us,</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>and regain the blissful seat,</text>
+   <end name="phr"/>
+   <text/>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.6</annotation>
+   </start>
+   <text/>
+   <start name="phr"/>
+   <text>Sing,</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="np#3"/>
+   <text/>
+   <start name="phr"/>
+   <text>Heavenly Muse,</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>that,</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>on the secret top</text>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.7</annotation>
+   </start>
+   <text>Of Oreb,</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>or of Sinai,</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>didst inspire</text>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.8</annotation>
+   </start>
+   <text/>
+   <start name="np#4"/>
+   <text>That Shepherd</text>
+   <end name="np#3"/>
+   <text> who first taught the chosen seed</text>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.9</annotation>
+   </start>
+   <text>In the beginning how the heavens and earth</text>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.10</annotation>
+   </start>
+   <text>Rose out of Chaos:</text>
+   <end name="phr"/>
+   <text/>
+   <end name="np#4"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>or,</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>if Sion hill</text>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.11</annotation>
+   </start>
+   <text>Delight thee more,</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>and </text>
+   <start name="np#5"/>
+   <text>Siloa's brook that flowed</text>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.12</annotation>
+   </start>
+   <text>Fast by the oracle of God,</text>
+   <end name="phr"/>
+   <text/>
+   <end name="np#5">
+      <annotation gi="ref">John 9</annotation>
+   </end>
+   <text> </text>
+   <start name="phr"/>
+   <text>I thence</text>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.13</annotation>
+   </start>
+   <text>Invoke thy aid to </text>
+   <start name="np#6"/>
+   <text>my adventurous song,</text>
+   <end name="phr"/>
+   <text/>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.14</annotation>
+   </start>
+   <text/>
+   <start name="phr"/>
+   <text>That with no middle flight intends to soar</text>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.15</annotation>
+   </start>
+   <text>Above th' Aonian mount,</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>while it pursues</text>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.16</annotation>
+   </start>
+   <text/>
+   <start name="np#7"/>
+   <text>Things unattempted yet in prose or rhyme.</text>
+   <end name="np#7"/>
+   <text/>
+   <end name="np#6"/>
+   <text/>
+   <end name="phr"/>
+   <text/>
+   <end name="s"/>
+   <text/>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.17</annotation>
+   </start>
+   <text/>
+   <start name="s"/>
+   <text/>
+   <start name="phr"/>
+   <text>And chiefly thou,</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="np#8"/>
+   <text/>
+   <start name="phr"/>
+   <text>O Spirit,</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>that dost prefer</text>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.18</annotation>
+   </start>
+   <text>Before all temples th' upright heart and pure,</text>
+   <end name="np#8"/>
+   <text/>
+   <end name="phr"/>
+   <text/>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.19</annotation>
+   </start>
+   <text/>
+   <start name="phr"/>
+   <text>Instruct me,</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>for Thou know'st;</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>Thou from the first</text>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.20</annotation>
+   </start>
+   <text>Wast present,</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>and,</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>with mighty wings outspread,</text>
+   <end name="phr"/>
+   <text/>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.21</annotation>
+   </start>
+   <text/>
+   <start name="phr"/>
+   <text>Dove-like sat'st brooding on the vast Abyss,</text>
+   <end name="phr"/>
+   <text/>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.22</annotation>
+   </start>
+   <text/>
+   <start name="phr"/>
+   <text>And mad'st it pregnant:</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>what in me is dark</text>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.23</annotation>
+   </start>
+   <text>Illumine,</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>what is low raise and support;</text>
+   <end name="phr"/>
+   <text/>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.24</annotation>
+   </start>
+   <text/>
+   <start name="phr"/>
+   <text>That,</text>
+   <end name="phr"/>
+   <text> </text>
+   <start name="phr"/>
+   <text>to the height of this great argument,</text>
+   <end name="phr"/>
+   <text/>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.25</annotation>
+   </start>
+   <text/>
+   <start name="phr"/>
+   <text>I may assert Eternal Providence,</text>
+   <end name="phr"/>
+   <text/>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">Bk.1.26</annotation>
+   </start>
+   <text/>
+   <start name="phr"/>
+   <text>And justify the ways of God to men.</text>
+   <end name="phr"/>
+   <text/>
+   <end name="s"/>
+   <text/>
+   <end name="l"/>
+   <text>
+</text>
+   <end name="excerpt"/>
+   <text>
+</text>
+</LMNL>

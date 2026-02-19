@@ -12,7 +12,7 @@
 
     <mnml:sawteeth-to-xMNML name="xMNML">
         <p:with-input port="source">
-            <p:document href="PLfragment.lmnl" content-type="text/plain"/>
+            <p:document href="data/PLfragment.lmnl" content-type="text/plain"/>
         </p:with-input>
     </mnml:sawteeth-to-xMNML>
     

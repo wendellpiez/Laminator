@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL>
+   <text/>
+   <start name="excerpt">
+      <annotation gi="author">Robert Frost</annotation>
+      <annotation gi="date">1915</annotation>
+      <annotation gi="title">The Housekeeper</annotation>
+   </start>
+   <text>
+</text>
+   <start name="s"/>
+   <text/>
+   <start name="l">
+      <annotation gi="n">144</annotation>
+   </start>
+   <text>He manages to keep the upper hand</text>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">145</annotation>
+   </start>
+   <text>On his own farm.</text>
+   <end name="s"/>
+   <text> </text>
+   <start name="s"/>
+   <text>He's boss.</text>
+   <end name="s"/>
+   <text> </text>
+   <start name="s"/>
+   <text>But as to hens:</text>
+   <end name="l"/>
+   <text>
+</text>
+   <start name="l">
+      <annotation gi="n">146</annotation>
+   </start>
+   <text>We fence our flowers in and the hens range.</text>
+   <end name="l"/>
+   <text/>
+   <end name="s"/>
+   <text>
+</text>
+   <end name="excerpt"/>
+   <text>
+</text>
+</LMNL>

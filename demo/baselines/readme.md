@@ -18,6 +18,22 @@ The listing shows locations by line numbers, found by querying for overlapping `
 
 The pipeline logic is generic and applies to any MNML document. The range type(s) to be returned are given as a parameter to the XSLT performing the query. For purposes of reporting locations, this XSLT assumes that `l` ranges (for lines) with `n` annotations appear (for line numbering, as in the examples) to provide this information.
 
+### Open-hood examples
+
+The pipeline xMNML_REFRESH.xpl will produce xMNML results from parsing all the files given in the `data` folder, along with the interim results produced by the pipeline, which runs in three steps. So:
+
+- [cache/1_parsed/](cache/1_parsed/) contains results of parsing the MNML LMNL inputs with the iXML grammar. Expect errors for files that are not syntactically conformant.
+- [cache/2_linked/](cache/2_linked/) shows the same results with text now escaped (for markup delimiters) and matching tags linked.
+- [cache/3_xmnml/](cache/3_xmnml/) shows the final xMNML, now with range offsets and extents marked.
+
+Inspect these to understand the relatively simple operations performed in parsing MNML LMNL (syntax) into xMNML.
+
+Why do this?
+
+- Many things can be done with xMNML, including building hierarchies (XML) and other applications
+- LMNL syntax may also be useful for certain kinds of operations and interchange including under automation (*tag writing*)
+- Round-tripping between LMNL syntax and the xMNML model gives us a 'vector of control'
+
 ## LMNL Examples
 
 ### Frost
