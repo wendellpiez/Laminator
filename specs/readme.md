@@ -44,7 +44,7 @@ The constraints:
   1. Start tags for ranges in order longest to shortest
   2. Empty range tags
   3. End tags for ranges in order shortest to longest
-- End tags occur following their start tags
+- End tags appear following their start tags
 - Where ranges overlap others with the same GI, an ID part (name suffix) is given to disambiguate between overlap and nesting.
 - Every range in which a text segment appears (that is, it starts with or before the text and ends with or after it) is noted in its `@cf` attribute
 

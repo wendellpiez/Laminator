@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REPORT xmlns="http://wendellpiez.com/ns/xMNML">
+   <range-type gi="excerpt"/>
+   <range-type gi="l" overlaps="phr np"/>
+   <range-type gi="s"/>
+   <range-type gi="phr" overlaps="np l"/>
+   <range-type gi="np" overlaps="l np phr"/>
+</REPORT>

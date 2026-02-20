@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REPORT xmlns="http://wendellpiez.com/ns/xMNML">
+   <range rID="r01_excerpt" gi="excerpt" starting="0" ending="1105"/>
+   <range rID="r02_l"
+          gi="l"
+          starting="1"
+          ending="43"
+          overlaps-end="r05_phr r06_np"/>
+   <range rID="r03_s" gi="s" starting="1" ending="671"/>
+   <range rID="r04_phr" gi="phr" starting="1" ending="29"/>
+   <range rID="r05_phr"
+          gi="phr"
+          starting="30"
+          ending="115"
+          overlaps-start="r02_l"
+          overlaps-end="r08_np r09_l"/>
+   <range rID="r06_np"
+          gi="np"
+          starting="34"
+          ending="66"
+          overlaps-start="r02_l"
+          overlaps-end="r07_l r08_np"/>
+   <range rID="r07_l"
+          gi="l"
+          starting="44"
+          ending="85"
+          overlaps-start="r06_np"
+          overlaps-end="r08_np"/>
+   <range rID="r08_np"
+          gi="np"
+          starting="47"
+          ending="151"
+          overlaps-start="r05_phr r06_np r07_l"
+          overlaps-end="r11_l"/>
+   <range rID="r09_l"
+          gi="l"
+          starting="86"
+          ending="132"
+          overlaps-start="r05_phr"/>
+   <range rID="r10_phr" gi="phr" starting="116" ending="132"/>
+   <range rID="r11_l"
+          gi="l"
+          starting="133"
+          ending="172"
+          overlaps-start="r08_np"
+          overlaps-end="r13_phr"/>
+   <range rID="r12_phr" gi="phr" starting="133" ending="151"/>
+   <range rID="r13_phr"
+          gi="phr"
+          starting="152"
+          ending="184"
+          overlaps-start="r11_l"
+          overlaps-end="r14_l"/>
+   <range rID="r14_l"
+          gi="l"
+          starting="173"
+          ending="214"
+          overlaps-start="r13_phr"/>
+   <range rID="r15_phr" gi="phr" starting="185" ending="214"/>
+   <range rID="r16_l"
+          gi="l"
+          starting="215"
+          ending="259"
+          overlaps-end="r18_np r21_phr"/>
+   <range rID="r17_phr" gi="phr" starting="215" ending="220"/>
+   <range rID="r18_np"
+          gi="np"
+          starting="221"
+          ending="309"
+          overlaps-start="r16_l"
+          overlaps-end="r24_phr r25_l r26_np"/>
+   <range rID="r19_phr" gi="phr" starting="221" ending="235"/>
+   <range rID="r20_phr" gi="phr" starting="236" ending="241"/>
+   <range rID="r21_phr"
+          gi="phr"
+          starting="242"
+          ending="268"
+          overlaps-start="r16_l"
+          overlaps-end="r22_l"/>
+   <range rID="r22_l"
+          gi="l"
+          starting="260"
+          ending="295"
+          overlaps-start="r21_phr"
+          overlaps-end="r24_phr"/>
+   <range rID="r23_phr" gi="phr" starting="269" ending="281"/>
+   <range rID="r24_phr"
+          gi="phr"
+          starting="282"
+          ending="404"
+          overlaps-start="r18_np r22_l"
+          overlaps-end="r28_l"/>
+   <range rID="r25_l"
+          gi="l"
+          starting="296"
+          ending="342"
+          overlaps-start="r18_np"/>
+   <range rID="r26_np"
+          gi="np"
+          starting="296"
+          ending="404"
+          overlaps-start="r18_np"
+          overlaps-end="r28_l"/>
+   <range rID="r27_l" gi="l" starting="343" ending="385"/>
+   <range rID="r28_l"
+          gi="l"
+          starting="386"
+          ending="421"
+          overlaps-start="r24_phr r26_np"
+          overlaps-end="r30_phr"/>
+   <range rID="r29_phr" gi="phr" starting="405" ending="408"/>
+   <range rID="r30_phr"
+          gi="phr"
+          starting="409"
+          ending="440"
+          overlaps-start="r28_l"
+          overlaps-end="r31_l"/>
+   <range rID="r31_l"
+          gi="l"
+          starting="422"
+          ending="470"
+          overlaps-start="r30_phr"
+          overlaps-end="r32_phr r33_np"/>
+   <range rID="r32_phr"
+          gi="phr"
+          starting="441"
+          ending="497"
+          overlaps-start="r31_l"
+          overlaps-end="r34_l"/>
+   <range rID="r33_np"
+          gi="np"
+          starting="445"
+          ending="497"
+          overlaps-start="r31_l"
+          overlaps-end="r34_l"/>
+   <range rID="r34_l"
+          gi="l"
+          starting="471"
+          ending="506"
+          overlaps-start="r32_phr r33_np"
+          overlaps-end="r35_phr"/>
+   <range rID="r35_phr"
+          gi="phr"
+          starting="498"
+          ending="545"
+          overlaps-start="r34_l"
+          overlaps-end="r37_np"/>
+   <range rID="r36_l"
+          gi="l"
+          starting="507"
+          ending="545"
+          overlaps-end="r37_np"/>
+   <range rID="r37_np"
+          gi="np"
+          starting="525"
+          ending="671"
+          overlaps-start="r35_phr r36_l"/>
+   <range rID="r38_l" gi="l" starting="546" ending="588"/>
+   <range rID="r39_phr"
+          gi="phr"
+          starting="546"
+          ending="612"
+          overlaps-end="r40_l"/>
+   <range rID="r40_l"
+          gi="l"
+          starting="589"
+          ending="629"
+          overlaps-start="r39_phr"
+          overlaps-end="r41_phr"/>
+   <range rID="r41_phr"
+          gi="phr"
+          starting="613"
+          ending="671"
+          overlaps-start="r40_l"/>
+   <range rID="r42_l" gi="l" starting="630" ending="671"/>
+   <range rID="r43_np" gi="np" starting="630" ending="671"/>
+   <range rID="r44_l"
+          gi="l"
+          starting="672"
+          ending="716"
+          overlaps-end="r47_np r49_phr"/>
+   <range rID="r45_s" gi="s" starting="672" ending="1104"/>
+   <range rID="r46_phr" gi="phr" starting="672" ending="689"/>
+   <range rID="r47_np"
+          gi="np"
+          starting="690"
+          ending="763"
+          overlaps-start="r44_l"/>
+   <range rID="r48_phr" gi="phr" starting="690" ending="699"/>
+   <range rID="r49_phr"
+          gi="phr"
+          starting="700"
+          ending="763"
+          overlaps-start="r44_l"/>
+   <range rID="r50_l" gi="l" starting="717" ending="763"/>
+   <range rID="r51_l"
+          gi="l"
+          starting="764"
+          ending="814"
+          overlaps-end="r54_phr"/>
+   <range rID="r52_phr" gi="phr" starting="764" ending="776"/>
+   <range rID="r53_phr" gi="phr" starting="777" ending="794"/>
+   <range rID="r54_phr"
+          gi="phr"
+          starting="795"
+          ending="828"
+          overlaps-start="r51_l"
+          overlaps-end="r55_l"/>
+   <range rID="r55_l"
+          gi="l"
+          starting="815"
+          ending="862"
+          overlaps-start="r54_phr"/>
+   <range rID="r56_phr" gi="phr" starting="829" ending="833"/>
+   <range rID="r57_phr" gi="phr" starting="834" ending="862"/>
+   <range rID="r58_l" gi="l" starting="863" ending="907"/>
+   <range rID="r59_phr" gi="phr" starting="863" ending="907"/>
+   <range rID="r60_l"
+          gi="l"
+          starting="908"
+          ending="950"
+          overlaps-end="r62_phr"/>
+   <range rID="r61_phr" gi="phr" starting="908" ending="931"/>
+   <range rID="r62_phr"
+          gi="phr"
+          starting="932"
+          ending="960"
+          overlaps-start="r60_l"
+          overlaps-end="r63_l"/>
+   <range rID="r63_l"
+          gi="l"
+          starting="951"
+          ending="991"
+          overlaps-start="r62_phr"/>
+   <range rID="r64_phr" gi="phr" starting="961" ending="991"/>
+   <range rID="r65_l" gi="l" starting="992" ending="1035"/>
+   <range rID="r66_phr" gi="phr" starting="992" ending="997"/>
+   <range rID="r67_phr" gi="phr" starting="998" ending="1035"/>
+   <range rID="r68_l" gi="l" starting="1036" ending="1068"/>
+   <range rID="r69_phr" gi="phr" starting="1036" ending="1068"/>
+   <range rID="r70_l" gi="l" starting="1069" ending="1104"/>
+   <range rID="r71_phr" gi="phr" starting="1069" ending="1104"/>
+</REPORT>

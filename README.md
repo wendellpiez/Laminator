@@ -24,8 +24,8 @@ In this repository you may find working code, demonstrations, and links to demon
 - [lib](lib) contains XProc, XSLT, and other code supporting xMNML, an XML-based representation of a document as a range model
 - [papers](papers) contains any papers written so far, or links to them
 - [sources](sources) contains source data ready for inspection or play
-- [specs/](specs/) - some work in progress toward Specifications - what is said here is not formal, but not wrong either; and links are provided to the formalisms (grammmar, schema etc.)
-- [testing/]() - tests are dispersed through the repository but linked here
+- [specs](specs/) - some work in progress toward Specifications - what is said here is not formal, but not wrong either; and links are provided to the formalisms (grammmar, schema etc.)
+- [testing]() - tests are dispersed through the repository but linked here
 
 LMNL markup ('sawteeth' or 'sawtooth syntax') is designed to be workable 'by hand' in a text editor, but LMNL can also be generated from XML or other structured data. 
 
@@ -46,31 +46,10 @@ Laminator is a library of functions and utilities supporting MNML LMNL (syntax a
 - XML and TEI (Text Encoding Initiative)
 - XProc, a pipelining and data processing language, with its implementations
 - XSLT and kindred XML-centric technologies
-- HTML and the web platform (for browser views)
+- HTML, SVG and the web platform (for browser views)
 - iXML - Invisible XML - parsing technology
 
-## Staging applications
-
-In its basic form, the Laminator offers a set of XProc 3.0/3.1 pipelines, to be executed using an XProc engine either from the command line (when working as a developer), within a development environment, or automated under CI/CD (continuous integration/continuous development).
-
-This makes it possible to use the Laminator in either an active way - writing pipelines and transformations to exploit it in the service of markup-for-overlap - or in a passive mode, simply editing data (such as XML or LMNL data) and then using a Laminator-based application as a renderer - for example, generating HTML, SVG, PDF or XML outputs for study or further work.
-
-Under either scenario these pipelines provide generalized processing in the service of xMNML, XML and LMNL 'sawtooth' syntax, to be imported and used by application logic.
-
-A couple of simple applications using XProc and the Laminator libraries are available for study: see the [demo](demo) folder.
-
-For more on XProc:
-
-- [XProc 3.0/3.1 Community Portal](https://xproc.org/)
-- [XProc Zone](https://wendellpiez.github.io/xproc-zone/) - by the author
-
-## The name “Laminator”
-
-LMNL is of course the *Layered* Markup and Annotation Language.
-
-With the Laminator, adding and removing new layers, and examining and assessing them, should be easy, fun and rewarding of insights.
-
-## Capabilities
+### Capabilities
 
 In addition to parsing and serializing (reading and writing) LMNL syntax, the Laminator offers (or will offer):
 
@@ -88,6 +67,21 @@ In addition to parsing and serializing (reading and writing) LMNL syntax, the La
 
 If you have an interest and you can't find more information in the libraries, please send word.
 
+### Staging applications
+
+A couple of simple applications using XProc and the Laminator libraries are available for study: see the [demo](demo) folder.
+
+For more on XProc:
+
+- [XProc 3.0/3.1 Community Portal](https://xproc.org/)
+- [XProc Zone](https://wendellpiez.github.io/xproc-zone/) - by the author
+
+## The name “Laminator”
+
+LMNL is of course the *Layered* Markup and Annotation Language.
+
+With the Laminator, adding and removing new layers, and examining and assessing them, should be easy, fun and rewarding of insights.
+
 ## Relation to LMNL, the Layered Markup and Annotation Language (from 2001)
 
 The current project is an initiative of the developer (solely), with no *direct* connection (and many indirect connections) to earlier initiatives. I remain grateful to all contributors and collaborators, and to those who have encouraged this work in its various forms, and not only the work on LMNL (since 2001) but also and more generally, work on data models and text processing altogether.
@@ -99,7 +93,7 @@ The MNML subset is focused on providing for the capability specifically of a mar
 > How do we know we know we know?
 > We use markup to make it so.
 
-For an implementation of (nearly all of) LMNL, and for more history, refer to the [Luminescent project](https://github.com/wendellpiez/Luminescent) repository.
+For an earlier implementation of (nearly all of) LMNL (for the most part using obsolescent tools), and for more history, refer to the [Luminescent project](https://github.com/wendellpiez/Luminescent) repository.
 
 Wendell Piez, 2025-2026
 

@@ -1,6 +1,14 @@
 # Analytics Demo
 
+Various kinds of analytics are core features of Luminescent and should (eventually) be available in [the lib folder](../../lib/).
+
+Also, other demonstrations may have analytic aspects - for example, the demonstration pipeline [PL-EXTRACTION](../baselines/PL-EXTRACTION.xpl) is essentially analytic (with some [results here](../baselines/out/PL-range-survey.xml)).
+
+This subdirectory contains *rudimentary* and *alternative* analytics and experiments.
+
 So far ...
+
+## Range type grid showing overlaps
 
 Pipeline [overlap-grid.xpl](overlap-grid.xpl) produces an SVG diagram of the overlaps among range types (generic identifier or GIs) in a MNML LMNL input document. It is bound by default to the sample [Paradise Lost](../baselines/data/PLfragment.lmnl), but any MNML LMNL document should also work.
 
