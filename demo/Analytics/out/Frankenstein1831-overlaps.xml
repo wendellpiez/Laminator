@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REPORT xmlns="http://wendellpiez.com/ns/xMNML">
+   <range-type gi="text"/>
+   <range-type gi="volume" overlaps="body story letter page"/>
+   <range-type gi="front"/>
+   <range-type gi="titlePage"/>
+   <range-type gi="docTitle"/>
+   <range-type gi="titlePart"/>
+   <range-type gi="docAuthor"/>
+   <range-type gi="epigraph"/>
+   <range-type gi="lg"/>
+   <range-type gi="l"/>
+   <range-type gi="bibl"/>
+   <range-type gi="page"
+               overlaps="volume introduction p preface body story letter entry dialogue chapter said"/>
+   <range-type gi="introduction" overlaps="page"/>
+   <range-type gi="head"/>
+   <range-type gi="p" overlaps="page dialogue said"/>
+   <range-type gi="title"/>
+   <range-type gi="q"/>
+   <range-type gi="soCalled"/>
+   <range-type gi="said" overlaps="page p"/>
+   <range-type gi="hi"/>
+   <range-type gi="signed"/>
+   <range-type gi="trailer"/>
+   <range-type gi="preface" overlaps="page"/>
+   <range-type gi="body" overlaps="volume page"/>
+   <range-type gi="story" overlaps="volume page"/>
+   <range-type gi="letter" overlaps="volume page"/>
+   <range-type gi="opener" overlaps="entry"/>
+   <range-type gi="salute"/>
+   <range-type gi="entry" overlaps="page opener"/>
+   <range-type gi="line"/>
+   <range-type gi="place"/>
+   <range-type gi="date"/>
+   <range-type gi="lb"/>
+   <range-type gi="dialogue" overlaps="page p"/>
+   <range-type gi="interject"/>
+   <range-type gi="dateline"/>
+   <range-type gi="chapter" overlaps="page"/>
+   <range-type gi="cit"/>
+   <range-type gi="note"/>
+   <range-type gi="term"/>
+   <range-type gi="reflect"/>
+   <range-type gi="ref"/>
+   <range-type gi="foreign"/>
+</REPORT>

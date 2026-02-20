@@ -65,7 +65,7 @@ In addition to parsing and serializing (reading and writing) LMNL syntax, the La
   - Schemas and constraint sets for documents showing overlap
 - Generating graphs and visualizations (for example, range maps)
 
-If you have an interest and you can't find more information in the libraries, please send word.
+If you have an interest and you can't find more information in the libraries, please send word ([Github Issues](https://github.com/wendellpiez/Laminator/issues) or email to repository owner).
 
 ### Staging applications
 
