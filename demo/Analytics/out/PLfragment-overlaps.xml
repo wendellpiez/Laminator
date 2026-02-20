@@ -3,6 +3,6 @@
    <range-type gi="excerpt"/>
    <range-type gi="l" overlaps="phr np"/>
    <range-type gi="s"/>
-   <range-type gi="phr" overlaps="np l"/>
-   <range-type gi="np" overlaps="l np phr"/>
+   <range-type gi="phr" overlaps="l np"/>
+   <range-type gi="np" overlaps="l phr np"/>
 </REPORT>
