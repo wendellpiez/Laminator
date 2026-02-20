@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<REPORT xmlns="http://wendellpiez.com/ns/xMNML">
+<REPORT xmlns="http://wendellpiez.com/ns/xMNML" id="PLfragment">
    <range-type gi="excerpt"/>
    <range-type gi="l" overlaps="phr np"/>
    <range-type gi="s"/>

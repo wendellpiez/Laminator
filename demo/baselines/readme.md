@@ -8,16 +8,6 @@
 
 Running it provides regression testing for the parsing and building algorithms.
 
-### Mini demo
-
-`PL-EXTRACTION.xpl` shows some rudimentary MNML processing. The pipeline processes the example document (**Paradise Lost** fragment) and returns a list of all ranges found with the given type name, provided as a parameter. So all `np` (noun phrase) ranges can be listed, or all `s` (sentence ranges).s
-
-The listing shows locations by line numbers, found by querying for overlapping `l` (line) ranges.
-
-[A result](expected/PL-range-survey.xml) from running this pipeline (with 's' and 'np' as parameter values) can be found in the [expected](expected) folder.
-
-The pipeline logic is generic and applies to any MNML document. The range type(s) to be returned are given as a parameter to the XSLT performing the query. For purposes of reporting locations, this XSLT assumes that `l` ranges (for lines) with `n` annotations appear (for line numbering, as in the examples) to provide this information.
-
 ### Open-hood examples
 
 The pipeline xMNML_REFRESH.xpl will produce xMNML results from parsing all the files given in the `data` folder, along with the interim results produced by the pipeline, which runs in three steps. So:

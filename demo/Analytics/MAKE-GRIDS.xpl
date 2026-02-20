@@ -5,6 +5,8 @@
   
   <p:import href="overlap-grid.xpl"/>
   
+  <p:output port="reports" serialization="map { 'indent': true() }"/>
+  
   <p:input port="source" sequence="true">
     <!--<p:document content-type="text/plain" href="../baselines/data/Housekeeper144-146.lmnl"/>-->
     <p:document content-type="text/plain" href="../StoryLines/data/Frankenstein1831.lmnl"/>
@@ -13,5 +15,7 @@
   <p:for-each>
     <mnml:overlap-grid/>
   </p:for-each>
+  
+  <p:wrap-sequence wrapper="REPORTS" xmlns="http://wendellpiez.com/ns/xMNML"/>
   
 </p:declare-step>

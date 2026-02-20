@@ -10,7 +10,7 @@
     <p:document href="../baselines/data/PLfragment.lmnl" content-type="text/plain"/>
   </p:input>
 
-  <!--<p:output port="result" serialization="map{ 'indent': true() }"/>-->
+  <p:output port="summary" pipe="@synopsis" serialization="map{ 'indent': true() }"/>
 
   <p:variable name="basename" select="base-uri(/) => replace('.*/|\.lmnl$','')"/>
 
@@ -30,7 +30,9 @@
     <p:with-input port="stylesheet" href="src/group-overlaps.xsl"/>
   </p:xslt>
   
-  <p:store href="out/{ $basename }-overlaps.xml" serialization="map{ 'indent': true() }"
+  <p:add-attribute match="/*" attribute-name="id" attribute-value="{ $basename }"/>
+  
+  <p:store name="synopsis" href="out/{ $basename }-overlaps.xml" serialization="map{ 'indent': true() }"
     message="-- Stored an overlap summary ... in out/{ $basename }-range-overlaps.xml"/>
   
   <!-- And now draw ... -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<REPORT xmlns="http://wendellpiez.com/ns/xMNML">
+<REPORT xmlns="http://wendellpiez.com/ns/xMNML" id="Frankenstein1831">
    <range-type gi="text"/>
    <range-type gi="volume" overlaps="body story letter page"/>
    <range-type gi="front"/>
