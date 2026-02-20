@@ -23,7 +23,7 @@
   <xsl:template match="start">
     <xsl:variable name="overlapping-start" select="mnml:starting-overlaps(.)"/>
     <xsl:variable name="overlapping-end"   select="mnml:ending-overlaps(.)"/>
-    <range rID="{ @rID}" starting="{ @off }" ending="{ @off + @ext }">
+    <range rID="{ @rID}" gi="{ @gi }" starting="{ @off }" ending="{ @off + @ext }">
       <xsl:if test="exists($overlapping-start)">
         <xsl:attribute name="overlaps-start" select="$overlapping-start" separator=" "/>
       </xsl:if>

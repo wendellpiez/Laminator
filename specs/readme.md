@@ -10,11 +10,11 @@ MNML follows the design of LMNL *except*
 - LMNL atoms, comments, PIs and declarations are not supported
 - No provision is made for namespaces (XML or other) - they are just names
 
-This reduction is in view of two considerations:
+This reduction is in view of several considerations:
 
-- We have XML (the standard and the technology) - for hierarchies and providing a functional programming platform
-- We have iXML - better stronger capabilities for text handling altogether
-- We have extensive study resources in XML and HTML - not starting from scratch, and have no need to plan to do so         
+- We have XML (the standard and the technology) - for hierarchies and providing a functional programming platform.
+- Coming at markup technologies *ex nihilo* is not necessary despite its theoretical interest. As a thought experiment, LMNL has already served its purpose(s).
+- An interchange format such as LMNL (syntax) needs a feature set, but an application must be judged on its functionality. The applications presently in view simply don't need structured annotations so badly. We save time, effort, and fuel by leaving them out for the present
 
 ## Syntax
 
@@ -40,7 +40,7 @@ The constraints:
 - Each range has a distinctive rID (XML NMTOKEN)
 - Start tags and end tags must pair up one for one on the basis of the same rID, with starts appearing first. Empty tags have distinctive rIDs.
 - Ranges on IDs are distinctive
-- Tags and text spans must be given in order of appearance (offsets)
+- Tags and text spans are given in order of appearance (offsets)
   1. Start tags for ranges in order longest to shortest
   2. Empty range tags
   3. End tags for ranges in order shortest to longest
@@ -50,21 +50,29 @@ The constraints:
 
 These constraints are not yet fully externalized, expressed and testable outside the running code - this is work in progress.
 
+Additionally, many of these properties show logical interdependencies with other properties captured in xMNML. The major example of this is that tag-ordering requirements can be validated against stipulated range offsets and extents (lengths), and vice-versa. This is convenient for processing as it provides extra checks and controls over referential integrity across the node network (of related ranges).
+
 The xMNML information set and data format is designed with these goals in mind:
 
 - It should be transparent and easy to work with
 - It should be open-ended and generic with respect to applications
 - At the same time it takes advantage of XML and the XML Stack, avoiding wheel design
 
-# Soft specifications
+# Summary
 
 xMNML supports only a subset of the original concept of LMNL.
 
 What it leaves out:
-  - Structured and marked up annotations - each annotation can encapsulat a LMNL document
-  - Comments, any analogue to XML processing instructions, LMNL atoms (outside the Unicode character set)
+  - Structured and marked up annotations (annotation as LMNL document)
+  - Comments
+  - Any analogs to XML processing instructions, entities or declarations
+  - LMNL atoms (outside the Unicode character set)
 
-These are best dealt with in the context of actual application requirements.
+What it includes:
+  - Unicode
+  - Markup
+  - Annotated tagging (like XML)
+  - Overlap
 
 For some ideas on how to provide for LMNL annotations, see the [Annotation Concepts](annotations.md) document.
 
