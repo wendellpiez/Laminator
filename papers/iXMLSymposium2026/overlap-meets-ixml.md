@@ -184,7 +184,7 @@ So many thanks and acknowledgements are due - the list is very long -
 CETH - TEI - XML - XSLT - XPath - Mulberry Technologies, Inc. - Extreme Markup Languages - Digital Humanities - DHQ - Collaborators - Critics - Customers - Balisage - XProc - iXML ... 
 
 
-![Thanks 2026](../thanks.svg "Thanks 2026")
+![Thanks 2026](../thanks2026.svg "Thanks 2026")
 
 </details>
 
