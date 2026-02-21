@@ -170,7 +170,7 @@ So a current project, **Scholia 2026** -
   - reference implementation(s)
   - test suites ... (ask me how I know)
 
-- When the code is declarative, a specification has something to say
+- When the code is declarative, a specification becomes intelligible
   - Each layer of description supports the next one up
   - This organization is resilient and adaptable as well as functional 
 
@@ -180,8 +180,12 @@ So a current project, **Scholia 2026** -
 
 So many thanks and acknowledgements are due - the list is very long -
 
-CETH - TEI - XML - XSLT - XPath - Mulberry Technologies, Inc. - Extreme Markup Languages - DH - Collaborators - Critics - Customers - Balisage - XProc - iXML ... 
+<details><summary>Thanks everyone!</summary>
+CETH - TEI - XML - XSLT - XPath - Mulberry Technologies, Inc. - Extreme Markup Languages - Digital Humanities - DHQ - Collaborators - Critics - Customers - Balisage - XProc - iXML ... 
 
-Jeni Gavin John_C Walter Dave_D David_D Allen Michael Claus Tommie Debbie Andreas Oliver Maik David_B Alex Gregor Paul Elisa Eliot Jonathan
+
+![Thanks 2026](../thanks.svg "Thanks 2026")
+
+</details>
 
 ---

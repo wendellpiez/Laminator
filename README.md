@@ -33,7 +33,7 @@ LMNL markup ('sawteeth' or 'sawtooth syntax') is designed to be workable 'by han
 
 At different times there have been LMNL processors, both partial and complete (if not always well tested), developed by Jeni Tennison, Gavin Nicol, Alex Czmiel, Gregor Middell, Paul Caton, John Cowan and others. (Please let me know if you should be on this list.) The current developer (Wendell Piez) participated in this work from its inception, presenting my own XSLT- and XProc-based implementation, [Luminescent](https://github.com/wendellpiez/Luminescent/tree/master), in 2012.
 
-LMNL was only one of a number of conceptual solutions offered to the "overlap problem" in XML, and their discoverers and advocates have been as important to it as its direct contributors. These include C. M. Sperberg-McQueen; Claus Huitfeld; Steven J DeRose; Patrick Durusau; Andreas Witt, Oliver Schonefeld and Maik Stührenberg; Fabio Vitali and associates; Allen Renear and associates (for work on the semantics of markup); Ronald Dekker and associates; and too many conferencers, students and colleagues to name.
+LMNL was only one of a number of conceptual solutions offered to the "overlap problem" in XML, and their discoverers and advocates have been as important to it as its direct contributors. These include C. M. Sperberg-McQueen; Claus Huitfeld; Steven J. DeRose; Patrick Durusau; Andreas Witt, Oliver Schonefeld and Maik Stührenberg; Fabio Vitali and associates; Allen Renear and associates (for work on the semantics of markup); Ronald Dekker and associates; and too many conferencers, students and colleagues to name.
 
 ## Prospectus - the Laminator
 

@@ -10,7 +10,7 @@ Running it provides regression testing for the parsing and building algorithms.
 
 ### Open-hood examples
 
-The pipeline xMNML_REFRESH.xpl will produce xMNML results from parsing all the files given in the `data` folder, along with the interim results produced by the pipeline, which runs in three steps. So:
+The pipeline `xMNML-BUILD.xpl` will produce xMNML results from parsing all the files given in the `data` folder, along with the interim results produced by the pipeline, which runs in three steps. So:
 
 - [cache/1_parsed/](cache/1_parsed/) contains results of parsing the MNML LMNL inputs with the iXML grammar. Expect errors for files that are not syntactically conformant.
 - [cache/2_linked/](cache/2_linked/) shows the same results with text now escaped (for markup delimiters) and matching tags linked.
