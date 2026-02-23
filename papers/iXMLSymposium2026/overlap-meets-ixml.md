@@ -117,7 +117,7 @@ Summary of intent:
 - Whitespace is not preserved in tags (maybe some day, for capturing lineno/offset)
 - Matching up tags happens in subsequent stages, not here
 
-[See the grammar in the repository](../lib/xMNML-into/sawtooth-syntax/src/mnml-lmnl.ixml).
+[See the grammar in the repository](../../lib/xMNML/up/sawtooth-syntax/src/mnml-lmnl.ixml).
 
 ## Processing steps
 
@@ -136,13 +136,13 @@ NB - this is only part of the Laminator (data acquisition), and not the only way
 
 ## A demonstration or two
 
-Demonstrations are all available to examine, download and run, [on Github](https://github.com/wendellpiez/Laminator/blob/main/demo/).
+Demonstrations are [all available to examine, download and run](../../demo/).
 
-Here, jump straight to [see some results from the *Sonnets* demonstration](https://github.com/wendellpiez/Laminator/blob/main/demo/Sonnets/sonnet-list.md).
+Here, jump straight to [see some results from the *Sonnets* demonstration](../../demo/Sonnets/sonnet-list.md).
 
 Or check out the [StoryLines demo](https://github.com/wendellpiez/Laminator/blob/main/demo/StoryLines/readme.md) - read to the bottom and don't be shy.
 
-An [Analytics demo]() barely scratches the surface of LMNL analytics.
+[Analytics demos](../../demo/Analytics/) scratch the surface of LMNL analytics.
 
 ## See the code
 
@@ -158,21 +158,25 @@ Working toward being able to do useful things, most especially in Digital Humani
 
 So a current project, **Scholia 2026** -
 
-- Producing electronic (in-browser) 'graded readers' for language study 
+- Electronic (in-browser) graded readers for language study
+  - TEI, XML and LMNL backbone
+  - HTML+CSS+JS for viewing, PDF for printing
+- Printed worksheets for transcription exercises - language study - *scriptorium* method 
 
 ## Making the case
 
 - When do you need an alternative data format?
-  - *You decide* - `XProc(XSLT,iXML)` makes it possible
+  - *You decide* - XProc (with XSLT and iXML) makes it possible
 
 - An application can be built on a concept, but a standard for interchange will require
-  - specifications
-  - reference implementation(s)
-  - test suites ... (ask me how I know)
+  - Specifications
+  - Reference implementation(s)
+  - Test suites ... (ask me how I know)
 
 - When the code is declarative, a specification becomes intelligible
   - Each layer of description supports the next one up
-  - This organization is resilient and adaptable as well as functional 
+  - This design is resilient and adaptable as well as functional
+  - An *intelligible* specification is a *useful* and *meaningful* one 
 
 - No data interchange requirement? Do your thing and don't worry.
 
@@ -181,11 +185,11 @@ So a current project, **Scholia 2026** -
 So many thanks and acknowledgements are due - the list is very long -
 
 <details><summary>Thanks everyone!</summary>
-CETH - TEI - XML - XSLT - XPath - Mulberry Technologies, Inc. - Extreme Markup Languages - Digital Humanities - DHQ - Collaborators - Critics - Customers - Balisage - XProc - iXML ... 
-
 
 ![Thanks 2026](../thanks2026.svg "Thanks 2026")
 
 </details>
+
+
 
 ---
