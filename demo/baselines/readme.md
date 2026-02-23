@@ -38,6 +38,8 @@ Sentences overlap lines.
 
 ### Milton
 
+*nb* - when/if/as it becomes necessary to regression test on features, that can be done here.
+
 [Lines 1-26 of Milton's Paradise Lost](PLfragment.lmnl) - illustrates some (most) 'edges' of MNML syntax
 
  - Sibling rivalry - `np` (*noun phrase*) ranges overlap other `np` ranges
@@ -46,5 +48,7 @@ Sentences overlap lines.
 In order to disambiguate cases where ranges might nest or overlap (when they have the same **gi** - generic identifier - or type name) identifiers are used on the tags, for `[np#1}...{np#1}`. In this example, all `np` ranges are marked with such IDs even where not needed (such as on `np#6` and `np#7`, neither of which overlap any other `np`, even while `np#6` encloses `np#7`).
 
 Thanks to Patrick and Matthew, creators of Just-in-time Trees (JITTs), for promoting this example.
+
+
 
 ---

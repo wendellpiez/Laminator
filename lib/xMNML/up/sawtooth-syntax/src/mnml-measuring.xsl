@@ -5,13 +5,13 @@
 
   <!--
     Calculates offsets on connected range markers
-    Follows unescaping (in the prior process) or extent values will be off!
-    
-    
-    
-FILTER: select and remove (ranges and text)
-MAP: rename ranges, introduce new ranges
-REDUCE: serialize
+    Follows unescaping the input (in the prior process) or extent values will be off!
+
+    Also separates @gi values (generic identifiers) for type names from user range identifiers
+        (saved as @id)
+
+    Yes, this could be combined with the linker XSLT into a single pass,
+    but this is clean and easy.
     -->
 
   <xsl:mode on-no-match="fail" use-accumulators="counter"/>
@@ -20,8 +20,6 @@ REDUCE: serialize
     <xsl:accumulator-rule match="text/text()" select="$value + string-length(.)"/>
   </xsl:accumulator>
 
-  <xsl:key name="text-at" match="text" use="accumulator-before('counter')"/>
-  
   <xsl:template match="/">
     <xsl:apply-templates/>
   </xsl:template>
@@ -39,7 +37,7 @@ REDUCE: serialize
 
   <xsl:key name="start-for-id" match="start" use="@rID"/>
 
-  <xsl:key name="end-for-id" match="end" use="@rID"/>
+  <xsl:key name="end-for-id"   match="end"   use="@rID"/>
 
   <xsl:template match="start">
     <xsl:variable name="ender" select="key('end-for-id', @rID)"/>
