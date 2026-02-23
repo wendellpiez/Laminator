@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
-    <defs>
-    <g id="names">      
-      <text x="190"  y="-20">Walter</text>
-      <text x="200"  y="-200">Dave_D</text>
-      <text x="60"   y="-250">David_D</text>
-      <text x="-60"  y="80">David_B</text>
+  <defs>
+    <g id="names">
+      <text x="190" y="-30">Walter</text>
+      <text x="200" y="-200">Dave_D</text>
+      <text x="60" y="-250">David_D</text>
+      <text x="-60" y="80">David_B</text>
       <text x="-120" y="210">Elisa</text>
       <text x="-220" y="-210">Liam</text>
-      <text x="70"   y="140">Yves</text>
-      <text x="210"  y="90">Jim_M</text>
+      <text x="70" y="140">Yves</text>
+      <text x="220" y="90">Jim_M</text>
       <text x="-240" y="70">Fabio</text>
-      <text x="190"  y="50">Eliot</text>
-      <text x="-100"  y="-240">Jonathan</text>
+      <text x="190" y="50">Eliot</text>
+      <text x="-100" y="-240">Jonathan</text>
       <g font-size="200%">
-        <text x="-70"  y="0">Susan</text>
-        <text x="40"   y="-20">Allen</text>
-        <text x="150"  y="30">Claus</text>
+        <text x="-70" y="0">Susan</text>
+        <text x="40" y="-20">Allen</text>
+        <text x="150" y="30">Claus</text>
         <text x="-160" y="180">Tommie</text>
         <text x="-140" y="-40">Debbie</text>
-        <text x="180"  y="-110">Alex</text>
+        <text x="180" y="-110">Alex</text>
         <text x="-130" y="110">Gregor</text>
-        <text x="140"  y="120">Steve</text>
+        <text x="140" y="120">Steve</text>
         <text x="-100" y="-220">Paul</text>
         <text x="-160" y="-100">Andreas</text>
-        <text x="10"   y="-140">Oliver</text>
-        <text x="50"   y="-190">Maik</text>
+        <text x="10" y="-140">Oliver</text>
+        <text x="50" y="-190">Maik</text>
       </g>
       <g font-size="300%">
         <text x="-170" y="-160">Jeni</text>
-        <text x="120"  y="-70">John_C</text>
-        <text x="100"  y="200">Gavin</text>
+        <text x="120" y="-70">John_C</text>
+        <text x="100" y="200">Gavin</text>
         <text x="-100" y="50">Michael</text>
-      </g>      
-    </g>
-      <g id="places" font-style="italic">      
-        <text x="200"  y="-160">CETH</text>
-        <text x="-200" y="0">TEI</text>
-        <text x="220"  y="-70">NEH</text>
-        <text x="-40"  y="10">XML</text>
-        <text x="60"   y="-60">XSLT</text>
-        <text x="-140" y="-90">XPath</text>
-        <g transform="translate(-120 120)" font-size="60%">
-        <text>Mulberry Technologies, Inc.</text>
-        </g>
-        <text x="0"    y="-180">Extreme</text>
-        <text x="0"    y="200">DHQ</text>
-        <text x="120"  y="180">J-TEI</text>
-        <text x="-220" y="-160">Balisage</text>
-        <text x="-120"  y="40">XProc</text>
-        <text x="80"   y="60">iXML</text>
       </g>
-      
-    </defs>
-  
+    </g>
+    <g id="places" font-style="italic">
+      <text x="200" y="-160">CETH</text>
+      <text x="-200" y="0">TEI</text>
+      <text x="220" y="-70">NEH</text>
+      <text x="-40" y="10">XML</text>
+      <text x="60" y="-60">XSLT</text>
+      <text x="-140" y="-90">XPath</text>
+      <g transform="translate(-120 120)" font-size="60%">
+        <text>Mulberry Technologies, Inc.</text>
+      </g>
+      <text x="0" y="-180">Extreme</text>
+      <text x="0" y="200">DHQ</text>
+      <text x="120" y="180">J-TEI</text>
+      <text x="-210" y="-150">Balisage</text>
+      <text x="-120" y="40">XProc</text>
+      <text x="80" y="60">iXML</text>
+    </g>
+
+  </defs>
+
   <!-- for testing a dark theme <rect width="100%" height="100%" fill="black" fill-opacity="1"/>-->
-  
-  
-    <g alignment-baseline="baseline" text-anchor="middle" transform="translate(400 320)"
-      fill="aliceblue" fill-opacity="0.4" font-size="42" font-weight="bold"
-      font-family="sans-serif">
-      
 
 
-      <use href="#names" stroke="white" stroke-width="4"/>
-      <use href="#names" stroke="black" stroke-width="1"/>
-      <use href="#places" font-size="36" stroke="black" stroke-width="1" fill="steelblue" fill-opacity="0.3"/>
-      
-      <!--<g fill="pink" stroke="darkred" stroke-width="1">
+  <g alignment-baseline="baseline" text-anchor="middle" transform="translate(400 320)"
+    fill="aliceblue" fill-opacity="0.4" font-size="42" font-weight="bold" font-family="sans-serif">
+
+
+
+    <use href="#names" stroke="white" stroke-width="4"/>
+    <use href="#names" stroke="black" stroke-width="1"/>
+    <use href="#places" font-size="36" stroke="black" stroke-width="1" fill="steelblue"
+      fill-opacity="0.3"/>
+
+    <!--<g fill="pink" stroke="darkred" stroke-width="1">
         <circle cx="0"    cy="0" r="10"/>
         <circle cx="100"  cy="100" r="10"/>
         <circle cx="100" cy="-100" r="10"/>
@@ -78,6 +78,6 @@
         <circle cx="-200" cy="200" r="10"/>
         <circle cx="-200" cy="-200" r="10"/>
       </g>-->
-      
-    </g>
+
+  </g>
 </svg>
