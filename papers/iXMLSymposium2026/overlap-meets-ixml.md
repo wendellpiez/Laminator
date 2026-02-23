@@ -1,15 +1,17 @@
 
 # Overlap Meets Invisible XML
 
-<center>Invisible XML Symposium 2026</center>
+### Invisible XML Symposium 2026
 
-<center>Wendell Piez</center>
+#### Wendell Piez
 
-<center>February 26 2026</center>
+#### February 26 2026
 
-<center>DRAFT of Feb 20 2026</center>
+DRAFT of Feb 23 2026
 
-<center>https://github.com/wendellpiez/Laminator</center>
+Project: https://github.com/wendellpiez/Laminator
+
+This coverage: https://github.com/wendellpiez/Laminator/tree/main/papers/iXMLSymposium2026
 
 ## LMNL Markup - an example
 
@@ -55,7 +57,11 @@ By (at least)
 
 </details>
 
-Plus significant contributions by others in the form of reactions, critiques, and competing efforts.
+<details><summary>Plus significant contributions by others in the form of reactions, critiques, and competing efforts</summary>
+
+Many acronyms should be listed including CONCUR, TeX/MECS, GODDAG, CLIX, JITTs, SGF, XCONCUR, EARMARK (and others)
+
+</details>
 
 <small>*Personal aside*: I have always been gratified by the serious welcoming attention given to LMNL. Thank you everyone!</small>
 
@@ -75,8 +81,8 @@ Even in XML, with new capabilities the need is not so pressing
 
 Where overlap rears its ugly head, either
 
-- Techniques are better known and solutions are 'only work', or
-- Folks learn to live with reduced expectations
+- Problems are recognized, patterns are recognized and solutions are 'only work', or
+- People learn to live with reduced expectations
 
 *... while I am still looking and wondering ...*
 
@@ -110,7 +116,7 @@ Designed for range processing including
 
 Summary of intent:
 
-- Text is rendered as a sequence of tags with text
+- Input (text) is construed as a sequence of tags with text
 - Tags include **start**, **end** and **empty** (zero-length) range markers
 - `{`, `[` and `\` are reserved as open markup delimiters (and provided with escapes `\[` `\{` and `\\`)
 - Any tag can have annotations (end tags too)
@@ -119,20 +125,20 @@ Summary of intent:
 
 [See the grammar in the repository](../../lib/xMNML/up/sawtooth-syntax/src/mnml-lmnl.ixml).
 
-## Processing steps
+## Processing steps - data intake
 
 - Parse the syntax - iXML grammar
 - Build the model - XProc pipeline
 
-A [refresher pipeline](../../demo/baselines/xMNML_REFRESH.xpl) will run a pair of baseline documents through a parsing sequence.
+For example, a [demo pipeline](../../demo/baselines/xMNML-BUILD.xpl) will run a pair of baseline documents through a parsing sequence, produce the model and save it as XML.
 
 Parsing and processing results are [saved for inspection](../../demo/baselines/cache/).
 
 Interim steps - iXML parse before linking, linking before measuring - are also shown.
 
-Regression testing for parsing is supported by [a pipeline in the library](../../lib/xMNML/up/sawtooth-syntax/TEST_WFCHECK-SAWTEETH.xpl).
+Some cases of good and bad syntax, offering some stress testing for the parser, are shown in [a pipeline in the library](../../lib/xMNML/up/sawtooth-syntax/TEST_WFCHECK-SAWTEETH.xpl).
 
-NB - this is only part of the Laminator (data acquisition), and not the only way to produce xMNML.
+NB - this sequence of steps - parsing from LMNL tags - is only part of the Laminator's data acquisition model, and not the only way to produce xMNML. 
 
 ## A demonstration or two
 
@@ -148,9 +154,9 @@ Or check out the [StoryLines demo](https://github.com/wendellpiez/Laminator/blob
 
 All the code can be found [in Github](). Please fork or borrow. MIT License.
 
-The code base is entirely XProc, XSLT and iXML.
+The code base is entirely XProc, XSLT and iXML. (So far. Planned projects will also use HTML/CSS/Javascript)
 
-It has been tested using XML Calabash 3.0.x with Saxon-HE and MarkupBlitz.
+It has been developed and tested using XML Calabash 3.0.x with Saxon-HE and MarkupBlitz.
 
 ## `<soCalled>`Plans`</soCalled>`
 
@@ -183,6 +189,8 @@ So a current project, **Scholia 2026** -
 ## Grateful acknowledgements
 
 So many thanks and acknowledgements are due - the list is very long -
+
+*Thanks to organizers and event support staff*
 
 <details><summary>Thanks everyone!</summary>
 
