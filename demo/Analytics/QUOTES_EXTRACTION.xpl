@@ -8,12 +8,14 @@
 
   <p:input port="source" sequence="true">
 
-    <!--<p:document content-type="text/plain" href="../StoryLines/cache/JulianandMaddalo-xMNML.xml"/>-->
-    <p:document content-type="text/plain" href="../StoryLines/data/PeregrinesDemise_tei.lmnl"/>
+    <!-- It works on Peregrine's Demise - including a long quote ... -->
+    <!--<p:document content-type="text/plain" href="../StoryLines/data/PeregrinesDemise_tei.lmnl"/>-->
     <p:document content-type="text/plain" href="../StoryLines/data/Frankenstein1831.lmnl"/>
     
   </p:input>
 
+  <!--<p:option name="range-types" select="'q said quote'"/>-->
+  
   <p:declare-step type="mnml:extract-quotes">
     <p:input port="source" content-types="text/plain"/>
     <p:output port="result" content-types="application/xml"/>
