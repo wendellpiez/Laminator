@@ -1,11 +1,11 @@
 
 # Overlap Meets Invisible XML
 
-### Invisible XML Symposium 2026
-
 #### Wendell Piez
 
-#### February 26 2026
+##### First International Symposium on Invisible XML
+
+##### February 26 2026
 
 DRAFT of Feb 24 2026
 
@@ -81,7 +81,7 @@ Even in XML, with new capabilities the need is not so pressing
 
 Where overlap rears its ugly head, either
 
-- Problems are recognized, patterns are recognized and solutions are 'only work', or
+- Problems are familiar, patterns are recognized and solutions are 'only work', or
 - People learn to live with reduced expectations
 
 *... while I am still looking and wondering ...*
@@ -109,8 +109,8 @@ In the Laminator, an XProc 3 pipeline executes in three steps what [in 2012](htt
 Designed for range processing including
 
   - Range operations - filtering, inferencing, mapping, analyzing, explicating
+  - Merging and filtering range sets
   - Casting range sets into hierarchies
-  - Merging range sets to produce 'hyperdocuments'
   - Serializing to notations including XML and LMNL
 
 ## The iXML grammar
@@ -124,14 +124,35 @@ Summary of intent:
   -  `[empty]` marks an empty range (it has a position but no contents)
 - `{`, `[` and `\` are reserved as open markup delimiters (and provided with escapes `\[` `\{` and `\\`)
 - Any tag can have annotations (end tags too)
-  - Marked with a similar syntax inside the tag
-  - `{]` abbreviates an end-annotation
+  - Annotations are like XML attributes, except
+    - Order is retained
+    - Names can be repeated
+  - (See more on annotation syntax below)
 - Whitespace is not preserved in tags
   - Maybe some day, for capturing lineno/offset
-  - (TODO: an alternative parser with improved exception handling for debugging)
+  - TODO: an alternative parser with improved exception handling for debugging
 - Matching up tags happens in subsequent stages, not here
 
 [See the grammar in the repository](../../lib/xMNML/up/sawtooth-syntax/src/mnml-lmnl.ixml).
+
+<details><summary>Annotations in MNML LMNL</summary>
+
+Annotations are marked with similar syntax inside range delimiters (tags)
+
+  - `{]` tags an end-annotation (of any name)
+  - `[[n}1{]]` tags an *anonymous empty range* with an annotation named 'n'. 
+
+Annotations may be either anonymous or empty, but not both:
+
+  - `[a]` - okay - empty range named 'a'
+  - `[[a]]` - okay - anonymous empty range with an (empty) annotation 'a'
+  - `[a [}{]]` - okay - 'a' range with anonymous annotation
+  - `[[]]` - not okay
+  - `[[}{]]` - okay! - if you really want (a placeholder tag?)
+
+Annotation values can be anything as long as tagging syntax does not appear (character escapes are available).
+
+</details>
 
 ## Processing steps - data intake
 
