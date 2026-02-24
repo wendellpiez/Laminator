@@ -30,7 +30,7 @@ LMNL is great but **structured annotations** are
   - Are like micro-documents attached to ranges
 </details>
 
-So we reduce to **MNML** - Minimally Annotated Markup in LMNL
+... So we reduce to **MNML** - Minimally Annotated Markup in LMNL
 
 The model is still LMNL, but with annotations limited to name-value pairs, like attributes in XML.
 
@@ -38,13 +38,11 @@ The model is still LMNL, but with annotations limited to name-value pairs, like 
 
 Demonstration applications in this repository show some small but interesting uses for the libraries on their own.
 
-Additionally, applications can embed functionalities supporting overlap into their own data processing, with workflows more or less integrated, using the LMNL with the Laminator libraries to do useful things.
-
-For example:
+A few of the applications that are supported (to some extent), or might be:
 
 - Indexing
 - Text extraction of arbitrary (marked) segments for analysis
-- Aligning versions of a text or text with translations
+- Aligning versions of a text, or a text with translations or other *apparatus*
 - Layering auto-generated or handmade feature sets over text
 - Standoff annotation and annotation libraries
 
@@ -57,3 +55,4 @@ Not-very-formal [specifications for MNML LMNL](../../specs/readme.md) are on thi
 A couple of ideas for structured annotations, evading the syntactic complications, are also [documented on this site](../../specs/annotations.md).
 
 ---
+end

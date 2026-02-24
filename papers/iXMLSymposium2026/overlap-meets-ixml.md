@@ -7,7 +7,7 @@
 
 #### February 26 2026
 
-DRAFT of Feb 23 2026
+DRAFT of Feb 24 2026
 
 Project: https://github.com/wendellpiez/Laminator
 
@@ -40,7 +40,7 @@ LMNL: The Layered Markup and Annotation Language (Tennison and Piez 2001)
 
 Proposed as a research project in the form of an open source initiative.
 
-(No SDO, no megacorp, no killer app, just an interesting problem)
+(No sponsors, megacorp or killer app, just an interesting problem)
 
 We saw many interesting developments and contributions.
 
@@ -104,12 +104,13 @@ In the Laminator, an XProc 3 pipeline executes in three steps what [in 2012](htt
 1. Linking tags
 1. Measuring ranges
 
-... generating an XML-based 'database' of the LMNL model - xMNML
+... generating an XML-based 'textbase' of the LMNL model - xMNML
 
 Designed for range processing including
 
-  - Range operations - filtering, merging, mapping, analyzing, explicating
+  - Range operations - filtering, inferencing, mapping, analyzing, explicating
   - Casting range sets into hierarchies
+  - Merging range sets to produce 'hyperdocuments'
   - Serializing to notations including XML and LMNL
 
 ## The iXML grammar
@@ -118,9 +119,16 @@ Summary of intent:
 
 - Input (text) is construed as a sequence of tags with text
 - Tags include **start**, **end** and **empty** (zero-length) range markers
+  - `[start}` starts a range named 'start'
+  - `{end]` ends a range named 'end`
+  -  `[empty]` marks an empty range (it has a position but no contents)
 - `{`, `[` and `\` are reserved as open markup delimiters (and provided with escapes `\[` `\{` and `\\`)
 - Any tag can have annotations (end tags too)
-- Whitespace is not preserved in tags (maybe some day, for capturing lineno/offset)
+  - Marked with a similar syntax inside the tag
+  - `{]` abbreviates an end-annotation
+- Whitespace is not preserved in tags
+  - Maybe some day, for capturing lineno/offset
+  - (TODO: an alternative parser with improved exception handling for debugging)
 - Matching up tags happens in subsequent stages, not here
 
 [See the grammar in the repository](../../lib/xMNML/up/sawtooth-syntax/src/mnml-lmnl.ixml).
@@ -130,7 +138,11 @@ Summary of intent:
 - Parse the syntax - iXML grammar
 - Build the model - XProc pipeline
 
-For example, a [demo pipeline](../../demo/baselines/xMNML-BUILD.xpl) will run a pair of baseline documents through a parsing sequence, produce the model and save it as XML.
+See a [data flow diagram](../../lib/readme.md): https://github.com/wendellpiez/Laminator/blob/main/lib/readme.md
+
+### Demonstration
+
+A [demo pipeline](../../demo/baselines/xMNML-BUILD.xpl) will run a pair of baseline documents through a parsing sequence, produce the model and save it as xMNML (XML).
 
 Parsing and processing results are [saved for inspection](../../demo/baselines/cache/).
 
@@ -140,7 +152,7 @@ Some cases of good and bad syntax, offering some stress testing for the parser, 
 
 NB - this sequence of steps - parsing from LMNL tags - is only part of the Laminator's data acquisition model, and not the only way to produce xMNML. 
 
-## A demonstration or two
+## Mini applications on display
 
 Demonstrations are [all available to examine, download and run](../../demo/).
 
@@ -152,7 +164,7 @@ Or check out the [StoryLines demo](https://github.com/wendellpiez/Laminator/blob
 
 ## See the code
 
-All the code can be found [in Github](). Please fork or borrow. MIT License.
+All the code can be found [in Github](https://github.com/wendellpiez/Laminator). Please fork or borrow. MIT License.
 
 The code base is entirely XProc, XSLT and iXML. (So far. Planned projects will also use HTML/CSS/Javascript)
 
