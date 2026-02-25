@@ -74,8 +74,9 @@
   <xsl:template match="end">
     <xsl:variable name="matching" select="@name"/>
     <xsl:variable name="isClosing"
-      select="(preceding-sibling::start[1]/accumulator-after('tag_stack') except accumulator-before('tag_stack'))
+      select="((preceding-sibling::start[1]|preceding-sibling::end[1])[last()]/accumulator-after('tag_stack'))
       [@name=$matching][last()]"/>
+    
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:attribute name="rID">
