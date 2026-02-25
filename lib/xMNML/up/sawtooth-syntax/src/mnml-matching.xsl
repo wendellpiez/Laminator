@@ -7,14 +7,7 @@
     Consumes tokens produced from mnml-lmnl.ixml parse
     
     produces an annotated copy ready for casting into a range model
-    
-    NOTE - we are currently working on a version that does not perform
-    a sibling traversal. A version in progress can be found here:
-    ../misc/mnml-matching-NEW.xsl
-    
-    weirdly, it appears to break the next step, so we have pulled it back for further analysis....
-    
-  -->
+    -->
 
   <xsl:mode on-no-match="fail" use-accumulators="tag_stack"/>
 
@@ -28,8 +21,16 @@
     Because the accumulator does not increment within the sibling
       tag markers (elements), but only with the markers themselves,
       the accumulator-after() function will return the same as
-      accumulator-before(), for any given element. 
-    -->
+      accumulator-before(), for any given element.
+    Accordingly, the template matching 'end', which tags the end tag
+    with its corresponding start tag, looks at its predecessor start tag
+    
+    In addition to matching up tags, this XSLT prepares us for the next step
+    by translating character escape sequences into the characters they represent
+    - so offsets will be counted accordingly and the text thereafter will be 'clean'.
+
+  -->
+
   <xsl:accumulator name="tag_stack" initial-value="()" as="element()*">
     <xsl:accumulator-rule match="start" select="($value, .)"/>
     <xsl:accumulator-rule match="end">
@@ -44,15 +45,13 @@
 
   <xsl:template match="/LMNL">
     <xsl:copy>
-      <xsl:apply-templates select="*[1]" mode="walk"/>
+      <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="text[string(.) => not()]" mode="walk">
-    <xsl:apply-templates select="following-sibling::*[1]" mode="walk"/>
-  </xsl:template>
+  <xsl:template match="text[string(.) => not()]"/>
 
-  <xsl:template match="text" mode="walk">
+  <xsl:template match="text">
     <xsl:variable name="within" as="xs:string*">
       <xsl:apply-templates select="accumulator-before('tag_stack')" mode="rID"/>
     </xsl:variable>
@@ -60,49 +59,30 @@
       <xsl:attribute name="cf" separator=" " select="$within"/>
       <xsl:apply-templates/>
     </xsl:copy>
-    <xsl:apply-templates select="following-sibling::*[1]" mode="walk"/>
   </xsl:template>
 
-  <xsl:template match="start | empty" mode="walk">    
-    <!--<xsl:variable name="OPEN_HERE" as="xs:string*">
-      <xsl:apply-templates mode="rID" 
-        select="following-sibling::text[string(.)][1]/accumulator-before('tag_stack')"/>      
-    </xsl:variable>-->
+  <xsl:template match="start | empty">    
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
-      <!--<xsl:attribute name="opn" separator=" " select="$OPEN_HERE"/>-->
       <xsl:attribute name="rID">
         <xsl:apply-templates select="." mode="rID"/>
       </xsl:attribute>
       <xsl:apply-templates/>
     </xsl:copy>
-    <xsl:apply-templates select="following-sibling::*[1]" mode="walk">
-      <xsl:with-param name="open" tunnel="true" select="accumulator-before('tag_stack')"/>
-    </xsl:apply-templates>
   </xsl:template>
 
-  <xsl:template match="end" mode="walk">
-    <xsl:param name="open" as="node()*" tunnel="true" select="()"/>
-    <!--<xsl:variable name="OPEN_HERE" as="xs:string*">
-      <xsl:apply-templates mode="rID" 
-        select="following-sibling::text[string(.)][1]/accumulator-before('tag_stack')"/>      
-    </xsl:variable>-->
-    <xsl:variable name="isClosing" select="$open except accumulator-before('tag_stack')"/>
-    
-    <!--<xsl:variable name="OPEN_HERE" as="xs:string*">
-      <xsl:apply-templates mode="rID" select="preceding-sibling::text[1]/accumulator-before('tag_stack')"/>
-    </xsl:variable>-->
+  <xsl:template match="end">
+    <xsl:variable name="matching" select="@name"/>
+    <xsl:variable name="isClosing"
+      select="(preceding-sibling::start[1]/accumulator-after('tag_stack') except accumulator-before('tag_stack'))
+      [@name=$matching][last()]"/>
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
-      <!--<xsl:attribute name="opn" separator=" " select="$OPEN_HERE"/>-->
       <xsl:attribute name="rID">
         <xsl:apply-templates select="$isClosing" mode="rID"/>
       </xsl:attribute>
       <xsl:apply-templates/>
     </xsl:copy>
-    <xsl:apply-templates select="following-sibling::*[1]" mode="walk">
-      <xsl:with-param name="open" tunnel="true" select="accumulator-before('tag_stack')"/>
-    </xsl:apply-templates>
   </xsl:template>
 
   <xsl:template match="text()">
