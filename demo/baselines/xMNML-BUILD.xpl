@@ -30,7 +30,7 @@
     
     <p:store href="cache/2_linked/{ $basename }.xml" serialization="map { 'indent': true() }"
       message="Writing intermediate XML (linked, not measured) cache file cache/2_linked/{ $basename }.xml">
-      <p:with-input port="source" pipe="interim_linked@xMNML"/></p:store>
+      <p:with-input port="source" pipe="interim_matched@xMNML"/></p:store>
     
     
   </p:for-each>
