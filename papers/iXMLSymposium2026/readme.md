@@ -12,7 +12,7 @@
 
 1. [iXML grammar](https://github.com/wendellpiez/Laminator/blob/main/lib/xMNML/up/sawtooth-syntax/src/mnml-lmnl.ixml)
 
-1. See the steps (with outputs) in [demo/baselines/cache directory](https://github.com/wendellpiez/Laminator/tree/main/demo/baselines/cache)
+1. See the steps (with step outputs in `cache` folder) in [https://github.com/wendellpiez/Laminator/tree/main/demo/baselines directory](https://github.com/wendellpiez/Laminator/tree/main/demo/baselines)
 
 1. output of iXML step, [Housekeeper sample](https://github.com/wendellpiez/Laminator/blob/main/demo/baselines/cache/1_parsed/Housekeeper144-146.xml)
 
@@ -38,7 +38,8 @@ Finally, many thanks to DB and AG for helping me prepare these materials.
 
 ## For readers
 
-See the paper.
+See [the written paper](overlap-meets-ixml.md).
 
-Also see some background / context here.
+---
+end
 

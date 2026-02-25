@@ -10,7 +10,7 @@
     Also separates @gi values (generic identifiers) for type names from user range identifiers
         (saved as @id)
 
-    Yes, this could be combined with the linker XSLT into a single pass,
+    Yes, this could probably be combined with the mnml-matching XSLT into a single pass,
     but this is clean and easy.
     -->
 

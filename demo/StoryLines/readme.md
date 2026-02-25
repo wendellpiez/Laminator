@@ -1,4 +1,8 @@
-# Range Maps
+# StoryLines
+
+Graphical examination of narrative, rhetorical, compositional and physical structures of literary artifacts (prose and poetry).
+
+## Range Maps
 
 One of the interesting possibilities of LMNL markup is the exploration of narrative and rhetorical structures in literary texts.
 
