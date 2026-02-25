@@ -33,7 +33,7 @@ LMNL markup ('sawteeth' or 'sawtooth syntax') is designed to be workable 'by han
 
 At different times there have been LMNL processors, both partial and complete (if not always well tested), developed by Jeni Tennison, Gavin Nicol, Alex Czmiel, Gregor Middell, Paul Caton, John Cowan and others. (Please let me know if you should be on this list.) The current developer (Wendell Piez) participated in this work from its inception, presenting my own XSLT- and XProc-based implementation, [Luminescent](https://github.com/wendellpiez/Luminescent/tree/master), in 2012.
 
-LMNL was only one of a number of conceptual solutions offered to the "overlap problem" in XML, and their discoverers and advocates have been as important to it as its direct contributors. These include C. M. Sperberg-McQueen; Claus Huitfeld; Steven J. DeRose; Patrick Durusau; Andreas Witt, Oliver Schonefeld and Maik Stührenberg; Fabio Vitali and associates; Allen Renear and associates (for work on the semantics of markup); Ronald Dekker and associates; and too many conferencers, students and colleagues to name.
+LMNL was only one of a number of conceptual solutions offered to the "overlap problem" in XML, and their discoverers, advocates, and friendly critics have been as important to it as its direct contributors. These include C. M. Sperberg-McQueen; Claus Huitfeld; Steven J. DeRose; Patrick Durusau; Andreas Witt, Oliver Schonefeld and Maik Stührenberg; Fabio Vitali and associates; Allen Renear and associates (for work on the semantics of markup); Desmond Schmidt; Ronald Dekker and associates; and too many conferencers, students and colleagues to name.
 
 ## Prospectus - the Laminator
 
@@ -41,7 +41,7 @@ LMNL is a data model supporting applications in text processing. In contrast to 
 
 Applications for which this approach to markup is well suited include the analysis, translation and representation of literary texts.
 
-Laminator is a library of functions and utilities supporting MNML LMNL (syntax and operations) on an XML stack, leveraging and capitalizing on these various dependencies:
+Laminator is a library of functions and utilities supporting MNML LMNL (syntax and operations) on an XML stack, leveraging and capitalizing on these various externalities:
 
 - XML and TEI (Text Encoding Initiative)
 - XProc, a pipelining and data processing language, with its implementations
@@ -65,11 +65,13 @@ In addition to parsing and serializing (reading and writing) LMNL syntax, the La
   - Schemas and constraint sets for documents showing overlap
 - Generating graphs and visualizations (for example, range maps)
 
-If you have an interest and you can't find more information in the libraries, please send word ([Github Issues](https://github.com/wendellpiez/Laminator/issues) or email to repository owner).
+If you have an interest and you can't find more information in the libraries, please send word ([Github Issues](https://github.com/wendellpiez/Laminator/issues) or email to the repository owner).
+
+Browse the repository for more details.
 
 ### Staging applications
 
-A couple of simple applications using XProc and the Laminator libraries are available for study: see the [demo](demo) folder.
+Simple applications using XProc and the Laminator libraries are available for study: see the [demo](demo) folder. These include producing SVG visualizations and XML-based analytic results.
 
 For more on XProc:
 
@@ -86,7 +88,7 @@ With the Laminator, adding and removing new layers, and examining and assessing 
 
 The current project is an initiative of the developer (solely), with no *direct* connection (and many indirect connections) to earlier initiatives. I remain grateful to all contributors and collaborators, and to those who have encouraged this work in its various forms, and not only the work on LMNL (since 2001) but also and more generally, work on data models and text processing altogether.
 
-MNML LMNL is a LMNL subset selected to support a useful and interesting application profile, while being easy to specify and implement (at least by comparison). Part of the rationale is that as long as we stick close to XML technologies (which XProc and iXML permit us to do), we can turn to XML when we have well defined hierarchies.
+MNML LMNL is a LMNL subset selected to support a useful and interesting application profile, while being easy to specify and implement (at least by comparison). Part of the rationale is that as long as we stick close to XML technologies (which XProc and iXML permit us to do), we can turn to XML when we have well-defined hierarchies.
 
 The MNML subset is focused on providing for the capability specifically of a markup regimen supporting overlap, with the intent of allowing such layering and even overloading of semantic categories, in the metadata (the "what is known") embedded in markup.
 
