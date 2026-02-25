@@ -18,7 +18,7 @@
   <p:output port="raw_parseresult"  primary="false" pipe="result@parsed-tags"
     serialization="map { 'indent': true(), 'omit-xml-declaration': true() }"/>
   
-  <p:output port="interim_linked" primary="false" pipe="result@linked"
+  <p:output port="interim_matched" primary="false" pipe="result@matched"
     serialization="map { 'indent': true(), 'omit-xml-declaration': true() }"/>
   
   <!-- [ten}[nine}[eight}... Here we go good luck -->
@@ -29,11 +29,11 @@
      </p:with-input>
   </p:invisible-xml>
   
-  <p:xslt name="linked">
-    <p:with-input port="stylesheet" href="src/mnml-linking.xsl"/>
+  <p:xslt name="matched">
+    <p:with-input port="stylesheet" href="src/mnml-matching.xsl"/>
   </p:xslt>
   
-  <p:xslt name="linked-and-measured">
+  <p:xslt name="matched-and-measured">
     <p:with-input port="stylesheet" href="src/mnml-measuring.xsl"/>
   </p:xslt>
   

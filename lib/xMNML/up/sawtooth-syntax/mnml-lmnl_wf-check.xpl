@@ -7,28 +7,22 @@
     version="3.0">
     
     
-    <!-- Accepts purportely MNML markup
+    <!-- Accepts purportely MNML markup and tells us if it parses.
+      
+      Useful for go/no-go testing of parse examples ('known good' and 'known bad')
+      cf TEST_WFCHECK-SAWTEETH.xpl
         
-        reports:
-        
-        does it parse
-        if so, does it pass other tests for integrity as a range model
-        
-        ports:
-          xMNML-result - for when it gets that far
-          read_errors - what XML Calabash brings back
-          naming errors?
-          link_errors
-            don't need to check offsets or character escaping
-            
+        NOTE: NOTE A COMPLETE TEST YET, ONLY CHECKS SYNTAX, NOT
+        TAG INTEGRITY
+        - FOR REGRESSION TESTING, SEE ../../../../demo/baselines/TEST_xMNML-BUILD.xpl
           
-        options:
-          report iXML results in failure mode
+      (later: does it pass other tests for integrity as a range model?)
+      i.e. are matching and measuring working correctly
         
-      MNML is a subset of LMNL. MNML markup takes the form of LMNL 'sawteeth'
-      except annotations are simple values (strings or tokens), not LMNL layers
-    
-    Use cases: in oXygen on a LMNL syntax instance?
+      output ports:
+          report - tells us about what came back, xMNML or error
+          result - the xMNML if it comes back, otherwise the pipeline error report
+
     -->
     
     <p:import href="sawteeth-to-xMNML.xpl"/>
