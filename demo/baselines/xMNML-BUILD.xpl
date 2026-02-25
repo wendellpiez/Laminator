@@ -29,7 +29,7 @@
     </p:store>
     
     <p:store href="cache/2_linked/{ $basename }.xml" serialization="map { 'indent': true() }"
-      message="Writing intermediate XML (linked, not measured) cache file cache/2_linked/{ $basename }.xml">
+      message="Writing intermediate XML (linked, not measured) cache file cache/2_matched/{ $basename }.xml">
       <p:with-input port="source" pipe="interim_matched@xMNML"/></p:store>
     
     
