@@ -122,7 +122,7 @@ Summary of intent:
   - `[start}` starts a range named 'start'
   - `{end]` ends a range named 'end`
   -  `[empty]` marks an empty range (it has a position but no contents)
-- `{`, `[` and `\` are reserved as open markup delimiters (and provided with escapes `\[` `\{` and `\\`)
+- Characters `{`, `[` and `\` are reserved as open markup delimiters (and provided with escapes `\[` `\{` and `\\`)
 - Any tag can have annotations (end tags too)
   - Annotations are like XML attributes, except
     - Order is retained
@@ -130,7 +130,7 @@ Summary of intent:
   - (See more on annotation syntax below)
 - Whitespace is not preserved in tags
   - Maybe some day, for capturing lineno/offset
-  - TODO: an alternative parser with improved exception handling for debugging
+- TODO: an alternative parser with improved exception handling for debugging
 - Matching up tags happens in subsequent stages, not here
 
 [See the grammar in the repository](../../lib/xMNML/up/sawtooth-syntax/src/mnml-lmnl.ixml).
