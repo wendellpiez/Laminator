@@ -133,7 +133,7 @@ Summary of intent:
 - TODO: an alternative parser with improved exception handling for debugging
 - Matching up tags happens in subsequent stages, not here
 
-[See the grammar in the repository](../../lib/xMNML/up/sawtooth-syntax/src/mnml-lmnl.ixml).
+[See the grammar in the repository](../../lib/xMNML/in/sawtooth-syntax/src/mnml-lmnl.ixml).
 
 <details><summary>Annotations in MNML LMNL</summary>
 
@@ -169,7 +169,7 @@ Parsing and processing results are [saved for inspection](../../demo/baselines/c
 
 Interim steps - iXML parse before linking, linking before measuring - are also shown.
 
-Some cases of good and bad syntax, offering some stress testing for the parser, are shown in [a pipeline in the library](../../lib/xMNML/up/sawtooth-syntax/TEST_WFCHECK-SAWTEETH.xpl).
+Some cases of good and bad syntax, offering some stress testing for the parser, are shown in [a pipeline in the library](../../lib/xMNML/in/sawtooth-syntax/TEST_WFCHECK-SAWTEETH.xpl).
 
 NB - this sequence of steps - parsing from LMNL tags - is only part of the Laminator's data acquisition model, and not the only way to produce xMNML. 
 

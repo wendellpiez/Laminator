@@ -4,7 +4,7 @@
 
   <!-- Bind any plain text to 'source' to check its MNML LMNL well-formedness -->
   
-  <p:import href="../../lib/xMNML/up/sawtooth-syntax/mnml-lmnl_wf-check.xpl"/>
+  <p:import href="../../lib/xMNML/in/sawtooth-syntax/mnml-lmnl_wf-check.xpl"/>
 
   <p:input port="source">
     <p:document content-type="text/plain" href="Frankenstein1831.lmnl"/>

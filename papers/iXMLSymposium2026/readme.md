@@ -6,11 +6,11 @@
 
 1. How to do it? [lib/readme.md](https://github.com/wendellpiez/Laminator/tree/main/lib) with data flow diagram
 
-1. Closeup of [parse pipeline](https://github.com/wendellpiez/Laminator/tree/main/lib/xMNML/up/sawtooth-syntax)
+1. Closeup of [parse pipeline](https://github.com/wendellpiez/Laminator/tree/main/lib/xMNML/in/sawtooth-syntax)
 
-1. parse pipeline - [XProc source](https://github.com/wendellpiez/Laminator/blob/main/lib/xMNML/up/sawtooth-syntax/sawteeth-to-xMNML.xpl)
+1. parse pipeline - [XProc source](https://github.com/wendellpiez/Laminator/blob/main/lib/xMNML/in/sawtooth-syntax/sawteeth-to-xMNML.xpl)
 
-1. [iXML grammar](https://github.com/wendellpiez/Laminator/blob/main/lib/xMNML/up/sawtooth-syntax/src/mnml-lmnl.ixml)
+1. [iXML grammar](https://github.com/wendellpiez/Laminator/blob/main/lib/xMNML/in/sawtooth-syntax/src/mnml-lmnl.ixml)
 
 1. See the steps (with step outputs in `cache` folder) in [https://github.com/wendellpiez/Laminator/tree/main/demo/baselines directory](https://github.com/wendellpiez/Laminator/tree/main/demo/baselines)
 

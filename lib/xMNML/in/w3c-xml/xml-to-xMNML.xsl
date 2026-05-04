@@ -61,6 +61,7 @@ TODO: UNIT TEST
             <xsl:attribute name="cf" separator=" ">
                 <xsl:apply-templates select="ancestor::*" mode="rID"/>
             </xsl:attribute>
+            <!-- Any need to escape? --><!--XXX ??? -->
             <xsl:text>{ string(.) => replace('\\','\\\\') => replace('\[','\\[') => replace('\{','\\{') }</xsl:text>
         </text>
     </xsl:template>

@@ -2,7 +2,7 @@
   xmlns:zone="http://wendellpiez.com/ns/xproc-zone" xmlns:mnml="http://wendellpiez.com/ns/xMNML"
   exclude-inline-prefixes="#all" name="main">
 
-  <p:import href="../../lib/xMNML/up/sawtooth-syntax/sawteeth-to-xMNML.xpl"/>
+  <p:import href="../../lib/xMNML/in/sawtooth-syntax/sawteeth-to-xMNML.xpl"/>
 
 
   <!-- more to come... -->

@@ -2,7 +2,7 @@
 <p:declare-step xmlns:p="http://www.w3.org/ns/xproc" xmlns:mnml="http://wendellpiez.com/ns/xMNML"
   xmlns:c="http://www.w3.org/ns/xproc-step" version="3.0">
 
-  <p:import href="../../lib/xMNML/up/sawtooth-syntax/sawteeth-to-xMNML.xpl"/>
+  <p:import href="../../lib/xMNML/in/sawtooth-syntax/sawteeth-to-xMNML.xpl"/>
 
   <!--<p:output port="reports" serialization="map { 'indent': true() }"/>-->
 

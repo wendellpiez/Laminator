@@ -4,7 +4,7 @@
   xmlns:c="http://www.w3.org/ns/xproc-step"
   exclude-inline-prefixes="#all" name="main">
 
-  <p:import href="../../lib/xMNML/up/sawtooth-syntax/sawteeth-to-xMNML.xpl"/>
+  <p:import href="../../lib/xMNML/in/sawtooth-syntax/sawteeth-to-xMNML.xpl"/>
   
   <p:import href="src/sonnet-lines-xml.xpl"/>
 

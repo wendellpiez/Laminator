@@ -4,7 +4,7 @@
     xmlns:mnml="http://wendellpiez.com/ns/xMNML"
     xmlns="http://wendellpiez.com/ns/xMNML">
     
-    <p:import href="../../lib/xMNML/up/sawtooth-syntax/sawteeth-to-xMNML.xpl"/>
+    <p:import href="../../lib/xMNML/in/sawtooth-syntax/sawteeth-to-xMNML.xpl"/>
     
     <p:input port="source">
         <p:document content-type="text/plain" href="data/Frankenstein1831.lmnl"/>

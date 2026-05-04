@@ -6,7 +6,7 @@
                             
     -->
 
-  <p:import href="../../lib/xMNML/up/sawtooth-syntax/sawteeth-to-xMNML.xpl"/>
+  <p:import href="../../lib/xMNML/in/sawtooth-syntax/sawteeth-to-xMNML.xpl"/>
 
 
   <p:directory-list path="data" include-filter="\.lmnl$"/>
@@ -30,9 +30,24 @@
     
     <p:store href="cache/2_linked/{ $basename }.xml" serialization="map { 'indent': true() }"
       message="Writing intermediate XML (linked, not measured) cache file cache/2_matched/{ $basename }.xml">
-      <p:with-input port="source" pipe="interim_matched@xMNML"/></p:store>
+      <p:with-input port="source" pipe="interim_matched@xMNML"/>
+    </p:store>
+  
+    <p:xslt>
+      <p:with-input port="source" pipe="result@xMNML"/>
+      <p:with-input port="stylesheet">
+        <p:document href="../../lib/RANGES/in/xMNML-RANGES.xsl"/>
+      </p:with-input>
+    </p:xslt>
     
+    <p:xslt>
+      <p:with-input port="stylesheet">
+        <p:document href="../../lib/RANGES/rules/RANGES-detail.xsl"/>
+      </p:with-input>
+    </p:xslt>
     
+    <p:store href="cache/4_RANGES/{ $basename }-RANGES.xml" serialization="map { 'indent': true() }"
+      message="Writing xMNML cache file - - - - - - - - - - - - - - - - - cache/4_RANGES/{ $basename }-RANGES.xml"/>
   </p:for-each>
 
 </p:declare-step>

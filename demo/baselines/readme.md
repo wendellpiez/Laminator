@@ -8,21 +8,30 @@
 
 Running it provides regression testing for the parsing and building algorithms.
 
+`TEST_RANGES-ROUNDTRIP.xpl` does the same for xLMNL production making a RANGES model available. It parses LMNL documents like `TEST_xMNML-BUILD.xpl`, exposes its RANGES model, converts that that back to xMNML ('tags') using the generic "inscribe" XSLT, and compares the outputs.
+
+Compare to the test pipeline ../../lib/RANGES/testing/RUN_RANGES-ROUNDTRIP.xpl, which does much the same, except also writing the outputs to the file system for examination.
+
 ### Open-hood examples
 
 The pipeline `xMNML-BUILD.xpl` will produce xMNML results from parsing all the files given in the `data` folder, along with the interim results produced by the pipeline, which runs in three steps. So:
 
 - [cache/1_parsed/](cache/1_parsed/) contains results of parsing the MNML LMNL inputs with the iXML grammar. Expect errors for files that are not syntactically conformant.
 - [cache/2_linked/](cache/2_linked/) shows the same results with text now escaped (for markup delimiters) and matching tags linked.
-- [cache/3_xmnml/](cache/3_xmnml/) shows the final xMNML, now with range offsets and extents marked.
+- [cache/3_xmnml/](cache/3_xmnml/) shows xMNML, now with range offsets and extents marked.
+- [cache/4_RANGES/](cache/4_RANGES/) shows the same document further normalized as a RANGES document, further abstracted from syntax.
 
 Inspect these to understand the relatively simple operations performed in parsing MNML LMNL (syntax) into xMNML.
 
 Why do this?
 
 - Many things can be done with xMNML, including building hierarchies (XML) and other applications
-- LMNL syntax may also be useful for certain kinds of operations and interchange including under automation (*tag writing*)
-- Round-tripping between LMNL syntax and the xMNML model gives us a 'vector of control'
+- Many other things can be done with 'plain ranges', or done much more simply - for example, sets of ranges can be filtered, aggregated, or grouped into sets describing hierarchies and other structures
+- Conversions between equivalent syntaxes also afford opportunities for transformation, and 'tag writing' works well with LMNL (as opposed to XML)
+- Vectors of control include:
+  - wf checking of LMNL syntax - does it parse?
+  - conversion to xLMNL and RANGES and validation against expectations- do they look good?
+  - Round-trip conversion between LMNL syntax and the xMNML and RANGES models - can we do this robustly?
 
 ## LMNL Examples
 

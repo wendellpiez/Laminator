@@ -28,7 +28,7 @@
   <!-- put inside a try/catch - for now, any error breaks the pipeline -->
   <p:group name="make-xml">
     <p:xslt>
-      <p:with-input port="stylesheet" href="../../../lib/xMNML/down/xMNML-xml-ripper.xsl"/>
+      <p:with-input port="stylesheet" href="../../../lib/xMNML/out/xMNML-xml-ripper.xsl"/>
     </p:xslt>
 
     <p:cast-content-type content-type="application/xml"/>
