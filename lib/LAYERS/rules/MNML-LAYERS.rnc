@@ -1,0 +1,37 @@
+default namespace = "http://wendellpiez.com/ns/xMNML"
+
+# The model is intended to be *almost* as minimalistic as possible
+#  Only a little semantic redundancy (hooks for optimization) is offered:
+#  layer/(@class|@mixed) telling us about the layer - one of the two attributes may be present, not both
+#    since mixing any range type (permitting it to overlap others of the same type) precludes MCH and therefore also OHCO
+#  layer/@ranges indicates range types included
+#  range/@overlaps pointing to overlapping ranges
+#    These properties are all validable and corrigible by normalization
+#    as they can be determined statically
+#    so the schema provides them as options
+#  Hint: use XSLT LAYERS-detail.xsl to normalize and elaborate a LAYERS document
+
+start =
+    element LAYERS {
+      layer*,
+      element frontier { text }
+    }
+
+layer = element layer {
+    attribute  ranges { xsd:NMTOKENS }?,
+    (attribute mixing { xsd:NMTOKENS } |
+     attribute class  { 'ohco' | 'mch' } ),
+    element range {
+        attribute gi { xsd:NCName },
+        attribute id { xsd:integer }?,
+        attribute rID { xsd:NCName },
+        attribute starting { xsd:integer },
+        attribute ending { xsd:integer },
+        attribute overlaps { xsd:NMTOKENS }?,
+            element annotation {
+              attribute gi { xsd:NCName },
+              attribute place { 'end' }?,
+              text
+        }*
+    }*
+}

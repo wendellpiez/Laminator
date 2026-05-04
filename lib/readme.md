@@ -9,9 +9,9 @@ Test pipelines and XSpec tests can be found close to their test targets.
 
 ## TODO
 
-BUILD OUT 'RANGES' model support
+BUILD OUT 'LAYERS' model support
   XSLT xMNML-ranges.xsl ../demo/baselines/data/PLfragment.lmnl
-  Schema for RANGES model 
+  Schema for LAYERS model 
 
   with XSpec tests for regression testing
   capabilities: MERGE; INSCRIBE; produce XML (xMNML/out/xMNML-build-xml.xsl)
@@ -26,25 +26,25 @@ Rearrange 'lib'
 
 An XML-based format representing a LMNL document as a sequence of tags (as elements) interleaving text (as elements).
 
-## RANGES
+## LAYERS
 
 ArRANGEd Standoff
 
 This is also an XML-based format, representing the LMNL range model in 'bare bones' form as a collection of sequences of ranges ('layers') defined in reference to a text.
 
-A transparent, bidirectional, lossless conversion pathway between xMNML and RANGES provides the library with a synthesis of their capabilities.
+A transparent, bidirectional, lossless conversion pathway between xMNML and LAYERS provides the library with a synthesis of their capabilities.
 
 Generally speaking, xMNML comes into play when working directly with LMNL "sawtooth" syntax.
 
-The RANGES model comes into play when we wish to perform operations directly on the range sequences, for example merging two range sequences to provide a document combining two sets of markup (possibly overlapping).
+The LAYERS model comes into play when we wish to perform operations directly on the range sequences, for example merging two range sequences to provide a document combining two sets of markup (possibly overlapping).
 
 
 ## Functions and capabilities
 
 Planned and underway:
 
-xMNML -> RANGES
-RANGES -> xMNML (from xMNML/out/xMNML-reinscribe.xsl)
+xMNML -> LAYERS
+LAYERS -> xMNML (from xMNML/out/xMNML-reinscribe.xsl)
 
 demo roundtrip
 RUNALL to run everything for testing
@@ -54,7 +54,20 @@ clean up!
 ### Acquisition
 
 - Parsing LMNL syntax (MNML subset) to build xMNML (XML)
+
+Use parse_MNML-LMNL.xpl
+
 - Converting XML into xMNML
+
+Use any of:
+
+ - `common/xml-to-lmnl.xsl` 'rips' LMNL tags from XML
+ - xMNML/in/w3c-xml/xml-to-xMNML.xsl does the same, except directly into xMNML with no parse required
+ - LAYERS/in/xml-to-LAYERS.xsl converts XML directly into a LAYERS representation for further processing - a very convenient and fast way to get XML
+ 
+Note that using a combination of XML-in and XML-out pathways to and from the LAYERS model, we can skip parsing altogether, and use LMNL with plain-old XML.
+
+You expect to do a great deal of rewriting of milestones as delimiters and milestone-delimited spans as ranges, but it should work. Indeed, rewriting a milestone start/end pair to mark a single range is trivial to do in the RANGES model, more so even than in other forms.
 
 ### Expression
 
@@ -62,14 +75,9 @@ clean up!
 - Producing XML from xMNML - building trees from ranges
 - 'Ripping' XML when possible
 
-### Support
+There is no LAYERS to XML pathway ('building' XML) since the build algorithm works by recursively grouping marked segments of text, which are not available in the LAYERS model (only in the xMNLM tag sequence model). Creating these entails performing the same operation as an xMNML 'inscription', so we do that: first, inscribe as xHTML (you will get LMNL back with tag order corrected if necessary), then making the XML is easy (by building if an MCH or 'mixed' model, or 'ripping' if an OHCO).
 
-- Serializing XML in LMNL syntax
-- Process xMNML natively:
-  - To modify documents
-  - To filter and merge range sets
-  - Validation, diagnostics, restoration
-  - Analytics
+Since the generic LAYERS/in/xMNML-LAYERS.xsl converter XSLT also marks layers as 'ohco', 'mch' or 'mixed' (by default), it is a useful way of seeing what can reasonably be done.
 
 ## Conceptual map
 
@@ -77,7 +85,7 @@ A mermaid flowchart diagram shows the moving pieces.
 
 Any process can be assumed to be XSLT even if functionally very simple ('tag writing').
 
-TBD (potentially) - shortcuts implemented as direct transformations (while we are doing our best to factor out complexity) - e.g. the XML builder could work on both xMNML and RANGES inputs
+TBD (potentially) - shortcuts implemented as direct transformations (while we are doing our best to factor out complexity) - e.g. the XML builder could work on both xMNML and LAYERS inputs
 
 ```mermaid
 flowchart TD
@@ -89,8 +97,8 @@ flowchart TD
     
     lmnlOUT -.-> lmnlIN
     XMNML -.->|serialize| lmnlOUT[LMNL]
-    XMNML  -.->|index| RANGES[[RANGES]]
-    RANGES -.->|inscribe| XMNML
+    XMNML  -.->|index| LAYERS[[LAYERS]]
+    LAYERS -.->|inscribe| XMNML
  
     XMNML  -->|build| xmlOUT[XML]
     XMNML  -->|rip| xmlOUT[XML]
@@ -98,9 +106,9 @@ flowchart TD
 
 ```
 
-A few pathways are not shown in the picture, for example converting directly from XML straight into xLMNL or RANGES, not via LMNL tagging.
+A few pathways are not shown in the picture, for example converting directly from XML straight into xLMNL or LAYERS, not via LMNL tagging.
 
-The RANGES model is useful
+The LAYERS model is useful
 
 - For certain kinds of operations such as filtering and merging range sets
   - remove all ranges of certain kinds
