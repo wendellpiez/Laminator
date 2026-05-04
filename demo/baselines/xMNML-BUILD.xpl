@@ -36,18 +36,18 @@
     <p:xslt>
       <p:with-input port="source" pipe="result@xMNML"/>
       <p:with-input port="stylesheet">
-        <p:document href="../../lib/RANGES/in/xMNML-RANGES.xsl"/>
+        <p:document href="../../lib/LAYERS/in/xMNML-LAYERS.xsl"/>
       </p:with-input>
     </p:xslt>
     
     <p:xslt>
       <p:with-input port="stylesheet">
-        <p:document href="../../lib/RANGES/rules/RANGES-detail.xsl"/>
+        <p:document href="../../lib/LAYERS/rules/LAYERS-detail.xsl"/>
       </p:with-input>
     </p:xslt>
     
-    <p:store href="cache/4_RANGES/{ $basename }-RANGES.xml" serialization="map { 'indent': true() }"
-      message="Writing xMNML cache file - - - - - - - - - - - - - - - - - cache/4_RANGES/{ $basename }-RANGES.xml"/>
+    <p:store href="cache/4_LAYERS/{ $basename }-LAYERS.xml" serialization="map { 'indent': true() }"
+      message="Writing xMNML cache file - - - - - - - - - - - - - - - - - cache/4_LAYERS/{ $basename }-LAYERS.xml"/>
   </p:for-each>
 
 </p:declare-step>

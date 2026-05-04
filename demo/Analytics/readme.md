@@ -6,7 +6,7 @@ Also, other demonstrations may have analytic aspects - for example, the demonstr
 
 This subdirectory contains *rudimentary* and *alternative* analytics and experiments.
 
-In particular, it was developed quickly and before the introduction of the RANGES model, which could enable refactoring and simplification of a number of these operations.
+In particular, it was developed quickly and before the introduction of the LAYERS model, which could enable refactoring and simplification of a number of these operations.
 
 So far ...
 

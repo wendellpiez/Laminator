@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LAYERS xmlns="http://wendellpiez.com/ns/xMNML">
+   <layer class="mch">
+      <range rID="r1_excerpt" gi="excerpt" starting="0" ending="123">
+         <annotation gi="author">Robert Frost</annotation>
+         <annotation gi="date">1915</annotation>
+         <annotation gi="title">The Housekeeper</annotation>
+      </range>
+      <range rID="r2_s" gi="s" starting="1" ending="51" overlaps="r4_l"/>
+      <range rID="r3_l" gi="l" starting="1" ending="34">
+         <annotation gi="n">144</annotation>
+      </range>
+      <range rID="r4_l"
+             gi="l"
+             starting="35"
+             ending="78"
+             overlaps="r2_s r6_s">
+         <annotation gi="n">145</annotation>
+      </range>
+      <range rID="r5_s" gi="s" starting="52" ending="62"/>
+      <range rID="r6_s"
+             gi="s"
+             starting="63"
+             ending="122"
+             overlaps="r4_l"/>
+      <range rID="r7_l" gi="l" starting="79" ending="122">
+         <annotation gi="n">146</annotation>
+      </range>
+   </layer>
+   <frontier>
+He manages to keep the upper hand
+On his own farm. He's boss. But as to hens:
+We fence our flowers in and the hens range.
+
+</frontier>
+</LAYERS>

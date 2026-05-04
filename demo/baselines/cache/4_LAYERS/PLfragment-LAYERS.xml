@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LAYERS xmlns="http://wendellpiez.com/ns/xMNML">
+   <layer mixing="np">
+      <range rID="r01_excerpt" gi="excerpt" starting="0" ending="1105">
+         <annotation gi="title">Paradise Lost I 1-26</annotation>
+         <annotation gi="book">I</annotation>
+         <annotation gi="ll">1-26</annotation>
+         <annotation gi="author">John Milton</annotation>
+      </range>
+      <range rID="r03_s" gi="s" starting="1" ending="671"/>
+      <range rID="r02_l"
+             gi="l"
+             starting="1"
+             ending="43"
+             overlaps="r05_phr r06_np">
+         <annotation gi="n">Bk.1.1</annotation>
+      </range>
+      <range rID="r04_phr" gi="phr" starting="1" ending="29"/>
+      <range rID="r05_phr"
+             gi="phr"
+             starting="30"
+             ending="115"
+             overlaps="r02_l r08_np r09_l"/>
+      <range rID="r06_np"
+             gi="np"
+             starting="34"
+             ending="66"
+             id="1"
+             overlaps="r02_l r07_l r08_np"/>
+      <range rID="r07_l"
+             gi="l"
+             starting="44"
+             ending="85"
+             overlaps="r06_np r08_np">
+         <annotation gi="n">Bk.1.2</annotation>
+      </range>
+      <range rID="r08_np"
+             gi="np"
+             starting="47"
+             ending="151"
+             id="2"
+             overlaps="r05_phr r06_np r07_l r11_l"/>
+      <range rID="r09_l"
+             gi="l"
+             starting="86"
+             ending="132"
+             overlaps="r05_phr">
+         <annotation gi="n">Bk.1.3</annotation>
+      </range>
+      <range rID="r10_phr" gi="phr" starting="116" ending="132"/>
+      <range rID="r11_l"
+             gi="l"
+             starting="133"
+             ending="172"
+             overlaps="r08_np r13_phr">
+         <annotation gi="n">Bk.1.4</annotation>
+      </range>
+      <range rID="r12_phr" gi="phr" starting="133" ending="151"/>
+      <range rID="r13_phr"
+             gi="phr"
+             starting="152"
+             ending="184"
+             overlaps="r11_l r14_l"/>
+      <range rID="r14_l"
+             gi="l"
+             starting="173"
+             ending="214"
+             overlaps="r13_phr">
+         <annotation gi="n">Bk.1.5</annotation>
+      </range>
+      <range rID="r15_phr" gi="phr" starting="185" ending="214"/>
+      <range rID="r16_l"
+             gi="l"
+             starting="215"
+             ending="259"
+             overlaps="r18_np r21_phr">
+         <annotation gi="n">Bk.1.6</annotation>
+      </range>
+      <range rID="r17_phr" gi="phr" starting="215" ending="220"/>
+      <range rID="r18_np"
+             gi="np"
+             starting="221"
+             ending="309"
+             id="3"
+             overlaps="r16_l r24_phr r25_l r26_np"/>
+      <range rID="r19_phr" gi="phr" starting="221" ending="235"/>
+      <range rID="r20_phr" gi="phr" starting="236" ending="241"/>
+      <range rID="r21_phr"
+             gi="phr"
+             starting="242"
+             ending="268"
+             overlaps="r16_l r22_l"/>
+      <range rID="r22_l"
+             gi="l"
+             starting="260"
+             ending="295"
+             overlaps="r21_phr r24_phr">
+         <annotation gi="n">Bk.1.7</annotation>
+      </range>
+      <range rID="r23_phr" gi="phr" starting="269" ending="281"/>
+      <range rID="r24_phr"
+             gi="phr"
+             starting="282"
+             ending="404"
+             overlaps="r18_np r22_l r28_l"/>
+      <range rID="r26_np"
+             gi="np"
+             starting="296"
+             ending="404"
+             id="4"
+             overlaps="r18_np r28_l"/>
+      <range rID="r25_l"
+             gi="l"
+             starting="296"
+             ending="342"
+             overlaps="r18_np">
+         <annotation gi="n">Bk.1.8</annotation>
+      </range>
+      <range rID="r27_l" gi="l" starting="343" ending="385">
+         <annotation gi="n">Bk.1.9</annotation>
+      </range>
+      <range rID="r28_l"
+             gi="l"
+             starting="386"
+             ending="421"
+             overlaps="r24_phr r26_np r30_phr">
+         <annotation gi="n">Bk.1.10</annotation>
+      </range>
+      <range rID="r29_phr" gi="phr" starting="405" ending="408"/>
+      <range rID="r30_phr"
+             gi="phr"
+             starting="409"
+             ending="440"
+             overlaps="r28_l r31_l"/>
+      <range rID="r31_l"
+             gi="l"
+             starting="422"
+             ending="470"
+             overlaps="r30_phr r32_phr r33_np">
+         <annotation gi="n">Bk.1.11</annotation>
+      </range>
+      <range rID="r32_phr"
+             gi="phr"
+             starting="441"
+             ending="497"
+             overlaps="r31_l r34_l"/>
+      <range rID="r33_np"
+             gi="np"
+             starting="445"
+             ending="497"
+             id="5"
+             overlaps="r31_l r34_l">
+         <annotation place="end" gi="ref">John 9</annotation>
+      </range>
+      <range rID="r34_l"
+             gi="l"
+             starting="471"
+             ending="506"
+             overlaps="r32_phr r33_np r35_phr">
+         <annotation gi="n">Bk.1.12</annotation>
+      </range>
+      <range rID="r35_phr"
+             gi="phr"
+             starting="498"
+             ending="545"
+             overlaps="r34_l r37_np"/>
+      <range rID="r36_l"
+             gi="l"
+             starting="507"
+             ending="545"
+             overlaps="r37_np">
+         <annotation gi="n">Bk.1.13</annotation>
+      </range>
+      <range rID="r37_np"
+             gi="np"
+             starting="525"
+             ending="671"
+             id="6"
+             overlaps="r35_phr r36_l"/>
+      <range rID="r39_phr"
+             gi="phr"
+             starting="546"
+             ending="612"
+             overlaps="r40_l"/>
+      <range rID="r38_l" gi="l" starting="546" ending="588">
+         <annotation gi="n">Bk.1.14</annotation>
+      </range>
+      <range rID="r40_l"
+             gi="l"
+             starting="589"
+             ending="629"
+             overlaps="r39_phr r41_phr">
+         <annotation gi="n">Bk.1.15</annotation>
+      </range>
+      <range rID="r41_phr"
+             gi="phr"
+             starting="613"
+             ending="671"
+             overlaps="r40_l"/>
+      <range rID="r42_l" gi="l" starting="630" ending="671">
+         <annotation gi="n">Bk.1.16</annotation>
+      </range>
+      <range rID="r43_np" gi="np" starting="630" ending="671" id="7"/>
+      <range rID="r44_l"
+             gi="l"
+             starting="672"
+             ending="716"
+             overlaps="r47_np r49_phr">
+         <annotation gi="n">Bk.1.17</annotation>
+      </range>
+      <range rID="r46_phr" gi="phr" starting="672" ending="689"/>
+      <range rID="r45_s" gi="s" starting="672" ending="1104"/>
+      <range rID="r47_np"
+             gi="np"
+             starting="690"
+             ending="763"
+             id="8"
+             overlaps="r44_l"/>
+      <range rID="r48_phr" gi="phr" starting="690" ending="699"/>
+      <range rID="r49_phr"
+             gi="phr"
+             starting="700"
+             ending="763"
+             overlaps="r44_l"/>
+      <range rID="r50_l" gi="l" starting="717" ending="763">
+         <annotation gi="n">Bk.1.18</annotation>
+      </range>
+      <range rID="r51_l"
+             gi="l"
+             starting="764"
+             ending="814"
+             overlaps="r54_phr">
+         <annotation gi="n">Bk.1.19</annotation>
+      </range>
+      <range rID="r52_phr" gi="phr" starting="764" ending="776"/>
+      <range rID="r53_phr" gi="phr" starting="777" ending="794"/>
+      <range rID="r54_phr"
+             gi="phr"
+             starting="795"
+             ending="828"
+             overlaps="r51_l r55_l"/>
+      <range rID="r55_l"
+             gi="l"
+             starting="815"
+             ending="862"
+             overlaps="r54_phr">
+         <annotation gi="n">Bk.1.20</annotation>
+      </range>
+      <range rID="r56_phr" gi="phr" starting="829" ending="833"/>
+      <range rID="r57_phr" gi="phr" starting="834" ending="862"/>
+      <range rID="r58_l" gi="l" starting="863" ending="907">
+         <annotation gi="n">Bk.1.21</annotation>
+      </range>
+      <range rID="r59_phr" gi="phr" starting="863" ending="907"/>
+      <range rID="r60_l"
+             gi="l"
+             starting="908"
+             ending="950"
+             overlaps="r62_phr">
+         <annotation gi="n">Bk.1.22</annotation>
+      </range>
+      <range rID="r61_phr" gi="phr" starting="908" ending="931"/>
+      <range rID="r62_phr"
+             gi="phr"
+             starting="932"
+             ending="960"
+             overlaps="r60_l r63_l"/>
+      <range rID="r63_l"
+             gi="l"
+             starting="951"
+             ending="991"
+             overlaps="r62_phr">
+         <annotation gi="n">Bk.1.23</annotation>
+      </range>
+      <range rID="r64_phr" gi="phr" starting="961" ending="991"/>
+      <range rID="r66_phr" gi="phr" starting="992" ending="997"/>
+      <range rID="r65_l" gi="l" starting="992" ending="1035">
+         <annotation gi="n">Bk.1.24</annotation>
+      </range>
+      <range rID="r67_phr" gi="phr" starting="998" ending="1035"/>
+      <range rID="r68_l" gi="l" starting="1036" ending="1068">
+         <annotation gi="n">Bk.1.25</annotation>
+      </range>
+      <range rID="r69_phr" gi="phr" starting="1036" ending="1068"/>
+      <range rID="r70_l" gi="l" starting="1069" ending="1104">
+         <annotation gi="n">Bk.1.26</annotation>
+      </range>
+      <range rID="r71_phr" gi="phr" starting="1069" ending="1104"/>
+   </layer>
+   <frontier>
+Of Man's first disobedience, and the fruit
+Of that forbidden tree whose mortal taste
+Brought death into the World, and all our woe,
+With loss of Eden, till one greater Man
+Restore us, and regain the blissful seat,
+Sing, Heavenly Muse, that, on the secret top
+Of Oreb, or of Sinai, didst inspire
+That Shepherd who first taught the chosen seed
+In the beginning how the heavens and earth
+Rose out of Chaos: or, if Sion hill
+Delight thee more, and Siloa's brook that flowed
+Fast by the oracle of God, I thence
+Invoke thy aid to my adventurous song,
+That with no middle flight intends to soar
+Above th' Aonian mount, while it pursues
+Things unattempted yet in prose or rhyme.
+And chiefly thou, O Spirit, that dost prefer
+Before all temples th' upright heart and pure,
+Instruct me, for Thou know'st; Thou from the first
+Wast present, and, with mighty wings outspread,
+Dove-like sat'st brooding on the vast Abyss,
+And mad'st it pregnant: what in me is dark
+Illumine, what is low raise and support;
+That, to the height of this great argument,
+I may assert Eternal Providence,
+And justify the ways of God to men.
+
+</frontier>
+</LAYERS>
