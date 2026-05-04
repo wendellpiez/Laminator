@@ -21,63 +21,86 @@ Rearrange 'lib'
   fix up TEI
   document
 
+## Models
 
-## xMNML
+Two complimentary models work together:
+
+- xMNML represents a LMNL document as a 'tag and text sequence' with everything linked
+- LAYERS represents a LMNL document as a set of (one or more) collections of ranges ('layers'), indexed into a common base text (the 'frontier')
+
+Converting an xMNML LMNL represtation into a LAYERS representation and back has the effect of normalizing tag order in the source data but leaving it otherwise unchanged.
+
+If tag order is important in your LMNL, include spaces or content between your tags.
+
+Use the tag sequence model when conversion to and from XML is needed.
+
+Use the LAYERS model to perform global operations in the application.
+
+Use LMNL syntax when editing LMNL directly.
+
+
+### xMNML
 
 An XML-based format representing a LMNL document as a sequence of tags (as elements) interleaving text (as elements).
 
-## LAYERS
+It has a schema at `xMNML/rules/xMNML.rnc` and a comparability XSLT that produces a normalized version of an xMNML instance, for comparison.
 
-ArRANGEd Standoff
+### LAYERS
 
-This is also an XML-based format, representing the LMNL range model in 'bare bones' form as a collection of sequences of ranges ('layers') defined in reference to a text.
+**LMNL ArraYs of Enumerated RangeS**
+
+
+This is also an XML-based format, representing the LMNL range model in 'bare bones' form as a collection of sequences of ranges ('layers') defined in reference to a text, the 'frontier'.
 
 A transparent, bidirectional, lossless conversion pathway between xMNML and LAYERS provides the library with a synthesis of their capabilities.
 
-Generally speaking, xMNML comes into play when working directly with LMNL "sawtooth" syntax.
-
-The LAYERS model comes into play when we wish to perform operations directly on the range sequences, for example merging two range sequences to provide a document combining two sets of markup (possibly overlapping).
-
-
 ## Functions and capabilities
 
-Planned and underway:
-
-xMNML -> LAYERS
-LAYERS -> xMNML (from xMNML/out/xMNML-reinscribe.xsl)
-
-demo roundtrip
-RUNALL to run everything for testing
-finish todo / document
-clean up!
+Keep in mind the library's functionalities are all very basic, and require additional logic (use XSLT in your pipelines) to do useful work.
 
 ### Acquisition
 
-- Parsing LMNL syntax (MNML subset) to build xMNML (XML)
+#### LMNL input
 
-Use parse_MNML-LMNL.xpl
+To parse LMNL syntax (MNML subset) to build xMNML (XML), use the pipeline `parse_MNML-LMNL.xpl`
 
 - Converting XML into xMNML
+
+#### XML input
+
+Sourcing from XML can be convenient if only because it is available. Overlapping structures are commonly marked by partitioning or by using milestone-marking conventions. In either case, depending on the strategy used, these can often be mapped *on the way into xMNML* into 'proper' ranges. 
 
 Use any of:
 
  - `common/xml-to-lmnl.xsl` 'rips' LMNL tags from XML
- - xMNML/in/w3c-xml/xml-to-xMNML.xsl does the same, except directly into xMNML with no parse required
- - LAYERS/in/xml-to-LAYERS.xsl converts XML directly into a LAYERS representation for further processing - a very convenient and fast way to get XML
+ - `xMNML/in/w3c-xml/xml-to-xMNML.xsl` does the same, except directly into xMNML, no LMNL syntax and no (re)parse require
+ - `LAYERS/in/xml-to-LAYERS.xsl` converts XML directly into a LAYERS representation for further processing - a very convenient and fast way to get XML
  
-Note that using a combination of XML-in and XML-out pathways to and from the LAYERS model, we can skip parsing altogether, and use LMNL with plain-old XML.
-
-You expect to do a great deal of rewriting of milestones as delimiters and milestone-delimited spans as ranges, but it should work. Indeed, rewriting a milestone start/end pair to mark a single range is trivial to do in the RANGES model, more so even than in other forms.
+Note that using a combination of XML-in and XML-out pathways to and from the LAYERS model, we can also skip LMNL tagging altogether, and use the Laminator with "plain-old XML".
 
 ### Expression
 
+What we can do so far is pretty basic but also very general and useful for just about anything.
+
 - Producing LMNL syntax from xMNML - LMNL serialization
 - Producing XML from xMNML - building trees from ranges
-- 'Ripping' XML when possible
+- 'Ripping' XML from xMNML when possible
 
-There is no LAYERS to XML pathway ('building' XML) since the build algorithm works by recursively grouping marked segments of text, which are not available in the LAYERS model (only in the xMNLM tag sequence model). Creating these entails performing the same operation as an xMNML 'inscription', so we do that: first, inscribe as xHTML (you will get LMNL back with tag order corrected if necessary), then making the XML is easy (by building if an MCH or 'mixed' model, or 'ripping' if an OHCO).
+- Producing other renditions e.g. SVG range maps, from either xMNML or LAYERS models
+
+NB: There is no LAYERS to XML pathway ('building' XML) since the build algorithm works by recursively grouping marked segments of text, which are not available in the LAYERS model (only in the xMNLM tag sequence model). Creating these entails performing the same operation as an xMNML 'inscription', so we do that: first, inscribe as xHTML (you will get LMNL back with tag order corrected if necessary), then making the XML is easy (by building if an MCH or 'mixed' model, or 'ripping' if an OHCO).
 
 Since the generic LAYERS/in/xMNML-LAYERS.xsl converter XSLT also marks layers as 'ohco', 'mch' or 'mixed' (by default), it is a useful way of seeing what can reasonably be done.
+
+### Manipulation
+
+Most of this work hasn't been done yet since the focus on manipulating LMNL directly will first and foremost be in its uses as a *markup language*, i.e. manipulate it 'by hand'.
+
+That being said, many manipulations are possible and easy working with either or both xMNML or LAYERS models.
+
+For example it is straightforward to use the LAYERS model to produce two XML documents from the same LMNL source, showing its multiple concurrent hierarchies.
+
+Merging and sifting ranges and range types is one of the most basic and useful things we can do with LMNL.
 
 ## Conceptual map
 
@@ -122,6 +145,7 @@ The LAYERS model is useful
   - a well-ordered, complete and correct xMNML document will convert losslessly, otherwise not
 
 
+---
 
 ### Version prior to April 2026
 
