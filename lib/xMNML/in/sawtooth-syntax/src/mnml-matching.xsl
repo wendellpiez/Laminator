@@ -14,6 +14,14 @@
   <xsl:mode name="walk" on-no-match="fail" use-accumulators="tag_stack"/>
   
   <xsl:mode name="rID"  on-no-match="fail" use-accumulators="tag_stack"/>
+
+  <!-- Set stack limit to something reasonable (maybe 100?) if you wish to parse defensively
+  and raise alarms if tagging gets too deep -->
+
+  <xsl:param name="stack-limit" as="xs:integer" select="0"/>
+  
+  <!-- $limiting is on or off -->
+  <xsl:variable name="limiting" select="$stack-limit gt 0"/>
   
   <!-- The accumulator  'tag_stack' tracks the open ranges by keeping 'start'
       elements in a sequence and removing them again as the matching 'end'
@@ -39,6 +47,8 @@
     </xsl:accumulator-rule>
   </xsl:accumulator>
 
+  <xsl:variable name="ID_delim" select="'='"/>
+  
   <xsl:template match="/">
     <xsl:apply-templates/>
   </xsl:template>
@@ -51,6 +61,7 @@
 
   <xsl:template match="text[string(.) => not()]"/>
 
+  <!-- Ordinary case - if our stack limit is the default 0, we just go -->
   <xsl:template match="text">
     <xsl:variable name="within" as="xs:string*">
       <xsl:apply-templates select="accumulator-before('tag_stack')" mode="rID"/>
@@ -60,7 +71,32 @@
       <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
-
+  
+  <!-- nb - if performance is ever found to be an issue and we wish to forego
+       stack tracing, we could layer it out into an importing XSLT -->
+  
+  <!-- If stack-limit is set and greater than zero, it is used as a limiter
+    defending the process from getting hung up processing thousands of tags
+    if opens appear without closes ... a pathological condition that should not
+    occur in benign data and can be defended against by checking bracket matching
+    prior to the parse (which should line up after escape sequences are removed) -->
+  <xsl:template match="text[$limiting]" priority="101">
+    <xsl:choose>
+      <xsl:when test="count(accumulator-before('tag_stack')) gt $stack-limit">
+        <xsl:message terminate="true">Stack limit { $stack-limit } was exceeded ... we have open ranges { accumulator-before('tag_stack')/@name => string-join(', ') } ...</xsl:message>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:variable name="within" as="xs:string*">
+          <xsl:apply-templates select="accumulator-before('tag_stack')" mode="rID"/>
+        </xsl:variable>
+        <xsl:copy>
+          <xsl:attribute name="cf" separator=" " select="$within"/>
+          <xsl:apply-templates/>
+        </xsl:copy>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
   <xsl:template match="start | empty">    
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -95,9 +131,9 @@
     <xsl:copy-of select="."/>
   </xsl:template>
 
-  <xsl:template priority="101" match="@name[contains(., '#')]">
-    <xsl:attribute name="gi">{ tokenize(., '#')[1] }</xsl:attribute>
-    <xsl:attribute name="id">{ tokenize(., '#')[2] }</xsl:attribute>
+  <xsl:template priority="101" match="@name[contains(., $ID_delim)]">
+    <xsl:attribute name="gi">{ tokenize(., $ID_delim)[1] }</xsl:attribute>
+    <xsl:attribute name="id">{ tokenize(., $ID_delim)[2] }</xsl:attribute>
   </xsl:template>
 
   <xsl:template match="@name">
@@ -113,7 +149,7 @@
     <xsl:variable name="n">
       <xsl:number count="start | empty" format="{ $zeroPadded }"/>
     </xsl:variable>
-    <xsl:text>r{ $n }{ @name/('_' || replace(.,'#.*','')) }</xsl:text>
+    <xsl:text>r{ $n }{ @name/('_' || replace(.,'=.*','')) }</xsl:text>
   </xsl:template>
 
 </xsl:stylesheet>

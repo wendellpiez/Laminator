@@ -19,7 +19,7 @@
                     [l [n}146{]}We fence our flowers in and the hens range.{l]{s]
                     {excerpt]
                 </okay>
-                
+                <broke nb="unclosed tag"     >[unclosed]</broke><!-- Should report discrepancy if it's actually closed -->
 
                 <okay  nb="only an empty"       >[tag]</okay>
                 <okay  nb="with an annotation"  >[well [ann}annotated{]}STUFF{well]</okay>
@@ -30,7 +30,6 @@
                 <broke nb="annotations can't be marked up">[badly [ann}annotated[markup]{]}STUFF{badly]</broke>
                 <broke nb="annotations close only with {]">[badly [ann}annotated{ann]}STUFF{badly]</broke>
                 
-                <broke nb="unclosed tag"     >[unclosed</broke>
                 <broke nb="broken annotation">[broken [ann}broken annotation{broken]</broke>
                 <broke nb="broken annotation">[broken  ann}broken annotation{broken]</broke>
                 

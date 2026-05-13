@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LAYERS xmlns="http://wendellpiez.com/ns/xMNML">
-   <layer mixing="np">
+   <layer ranges="excerpt l s phr np" mixing="np">
       <range rID="r01_excerpt" gi="excerpt" starting="0" ending="1105">
          <annotation gi="title">Paradise Lost I 1-26</annotation>
          <annotation gi="book">I</annotation>

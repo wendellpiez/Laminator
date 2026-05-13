@@ -15,7 +15,7 @@
       start: -"[", name?, (ws?, annotation)*, ws?, -"}" . 
         end: -"{", name?, (ws?, annotation)*, ws?, -"]" . 
       empty: -"[", name?, (ws?, annotation)*, ws?, -"]" .
-      @name: -gi, ("#", cc+)? .
+      @name: -gi, ("=", cc+)? .
          gi: ic, cc* .
         -ic: [L] .
         -cc: ic; ["0"-"9"]; "."; "_"; "-"; ":" .

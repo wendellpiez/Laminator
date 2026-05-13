@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LAYERS xmlns="http://wendellpiez.com/ns/xMNML">
-   <layer class="mch">
+   <layer ranges="excerpt s l" class="mch">
       <range rID="r1_excerpt" gi="excerpt" starting="0" ending="123">
          <annotation gi="author">Robert Frost</annotation>
          <annotation gi="date">1915</annotation>

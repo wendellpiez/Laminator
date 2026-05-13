@@ -21,7 +21,7 @@
    <text> </text>
    <start name="phr"/>
    <text>and </text>
-   <start name="np#1"/>
+   <start name="np=1"/>
    <text>the fruit</text>
    <end name="l"/>
    <text>
@@ -30,9 +30,9 @@
       <annotation gi="n">Bk.1.2</annotation>
    </start>
    <text>Of </text>
-   <start name="np#2"/>
+   <start name="np=2"/>
    <text>that forbidden tree</text>
-   <end name="np#1"/>
+   <end name="np=1"/>
    <text> whose mortal taste</text>
    <end name="l"/>
    <text>
@@ -56,7 +56,7 @@
    <text/>
    <start name="phr"/>
    <text>With loss of Eden,</text>
-   <end name="np#2"/>
+   <end name="np=2"/>
    <text/>
    <end name="phr"/>
    <text> </text>
@@ -86,7 +86,7 @@
    <text>Sing,</text>
    <end name="phr"/>
    <text> </text>
-   <start name="np#3"/>
+   <start name="np=3"/>
    <text/>
    <start name="phr"/>
    <text>Heavenly Muse,</text>
@@ -120,9 +120,9 @@
       <annotation gi="n">Bk.1.8</annotation>
    </start>
    <text/>
-   <start name="np#4"/>
+   <start name="np=4"/>
    <text>That Shepherd</text>
-   <end name="np#3"/>
+   <end name="np=3"/>
    <text> who first taught the chosen seed</text>
    <end name="l"/>
    <text>
@@ -140,7 +140,7 @@
    <text>Rose out of Chaos:</text>
    <end name="phr"/>
    <text/>
-   <end name="np#4"/>
+   <end name="np=4"/>
    <text> </text>
    <start name="phr"/>
    <text>or,</text>
@@ -159,7 +159,7 @@
    <text> </text>
    <start name="phr"/>
    <text>and </text>
-   <start name="np#5"/>
+   <start name="np=5"/>
    <text>Siloa's brook that flowed</text>
    <end name="l"/>
    <text>
@@ -170,7 +170,7 @@
    <text>Fast by the oracle of God,</text>
    <end name="phr"/>
    <text/>
-   <end name="np#5">
+   <end name="np=5">
       <annotation gi="ref">John 9</annotation>
    </end>
    <text> </text>
@@ -183,7 +183,7 @@
       <annotation gi="n">Bk.1.13</annotation>
    </start>
    <text>Invoke thy aid to </text>
-   <start name="np#6"/>
+   <start name="np=6"/>
    <text>my adventurous song,</text>
    <end name="phr"/>
    <text/>
@@ -214,11 +214,11 @@
       <annotation gi="n">Bk.1.16</annotation>
    </start>
    <text/>
-   <start name="np#7"/>
+   <start name="np=7"/>
    <text>Things unattempted yet in prose or rhyme.</text>
-   <end name="np#7"/>
+   <end name="np=7"/>
    <text/>
-   <end name="np#6"/>
+   <end name="np=6"/>
    <text/>
    <end name="phr"/>
    <text/>
@@ -237,7 +237,7 @@
    <text>And chiefly thou,</text>
    <end name="phr"/>
    <text> </text>
-   <start name="np#8"/>
+   <start name="np=8"/>
    <text/>
    <start name="phr"/>
    <text>O Spirit,</text>
@@ -252,7 +252,7 @@
       <annotation gi="n">Bk.1.18</annotation>
    </start>
    <text>Before all temples th' upright heart and pure,</text>
-   <end name="np#8"/>
+   <end name="np=8"/>
    <text/>
    <end name="phr"/>
    <text/>

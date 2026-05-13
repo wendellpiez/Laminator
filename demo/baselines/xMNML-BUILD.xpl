@@ -47,7 +47,7 @@
     </p:xslt>
     
     <p:store href="cache/4_LAYERS/{ $basename }-LAYERS.xml" serialization="map { 'indent': true() }"
-      message="Writing xMNML cache file - - - - - - - - - - - - - - - - - cache/4_LAYERS/{ $basename }-LAYERS.xml"/>
+      message="Writing LAYERS cache file  - - - - - - - - - - - - - - - - cache/4_LAYERS/{ $basename }-LAYERS.xml"/>
   </p:for-each>
 
 </p:declare-step>

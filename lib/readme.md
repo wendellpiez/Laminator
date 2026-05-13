@@ -9,11 +9,26 @@ Test pipelines and XSpec tests can be found close to their test targets.
 
 ## TODO
 
-BUILD OUT 'LAYERS' model support
-  XSLT xMNML-ranges.xsl ../demo/baselines/data/PLfragment.lmnl
-  Schema for LAYERS model 
+Zone
+o update Morgana installation
+o SVG to PNG?
 
-  with XSpec tests for regression testing
+o bracket-matching tester - do counts of [ and ], { and } correspond?
+o change # to = everywhere in syntax
+
+x BUILD OUT 'LAYERS' model support
+  x XSLT xMNML-ranges.xsl ../demo/baselines/data/PLfragment.lmnl
+  x Schema for LAYERS model 
+
+o document top/down
+    capabilities
+      XSLT
+      XProc
+
+
+o Interpolation demo? Using iXML or regexes to project ranges onto the LAYERS model (adding a LAYERS/layer)
+
+    with XSpec tests for regression testing
   capabilities: MERGE; INSCRIBE; produce XML (xMNML/out/xMNML-build-xml.xsl)
 REFRESH/TEST ALL DEMOS
 Rearrange 'lib'
@@ -23,16 +38,16 @@ Rearrange 'lib'
 
 ## Models
 
-Two complimentary models work together:
+Two complimentary models work together. Each model represents a complete MNML LMNL document (as an 'information set'), in a different form suitable for processing and querying:
 
-- xMNML represents a LMNL document as a 'tag and text sequence' with everything linked
-- LAYERS represents a LMNL document as a set of (one or more) collections of ranges ('layers'), indexed into a common base text (the 'frontier')
+- xMNML represents a LMNL document as a 'tag and text sequence'
+- LAYERS represents a LMNL document as a set of (one or more) collections of ranges ('layers') defined in relation to a common base text (the 'frontier')
 
 Converting an xMNML LMNL represtation into a LAYERS representation and back has the effect of normalizing tag order in the source data but leaving it otherwise unchanged.
 
 If tag order is important in your LMNL, include spaces or content between your tags.
 
-Use the tag sequence model when conversion to and from XML is needed.
+Use the tag sequence model whenever conversion to and from XML is needed.
 
 Use the LAYERS model to perform global operations in the application.
 
@@ -52,13 +67,19 @@ It has a schema at `xMNML/rules/xMNML.rnc` and a comparability XSLT that produce
 
 This is also an XML-based format, representing the LMNL range model in 'bare bones' form as a collection of sequences of ranges ('layers') defined in reference to a text, the 'frontier'.
 
+The more concise notation has two advantages:
+
+- Simpler to address when processing ranges as such (e.g., producing SVG Range Maps)
+- Simpler to sift, filter, merge, interpolate
+- Resolves some kinds of anomalies in inputs
+
 A transparent, bidirectional, lossless conversion pathway between xMNML and LAYERS provides the library with a synthesis of their capabilities.
 
 ## Functions and capabilities
 
 Keep in mind the library's functionalities are all very basic, and require additional logic (use XSLT in your pipelines) to do useful work.
 
-### Acquisition
+### Data acquisition
 
 #### LMNL input
 

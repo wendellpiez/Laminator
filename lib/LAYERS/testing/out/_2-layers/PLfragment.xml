@@ -12,7 +12,7 @@
              gi="l"
              starting="1"
              ending="43"
-             overlaps="r05_phr r06_np">
+             overlaps="r05_phr r06_np=1">
          <annotation gi="n">Bk.1.1</annotation>
       </range>
       <range rID="r04_phr" gi="phr" starting="1" ending="29"/>
@@ -20,26 +20,26 @@
              gi="phr"
              starting="30"
              ending="115"
-             overlaps="r02_l r08_np r09_l"/>
-      <range rID="r06_np"
+             overlaps="r02_l r08_np=2 r09_l"/>
+      <range rID="r06_np=1"
              gi="np"
              starting="34"
              ending="66"
              id="1"
-             overlaps="r02_l r07_l r08_np"/>
+             overlaps="r02_l r07_l r08_np=2"/>
       <range rID="r07_l"
              gi="l"
              starting="44"
              ending="85"
-             overlaps="r06_np r08_np">
+             overlaps="r06_np=1 r08_np=2">
          <annotation gi="n">Bk.1.2</annotation>
       </range>
-      <range rID="r08_np"
+      <range rID="r08_np=2"
              gi="np"
              starting="47"
              ending="151"
              id="2"
-             overlaps="r05_phr r06_np r07_l r11_l"/>
+             overlaps="r05_phr r06_np=1 r07_l r11_l"/>
       <range rID="r09_l"
              gi="l"
              starting="86"
@@ -52,7 +52,7 @@
              gi="l"
              starting="133"
              ending="172"
-             overlaps="r08_np r13_phr">
+             overlaps="r08_np=2 r13_phr">
          <annotation gi="n">Bk.1.4</annotation>
       </range>
       <range rID="r12_phr" gi="phr" starting="133" ending="151"/>
@@ -73,16 +73,16 @@
              gi="l"
              starting="215"
              ending="259"
-             overlaps="r18_np r21_phr">
+             overlaps="r18_np=3 r21_phr">
          <annotation gi="n">Bk.1.6</annotation>
       </range>
       <range rID="r17_phr" gi="phr" starting="215" ending="220"/>
-      <range rID="r18_np"
+      <range rID="r18_np=3"
              gi="np"
              starting="221"
              ending="309"
              id="3"
-             overlaps="r16_l r24_phr r25_l r26_np"/>
+             overlaps="r16_l r24_phr r25_l r26_np=4"/>
       <range rID="r19_phr" gi="phr" starting="221" ending="235"/>
       <range rID="r20_phr" gi="phr" starting="236" ending="241"/>
       <range rID="r21_phr"
@@ -102,18 +102,18 @@
              gi="phr"
              starting="282"
              ending="404"
-             overlaps="r18_np r22_l r28_l"/>
-      <range rID="r26_np"
+             overlaps="r18_np=3 r22_l r28_l"/>
+      <range rID="r26_np=4"
              gi="np"
              starting="296"
              ending="404"
              id="4"
-             overlaps="r18_np r28_l"/>
+             overlaps="r18_np=3 r28_l"/>
       <range rID="r25_l"
              gi="l"
              starting="296"
              ending="342"
-             overlaps="r18_np">
+             overlaps="r18_np=3">
          <annotation gi="n">Bk.1.8</annotation>
       </range>
       <range rID="r27_l" gi="l" starting="343" ending="385">
@@ -123,7 +123,7 @@
              gi="l"
              starting="386"
              ending="421"
-             overlaps="r24_phr r26_np r30_phr">
+             overlaps="r24_phr r26_np=4 r30_phr">
          <annotation gi="n">Bk.1.10</annotation>
       </range>
       <range rID="r29_phr" gi="phr" starting="405" ending="408"/>
@@ -136,7 +136,7 @@
              gi="l"
              starting="422"
              ending="470"
-             overlaps="r30_phr r32_phr r33_np">
+             overlaps="r30_phr r32_phr r33_np=5">
          <annotation gi="n">Bk.1.11</annotation>
       </range>
       <range rID="r32_phr"
@@ -144,7 +144,7 @@
              starting="441"
              ending="497"
              overlaps="r31_l r34_l"/>
-      <range rID="r33_np"
+      <range rID="r33_np=5"
              gi="np"
              starting="445"
              ending="497"
@@ -156,22 +156,22 @@
              gi="l"
              starting="471"
              ending="506"
-             overlaps="r32_phr r33_np r35_phr">
+             overlaps="r32_phr r33_np=5 r35_phr">
          <annotation gi="n">Bk.1.12</annotation>
       </range>
       <range rID="r35_phr"
              gi="phr"
              starting="498"
              ending="545"
-             overlaps="r34_l r37_np"/>
+             overlaps="r34_l r37_np=6"/>
       <range rID="r36_l"
              gi="l"
              starting="507"
              ending="545"
-             overlaps="r37_np">
+             overlaps="r37_np=6">
          <annotation gi="n">Bk.1.13</annotation>
       </range>
-      <range rID="r37_np"
+      <range rID="r37_np=6"
              gi="np"
              starting="525"
              ending="671"
@@ -200,17 +200,17 @@
       <range rID="r42_l" gi="l" starting="630" ending="671">
          <annotation gi="n">Bk.1.16</annotation>
       </range>
-      <range rID="r43_np" gi="np" starting="630" ending="671" id="7"/>
+      <range rID="r43_np=7" gi="np" starting="630" ending="671" id="7"/>
       <range rID="r44_l"
              gi="l"
              starting="672"
              ending="716"
-             overlaps="r47_np r49_phr">
+             overlaps="r47_np=8 r49_phr">
          <annotation gi="n">Bk.1.17</annotation>
       </range>
       <range rID="r46_phr" gi="phr" starting="672" ending="689"/>
       <range rID="r45_s" gi="s" starting="672" ending="1104"/>
-      <range rID="r47_np"
+      <range rID="r47_np=8"
              gi="np"
              starting="690"
              ending="763"
