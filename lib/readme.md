@@ -9,36 +9,56 @@ Test pipelines and XSpec tests can be found close to their test targets.
 
 ## TODO
 
-Zone
-o update Morgana installation
-o SVG to PNG?
-
-o bracket-matching tester - do counts of [ and ], { and } correspond?
-o change # to = everywhere in syntax
-
-x BUILD OUT 'LAYERS' model support
-  x XSLT xMNML-ranges.xsl ../demo/baselines/data/PLfragment.lmnl
-  x Schema for LAYERS model 
-
 o document top/down
-    capabilities
-      XSLT
-      XProc
 
+how to use the Laminator
 
-o Interpolation demo? Using iXML or regexes to project ranges onto the LAYERS model (adding a LAYERS/layer)
+o Putting together a pipeline
+  o XML source
+  o LMNL source (as plain text)
+  o capturing results
+o Starting with XML
+  o convert to LMNL tags
+  o or, go straight into xMNML or RANGES
+o Starting with LMNL
+o pivoting from xMNML
+    o 'ripping' XML (the 'wrong' way)
+    o building XML (the 'right' way)
+    o back to LMNL
+    o out to RANGES
+o pivoting from RANGES
+    o merging, filtering
+    o sorting, renaming
+    o handling IDs and avoiding clashes
+    o handling range synonymy / congruity
+    o hierarchies
+      o detecting and distinguishing
+      o @form = (ohco|mch)?
+    o inscribing (tags) back to xMNML
+    o or, go straight to XML ('ripping') w/o xMNML tags en route
+o XPath matching xMNML
+o XPath matching RANGES
+o Range signatures
+    
+How Laminator works
+  xMNML - tags in a sequence
+    needs a specification.md
+      schema + rules
+      referential integrity
+  RANGES - abstracted range model
+    needs a specification.md
+  lossless conversion between models
+    Can be tested
+    (exposes the deltas, e.g. around tag ordering and whitespace)
+  two models offer two different 'surfaces' for operations
+    directly over ranges
+    or via tagging/inferencing
 
-    with XSpec tests for regression testing
-  capabilities: MERGE; INSCRIBE; produce XML (xMNML/out/xMNML-build-xml.xsl)
-REFRESH/TEST ALL DEMOS
-Rearrange 'lib'
-  clear out 'misc'
-  fix up TEI
-  document
+Keep reading - much of this is detailed below.
 
 ## Models
 
-Two complimentary models work together. Each model represents a complete MNML LMNL document (as an 'information set'), in a different form suitable for processing and querying:
+Two complimentary models work together. Each model represents a complete MNML LMNL document (as an information set), in a different form suitable for processing and querying:
 
 - xMNML represents a LMNL document as a 'tag and text sequence'
 - LAYERS represents a LMNL document as a set of (one or more) collections of ranges ('layers') defined in relation to a common base text (the 'frontier')
@@ -50,30 +70,34 @@ If tag order is important in your LMNL, include spaces or content between your t
 Use the tag sequence model whenever conversion to and from XML is needed.
 
 Use the LAYERS model to perform global operations in the application.
-
 Use LMNL syntax when editing LMNL directly.
-
 
 ### xMNML
 
-An XML-based format representing a LMNL document as a sequence of tags (as elements) interleaving text (as elements).
+An XML-based format representing a LMNL document as a sequence of tags (as elements) interleaving text (as elements). As an XML-based format it is handled internally by XProc as in-memory (or in-cache) XDM (XPath and XQuery Data Model 3.0).
 
 It has a schema at `xMNML/rules/xMNML.rnc` and a comparability XSLT that produces a normalized version of an xMNML instance, for comparison.
 
+xMNML is most useful for two things - an intermediate format when reading (parsing) LMNL syntax, and when writing (producing) either XML or LMNL syntax. It can also be used ('creatively' taking advantage of its features) in place of the RANGES model, for range manipulations, querying and filtering.
+
+Interestingly, while we do not need the xMNML model to produce a LAYERS representation of an XML document (wherein elements are identified with ranges covering their contents), we do need something like it to produce XML from LAYERS input.
+
 ### LAYERS
 
-**LMNL ArraYs of Enumerated RangeS**
+This is also an XML-based format -- XDM inside XProc -- representing the LMNL range model in 'bare bones' form as a collection of sequences of ranges ('layers') defined in reference to a text, the 'frontier'.
 
+The more concise notation has several advantages for processing: it --
 
-This is also an XML-based format, representing the LMNL range model in 'bare bones' form as a collection of sequences of ranges ('layers') defined in reference to a text, the 'frontier'.
-
-The more concise notation has two advantages:
-
-- Simpler to address when processing ranges as such (e.g., producing SVG Range Maps)
-- Simpler to sift, filter, merge, interpolate
+- Is simpler to address when processing ranges as such (e.g., producing SVG Range Maps)
+- Is simpler to sift, filter, merge, interpolate
 - Resolves some kinds of anomalies in inputs
+- Exposes some modeling ambiguities around ranges and tag ordering
+
+### Using the models together
 
 A transparent, bidirectional, lossless conversion pathway between xMNML and LAYERS provides the library with a synthesis of their capabilities.
+
+In XProc, pipelines that consume either model (as XDM) can expose the other, when convenient.
 
 ## Functions and capabilities
 
@@ -84,8 +108,6 @@ Keep in mind the library's functionalities are all very basic, and require addit
 #### LMNL input
 
 To parse LMNL syntax (MNML subset) to build xMNML (XML), use the pipeline `parse_MNML-LMNL.xpl`
-
-- Converting XML into xMNML
 
 #### XML input
 

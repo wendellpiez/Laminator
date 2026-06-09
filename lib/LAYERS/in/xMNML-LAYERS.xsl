@@ -46,7 +46,7 @@
   
   <xsl:template match="start | empty">
     <!-- See XSLT ../../../demo/Analytics/src/read-overlaps.xsl for an approach that brings overlaps -->
-    <range rID="{ @rID }" gi="{ @gi }" starting="{ @off }" ending="{ @off + @ext }">
+    <range rID="{ @rID }" gi="{ @gi }" starting="{ @off }" ending="{ @off/number(.) + (@ext/number(.),0)[1] }">
       <xsl:copy-of select="@id"/>
       <xsl:apply-templates select="key('tags-by-rID',@rID)/annotation"/>
     </range>

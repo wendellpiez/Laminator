@@ -64,7 +64,7 @@
           <xsl:attribute name="mixing" select="$contenders/@gi => distinct-values()" separator=" "/>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:attribute name="class" select="if ( exists(child::range/mnml:overlaps(.)) ) then 'mch' else 'ohco'"/>
+          <xsl:attribute name="form" select="if ( exists(child::range/mnml:overlaps(.)) ) then 'mch' else 'ohco'"/>
         </xsl:otherwise>
       </xsl:choose>
       <xsl:apply-templates>

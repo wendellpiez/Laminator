@@ -1,0 +1,2962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LAYERS xmlns="http://wendellpiez.com/ns/xMNML">
+   <layer form="ohco" ranges="prayer scene speech simile">
+      <range gi="prayer"
+             starting="2"
+             ending="276"
+             rID="M20260609_book_01-prayer_01">
+         <annotation gi="by"/>
+         <annotation gi="to">Muses</annotation>
+      </range>
+      <range gi="scene"
+             starting="451"
+             ending="1426"
+             rID="M20260609_book_01-scene_01">
+         <annotation gi="set">ships</annotation>
+      </range>
+      <range gi="speech"
+             starting="673"
+             ending="893"
+             rID="M20260609_book_01-speech_01">
+         <annotation gi="by">Chryses</annotation>
+         <annotation gi="to">Agamemnon, Menelaus, Achaians</annotation>
+      </range>
+      <range gi="speech"
+             starting="1071"
+             ending="1376"
+             rID="M20260609_book_01-speech_02">
+         <annotation gi="by">Agamemnon</annotation>
+         <annotation gi="to">Chryses</annotation>
+      </range>
+      <range gi="scene"
+             starting="1427"
+             ending="1816"
+             rID="M20260609_book_01-scene_02">
+         <annotation gi="set">seashore</annotation>
+      </range>
+      <range gi="prayer"
+             starting="1560"
+             ending="1816"
+             rID="M20260609_book_01-prayer_02">
+         <annotation gi="to">Apollo</annotation>
+         <annotation gi="by">Chryses</annotation>
+      </range>
+      <range gi="simile"
+             starting="2023"
+             ending="2035"
+             rID="M20260609_book_01-simile_01"/>
+      <range gi="scene"
+             starting="2432"
+             ending="13576"
+             rID="M20260609_book_01-scene_03">
+         <annotation gi="set">Achaian assembly</annotation>
+      </range>
+      <range gi="speech"
+             starting="2527"
+             ending="2927"
+             rID="M20260609_book_01-speech_03">
+         <annotation gi="by">Agamemnon</annotation>
+         <annotation gi="to">Achilles</annotation>
+      </range>
+      <range gi="speech"
+             starting="3199"
+             ending="3643"
+             rID="M20260609_book_01-speech_04">
+         <annotation gi="by">Calchas</annotation>
+         <annotation gi="to">Achilles</annotation>
+      </range>
+      <range gi="speech"
+             starting="3697"
+             ending="4003"
+             rID="M20260609_book_01-speech_05">
+         <annotation gi="by">Achilles</annotation>
+         <annotation gi="to">Calchas</annotation>
+      </range>
+      <range gi="speech"
+             starting="4006"
+             ending="4425"
+             rID="M20260609_book_01-speech_06">
+         <annotation gi="by">Chalcas</annotation>
+         <annotation gi="to">Achaians</annotation>
+      </range>
+      <range gi="speech"
+             starting="4653"
+             ending="5340"
+             rID="M20260609_book_01-speech_07">
+         <annotation gi="by">Agamemnon</annotation>
+         <annotation gi="to">Chalcas</annotation>
+      </range>
+      <range gi="speech"
+             starting="5391"
+             ending="5741"
+             rID="M20260609_book_01-speech_08">
+         <annotation gi="by">Achilles</annotation>
+         <annotation gi="to">Agamemnon</annotation>
+      </range>
+      <range gi="speech"
+             starting="5792"
+             ending="6541"
+             rID="M20260609_book_01-speech_09">
+         <annotation gi="by">Agamemnon</annotation>
+         <annotation gi="to">Achilles</annotation>
+      </range>
+      <range gi="speech"
+             starting="6597"
+             ending="7620"
+             rID="M20260609_book_01-speech_10">
+         <annotation gi="by">Achilles</annotation>
+         <annotation gi="to">Agamemnon</annotation>
+      </range>
+      <range gi="speech"
+             starting="7670"
+             ending="8359"
+             rID="M20260609_book_01-speech_11">
+         <annotation gi="by">Agamemnon</annotation>
+         <annotation gi="to">Achilles</annotation>
+      </range>
+      <range gi="scene"
+             starting="8577"
+             ending="9923"
+             rID="M20260609_book_01-scene_04">
+         <annotation gi="set">aside</annotation>
+      </range>
+      <range gi="speech"
+             starting="9192"
+             ending="9556"
+             rID="M20260609_book_01-speech_12">
+         <annotation gi="by">Athena</annotation>
+         <annotation gi="to">Achilles</annotation>
+      </range>
+      <range gi="speech"
+             starting="9610"
+             ending="9790"
+             rID="M20260609_book_01-speech_13">
+         <annotation gi="by">Achilles</annotation>
+         <annotation gi="to">Athena</annotation>
+      </range>
+      <range gi="speech"
+             starting="10009"
+             ending="10919"
+             rID="M20260609_book_01-speech_14">
+         <annotation gi="by">Achilles</annotation>
+         <annotation gi="to">Agamemnon</annotation>
+      </range>
+      <range gi="simile"
+             starting="11118"
+             ending="11138"
+             rID="M20260609_book_01-simile_02"/>
+      <range gi="speech"
+             starting="11322"
+             ending="12704"
+             rID="M20260609_book_01-speech_15">
+         <annotation gi="by">Nestor</annotation>
+         <annotation gi="to">Achaians, Agamemnon, Achilles</annotation>
+      </range>
+      <range gi="speech"
+             starting="12755"
+             ending="13029"
+             rID="M20260609_book_01-speech_16">
+         <annotation gi="by">Agamemnon</annotation>
+         <annotation gi="to">Nestor</annotation>
+      </range>
+      <range gi="speech"
+             starting="13078"
+             ending="13576"
+             rID="M20260609_book_01-speech_17">
+         <annotation gi="by">Achilles</annotation>
+         <annotation gi="to">Agamemnon</annotation>
+      </range>
+      <range gi="scene"
+             starting="14188"
+             ending="14584"
+             rID="M20260609_book_01-scene_05">
+         <annotation gi="set">Agamemnon's tent</annotation>
+      </range>
+      <range gi="speech"
+             starting="14369"
+             ending="14535"
+             rID="M20260609_book_01-speech_18">
+         <annotation gi="by">Agamemnon</annotation>
+         <annotation gi="to">Talthybius, Eurybates</annotation>
+      </range>
+      <range gi="scene"
+             starting="14679"
+             ending="15487"
+             rID="M20260609_book_01-scene_06">
+         <annotation gi="set">Achilles' tent</annotation>
+      </range>
+      <range gi="speech"
+             starting="14895"
+             ending="15381"
+             rID="M20260609_book_01-speech_19">
+         <annotation gi="by">Achilles</annotation>
+         <annotation gi="to">Talthybius, Eurybates</annotation>
+      </range>
+      <range gi="scene"
+             starting="15522"
+             ending="19216"
+             rID="M20260609_book_01-scene_07">
+         <annotation gi="set">seashore</annotation>
+      </range>
+      <range gi="prayer"
+             starting="15708"
+             ending="15977"
+             rID="M20260609_book_01-prayer_03">
+         <annotation gi="by">Achilles</annotation>
+         <annotation gi="to">Thetis</annotation>
+      </range>
+      <range gi="simile"
+             starting="16055"
+             ending="16066"
+             rID="M20260609_book_01-simile_03"/>
+      <range gi="speech"
+             starting="16166"
+             ending="16254"
+             rID="M20260609_book_01-speech_20">
+         <annotation gi="by">Thetis</annotation>
+         <annotation gi="to">Achilles</annotation>
+      </range>
+      <range gi="speech"
+             starting="16308"
+             ending="18403"
+             rID="M20260609_book_01-speech_21">
+         <annotation gi="by">Achilles</annotation>
+         <annotation gi="to">Thetis</annotation>
+      </range>
+      <range gi="speech"
+             starting="18455"
+             ending="19101"
+             rID="M20260609_book_01-speech_22">
+         <annotation gi="by">Thetis</annotation>
+         <annotation gi="to">Achilles</annotation>
+      </range>
+      <range gi="scene"
+             starting="19624"
+             ending="21181"
+             rID="M20260609_book_01-scene_08">
+         <annotation gi="set">Chryse</annotation>
+      </range>
+      <range gi="speech"
+             starting="19720"
+             ending="19894"
+             rID="M20260609_book_01-speech_23">
+         <annotation gi="by">Odysseus</annotation>
+         <annotation gi="to">Chryses</annotation>
+      </range>
+      <range gi="speech"
+             starting="20114"
+             ending="20371"
+             rID="M20260609_book_01-speech_24">
+         <annotation gi="by">Chryses</annotation>
+         <annotation gi="to">Apollo</annotation>
+      </range>
+      <range gi="scene"
+             starting="20423"
+             ending="21181"
+             rID="M20260609_book_01-scene_09">
+         <annotation gi="set">sacrifice</annotation>
+      </range>
+      <range gi="scene"
+             starting="21183"
+             ending="21773"
+             rID="M20260609_book_01-scene_10">
+         <annotation gi="set">sailing</annotation>
+      </range>
+      <range gi="scene"
+             starting="22231"
+             ending="23717"
+             rID="M20260609_book_01-scene_11">
+         <annotation gi="set">Olympus</annotation>
+      </range>
+      <range gi="speech"
+             starting="22450"
+             ending="22797"
+             rID="M20260609_book_01-speech_25">
+         <annotation gi="by">Thetis</annotation>
+         <annotation gi="to">Zeus</annotation>
+      </range>
+      <range gi="speech"
+             starting="22943"
+             ending="23074"
+             rID="M20260609_book_01-speech_26">
+         <annotation gi="by">Thetis</annotation>
+         <annotation gi="to">Zeus</annotation>
+      </range>
+      <range gi="speech"
+             starting="23125"
+             ending="23580"
+             rID="M20260609_book_01-speech_27">
+         <annotation gi="by">Zeus</annotation>
+         <annotation gi="to">Thetis</annotation>
+      </range>
+      <range gi="scene"
+             starting="23809"
+             ending="27321"
+             rID="M20260609_book_01-scene_12">
+         <annotation gi="set">Olympus</annotation>
+      </range>
+      <range gi="speech"
+             starting="24127"
+             ending="24305"
+             rID="M20260609_book_01-speech_28">
+         <annotation gi="by">Hera</annotation>
+         <annotation gi="to">Zeus</annotation>
+      </range>
+      <range gi="speech"
+             starting="24357"
+             ending="24621"
+             rID="M20260609_book_01-speech_29">
+         <annotation gi="by">Zeus</annotation>
+         <annotation gi="to">Hera</annotation>
+      </range>
+      <range gi="speech"
+             starting="24667"
+             ending="25016"
+             rID="M20260609_book_01-speech_30">
+         <annotation gi="by">Hera</annotation>
+         <annotation gi="to">Zeus</annotation>
+      </range>
+      <range gi="speech"
+             starting="25068"
+             ending="25387"
+             rID="M20260609_book_01-speech_31">
+         <annotation gi="by">Zeus</annotation>
+         <annotation gi="to">Hera</annotation>
+      </range>
+      <range gi="speech"
+             starting="25603"
+             ending="26087"
+             rID="M20260609_book_01-speech_32">
+         <annotation gi="by">Hephaistos</annotation>
+         <annotation gi="to">Hera, Olympians</annotation>
+      </range>
+      <range gi="speech"
+             starting="26178"
+             ending="26583"
+             rID="M20260609_book_01-speech_33">
+         <annotation gi="by">Hephaistos</annotation>
+         <annotation gi="to">Hera</annotation>
+      </range>
+   </layer>
+   <layer form="mch" ranges="div l q para">
+      <range gi="div" starting="0" ending="27322" rID="r001_div">
+         <annotation gi="type">textpart</annotation>
+         <annotation gi="subtype">Book</annotation>
+         <annotation gi="n">1</annotation>
+      </range>
+      <range gi="para" starting="1" ending="276" rID="r002_milestone"/>
+      <range gi="l" starting="2" ending="35" rID="r003_l">
+         <annotation gi="n">1</annotation>
+      </range>
+      <range gi="l" starting="36" ending="75" rID="r004_l">
+         <annotation gi="n">2</annotation>
+      </range>
+      <range gi="l" starting="76" ending="114" rID="r005_l">
+         <annotation gi="n">3</annotation>
+      </range>
+      <range gi="l" starting="115" ending="153" rID="r006_l">
+         <annotation gi="n">4</annotation>
+      </range>
+      <range gi="l" starting="154" ending="196" rID="r007_l">
+         <annotation gi="n">5</annotation>
+      </range>
+      <range gi="l" starting="197" ending="233" rID="r008_l">
+         <annotation gi="n">6</annotation>
+      </range>
+      <range gi="l" starting="234" ending="276" rID="r009_l">
+         <annotation gi="n">7</annotation>
+      </range>
+      <range gi="para" starting="277" ending="894" rID="r010_milestone"/>
+      <range gi="l" starting="278" ending="321" rID="r011_l">
+         <annotation gi="n">8</annotation>
+      </range>
+      <range gi="l" starting="322" ending="366" rID="r012_l">
+         <annotation gi="n">9</annotation>
+      </range>
+      <range gi="l" starting="367" ending="415" rID="r013_l">
+         <annotation gi="n">10</annotation>
+      </range>
+      <range gi="l" starting="416" ending="450" rID="r014_l">
+         <annotation gi="n">11</annotation>
+      </range>
+      <range gi="l" starting="451" ending="492" rID="r015_l">
+         <annotation gi="n">12</annotation>
+      </range>
+      <range gi="l" starting="493" ending="540" rID="r016_l">
+         <annotation gi="n">13</annotation>
+      </range>
+      <range gi="l" starting="541" ending="583" rID="r017_l">
+         <annotation gi="n">14</annotation>
+      </range>
+      <range gi="l" starting="584" ending="631" rID="r018_l">
+         <annotation gi="n">15</annotation>
+      </range>
+      <range gi="l" starting="632" ending="671" rID="r019_l">
+         <annotation gi="n">16</annotation>
+      </range>
+      <range gi="l" starting="673" ending="713" rID="r021_l">
+         <annotation gi="n">17</annotation>
+      </range>
+      <range gi="l" starting="714" ending="756" rID="r022_l">
+         <annotation gi="n">18</annotation>
+      </range>
+      <range gi="l" starting="757" ending="803" rID="r023_l">
+         <annotation gi="n">19</annotation>
+      </range>
+      <range gi="l" starting="804" ending="855" rID="r024_l">
+         <annotation gi="n">20</annotation>
+      </range>
+      <range gi="l" starting="856" ending="893" rID="r025_l">
+         <annotation gi="n">21</annotation>
+      </range>
+      <range gi="para" starting="895" ending="1377" rID="r026_milestone"/>
+      <range gi="l" starting="896" ending="936" rID="r027_l">
+         <annotation gi="n">22</annotation>
+      </range>
+      <range gi="l" starting="937" ending="980" rID="r028_l">
+         <annotation gi="n">23</annotation>
+      </range>
+      <range gi="l" starting="981" ending="1021" rID="r029_l">
+         <annotation gi="n">24</annotation>
+      </range>
+      <range gi="l" starting="1022" ending="1069" rID="r030_l">
+         <annotation gi="n">25</annotation>
+      </range>
+      <range gi="l" starting="1071" ending="1113" rID="r032_l">
+         <annotation gi="n">26</annotation>
+      </range>
+      <range gi="l" starting="1114" ending="1152" rID="r033_l">
+         <annotation gi="n">27</annotation>
+      </range>
+      <range gi="l" starting="1153" ending="1200" rID="r034_l">
+         <annotation gi="n">28</annotation>
+      </range>
+      <range gi="l" starting="1201" ending="1247" rID="r035_l">
+         <annotation gi="n">29</annotation>
+      </range>
+      <range gi="l" starting="1248" ending="1287" rID="r036_l">
+         <annotation gi="n">30</annotation>
+      </range>
+      <range gi="l" starting="1288" ending="1331" rID="r037_l">
+         <annotation gi="n">31</annotation>
+      </range>
+      <range gi="l" starting="1332" ending="1376" rID="r038_l">
+         <annotation gi="n">32</annotation>
+      </range>
+      <range gi="para" starting="1378" ending="1817" rID="r039_milestone"/>
+      <range gi="l" starting="1379" ending="1426" rID="r040_l">
+         <annotation gi="n">33</annotation>
+      </range>
+      <range gi="l" starting="1427" ending="1472" rID="r041_l">
+         <annotation gi="n">34</annotation>
+      </range>
+      <range gi="l" starting="1473" ending="1518" rID="r042_l">
+         <annotation gi="n">35</annotation>
+      </range>
+      <range gi="l" starting="1519" ending="1558" rID="r043_l">
+         <annotation gi="n">36</annotation>
+      </range>
+      <range gi="l" starting="1560" ending="1603" rID="r045_l">
+         <annotation gi="n">37</annotation>
+      </range>
+      <range gi="l" starting="1604" ending="1646" rID="r046_l">
+         <annotation gi="n">38</annotation>
+      </range>
+      <range gi="l" starting="1647" ending="1691" rID="r047_l">
+         <annotation gi="n">39</annotation>
+      </range>
+      <range gi="l" starting="1692" ending="1730" rID="r048_l">
+         <annotation gi="n">40</annotation>
+      </range>
+      <range gi="l" starting="1731" ending="1774" rID="r049_l">
+         <annotation gi="n">41</annotation>
+      </range>
+      <range gi="l" starting="1775" ending="1816" rID="r050_l">
+         <annotation gi="n">42</annotation>
+      </range>
+      <range gi="para" starting="1818" ending="2254" rID="r051_milestone"/>
+      <range gi="l" starting="1819" ending="1867" rID="r052_l">
+         <annotation gi="n">43</annotation>
+      </range>
+      <range gi="l" starting="1868" ending="1910" rID="r053_l">
+         <annotation gi="n">44</annotation>
+      </range>
+      <range gi="l" starting="1911" ending="1951" rID="r054_l">
+         <annotation gi="n">45</annotation>
+      </range>
+      <range gi="l" starting="1952" ending="1994" rID="r055_l">
+         <annotation gi="n">46</annotation>
+      </range>
+      <range gi="l" starting="1995" ending="2035" rID="r056_l">
+         <annotation gi="n">47</annotation>
+      </range>
+      <range gi="l" starting="2036" ending="2081" rID="r057_l">
+         <annotation gi="n">48</annotation>
+      </range>
+      <range gi="l" starting="2082" ending="2121" rID="r058_l">
+         <annotation gi="n">49</annotation>
+      </range>
+      <range gi="l" starting="2122" ending="2165" rID="r059_l">
+         <annotation gi="n">50</annotation>
+      </range>
+      <range gi="l" starting="2166" ending="2209" rID="r060_l">
+         <annotation gi="n">51</annotation>
+      </range>
+      <range gi="l" starting="2210" ending="2254" rID="r061_l">
+         <annotation gi="n">52</annotation>
+      </range>
+      <range gi="para" starting="2255" ending="2928" rID="r062_milestone"/>
+      <range gi="l" starting="2256" ending="2297" rID="r063_l">
+         <annotation gi="n">53</annotation>
+      </range>
+      <range gi="l" starting="2298" ending="2345" rID="r064_l">
+         <annotation gi="n">54</annotation>
+      </range>
+      <range gi="l" starting="2346" ending="2387" rID="r065_l">
+         <annotation gi="n">55</annotation>
+      </range>
+      <range gi="l" starting="2388" ending="2431" rID="r066_l">
+         <annotation gi="n">56</annotation>
+      </range>
+      <range gi="l" starting="2432" ending="2476" rID="r067_l">
+         <annotation gi="n">57</annotation>
+      </range>
+      <range gi="l" starting="2477" ending="2525" rID="r068_l">
+         <annotation gi="n">58</annotation>
+      </range>
+      <range gi="l" starting="2527" ending="2564" rID="r070_l">
+         <annotation gi="n">59</annotation>
+      </range>
+      <range gi="l" starting="2565" ending="2609" rID="r071_l">
+         <annotation gi="n">60</annotation>
+      </range>
+      <range gi="l" starting="2610" ending="2656" rID="r072_l">
+         <annotation gi="n">61</annotation>
+      </range>
+      <range gi="l" starting="2657" ending="2697" rID="r073_l">
+         <annotation gi="n">62</annotation>
+      </range>
+      <range gi="l" starting="2698" ending="2747" rID="r074_l">
+         <annotation gi="n">63</annotation>
+      </range>
+      <range gi="l" starting="2748" ending="2795" rID="r075_l">
+         <annotation gi="n">64</annotation>
+      </range>
+      <range gi="l" starting="2796" ending="2844" rID="r076_l">
+         <annotation gi="n">65</annotation>
+      </range>
+      <range gi="l" starting="2845" ending="2885" rID="r077_l">
+         <annotation gi="n">66</annotation>
+      </range>
+      <range gi="l" starting="2886" ending="2927" rID="r078_l">
+         <annotation gi="n">67</annotation>
+      </range>
+      <range gi="para" starting="2929" ending="3644" rID="r079_milestone"/>
+      <range gi="l" starting="2930" ending="2980" rID="r080_l">
+         <annotation gi="n">68</annotation>
+      </range>
+      <range gi="l" starting="2981" ending="3022" rID="r081_l">
+         <annotation gi="n">69</annotation>
+      </range>
+      <range gi="l" starting="3023" ending="3070" rID="r082_l">
+         <annotation gi="n">70</annotation>
+      </range>
+      <range gi="l" starting="3071" ending="3107" rID="r083_l">
+         <annotation gi="n">71</annotation>
+      </range>
+      <range gi="l" starting="3108" ending="3154" rID="r084_l">
+         <annotation gi="n">72</annotation>
+      </range>
+      <range gi="l" starting="3155" ending="3197" rID="r085_l">
+         <annotation gi="n">73</annotation>
+      </range>
+      <range gi="l" starting="3199" ending="3237" rID="r087_l">
+         <annotation gi="n">74</annotation>
+      </range>
+      <range gi="l" starting="3238" ending="3275" rID="r088_l">
+         <annotation gi="n">75</annotation>
+      </range>
+      <range gi="l" starting="3276" ending="3323" rID="r089_l">
+         <annotation gi="n">76</annotation>
+      </range>
+      <range gi="l" starting="3324" ending="3368" rID="r090_l">
+         <annotation gi="n">77</annotation>
+      </range>
+      <range gi="l" starting="3369" ending="3413" rID="r091_l">
+         <annotation gi="n">78</annotation>
+      </range>
+      <range gi="l" starting="3414" ending="3454" rID="r092_l">
+         <annotation gi="n">79</annotation>
+      </range>
+      <range gi="l" starting="3455" ending="3501" rID="r093_l">
+         <annotation gi="n">80</annotation>
+      </range>
+      <range gi="l" starting="3502" ending="3546" rID="r094_l">
+         <annotation gi="n">81</annotation>
+      </range>
+      <range gi="l" starting="3547" ending="3595" rID="r095_l">
+         <annotation gi="n">82</annotation>
+      </range>
+      <range gi="l" starting="3596" ending="3643" rID="r096_l">
+         <annotation gi="n">83</annotation>
+      </range>
+      <range gi="para" starting="3645" ending="4004" rID="r097_milestone"/>
+      <range gi="l" starting="3646" ending="3695" rID="r098_l">
+         <annotation gi="n">84</annotation>
+      </range>
+      <range gi="l" starting="3697" ending="3738" rID="r100_l">
+         <annotation gi="n">85</annotation>
+      </range>
+      <range gi="l" starting="3739" ending="3783" rID="r101_l">
+         <annotation gi="n">86</annotation>
+      </range>
+      <range gi="l" starting="3784" ending="3825" rID="r102_l">
+         <annotation gi="n">87</annotation>
+      </range>
+      <range gi="l" starting="3826" ending="3870" rID="r103_l">
+         <annotation gi="n">88</annotation>
+      </range>
+      <range gi="l" starting="3871" ending="3915" rID="r104_l">
+         <annotation gi="n">89</annotation>
+      </range>
+      <range gi="l" starting="3916" ending="3959" rID="r105_l">
+         <annotation gi="n">90</annotation>
+      </range>
+      <range gi="l" starting="3960" ending="4003" rID="r106_l">
+         <annotation gi="n">91</annotation>
+      </range>
+      <range gi="para" starting="4005" ending="4426" rID="r107_milestone"/>
+      <range gi="l" starting="4006" ending="4049" rID="r108_l">
+         <annotation gi="n">92</annotation>
+      </range>
+      <range gi="l" starting="4051" ending="4100" rID="r110_l">
+         <annotation gi="n">93</annotation>
+      </range>
+      <range gi="l" starting="4101" ending="4142" rID="r111_l">
+         <annotation gi="n">94</annotation>
+      </range>
+      <range gi="l" starting="4143" ending="4189" rID="r112_l">
+         <annotation gi="n">95</annotation>
+      </range>
+      <range gi="l" starting="4190" ending="4238" rID="r113_l">
+         <annotation gi="n">96</annotation>
+      </range>
+      <range gi="l" starting="4239" ending="4284" rID="r114_l">
+         <annotation gi="n">97</annotation>
+      </range>
+      <range gi="l" starting="4285" ending="4332" rID="r115_l">
+         <annotation gi="n">98</annotation>
+      </range>
+      <range gi="l" starting="4333" ending="4377" rID="r116_l">
+         <annotation gi="n">99</annotation>
+      </range>
+      <range gi="l" starting="4378" ending="4425" rID="r117_l">
+         <annotation gi="n">100</annotation>
+      </range>
+      <range gi="para" starting="4427" ending="5341" rID="r118_milestone"/>
+      <range gi="l" starting="4428" ending="4478" rID="r119_l">
+         <annotation gi="n">101</annotation>
+      </range>
+      <range gi="l" starting="4479" ending="4514" rID="r120_l">
+         <annotation gi="n">102</annotation>
+      </range>
+      <range gi="l" starting="4515" ending="4560" rID="r121_l">
+         <annotation gi="n">103</annotation>
+      </range>
+      <range gi="l" starting="4561" ending="4607" rID="r122_l">
+         <annotation gi="n">104</annotation>
+      </range>
+      <range gi="l" starting="4608" ending="4651" rID="r123_l">
+         <annotation gi="n">105</annotation>
+      </range>
+      <range gi="l" starting="4653" ending="4697" rID="r125_l">
+         <annotation gi="n">106</annotation>
+      </range>
+      <range gi="l" starting="4698" ending="4743" rID="r126_l">
+         <annotation gi="n">107</annotation>
+      </range>
+      <range gi="l" starting="4744" ending="4791" rID="r127_l">
+         <annotation gi="n">108</annotation>
+      </range>
+      <range gi="l" starting="4792" ending="4832" rID="r128_l">
+         <annotation gi="n">109</annotation>
+      </range>
+      <range gi="l" starting="4833" ending="4878" rID="r129_l">
+         <annotation gi="n">110</annotation>
+      </range>
+      <range gi="l" starting="4879" ending="4919" rID="r130_l">
+         <annotation gi="n">111</annotation>
+      </range>
+      <range gi="l" starting="4920" ending="4965" rID="r131_l">
+         <annotation gi="n">112</annotation>
+      </range>
+      <range gi="l" starting="4966" ending="5015" rID="r132_l">
+         <annotation gi="n">113</annotation>
+      </range>
+      <range gi="l" starting="5016" ending="5060" rID="r133_l">
+         <annotation gi="n">114</annotation>
+      </range>
+      <range gi="l" starting="5061" ending="5109" rID="r134_l">
+         <annotation gi="n">115</annotation>
+      </range>
+      <range gi="l" starting="5110" ending="5159" rID="r135_l">
+         <annotation gi="n">116</annotation>
+      </range>
+      <range gi="l" starting="5160" ending="5201" rID="r136_l">
+         <annotation gi="n">117</annotation>
+      </range>
+      <range gi="l" starting="5202" ending="5249" rID="r137_l">
+         <annotation gi="n">118</annotation>
+      </range>
+      <range gi="l" starting="5250" ending="5288" rID="r138_l">
+         <annotation gi="n">119</annotation>
+      </range>
+      <range gi="l" starting="5289" ending="5340" rID="r139_l">
+         <annotation gi="n">120</annotation>
+      </range>
+      <range gi="para" starting="5342" ending="5742" rID="r140_milestone"/>
+      <range gi="l" starting="5343" ending="5389" rID="r141_l">
+         <annotation gi="n">121</annotation>
+      </range>
+      <range gi="l" starting="5391" ending="5429" rID="r143_l">
+         <annotation gi="n">122</annotation>
+      </range>
+      <range gi="l" starting="5430" ending="5473" rID="r144_l">
+         <annotation gi="n">123</annotation>
+      </range>
+      <range gi="l" starting="5474" ending="5513" rID="r145_l">
+         <annotation gi="n">124</annotation>
+      </range>
+      <range gi="l" starting="5514" ending="5558" rID="r146_l">
+         <annotation gi="n">125</annotation>
+      </range>
+      <range gi="l" starting="5559" ending="5607" rID="r147_l">
+         <annotation gi="n">126</annotation>
+      </range>
+      <range gi="l" starting="5608" ending="5653" rID="r148_l">
+         <annotation gi="n">127</annotation>
+      </range>
+      <range gi="l" starting="5654" ending="5701" rID="r149_l">
+         <annotation gi="n">128</annotation>
+      </range>
+      <range gi="l" starting="5702" ending="5741" rID="r150_l">
+         <annotation gi="n">129</annotation>
+      </range>
+      <range gi="para" starting="5743" ending="6542" rID="r151_milestone"/>
+      <range gi="l" starting="5744" ending="5790" rID="r152_l">
+         <annotation gi="n">130</annotation>
+      </range>
+      <range gi="l" starting="5792" ending="5836" rID="r154_l">
+         <annotation gi="n">131</annotation>
+      </range>
+      <range gi="l" starting="5837" ending="5885" rID="r155_l">
+         <annotation gi="n">132</annotation>
+      </range>
+      <range gi="l" starting="5886" ending="5934" rID="r156_l">
+         <annotation gi="n">133</annotation>
+      </range>
+      <range gi="l" starting="5935" ending="5981" rID="r157_l">
+         <annotation gi="n">134</annotation>
+      </range>
+      <range gi="l" starting="5982" ending="6024" rID="r158_l">
+         <annotation gi="n">135</annotation>
+      </range>
+      <range gi="l" starting="6025" ending="6065" rID="r159_l">
+         <annotation gi="n">136</annotation>
+      </range>
+      <range gi="l" starting="6066" ending="6108" rID="r160_l">
+         <annotation gi="n">137</annotation>
+      </range>
+      <range gi="l" starting="6109" ending="6146" rID="r161_l">
+         <annotation gi="n">138</annotation>
+      </range>
+      <range gi="l" starting="6147" ending="6192" rID="r162_l">
+         <annotation gi="n">139</annotation>
+      </range>
+      <range gi="l" starting="6193" ending="6238" rID="r163_l">
+         <annotation gi="n">140</annotation>
+      </range>
+      <range gi="l" starting="6239" ending="6286" rID="r164_l">
+         <annotation gi="n">141</annotation>
+      </range>
+      <range gi="l" starting="6287" ending="6335" rID="r165_l">
+         <annotation gi="n">142</annotation>
+      </range>
+      <range gi="l" starting="6336" ending="6377" rID="r166_l">
+         <annotation gi="n">143</annotation>
+      </range>
+      <range gi="l" starting="6378" ending="6425" rID="r167_l">
+         <annotation gi="n">144</annotation>
+      </range>
+      <range gi="l" starting="6426" ending="6460" rID="r168_l">
+         <annotation gi="n">145</annotation>
+      </range>
+      <range gi="l" starting="6461" ending="6501" rID="r169_l">
+         <annotation gi="n">146</annotation>
+      </range>
+      <range gi="l" starting="6502" ending="6541" rID="r170_l">
+         <annotation gi="n">147</annotation>
+      </range>
+      <range gi="para" starting="6543" ending="7621" rID="r171_milestone"/>
+      <range gi="l" starting="6544" ending="6595" rID="r172_l">
+         <annotation gi="n">148</annotation>
+      </range>
+      <range gi="l" starting="6597" ending="6635" rID="r174_l">
+         <annotation gi="n">149</annotation>
+      </range>
+      <range gi="l" starting="6636" ending="6678" rID="r175_l">
+         <annotation gi="n">150</annotation>
+      </range>
+      <range gi="l" starting="6679" ending="6720" rID="r176_l">
+         <annotation gi="n">151</annotation>
+      </range>
+      <range gi="l" starting="6721" ending="6760" rID="r177_l">
+         <annotation gi="n">152</annotation>
+      </range>
+      <range gi="l" starting="6761" ending="6808" rID="r178_l">
+         <annotation gi="n">153</annotation>
+      </range>
+      <range gi="l" starting="6809" ending="6856" rID="r179_l">
+         <annotation gi="n">154</annotation>
+      </range>
+      <range gi="l" starting="6857" ending="6895" rID="r180_l">
+         <annotation gi="n">155</annotation>
+      </range>
+      <range gi="l" starting="6896" ending="6939" rID="r181_l">
+         <annotation gi="n">156</annotation>
+      </range>
+      <range gi="l" starting="6940" ending="6977" rID="r182_l">
+         <annotation gi="n">157</annotation>
+      </range>
+      <range gi="l" starting="6978" ending="7030" rID="r183_l">
+         <annotation gi="n">158</annotation>
+      </range>
+      <range gi="l" starting="7031" ending="7068" rID="r184_l">
+         <annotation gi="n">159</annotation>
+      </range>
+      <range gi="l" starting="7069" ending="7116" rID="r185_l">
+         <annotation gi="n">160</annotation>
+      </range>
+      <range gi="l" starting="7117" ending="7162" rID="r186_l">
+         <annotation gi="n">161</annotation>
+      </range>
+      <range gi="l" starting="7163" ending="7208" rID="r187_l">
+         <annotation gi="n">162</annotation>
+      </range>
+      <range gi="l" starting="7209" ending="7253" rID="r188_l">
+         <annotation gi="n">163</annotation>
+      </range>
+      <range gi="l" starting="7254" ending="7294" rID="r189_l">
+         <annotation gi="n">164</annotation>
+      </range>
+      <range gi="l" starting="7295" ending="7332" rID="r190_l">
+         <annotation gi="n">165</annotation>
+      </range>
+      <range gi="l" starting="7333" ending="7382" rID="r191_l">
+         <annotation gi="n">166</annotation>
+      </range>
+      <range gi="l" starting="7383" ending="7434" rID="r192_l">
+         <annotation gi="n">167</annotation>
+      </range>
+      <range gi="l" starting="7435" ending="7480" rID="r193_l">
+         <annotation gi="n">168</annotation>
+      </range>
+      <range gi="l" starting="7481" ending="7529" rID="r194_l">
+         <annotation gi="n">169</annotation>
+      </range>
+      <range gi="l" starting="7530" ending="7574" rID="r195_l">
+         <annotation gi="n">170</annotation>
+      </range>
+      <range gi="l" starting="7575" ending="7620" rID="r196_l">
+         <annotation gi="n">171</annotation>
+      </range>
+      <range gi="para" starting="7622" ending="8360" rID="r197_milestone"/>
+      <range gi="l" starting="7623" ending="7668" rID="r198_l">
+         <annotation gi="n">172</annotation>
+      </range>
+      <range gi="l" starting="7670" ending="7718" rID="r200_l">
+         <annotation gi="n">173</annotation>
+      </range>
+      <range gi="l" starting="7719" ending="7770" rID="r201_l">
+         <annotation gi="n">174</annotation>
+      </range>
+      <range gi="l" starting="7771" ending="7815" rID="r202_l">
+         <annotation gi="n">175</annotation>
+      </range>
+      <range gi="l" starting="7816" ending="7857" rID="r203_l">
+         <annotation gi="n">176</annotation>
+      </range>
+      <range gi="l" starting="7858" ending="7904" rID="r204_l">
+         <annotation gi="n">177</annotation>
+      </range>
+      <range gi="l" starting="7905" ending="7954" rID="r205_l">
+         <annotation gi="n">178</annotation>
+      </range>
+      <range gi="l" starting="7955" ending="8000" rID="r206_l">
+         <annotation gi="n">179</annotation>
+      </range>
+      <range gi="l" starting="8001" ending="8048" rID="r207_l">
+         <annotation gi="n">180</annotation>
+      </range>
+      <range gi="l" starting="8049" ending="8092" rID="r208_l">
+         <annotation gi="n">181</annotation>
+      </range>
+      <range gi="l" starting="8093" ending="8135" rID="r209_l">
+         <annotation gi="n">182</annotation>
+      </range>
+      <range gi="l" starting="8136" ending="8181" rID="r210_l">
+         <annotation gi="n">183</annotation>
+      </range>
+      <range gi="l" starting="8182" ending="8223" rID="r211_l">
+         <annotation gi="n">184</annotation>
+      </range>
+      <range gi="l" starting="8224" ending="8271" rID="r212_l">
+         <annotation gi="n">185</annotation>
+      </range>
+      <range gi="l" starting="8272" ending="8318" rID="r213_l">
+         <annotation gi="n">186</annotation>
+      </range>
+      <range gi="l" starting="8319" ending="8359" rID="r214_l">
+         <annotation gi="n">187</annotation>
+      </range>
+      <range gi="para" starting="8361" ending="9146" rID="r215_milestone"/>
+      <range gi="l" starting="8362" ending="8409" rID="r216_l">
+         <annotation gi="n">188</annotation>
+      </range>
+      <range gi="l" starting="8410" ending="8449" rID="r217_l">
+         <annotation gi="n">189</annotation>
+      </range>
+      <range gi="l" starting="8450" ending="8492" rID="r218_l">
+         <annotation gi="n">190</annotation>
+      </range>
+      <range gi="l" starting="8493" ending="8538" rID="r219_l">
+         <annotation gi="n">191</annotation>
+      </range>
+      <range gi="l" starting="8539" ending="8576" rID="r220_l">
+         <annotation gi="n">192</annotation>
+      </range>
+      <range gi="l" starting="8577" ending="8623" rID="r221_l">
+         <annotation gi="n">193</annotation>
+      </range>
+      <range gi="l" starting="8624" ending="8670" rID="r222_l">
+         <annotation gi="n">194</annotation>
+      </range>
+      <range gi="l" starting="8671" ending="8712" rID="r223_l">
+         <annotation gi="n">195</annotation>
+      </range>
+      <range gi="l" starting="8713" ending="8752" rID="r224_l">
+         <annotation gi="n">196</annotation>
+      </range>
+      <range gi="l" starting="8753" ending="8796" rID="r225_l">
+         <annotation gi="n">197</annotation>
+      </range>
+      <range gi="l" starting="8797" ending="8838" rID="r226_l">
+         <annotation gi="n">198</annotation>
+      </range>
+      <range gi="l" starting="8839" ending="8892" rID="r227_l">
+         <annotation gi="n">199</annotation>
+      </range>
+      <range gi="l" starting="8893" ending="8936" rID="r228_l">
+         <annotation gi="n">200</annotation>
+      </range>
+      <range gi="l" starting="8937" ending="8977" rID="r229_l">
+         <annotation gi="n">201</annotation>
+      </range>
+      <range gi="l" starting="8979" ending="9022" rID="r231_l">
+         <annotation gi="n">202</annotation>
+      </range>
+      <range gi="l" starting="9023" ending="9060" rID="r232_l">
+         <annotation gi="n">203</annotation>
+      </range>
+      <range gi="l" starting="9061" ending="9103" rID="r233_l">
+         <annotation gi="n">204</annotation>
+      </range>
+      <range gi="l" starting="9104" ending="9145" rID="r234_l">
+         <annotation gi="n">205</annotation>
+      </range>
+      <range gi="para" starting="9147" ending="9557" rID="r235_milestone"/>
+      <range gi="l" starting="9148" ending="9190" rID="r236_l">
+         <annotation gi="n">206</annotation>
+      </range>
+      <range gi="l" starting="9192" ending="9238" rID="r238_l">
+         <annotation gi="n">207</annotation>
+      </range>
+      <range gi="l" starting="9239" ending="9282" rID="r239_l">
+         <annotation gi="n">208</annotation>
+      </range>
+      <range gi="l" starting="9283" ending="9322" rID="r240_l">
+         <annotation gi="n">209</annotation>
+      </range>
+      <range gi="l" starting="9323" ending="9368" rID="r241_l">
+         <annotation gi="n">210</annotation>
+      </range>
+      <range gi="l" starting="9369" ending="9414" rID="r242_l">
+         <annotation gi="n">211</annotation>
+      </range>
+      <range gi="l" starting="9415" ending="9460" rID="r243_l">
+         <annotation gi="n">212</annotation>
+      </range>
+      <range gi="l" starting="9461" ending="9506" rID="r244_l">
+         <annotation gi="n">213</annotation>
+      </range>
+      <range gi="l" starting="9507" ending="9556" rID="r245_l">
+         <annotation gi="n">214</annotation>
+      </range>
+      <range gi="para" starting="9558" ending="9745" rID="r246_milestone"/>
+      <range gi="l" starting="9559" ending="9608" rID="r247_l">
+         <annotation gi="n">215</annotation>
+      </range>
+      <range gi="l" starting="9610" ending="9651" rID="r249_l">
+         <annotation gi="n">216</annotation>
+      </range>
+      <range gi="l" starting="9652" ending="9698" rID="r250_l">
+         <annotation gi="n">217</annotation>
+      </range>
+      <range gi="l" starting="9699" ending="9744" rID="r251_l">
+         <annotation gi="n">218</annotation>
+      </range>
+      <range gi="para" starting="9746" ending="9923" rID="r252_milestone"/>
+      <range gi="l" starting="9747" ending="9790" rID="r253_l">
+         <annotation gi="n">219</annotation>
+      </range>
+      <range gi="l" starting="9791" ending="9836" rID="r254_l">
+         <annotation gi="n">220</annotation>
+      </range>
+      <range gi="l" starting="9837" ending="9876" rID="r255_l">
+         <annotation gi="n">221</annotation>
+      </range>
+      <range gi="l" starting="9877" ending="9923" rID="r256_l">
+         <annotation gi="n">222</annotation>
+      </range>
+      <range gi="para" starting="9924" ending="10920" rID="r257_milestone"/>
+      <range gi="l" starting="9925" ending="9964" rID="r258_l">
+         <annotation gi="n">223</annotation>
+      </range>
+      <range gi="l" starting="9965" ending="10007" rID="r259_l">
+         <annotation gi="n">224</annotation>
+      </range>
+      <range gi="l" starting="10009" ending="10058" rID="r261_l">
+         <annotation gi="n">225</annotation>
+      </range>
+      <range gi="l" starting="10059" ending="10098" rID="r262_l">
+         <annotation gi="n">226</annotation>
+      </range>
+      <range gi="l" starting="10099" ending="10141" rID="r263_l">
+         <annotation gi="n">227</annotation>
+      </range>
+      <range gi="l" starting="10142" ending="10185" rID="r264_l">
+         <annotation gi="n">228</annotation>
+      </range>
+      <range gi="l" starting="10186" ending="10229" rID="r265_l">
+         <annotation gi="n">229</annotation>
+      </range>
+      <range gi="l" starting="10230" ending="10273" rID="r266_l">
+         <annotation gi="n">230</annotation>
+      </range>
+      <range gi="l" starting="10274" ending="10320" rID="r267_l">
+         <annotation gi="n">231</annotation>
+      </range>
+      <range gi="l" starting="10321" ending="10358" rID="r268_l">
+         <annotation gi="n">232</annotation>
+      </range>
+      <range gi="l" starting="10359" ending="10404" rID="r269_l">
+         <annotation gi="n">233</annotation>
+      </range>
+      <range gi="l" starting="10405" ending="10457" rID="r270_l">
+         <annotation gi="n">234</annotation>
+      </range>
+      <range gi="l" starting="10458" ending="10504" rID="r271_l">
+         <annotation gi="n">235</annotation>
+      </range>
+      <range gi="l" starting="10505" ending="10548" rID="r272_l">
+         <annotation gi="n">236</annotation>
+      </range>
+      <range gi="l" starting="10549" ending="10594" rID="r273_l">
+         <annotation gi="n">237</annotation>
+      </range>
+      <range gi="l" starting="10595" ending="10641" rID="r274_l">
+         <annotation gi="n">238</annotation>
+      </range>
+      <range gi="l" starting="10642" ending="10691" rID="r275_l">
+         <annotation gi="n">239</annotation>
+      </range>
+      <range gi="l" starting="10692" ending="10731" rID="r276_l">
+         <annotation gi="n">240</annotation>
+      </range>
+      <range gi="l" starting="10732" ending="10779" rID="r277_l">
+         <annotation gi="n">241</annotation>
+      </range>
+      <range gi="l" starting="10780" ending="10829" rID="r278_l">
+         <annotation gi="n">242</annotation>
+      </range>
+      <range gi="l" starting="10830" ending="10876" rID="r279_l">
+         <annotation gi="n">243</annotation>
+      </range>
+      <range gi="l" starting="10877" ending="10919" rID="r280_l">
+         <annotation gi="n">244</annotation>
+      </range>
+      <range gi="para" starting="10921" ending="12705" rID="r281_milestone"/>
+      <range gi="l" starting="10922" ending="10966" rID="r282_l">
+         <annotation gi="n">245</annotation>
+      </range>
+      <range gi="l" starting="10967" ending="11011" rID="r283_l">
+         <annotation gi="n">246</annotation>
+      </range>
+      <range gi="l" starting="11012" ending="11056" rID="r284_l">
+         <annotation gi="n">247</annotation>
+      </range>
+      <range gi="l" starting="11057" ending="11096" rID="r285_l">
+         <annotation gi="n">248</annotation>
+      </range>
+      <range gi="l" starting="11097" ending="11143" rID="r286_l">
+         <annotation gi="n">249</annotation>
+      </range>
+      <range gi="l" starting="11144" ending="11185" rID="r287_l">
+         <annotation gi="n">250</annotation>
+      </range>
+      <range gi="l" starting="11186" ending="11232" rID="r288_l">
+         <annotation gi="n">251</annotation>
+      </range>
+      <range gi="l" starting="11233" ending="11277" rID="r289_l">
+         <annotation gi="n">252</annotation>
+      </range>
+      <range gi="l" starting="11278" ending="11320" rID="r290_l">
+         <annotation gi="n">253</annotation>
+      </range>
+      <range gi="l" starting="11322" ending="11365" rID="r292_l">
+         <annotation gi="n">254</annotation>
+      </range>
+      <range gi="l" starting="11366" ending="11406" rID="r293_l">
+         <annotation gi="n">255</annotation>
+      </range>
+      <range gi="l" starting="11407" ending="11446" rID="r294_l">
+         <annotation gi="n">256</annotation>
+      </range>
+      <range gi="l" starting="11447" ending="11489" rID="r295_l">
+         <annotation gi="n">257</annotation>
+      </range>
+      <range gi="l" starting="11490" ending="11539" rID="r296_l">
+         <annotation gi="n">258</annotation>
+      </range>
+      <range gi="l" starting="11540" ending="11582" rID="r297_l">
+         <annotation gi="n">259</annotation>
+      </range>
+      <range gi="l" starting="11583" ending="11624" rID="r298_l">
+         <annotation gi="n">260</annotation>
+      </range>
+      <range gi="l" starting="11625" ending="11673" rID="r299_l">
+         <annotation gi="n">261</annotation>
+      </range>
+      <range gi="l" starting="11674" ending="11715" rID="r300_l">
+         <annotation gi="n">262</annotation>
+      </range>
+      <range gi="l" starting="11716" ending="11757" rID="r301_l">
+         <annotation gi="n">263</annotation>
+      </range>
+      <range gi="l" starting="11758" ending="11801" rID="r302_l">
+         <annotation gi="n">264</annotation>
+      </range>
+      <range gi="l" starting="11802" ending="11844" rID="r303_l">
+         <annotation gi="n">265</annotation>
+      </range>
+      <range gi="l" starting="11845" ending="11890" rID="r304_l">
+         <annotation gi="n">266</annotation>
+      </range>
+      <range gi="l" starting="11891" ending="11933" rID="r305_l">
+         <annotation gi="n">267</annotation>
+      </range>
+      <range gi="l" starting="11934" ending="11975" rID="r306_l">
+         <annotation gi="n">268</annotation>
+      </range>
+      <range gi="l" starting="11976" ending="12020" rID="r307_l">
+         <annotation gi="n">269</annotation>
+      </range>
+      <range gi="l" starting="12021" ending="12065" rID="r308_l">
+         <annotation gi="n">270</annotation>
+      </range>
+      <range gi="l" starting="12066" ending="12119" rID="r309_l">
+         <annotation gi="n">271</annotation>
+      </range>
+      <range gi="l" starting="12120" ending="12164" rID="r310_l">
+         <annotation gi="n">272</annotation>
+      </range>
+      <range gi="l" starting="12165" ending="12209" rID="r311_l">
+         <annotation gi="n">273</annotation>
+      </range>
+      <range gi="l" starting="12210" ending="12257" rID="r312_l">
+         <annotation gi="n">274</annotation>
+      </range>
+      <range gi="l" starting="12258" ending="12303" rID="r313_l">
+         <annotation gi="n">275</annotation>
+      </range>
+      <range gi="l" starting="12304" ending="12348" rID="r314_l">
+         <annotation gi="n">276</annotation>
+      </range>
+      <range gi="l" starting="12349" ending="12389" rID="r315_l">
+         <annotation gi="n">277</annotation>
+      </range>
+      <range gi="l" starting="12390" ending="12432" rID="r316_l">
+         <annotation gi="n">278</annotation>
+      </range>
+      <range gi="l" starting="12433" ending="12477" rID="r317_l">
+         <annotation gi="n">279</annotation>
+      </range>
+      <range gi="l" starting="12478" ending="12525" rID="r318_l">
+         <annotation gi="n">280</annotation>
+      </range>
+      <range gi="l" starting="12526" ending="12575" rID="r319_l">
+         <annotation gi="n">281</annotation>
+      </range>
+      <range gi="l" starting="12576" ending="12618" rID="r320_l">
+         <annotation gi="n">282</annotation>
+      </range>
+      <range gi="l" starting="12619" ending="12663" rID="r321_l">
+         <annotation gi="n">283</annotation>
+      </range>
+      <range gi="l" starting="12664" ending="12704" rID="r322_l">
+         <annotation gi="n">284</annotation>
+      </range>
+      <range gi="para" starting="12706" ending="13030" rID="r323_milestone"/>
+      <range gi="l" starting="12707" ending="12753" rID="r324_l">
+         <annotation gi="n">285</annotation>
+      </range>
+      <range gi="l" starting="12755" ending="12802" rID="r326_l">
+         <annotation gi="n">286</annotation>
+      </range>
+      <range gi="l" starting="12803" ending="12850" rID="r327_l">
+         <annotation gi="n">287</annotation>
+      </range>
+      <range gi="l" starting="12851" ending="12900" rID="r328_l">
+         <annotation gi="n">288</annotation>
+      </range>
+      <range gi="l" starting="12901" ending="12944" rID="r329_l">
+         <annotation gi="n">289</annotation>
+      </range>
+      <range gi="l" starting="12945" ending="12987" rID="r330_l">
+         <annotation gi="n">290</annotation>
+      </range>
+      <range gi="l" starting="12988" ending="13029" rID="r331_l">
+         <annotation gi="n">291</annotation>
+      </range>
+      <range gi="para" starting="13031" ending="13577" rID="r332_milestone"/>
+      <range gi="l" starting="13032" ending="13076" rID="r333_l">
+         <annotation gi="n">292</annotation>
+      </range>
+      <range gi="l" starting="13078" ending="13121" rID="r335_l">
+         <annotation gi="n">293</annotation>
+      </range>
+      <range gi="l" starting="13122" ending="13167" rID="r336_l">
+         <annotation gi="n">294</annotation>
+      </range>
+      <range gi="l" starting="13168" ending="13210" rID="r337_l">
+         <annotation gi="n">295</annotation>
+      </range>
+      <range gi="l" starting="13211" ending="13255" rID="r338_l">
+         <annotation gi="n">296</annotation>
+      </range>
+      <range gi="l" starting="13256" ending="13302" rID="r339_l">
+         <annotation gi="n">297</annotation>
+      </range>
+      <range gi="l" starting="13303" ending="13349" rID="r340_l">
+         <annotation gi="n">298</annotation>
+      </range>
+      <range gi="l" starting="13350" ending="13400" rID="r341_l">
+         <annotation gi="n">299</annotation>
+      </range>
+      <range gi="l" starting="13401" ending="13445" rID="r342_l">
+         <annotation gi="n">300</annotation>
+      </range>
+      <range gi="l" starting="13446" ending="13489" rID="r343_l">
+         <annotation gi="n">301</annotation>
+      </range>
+      <range gi="l" starting="13490" ending="13533" rID="r344_l">
+         <annotation gi="n">302</annotation>
+      </range>
+      <range gi="l" starting="13534" ending="13576" rID="r345_l">
+         <annotation gi="n">303</annotation>
+      </range>
+      <range gi="para" starting="13578" ending="13923" rID="r346_milestone"/>
+      <range gi="l" starting="13579" ending="13619" rID="r347_l">
+         <annotation gi="n">304</annotation>
+      </range>
+      <range gi="l" starting="13620" ending="13665" rID="r348_l">
+         <annotation gi="n">305</annotation>
+      </range>
+      <range gi="l" starting="13666" ending="13705" rID="r349_l">
+         <annotation gi="n">306</annotation>
+      </range>
+      <range gi="l" starting="13706" ending="13746" rID="r350_l">
+         <annotation gi="n">307</annotation>
+      </range>
+      <range gi="l" starting="13747" ending="13790" rID="r351_l">
+         <annotation gi="n">308</annotation>
+      </range>
+      <range gi="l" starting="13791" ending="13837" rID="r352_l">
+         <annotation gi="n">309</annotation>
+      </range>
+      <range gi="l" starting="13838" ending="13875" rID="r353_l">
+         <annotation gi="n">310</annotation>
+      </range>
+      <range gi="l" starting="13876" ending="13923" rID="r354_l">
+         <annotation gi="n">311</annotation>
+      </range>
+      <range gi="para" starting="13924" ending="14186" rID="r355_milestone"/>
+      <range gi="l" starting="13925" ending="13971" rID="r356_l">
+         <annotation gi="n">312</annotation>
+      </range>
+      <range gi="l" starting="13972" ending="14012" rID="r357_l">
+         <annotation gi="n">313</annotation>
+      </range>
+      <range gi="l" starting="14013" ending="14059" rID="r358_l">
+         <annotation gi="n">314</annotation>
+      </range>
+      <range gi="l" starting="14060" ending="14097" rID="r359_l">
+         <annotation gi="n">315</annotation>
+      </range>
+      <range gi="l" starting="14098" ending="14141" rID="r360_l">
+         <annotation gi="n">316</annotation>
+      </range>
+      <range gi="l" starting="14142" ending="14186" rID="r361_l">
+         <annotation gi="n">317</annotation>
+      </range>
+      <range gi="para" starting="14187" ending="14536" rID="r362_milestone"/>
+      <range gi="l" starting="14188" ending="14237" rID="r363_l">
+         <annotation gi="n">318</annotation>
+      </range>
+      <range gi="l" starting="14238" ending="14279" rID="r364_l">
+         <annotation gi="n">319</annotation>
+      </range>
+      <range gi="l" starting="14280" ending="14327" rID="r365_l">
+         <annotation gi="n">320</annotation>
+      </range>
+      <range gi="l" starting="14328" ending="14367" rID="r366_l">
+         <annotation gi="n">321</annotation>
+      </range>
+      <range gi="l" starting="14369" ending="14404" rID="r368_l">
+         <annotation gi="n">322</annotation>
+      </range>
+      <range gi="l" starting="14405" ending="14447" rID="r369_l">
+         <annotation gi="n">323</annotation>
+      </range>
+      <range gi="l" starting="14448" ending="14490" rID="r370_l">
+         <annotation gi="n">324</annotation>
+      </range>
+      <range gi="l" starting="14491" ending="14535" rID="r371_l">
+         <annotation gi="n">325</annotation>
+      </range>
+      <range gi="para" starting="14537" ending="15382" rID="r372_milestone"/>
+      <range gi="l" starting="14538" ending="14584" rID="r373_l">
+         <annotation gi="n">326</annotation>
+      </range>
+      <range gi="l" starting="14585" ending="14631" rID="r374_l">
+         <annotation gi="n">327</annotation>
+      </range>
+      <range gi="l" starting="14632" ending="14678" rID="r375_l">
+         <annotation gi="n">328</annotation>
+      </range>
+      <range gi="l" starting="14679" ending="14722" rID="r376_l">
+         <annotation gi="n">329</annotation>
+      </range>
+      <range gi="l" starting="14723" ending="14768" rID="r377_l">
+         <annotation gi="n">330</annotation>
+      </range>
+      <range gi="l" starting="14769" ending="14807" rID="r378_l">
+         <annotation gi="n">331</annotation>
+      </range>
+      <range gi="l" starting="14808" ending="14853" rID="r379_l">
+         <annotation gi="n">332</annotation>
+      </range>
+      <range gi="l" starting="14854" ending="14893" rID="r380_l">
+         <annotation gi="n">333</annotation>
+      </range>
+      <range gi="l" starting="14895" ending="14939" rID="r382_l">
+         <annotation gi="n">334</annotation>
+      </range>
+      <range gi="l" starting="14940" ending="14991" rID="r383_l">
+         <annotation gi="n">335</annotation>
+      </range>
+      <range gi="l" starting="14992" ending="15030" rID="r384_l">
+         <annotation gi="n">336</annotation>
+      </range>
+      <range gi="l" starting="15031" ending="15072" rID="r385_l">
+         <annotation gi="n">337</annotation>
+      </range>
+      <range gi="l" starting="15073" ending="15119" rID="r386_l">
+         <annotation gi="n">338</annotation>
+      </range>
+      <range gi="l" starting="15120" ending="15164" rID="r387_l">
+         <annotation gi="n">339</annotation>
+      </range>
+      <range gi="l" starting="15165" ending="15210" rID="r388_l">
+         <annotation gi="n">340</annotation>
+      </range>
+      <range gi="l" starting="15211" ending="15251" rID="r389_l">
+         <annotation gi="n">341</annotation>
+      </range>
+      <range gi="l" starting="15252" ending="15295" rID="r390_l">
+         <annotation gi="n">342</annotation>
+      </range>
+      <range gi="l" starting="15296" ending="15338" rID="r391_l">
+         <annotation gi="n">343</annotation>
+      </range>
+      <range gi="l" starting="15339" ending="15381" rID="r392_l">
+         <annotation gi="n">344</annotation>
+      </range>
+      <range gi="para" starting="15383" ending="15930" rID="r393_milestone"/>
+      <range gi="l" starting="15384" ending="15429" rID="r394_l">
+         <annotation gi="n">345</annotation>
+      </range>
+      <range gi="l" starting="15430" ending="15471" rID="r395_l">
+         <annotation gi="n">346</annotation>
+      </range>
+      <range gi="l" starting="15472" ending="15521" rID="r396_l">
+         <annotation gi="n">347</annotation>
+      </range>
+      <range gi="l" starting="15522" ending="15570" rID="r397_l">
+         <annotation gi="n">348</annotation>
+      </range>
+      <range gi="l" starting="15571" ending="15613" rID="r398_l">
+         <annotation gi="n">349</annotation>
+      </range>
+      <range gi="l" starting="15614" ending="15662" rID="r399_l">
+         <annotation gi="n">350</annotation>
+      </range>
+      <range gi="l" starting="15663" ending="15706" rID="r400_l">
+         <annotation gi="n">351</annotation>
+      </range>
+      <range gi="l" starting="15708" ending="15754" rID="r402_l">
+         <annotation gi="n">352</annotation>
+      </range>
+      <range gi="l" starting="15755" ending="15796" rID="r403_l">
+         <annotation gi="n">353</annotation>
+      </range>
+      <range gi="l" starting="15797" ending="15844" rID="r404_l">
+         <annotation gi="n">354</annotation>
+      </range>
+      <range gi="l" starting="15845" ending="15884" rID="r405_l">
+         <annotation gi="n">355</annotation>
+      </range>
+      <range gi="l" starting="15885" ending="15929" rID="r406_l">
+         <annotation gi="n">356</annotation>
+      </range>
+      <range gi="para" starting="15931" ending="16255" rID="r407_milestone"/>
+      <range gi="l" starting="15932" ending="15977" rID="r408_l">
+         <annotation gi="n">357</annotation>
+      </range>
+      <range gi="l" starting="15978" ending="16021" rID="r409_l">
+         <annotation gi="n">358</annotation>
+      </range>
+      <range gi="l" starting="16022" ending="16066" rID="r410_l">
+         <annotation gi="n">359</annotation>
+      </range>
+      <range gi="l" starting="16067" ending="16112" rID="r411_l">
+         <annotation gi="n">360</annotation>
+      </range>
+      <range gi="l" starting="16113" ending="16164" rID="r412_l">
+         <annotation gi="n">361</annotation>
+      </range>
+      <range gi="l" starting="16166" ending="16214" rID="r414_l">
+         <annotation gi="n">362</annotation>
+      </range>
+      <range gi="l" starting="16215" ending="16254" rID="r415_l">
+         <annotation gi="n">363</annotation>
+      </range>
+      <range gi="para" starting="16256" ending="18404" rID="r416_milestone"/>
+      <range gi="l" starting="16257" ending="16306" rID="r417_l">
+         <annotation gi="n">364</annotation>
+      </range>
+      <range gi="l" starting="16308" ending="16350" rID="r419_l">
+         <annotation gi="n">365</annotation>
+      </range>
+      <range gi="l" starting="16351" ending="16389" rID="r420_l">
+         <annotation gi="n">366</annotation>
+      </range>
+      <range gi="l" starting="16390" ending="16436" rID="r421_l">
+         <annotation gi="n">367</annotation>
+      </range>
+      <range gi="l" starting="16437" ending="16484" rID="r422_l">
+         <annotation gi="n">368</annotation>
+      </range>
+      <range gi="l" starting="16485" ending="16525" rID="r423_l">
+         <annotation gi="n">369</annotation>
+      </range>
+      <range gi="l" starting="16526" ending="16568" rID="r424_l">
+         <annotation gi="n">370</annotation>
+      </range>
+      <range gi="l" starting="16569" ending="16607" rID="r425_l">
+         <annotation gi="n">371</annotation>
+      </range>
+      <range gi="l" starting="16608" ending="16655" rID="r426_l">
+         <annotation gi="n">372</annotation>
+      </range>
+      <range gi="l" starting="16656" ending="16698" rID="r427_l">
+         <annotation gi="n">373</annotation>
+      </range>
+      <range gi="l" starting="16699" ending="16746" rID="r428_l">
+         <annotation gi="n">374</annotation>
+      </range>
+      <range gi="l" starting="16747" ending="16785" rID="r429_l">
+         <annotation gi="n">375</annotation>
+      </range>
+      <range gi="l" starting="16786" ending="16826" rID="r430_l">
+         <annotation gi="n">376</annotation>
+      </range>
+      <range gi="l" starting="16827" ending="16870" rID="r431_l">
+         <annotation gi="n">377</annotation>
+      </range>
+      <range gi="l" starting="16871" ending="16911" rID="r432_l">
+         <annotation gi="n">378</annotation>
+      </range>
+      <range gi="l" starting="16912" ending="16959" rID="r433_l">
+         <annotation gi="n">379</annotation>
+      </range>
+      <range gi="l" starting="16960" ending="17008" rID="r434_l">
+         <annotation gi="n">380</annotation>
+      </range>
+      <range gi="l" starting="17009" ending="17051" rID="r435_l">
+         <annotation gi="n">381</annotation>
+      </range>
+      <range gi="l" starting="17052" ending="17099" rID="r436_l">
+         <annotation gi="n">382</annotation>
+      </range>
+      <range gi="l" starting="17100" ending="17145" rID="r437_l">
+         <annotation gi="n">383</annotation>
+      </range>
+      <range gi="l" starting="17146" ending="17192" rID="r438_l">
+         <annotation gi="n">384</annotation>
+      </range>
+      <range gi="l" starting="17193" ending="17229" rID="r439_l">
+         <annotation gi="n">385</annotation>
+      </range>
+      <range gi="l" starting="17230" ending="17272" rID="r440_l">
+         <annotation gi="n">386</annotation>
+      </range>
+      <range gi="l" starting="17273" ending="17320" rID="r441_l">
+         <annotation gi="n">387</annotation>
+      </range>
+      <range gi="l" starting="17321" ending="17360" rID="r442_l">
+         <annotation gi="n">388</annotation>
+      </range>
+      <range gi="l" starting="17361" ending="17400" rID="r443_l">
+         <annotation gi="n">389</annotation>
+      </range>
+      <range gi="l" starting="17401" ending="17444" rID="r444_l">
+         <annotation gi="n">390</annotation>
+      </range>
+      <range gi="l" starting="17445" ending="17487" rID="r445_l">
+         <annotation gi="n">391</annotation>
+      </range>
+      <range gi="l" starting="17488" ending="17529" rID="r446_l">
+         <annotation gi="n">392</annotation>
+      </range>
+      <range gi="l" starting="17530" ending="17573" rID="r447_l">
+         <annotation gi="n">393</annotation>
+      </range>
+      <range gi="l" starting="17574" ending="17618" rID="r448_l">
+         <annotation gi="n">394</annotation>
+      </range>
+      <range gi="l" starting="17619" ending="17658" rID="r449_l">
+         <annotation gi="n">395</annotation>
+      </range>
+      <range gi="l" starting="17659" ending="17703" rID="r450_l">
+         <annotation gi="n">396</annotation>
+      </range>
+      <range gi="l" starting="17704" ending="17744" rID="r451_l">
+         <annotation gi="n">397</annotation>
+      </range>
+      <range gi="l" starting="17745" ending="17785" rID="r452_l">
+         <annotation gi="n">398</annotation>
+      </range>
+      <range gi="l" starting="17786" ending="17827" rID="r453_l">
+         <annotation gi="n">399</annotation>
+      </range>
+      <range gi="l" starting="17828" ending="17866" rID="r454_l">
+         <annotation gi="n">400</annotation>
+      </range>
+      <range gi="l" starting="17867" ending="17910" rID="r455_l">
+         <annotation gi="n">401</annotation>
+      </range>
+      <range gi="l" starting="17911" ending="17955" rID="r456_l">
+         <annotation gi="n">402</annotation>
+      </range>
+      <range gi="l" starting="17956" ending="18002" rID="r457_l">
+         <annotation gi="n">403</annotation>
+      </range>
+      <range gi="l" starting="18003" ending="18047" rID="r458_l">
+         <annotation gi="n">404</annotation>
+      </range>
+      <range gi="l" starting="18048" ending="18089" rID="r459_l">
+         <annotation gi="n">405</annotation>
+      </range>
+      <range gi="l" starting="18090" ending="18137" rID="r460_l">
+         <annotation gi="n">406</annotation>
+      </range>
+      <range gi="l" starting="18138" ending="18181" rID="r461_l">
+         <annotation gi="n">407</annotation>
+      </range>
+      <range gi="l" starting="18182" ending="18222" rID="r462_l">
+         <annotation gi="n">408</annotation>
+      </range>
+      <range gi="l" starting="18223" ending="18273" rID="r463_l">
+         <annotation gi="n">409</annotation>
+      </range>
+      <range gi="l" starting="18274" ending="18319" rID="r464_l">
+         <annotation gi="n">410</annotation>
+      </range>
+      <range gi="l" starting="18320" ending="18361" rID="r465_l">
+         <annotation gi="n">411</annotation>
+      </range>
+      <range gi="l" starting="18362" ending="18403" rID="r466_l">
+         <annotation gi="n">412</annotation>
+      </range>
+      <range gi="para" starting="18405" ending="19102" rID="r467_milestone"/>
+      <range gi="l" starting="18406" ending="18453" rID="r468_l">
+         <annotation gi="n">413</annotation>
+      </range>
+      <range gi="l" starting="18455" ending="18504" rID="r470_l">
+         <annotation gi="n">414</annotation>
+      </range>
+      <range gi="l" starting="18505" ending="18549" rID="r471_l">
+         <annotation gi="n">415</annotation>
+      </range>
+      <range gi="l" starting="18550" ending="18601" rID="r472_l">
+         <annotation gi="n">416</annotation>
+      </range>
+      <range gi="l" starting="18602" ending="18648" rID="r473_l">
+         <annotation gi="n">417</annotation>
+      </range>
+      <range gi="l" starting="18649" ending="18691" rID="r474_l">
+         <annotation gi="n">418</annotation>
+      </range>
+      <range gi="l" starting="18692" ending="18734" rID="r475_l">
+         <annotation gi="n">419</annotation>
+      </range>
+      <range gi="l" starting="18735" ending="18782" rID="r476_l">
+         <annotation gi="n">420</annotation>
+      </range>
+      <range gi="l" starting="18783" ending="18825" rID="r477_l">
+         <annotation gi="n">421</annotation>
+      </range>
+      <range gi="l" starting="18826" ending="18870" rID="r478_l">
+         <annotation gi="n">422</annotation>
+      </range>
+      <range gi="l" starting="18871" ending="18914" rID="r479_l">
+         <annotation gi="n">423</annotation>
+      </range>
+      <range gi="l" starting="18915" ending="18964" rID="r480_l">
+         <annotation gi="n">424</annotation>
+      </range>
+      <range gi="l" starting="18965" ending="19009" rID="r481_l">
+         <annotation gi="n">425</annotation>
+      </range>
+      <range gi="l" starting="19010" ending="19059" rID="r482_l">
+         <annotation gi="n">426</annotation>
+      </range>
+      <range gi="l" starting="19060" ending="19101" rID="r483_l">
+         <annotation gi="n">427</annotation>
+      </range>
+      <range gi="para" starting="19103" ending="19895" rID="r484_milestone"/>
+      <range gi="l" starting="19104" ending="19148" rID="r485_l">
+         <annotation gi="n">428</annotation>
+      </range>
+      <range gi="l" starting="19149" ending="19186" rID="r486_l">
+         <annotation gi="n">429</annotation>
+      </range>
+      <range gi="l" starting="19187" ending="19230" rID="r487_l">
+         <annotation gi="n">430</annotation>
+      </range>
+      <range gi="l" starting="19231" ending="19269" rID="r488_l">
+         <annotation gi="n">431</annotation>
+      </range>
+      <range gi="l" starting="19270" ending="19315" rID="r489_l">
+         <annotation gi="n">432</annotation>
+      </range>
+      <range gi="l" starting="19316" ending="19361" rID="r490_l">
+         <annotation gi="n">433</annotation>
+      </range>
+      <range gi="l" starting="19362" ending="19407" rID="r491_l">
+         <annotation gi="n">434</annotation>
+      </range>
+      <range gi="l" starting="19408" ending="19457" rID="r492_l">
+         <annotation gi="n">435</annotation>
+      </range>
+      <range gi="l" starting="19458" ending="19503" rID="r493_l">
+         <annotation gi="n">436</annotation>
+      </range>
+      <range gi="l" starting="19504" ending="19548" rID="r494_l">
+         <annotation gi="n">437</annotation>
+      </range>
+      <range gi="l" starting="19549" ending="19588" rID="r495_l">
+         <annotation gi="n">438</annotation>
+      </range>
+      <range gi="l" starting="19589" ending="19623" rID="r496_l">
+         <annotation gi="n">439</annotation>
+      </range>
+      <range gi="l" starting="19624" ending="19672" rID="r497_l">
+         <annotation gi="n">440</annotation>
+      </range>
+      <range gi="l" starting="19673" ending="19718" rID="r498_l">
+         <annotation gi="n">441</annotation>
+      </range>
+      <range gi="l" starting="19720" ending="19765" rID="r500_l">
+         <annotation gi="n">442</annotation>
+      </range>
+      <range gi="l" starting="19766" ending="19811" rID="r501_l">
+         <annotation gi="n">443</annotation>
+      </range>
+      <range gi="l" starting="19812" ending="19853" rID="r502_l">
+         <annotation gi="n">444</annotation>
+      </range>
+      <range gi="l" starting="19854" ending="19894" rID="r503_l">
+         <annotation gi="n">445</annotation>
+      </range>
+      <range gi="para" starting="19896" ending="20372" rID="r504_milestone"/>
+      <range gi="l" starting="19897" ending="19940" rID="r505_l">
+         <annotation gi="n">446</annotation>
+      </range>
+      <range gi="l" starting="19941" ending="19984" rID="r506_l">
+         <annotation gi="n">447</annotation>
+      </range>
+      <range gi="l" starting="19985" ending="20020" rID="r507_l">
+         <annotation gi="n">448</annotation>
+      </range>
+      <range gi="l" starting="20021" ending="20065" rID="r508_l">
+         <annotation gi="n">449</annotation>
+      </range>
+      <range gi="l" starting="20066" ending="20112" rID="r509_l">
+         <annotation gi="n">450</annotation>
+      </range>
+      <range gi="l" starting="20114" ending="20157" rID="r511_l">
+         <annotation gi="n">451</annotation>
+      </range>
+      <range gi="l" starting="20158" ending="20200" rID="r512_l">
+         <annotation gi="n">452</annotation>
+      </range>
+      <range gi="l" starting="20201" ending="20244" rID="r513_l">
+         <annotation gi="n">453</annotation>
+      </range>
+      <range gi="l" starting="20245" ending="20287" rID="r514_l">
+         <annotation gi="n">454</annotation>
+      </range>
+      <range gi="l" starting="20288" ending="20331" rID="r515_l">
+         <annotation gi="n">455</annotation>
+      </range>
+      <range gi="l" starting="20332" ending="20371" rID="r516_l">
+         <annotation gi="n">456</annotation>
+      </range>
+      <range gi="para" starting="20373" ending="21181" rID="r517_milestone"/>
+      <range gi="l" starting="20374" ending="20422" rID="r518_l">
+         <annotation gi="n">457</annotation>
+      </range>
+      <range gi="l" starting="20423" ending="20470" rID="r519_l">
+         <annotation gi="n">458</annotation>
+      </range>
+      <range gi="l" starting="20471" ending="20514" rID="r520_l">
+         <annotation gi="n">459</annotation>
+      </range>
+      <range gi="l" starting="20515" ending="20556" rID="r521_l">
+         <annotation gi="n">460</annotation>
+      </range>
+      <range gi="l" starting="20557" ending="20601" rID="r522_l">
+         <annotation gi="n">461</annotation>
+      </range>
+      <range gi="l" starting="20602" ending="20649" rID="r523_l">
+         <annotation gi="n">462</annotation>
+      </range>
+      <range gi="l" starting="20650" ending="20698" rID="r524_l">
+         <annotation gi="n">463</annotation>
+      </range>
+      <range gi="l" starting="20699" ending="20745" rID="r525_l">
+         <annotation gi="n">464</annotation>
+      </range>
+      <range gi="l" starting="20746" ending="20796" rID="r526_l">
+         <annotation gi="n">465</annotation>
+      </range>
+      <range gi="l" starting="20797" ending="20839" rID="r527_l">
+         <annotation gi="n">466</annotation>
+      </range>
+      <range gi="l" starting="20840" ending="20884" rID="r528_l">
+         <annotation gi="n">467</annotation>
+      </range>
+      <range gi="l" starting="20885" ending="20930" rID="r529_l">
+         <annotation gi="n">468</annotation>
+      </range>
+      <range gi="l" starting="20931" ending="20974" rID="r530_l">
+         <annotation gi="n">469</annotation>
+      </range>
+      <range gi="l" starting="20975" ending="21014" rID="r531_l">
+         <annotation gi="n">470</annotation>
+      </range>
+      <range gi="l" starting="21015" ending="21058" rID="r532_l">
+         <annotation gi="n">471</annotation>
+      </range>
+      <range gi="l" starting="21059" ending="21096" rID="r533_l">
+         <annotation gi="n">472</annotation>
+      </range>
+      <range gi="l" starting="21097" ending="21134" rID="r534_l">
+         <annotation gi="n">473</annotation>
+      </range>
+      <range gi="l" starting="21135" ending="21181" rID="r535_l">
+         <annotation gi="n">474</annotation>
+      </range>
+      <range gi="para" starting="21182" ending="21773" rID="r536_milestone"/>
+      <range gi="l" starting="21183" ending="21225" rID="r537_l">
+         <annotation gi="n">475</annotation>
+      </range>
+      <range gi="l" starting="21226" ending="21265" rID="r538_l">
+         <annotation gi="n">476</annotation>
+      </range>
+      <range gi="l" starting="21266" ending="21306" rID="r539_l">
+         <annotation gi="n">477</annotation>
+      </range>
+      <range gi="l" starting="21307" ending="21358" rID="r540_l">
+         <annotation gi="n">478</annotation>
+      </range>
+      <range gi="l" starting="21359" ending="21404" rID="r541_l">
+         <annotation gi="n">479</annotation>
+      </range>
+      <range gi="l" starting="21405" ending="21454" rID="r542_l">
+         <annotation gi="n">480</annotation>
+      </range>
+      <range gi="l" starting="21455" ending="21501" rID="r543_l">
+         <annotation gi="n">481</annotation>
+      </range>
+      <range gi="l" starting="21502" ending="21543" rID="r544_l">
+         <annotation gi="n">482</annotation>
+      </range>
+      <range gi="l" starting="21544" ending="21587" rID="r545_l">
+         <annotation gi="n">483</annotation>
+      </range>
+      <range gi="l" starting="21588" ending="21635" rID="r546_l">
+         <annotation gi="n">484</annotation>
+      </range>
+      <range gi="l" starting="21636" ending="21679" rID="r547_l">
+         <annotation gi="n">485</annotation>
+      </range>
+      <range gi="l" starting="21680" ending="21728" rID="r548_l">
+         <annotation gi="n">486</annotation>
+      </range>
+      <range gi="l" starting="21729" ending="21773" rID="r549_l">
+         <annotation gi="n">487</annotation>
+      </range>
+      <range gi="para" starting="21774" ending="21994" rID="r550_milestone"/>
+      <range gi="l" starting="21775" ending="21815" rID="r551_l">
+         <annotation gi="n">488</annotation>
+      </range>
+      <range gi="l" starting="21816" ending="21857" rID="r552_l">
+         <annotation gi="n">489</annotation>
+      </range>
+      <range gi="l" starting="21858" ending="21900" rID="r553_l">
+         <annotation gi="n">490</annotation>
+      </range>
+      <range gi="l" starting="21901" ending="21948" rID="r554_l">
+         <annotation gi="n">491</annotation>
+      </range>
+      <range gi="l" starting="21949" ending="21994" rID="r555_l">
+         <annotation gi="n">492</annotation>
+      </range>
+      <range gi="para" starting="21995" ending="22798" rID="r556_milestone"/>
+      <range gi="l" starting="21996" ending="22040" rID="r557_l">
+         <annotation gi="n">493</annotation>
+      </range>
+      <range gi="l" starting="22041" ending="22087" rID="r558_l">
+         <annotation gi="n">494</annotation>
+      </range>
+      <range gi="l" starting="22088" ending="22141" rID="r559_l">
+         <annotation gi="n">495</annotation>
+      </range>
+      <range gi="l" starting="22142" ending="22188" rID="r560_l">
+         <annotation gi="n">496</annotation>
+      </range>
+      <range gi="l" starting="22189" ending="22230" rID="r561_l">
+         <annotation gi="n">497</annotation>
+      </range>
+      <range gi="l" starting="22231" ending="22274" rID="r562_l">
+         <annotation gi="n">498</annotation>
+      </range>
+      <range gi="l" starting="22275" ending="22314" rID="r563_l">
+         <annotation gi="n">499</annotation>
+      </range>
+      <range gi="l" starting="22315" ending="22362" rID="r564_l">
+         <annotation gi="n">500</annotation>
+      </range>
+      <range gi="l" starting="22363" ending="22407" rID="r565_l">
+         <annotation gi="n">501</annotation>
+      </range>
+      <range gi="l" starting="22408" ending="22448" rID="r566_l">
+         <annotation gi="n">502</annotation>
+      </range>
+      <range gi="l" starting="22450" ending="22496" rID="r568_l">
+         <annotation gi="n">503</annotation>
+      </range>
+      <range gi="l" starting="22497" ending="22536" rID="r569_l">
+         <annotation gi="n">504</annotation>
+      </range>
+      <range gi="l" starting="22537" ending="22575" rID="r570_l">
+         <annotation gi="n">505</annotation>
+      </range>
+      <range gi="l" starting="22576" ending="22621" rID="r571_l">
+         <annotation gi="n">506</annotation>
+      </range>
+      <range gi="l" starting="22622" ending="22666" rID="r572_l">
+         <annotation gi="n">507</annotation>
+      </range>
+      <range gi="l" starting="22667" ending="22709" rID="r573_l">
+         <annotation gi="n">508</annotation>
+      </range>
+      <range gi="l" starting="22710" ending="22758" rID="r574_l">
+         <annotation gi="n">509</annotation>
+      </range>
+      <range gi="l" starting="22759" ending="22797" rID="r575_l">
+         <annotation gi="n">510</annotation>
+      </range>
+      <range gi="para" starting="22799" ending="23075" rID="r576_milestone"/>
+      <range gi="l" starting="22800" ending="22848" rID="r577_l">
+         <annotation gi="n">511</annotation>
+      </range>
+      <range gi="l" starting="22849" ending="22894" rID="r578_l">
+         <annotation gi="n">512</annotation>
+      </range>
+      <range gi="l" starting="22895" ending="22941" rID="r579_l">
+         <annotation gi="n">513</annotation>
+      </range>
+      <range gi="l" starting="22943" ending="22985" rID="r581_l">
+         <annotation gi="n">514</annotation>
+      </range>
+      <range gi="l" starting="22986" ending="23032" rID="r582_l">
+         <annotation gi="n">515</annotation>
+      </range>
+      <range gi="l" starting="23033" ending="23074" rID="r583_l">
+         <annotation gi="n">516</annotation>
+      </range>
+      <range gi="para" starting="23076" ending="23581" rID="r584_milestone"/>
+      <range gi="l" starting="23077" ending="23123" rID="r585_l">
+         <annotation gi="n">517</annotation>
+      </range>
+      <range gi="l" starting="23125" ending="23169" rID="r587_l">
+         <annotation gi="n">518</annotation>
+      </range>
+      <range gi="l" starting="23170" ending="23213" rID="r588_l">
+         <annotation gi="n">519</annotation>
+      </range>
+      <range gi="l" starting="23214" ending="23257" rID="r589_l">
+         <annotation gi="n">520</annotation>
+      </range>
+      <range gi="l" starting="23258" ending="23303" rID="r590_l">
+         <annotation gi="n">521</annotation>
+      </range>
+      <range gi="l" starting="23304" ending="23346" rID="r591_l">
+         <annotation gi="n">522</annotation>
+      </range>
+      <range gi="l" starting="23347" ending="23392" rID="r592_l">
+         <annotation gi="n">523</annotation>
+      </range>
+      <range gi="l" starting="23393" ending="23441" rID="r593_l">
+         <annotation gi="n">524</annotation>
+      </range>
+      <range gi="l" starting="23442" ending="23489" rID="r594_l">
+         <annotation gi="n">525</annotation>
+      </range>
+      <range gi="l" starting="23490" ending="23536" rID="r595_l">
+         <annotation gi="n">526</annotation>
+      </range>
+      <range gi="l" starting="23537" ending="23580" rID="r596_l">
+         <annotation gi="n">527</annotation>
+      </range>
+      <range gi="para" starting="23582" ending="23717" rID="r597_milestone"/>
+      <range gi="l" starting="23583" ending="23624" rID="r598_l">
+         <annotation gi="n">528</annotation>
+      </range>
+      <range gi="l" starting="23625" ending="23668" rID="r599_l">
+         <annotation gi="n">529</annotation>
+      </range>
+      <range gi="l" starting="23669" ending="23717" rID="r600_l">
+         <annotation gi="n">530</annotation>
+      </range>
+      <range gi="para" starting="23718" ending="24306" rID="r601_milestone"/>
+      <range gi="l" starting="23719" ending="23763" rID="r602_l">
+         <annotation gi="n">531</annotation>
+      </range>
+      <range gi="l" starting="23764" ending="23808" rID="r603_l">
+         <annotation gi="n">532</annotation>
+      </range>
+      <range gi="l" starting="23809" ending="23858" rID="r604_l">
+         <annotation gi="n">533</annotation>
+      </range>
+      <range gi="l" starting="23859" ending="23903" rID="r605_l">
+         <annotation gi="n">534</annotation>
+      </range>
+      <range gi="l" starting="23904" ending="23950" rID="r606_l">
+         <annotation gi="n">535</annotation>
+      </range>
+      <range gi="l" starting="23951" ending="23998" rID="r607_l">
+         <annotation gi="n">536</annotation>
+      </range>
+      <range gi="l" starting="23999" ending="24041" rID="r608_l">
+         <annotation gi="n">537</annotation>
+      </range>
+      <range gi="l" starting="24042" ending="24083" rID="r609_l">
+         <annotation gi="n">538</annotation>
+      </range>
+      <range gi="l" starting="24084" ending="24125" rID="r610_l">
+         <annotation gi="n">539</annotation>
+      </range>
+      <range gi="l" starting="24127" ending="24174" rID="r612_l">
+         <annotation gi="n">540</annotation>
+      </range>
+      <range gi="l" starting="24175" ending="24217" rID="r613_l">
+         <annotation gi="n">541</annotation>
+      </range>
+      <range gi="l" starting="24218" ending="24263" rID="r614_l">
+         <annotation gi="n">542</annotation>
+      </range>
+      <range gi="l" starting="24264" ending="24305" rID="r615_l">
+         <annotation gi="n">543</annotation>
+      </range>
+      <range gi="para" starting="24307" ending="24622" rID="r616_milestone"/>
+      <range gi="l" starting="24308" ending="24355" rID="r617_l">
+         <annotation gi="n">544</annotation>
+      </range>
+      <range gi="l" starting="24357" ending="24395" rID="r619_l">
+         <annotation gi="n">545</annotation>
+      </range>
+      <range gi="l" starting="24396" ending="24441" rID="r620_l">
+         <annotation gi="n">546</annotation>
+      </range>
+      <range gi="l" starting="24442" ending="24488" rID="r621_l">
+         <annotation gi="n">547</annotation>
+      </range>
+      <range gi="l" starting="24489" ending="24534" rID="r622_l">
+         <annotation gi="n">548</annotation>
+      </range>
+      <range gi="l" starting="24535" ending="24577" rID="r623_l">
+         <annotation gi="n">549</annotation>
+      </range>
+      <range gi="l" starting="24578" ending="24621" rID="r624_l">
+         <annotation gi="n">550</annotation>
+      </range>
+      <range gi="para" starting="24623" ending="25017" rID="r625_milestone"/>
+      <range gi="l" starting="24624" ending="24665" rID="r626_l">
+         <annotation gi="n">551</annotation>
+      </range>
+      <range gi="l" starting="24667" ending="24707" rID="r628_l">
+         <annotation gi="n">552</annotation>
+      </range>
+      <range gi="l" starting="24708" ending="24755" rID="r629_l">
+         <annotation gi="n">553</annotation>
+      </range>
+      <range gi="l" starting="24756" ending="24799" rID="r630_l">
+         <annotation gi="n">554</annotation>
+      </range>
+      <range gi="l" starting="24800" ending="24846" rID="r631_l">
+         <annotation gi="n">555</annotation>
+      </range>
+      <range gi="l" starting="24847" ending="24888" rID="r632_l">
+         <annotation gi="n">556</annotation>
+      </range>
+      <range gi="l" starting="24889" ending="24931" rID="r633_l">
+         <annotation gi="n">557</annotation>
+      </range>
+      <range gi="l" starting="24932" ending="24971" rID="r634_l">
+         <annotation gi="n">558</annotation>
+      </range>
+      <range gi="l" starting="24972" ending="25016" rID="r635_l">
+         <annotation gi="n">559</annotation>
+      </range>
+      <range gi="para" starting="25018" ending="25388" rID="r636_milestone"/>
+      <range gi="l" starting="25019" ending="25066" rID="r637_l">
+         <annotation gi="n">560</annotation>
+      </range>
+      <range gi="l" starting="25068" ending="25105" rID="r639_l">
+         <annotation gi="n">561</annotation>
+      </range>
+      <range gi="l" starting="25106" ending="25152" rID="r640_l">
+         <annotation gi="n">562</annotation>
+      </range>
+      <range gi="l" starting="25153" ending="25199" rID="r641_l">
+         <annotation gi="n">563</annotation>
+      </range>
+      <range gi="l" starting="25200" ending="25247" rID="r642_l">
+         <annotation gi="n">564</annotation>
+      </range>
+      <range gi="l" starting="25248" ending="25291" rID="r643_l">
+         <annotation gi="n">565</annotation>
+      </range>
+      <range gi="l" starting="25292" ending="25340" rID="r644_l">
+         <annotation gi="n">566</annotation>
+      </range>
+      <range gi="l" starting="25341" ending="25387" rID="r645_l">
+         <annotation gi="n">567</annotation>
+      </range>
+      <range gi="para" starting="25389" ending="26088" rID="r646_milestone"/>
+      <range gi="l" starting="25390" ending="25428" rID="r647_l">
+         <annotation gi="n">568</annotation>
+      </range>
+      <range gi="l" starting="25429" ending="25474" rID="r648_l">
+         <annotation gi="n">569</annotation>
+      </range>
+      <range gi="l" starting="25475" ending="25516" rID="r649_l">
+         <annotation gi="n">570</annotation>
+      </range>
+      <range gi="l" starting="25517" ending="25562" rID="r650_l">
+         <annotation gi="n">571</annotation>
+      </range>
+      <range gi="l" starting="25563" ending="25601" rID="r651_l">
+         <annotation gi="n">572</annotation>
+      </range>
+      <range gi="l" starting="25603" ending="25649" rID="r653_l">
+         <annotation gi="n">573</annotation>
+      </range>
+      <range gi="l" starting="25650" ending="25689" rID="r654_l">
+         <annotation gi="n">574</annotation>
+      </range>
+      <range gi="l" starting="25690" ending="25735" rID="r655_l">
+         <annotation gi="n">575</annotation>
+      </range>
+      <range gi="l" starting="25736" ending="25779" rID="r656_l">
+         <annotation gi="n">576</annotation>
+      </range>
+      <range gi="l" starting="25780" ending="25822" rID="r657_l">
+         <annotation gi="n">577</annotation>
+      </range>
+      <range gi="l" starting="25823" ending="25865" rID="r658_l">
+         <annotation gi="n">578</annotation>
+      </range>
+      <range gi="l" starting="25866" ending="25908" rID="r659_l">
+         <annotation gi="n">579</annotation>
+      </range>
+      <range gi="l" starting="25909" ending="25952" rID="r660_l">
+         <annotation gi="n">580</annotation>
+      </range>
+      <range gi="l" starting="25953" ending="26000" rID="r661_l">
+         <annotation gi="n">581</annotation>
+      </range>
+      <range gi="l" starting="26001" ending="26044" rID="r662_l">
+         <annotation gi="n">582</annotation>
+      </range>
+      <range gi="l" starting="26045" ending="26087" rID="r663_l">
+         <annotation gi="n">583</annotation>
+      </range>
+      <range gi="para" starting="26089" ending="26584" rID="r664_milestone"/>
+      <range gi="l" starting="26090" ending="26131" rID="r665_l">
+         <annotation gi="n">584</annotation>
+      </range>
+      <range gi="l" starting="26132" ending="26176" rID="r666_l">
+         <annotation gi="n">585</annotation>
+      </range>
+      <range gi="l" starting="26178" ending="26222" rID="r668_l">
+         <annotation gi="n">586</annotation>
+      </range>
+      <range gi="l" starting="26223" ending="26267" rID="r669_l">
+         <annotation gi="n">587</annotation>
+      </range>
+      <range gi="l" starting="26268" ending="26317" rID="r670_l">
+         <annotation gi="n">588</annotation>
+      </range>
+      <range gi="l" starting="26318" ending="26364" rID="r671_l">
+         <annotation gi="n">589</annotation>
+      </range>
+      <range gi="l" starting="26365" ending="26405" rID="r672_l">
+         <annotation gi="n">590</annotation>
+      </range>
+      <range gi="l" starting="26406" ending="26446" rID="r673_l">
+         <annotation gi="n">591</annotation>
+      </range>
+      <range gi="l" starting="26447" ending="26490" rID="r674_l">
+         <annotation gi="n">592</annotation>
+      </range>
+      <range gi="l" starting="26491" ending="26536" rID="r675_l">
+         <annotation gi="n">593</annotation>
+      </range>
+      <range gi="l" starting="26537" ending="26583" rID="r676_l">
+         <annotation gi="n">594</annotation>
+      </range>
+      <range gi="para" starting="26585" ending="26842" rID="r677_milestone"/>
+      <range gi="l" starting="26586" ending="26626" rID="r678_l">
+         <annotation gi="n">595</annotation>
+      </range>
+      <range gi="l" starting="26627" ending="26670" rID="r679_l">
+         <annotation gi="n">596</annotation>
+      </range>
+      <range gi="l" starting="26671" ending="26711" rID="r680_l">
+         <annotation gi="n">597</annotation>
+      </range>
+      <range gi="l" starting="26712" ending="26755" rID="r681_l">
+         <annotation gi="n">598</annotation>
+      </range>
+      <range gi="l" starting="26756" ending="26802" rID="r682_l">
+         <annotation gi="n">599</annotation>
+      </range>
+      <range gi="l" starting="26803" ending="26842" rID="r683_l">
+         <annotation gi="n">600</annotation>
+      </range>
+      <range gi="para" starting="26843" ending="27021" rID="r684_milestone"/>
+      <range gi="l" starting="26844" ending="26887" rID="r685_l">
+         <annotation gi="n">601</annotation>
+      </range>
+      <range gi="l" starting="26888" ending="26933" rID="r686_l">
+         <annotation gi="n">602</annotation>
+      </range>
+      <range gi="l" starting="26934" ending="26978" rID="r687_l">
+         <annotation gi="n">603</annotation>
+      </range>
+      <range gi="l" starting="26979" ending="27021" rID="r688_l">
+         <annotation gi="n">604</annotation>
+      </range>
+      <range gi="para" starting="27022" ending="27275" rID="r689_milestone"/>
+      <range gi="l" starting="27023" ending="27062" rID="r690_l">
+         <annotation gi="n">605</annotation>
+      </range>
+      <range gi="l" starting="27063" ending="27104" rID="r691_l">
+         <annotation gi="n">606</annotation>
+      </range>
+      <range gi="l" starting="27105" ending="27142" rID="r692_l">
+         <annotation gi="n">607</annotation>
+      </range>
+      <range gi="l" starting="27143" ending="27179" rID="r693_l">
+         <annotation gi="n">608</annotation>
+      </range>
+      <range gi="l" starting="27180" ending="27227" rID="r694_l">
+         <annotation gi="n">609</annotation>
+      </range>
+      <range gi="l" starting="27228" ending="27275" rID="r695_l">
+         <annotation gi="n">610</annotation>
+      </range>
+      <range gi="l" starting="27276" ending="27321" rID="r696_l">
+         <annotation gi="n">611</annotation>
+      </range>
+   </layer>
+   <frontier>
+
+μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος
+οὐλομένην, ἣ μυρίʼ Ἀχαιοῖς ἄλγεʼ ἔθηκε,
+πολλὰς δʼ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν
+ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν
+οἰωνοῖσί τε πᾶσι, Διὸς δʼ ἐτελείετο βουλή,
+ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε
+Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.
+
+τίς τʼ ἄρ σφωε θεῶν ἔριδι ξυνέηκε μάχεσθαι;
+Λητοῦς καὶ Διὸς υἱός· ὃ γὰρ βασιλῆϊ χολωθεὶς
+νοῦσον ἀνὰ στρατὸν ὄρσε κακήν, ὀλέκοντο δὲ λαοί,
+οὕνεκα τὸν Χρύσην ἠτίμασεν ἀρητῆρα
+Ἀτρεΐδης· ὃ γὰρ ἦλθε θοὰς ἐπὶ νῆας Ἀχαιῶν
+λυσόμενός τε θύγατρα φέρων τʼ ἀπερείσιʼ ἄποινα,
+στέμματʼ ἔχων ἐν χερσὶν ἑκηβόλου Ἀπόλλωνος
+χρυσέῳ ἀνὰ σκήπτρῳ, καὶ λίσσετο πάντας Ἀχαιούς,
+Ἀτρεΐδα δὲ μάλιστα δύω, κοσμήτορε λαῶν·
+
+Ἀτρεΐδαι τε καὶ ἄλλοι ἐϋκνήμιδες Ἀχαιοί,
+ὑμῖν μὲν θεοὶ δοῖεν Ὀλύμπια δώματʼ ἔχοντες
+ἐκπέρσαι Πριάμοιο πόλιν, εὖ δʼ οἴκαδʼ ἱκέσθαι·
+παῖδα δʼ ἐμοὶ λύσαιτε φίλην, τὰ δʼ ἄποινα δέχεσθαι,
+ἁζόμενοι Διὸς υἱὸν ἑκηβόλον Ἀπόλλωνα.
+
+
+ἔνθʼ ἄλλοι μὲν πάντες ἐπευφήμησαν Ἀχαιοὶ
+αἰδεῖσθαί θʼ ἱερῆα καὶ ἀγλαὰ δέχθαι ἄποινα·
+ἀλλʼ οὐκ Ἀτρεΐδῃ Ἀγαμέμνονι ἥνδανε θυμῷ,
+ἀλλὰ κακῶς ἀφίει, κρατερὸν δʼ ἐπὶ μῦθον ἔτελλε·
+
+μή σε γέρον κοίλῃσιν ἐγὼ παρὰ νηυσὶ κιχείω
+ἢ νῦν δηθύνοντʼ ἢ ὕστερον αὖτις ἰόντα,
+μή νύ τοι οὐ χραίσμῃ σκῆπτρον καὶ στέμμα θεοῖο·
+τὴν δʼ ἐγὼ οὐ λύσω· πρίν μιν καὶ γῆρας ἔπεισιν
+ἡμετέρῳ ἐνὶ οἴκῳ ἐν Ἄργεϊ τηλόθι πάτρης
+ἱστὸν ἐποιχομένην καὶ ἐμὸν λέχος ἀντιόωσαν·
+ἀλλʼ ἴθι μή μʼ ἐρέθιζε σαώτερος ὥς κε νέηαι.
+
+
+ὣς ἔφατʼ, ἔδεισεν δʼ ὃ γέρων καὶ ἐπείθετο μύθῳ·
+βῆ δʼ ἀκέων παρὰ θῖνα πολυφλοίσβοιο θαλάσσης·
+πολλὰ δʼ ἔπειτʼ ἀπάνευθε κιὼν ἠρᾶθʼ ὁ γεραιὸς
+Ἀπόλλωνι ἄνακτι, τὸν ἠΰκομος τέκε Λητώ·
+
+κλῦθί μευ ἀργυρότοξʼ, ὃς Χρύσην ἀμφιβέβηκας
+Κίλλαν τε ζαθέην Τενέδοιό τε ἶφι ἀνάσσεις,
+Σμινθεῦ εἴ ποτέ τοι χαρίεντʼ ἐπὶ νηὸν ἔρεψα,
+ἢ εἰ δή ποτέ τοι κατὰ πίονα μηρίʼ ἔκηα
+ταύρων ἠδʼ αἰγῶν, τὸ δέ μοι κρήηνον ἐέλδωρ·
+τίσειαν Δαναοὶ ἐμὰ δάκρυα σοῖσι βέλεσσιν.
+
+
+ὣς ἔφατʼ εὐχόμενος, τοῦ δʼ ἔκλυε Φοῖβος Ἀπόλλων,
+βῆ δὲ κατʼ Οὐλύμποιο καρήνων χωόμενος κῆρ,
+τόξʼ ὤμοισιν ἔχων ἀμφηρεφέα τε φαρέτρην·
+ἔκλαγξαν δʼ ἄρʼ ὀϊστοὶ ἐπʼ ὤμων χωομένοιο,
+αὐτοῦ κινηθέντος· ὃ δʼ ἤϊε νυκτὶ ἐοικώς.
+ἕζετʼ ἔπειτʼ ἀπάνευθε νεῶν, μετὰ δʼ ἰὸν ἕηκε·
+δεινὴ δὲ κλαγγὴ γένετʼ ἀργυρέοιο βιοῖο·
+οὐρῆας μὲν πρῶτον ἐπῴχετο καὶ κύνας ἀργούς,
+αὐτὰρ ἔπειτʼ αὐτοῖσι βέλος ἐχεπευκὲς ἐφιεὶς
+βάλλʼ· αἰεὶ δὲ πυραὶ νεκύων καίοντο θαμειαί.
+
+ἐννῆμαρ μὲν ἀνὰ στρατὸν ᾤχετο κῆλα θεοῖο,
+τῇ δεκάτῃ δʼ ἀγορὴν δὲ καλέσσατο λαὸν Ἀχιλλεύς·
+τῷ γὰρ ἐπὶ φρεσὶ θῆκε θεὰ λευκώλενος Ἥρη·
+κήδετο γὰρ Δαναῶν, ὅτι ῥα θνήσκοντας ὁρᾶτο.
+οἳ δʼ ἐπεὶ οὖν ἤγερθεν ὁμηγερέες τε γένοντο,
+τοῖσι δʼ ἀνιστάμενος μετέφη πόδας ὠκὺς Ἀχιλλεύς·
+
+Ἀτρεΐδη νῦν ἄμμε παλιμπλαγχθέντας ὀΐω
+ἂψ ἀπονοστήσειν, εἴ κεν θάνατόν γε φύγοιμεν,
+εἰ δὴ ὁμοῦ πόλεμός τε δαμᾷ καὶ λοιμὸς Ἀχαιούς·
+ἀλλʼ ἄγε δή τινα μάντιν ἐρείομεν ἢ ἱερῆα
+ἢ καὶ ὀνειροπόλον, καὶ γάρ τʼ ὄναρ ἐκ Διός ἐστιν,
+ὅς κʼ εἴποι ὅ τι τόσσον ἐχώσατο Φοῖβος Ἀπόλλων,
+εἴτʼ ἄρʼ ὅ γʼ εὐχωλῆς ἐπιμέμφεται ἠδʼ ἑκατόμβης,
+αἴ κέν πως ἀρνῶν κνίσης αἰγῶν τε τελείων
+βούλεται ἀντιάσας ἡμῖν ἀπὸ λοιγὸν ἀμῦναι.
+
+
+ἤτοι ὅ γʼ ὣς εἰπὼν κατʼ ἄρʼ ἕζετο· τοῖσι δʼ ἀνέστη
+Κάλχας Θεστορίδης οἰωνοπόλων ὄχʼ ἄριστος,
+ὃς ᾔδη τά τʼ ἐόντα τά τʼ ἐσσόμενα πρό τʼ ἐόντα,
+καὶ νήεσσʼ ἡγήσατʼ Ἀχαιῶν Ἴλιον εἴσω
+ἣν διὰ μαντοσύνην, τήν οἱ πόρε Φοῖβος Ἀπόλλων·
+ὅ σφιν ἐὺ φρονέων ἀγορήσατο καὶ μετέειπεν·
+
+ὦ Ἀχιλεῦ κέλεαί με Διῒ φίλε μυθήσασθαι
+μῆνιν Ἀπόλλωνος ἑκατηβελέταο ἄνακτος·
+τοὶ γὰρ ἐγὼν ἐρέω· σὺ δὲ σύνθεο καί μοι ὄμοσσον
+ἦ μέν μοι πρόφρων ἔπεσιν καὶ χερσὶν ἀρήξειν·
+ἦ γὰρ ὀΐομαι ἄνδρα χολωσέμεν, ὃς μέγα πάντων
+Ἀργείων κρατέει καί οἱ πείθονται Ἀχαιοί·
+κρείσσων γὰρ βασιλεὺς ὅτε χώσεται ἀνδρὶ χέρηϊ·
+εἴ περ γάρ τε χόλον γε καὶ αὐτῆμαρ καταπέψῃ,
+ἀλλά τε καὶ μετόπισθεν ἔχει κότον, ὄφρα τελέσσῃ,
+ἐν στήθεσσιν ἑοῖσι· σὺ δὲ φράσαι εἴ με σαώσεις.
+
+
+τὸν δʼ ἀπαμειβόμενος προσέφη πόδας ὠκὺς Ἀχιλλεύς·
+
+θαρσήσας μάλα εἰπὲ θεοπρόπιον ὅ τι οἶσθα·
+οὐ μὰ γὰρ Ἀπόλλωνα Διῒ φίλον, ᾧ τε σὺ Κάλχαν
+εὐχόμενος Δαναοῖσι θεοπροπίας ἀναφαίνεις,
+οὔ τις ἐμεῦ ζῶντος καὶ ἐπὶ χθονὶ δερκομένοιο
+σοὶ κοίλῃς παρὰ νηυσί βαρείας χεῖρας ἐποίσει
+συμπάντων Δαναῶν, οὐδʼ ἢν Ἀγαμέμνονα εἴπῃς,
+ὃς νῦν πολλὸν ἄριστος Ἀχαιῶν εὔχεται εἶναι.
+
+
+καὶ τότε δὴ θάρσησε καὶ ηὔδα μάντις ἀμύμων·
+
+οὔ τʼ ἄρ ὅ γʼ εὐχωλῆς ἐπιμέμφεται οὐδʼ ἑκατόμβης,
+ἀλλʼ ἕνεκʼ ἀρητῆρος ὃν ἠτίμησʼ Ἀγαμέμνων,
+οὐδʼ ἀπέλυσε θύγατρα καὶ οὐκ ἀπεδέξατʼ ἄποινα,
+τοὔνεκʼ ἄρʼ ἄλγεʼ ἔδωκεν ἑκηβόλος ἠδʼ ἔτι δώσει·
+οὐδʼ ὅ γε πρὶν Δαναοῖσιν ἀεικέα λοιγὸν ἀπώσει
+πρίν γʼ ἀπὸ πατρὶ φίλῳ δόμεναι ἑλικώπιδα κούρην
+ἀπριάτην ἀνάποινον, ἄγειν θʼ ἱερὴν ἑκατόμβην
+ἐς Χρύσην· τότε κέν μιν ἱλασσάμενοι πεπίθοιμεν.
+
+
+ἤτοι ὅ γʼ ὣς εἰπὼν κατʼ ἄρʼ ἕζετο· τοῖσι δʼ ἀνέστη
+ἥρως Ἀτρεΐδης εὐρὺ κρείων Ἀγαμέμνων
+ἀχνύμενος· μένεος δὲ μέγα φρένες ἀμφιμέλαιναι
+πίμπλαντʼ, ὄσσε δέ οἱ πυρὶ λαμπετόωντι ἐΐκτην·
+Κάλχαντα πρώτιστα κάκʼ ὀσσόμενος προσέειπε·
+
+μάντι κακῶν οὐ πώ ποτέ μοι τὸ κρήγυον εἶπας·
+αἰεί τοι τὰ κάκʼ ἐστὶ φίλα φρεσὶ μαντεύεσθαι,
+ἐσθλὸν δʼ οὔτέ τί πω εἶπας ἔπος οὔτʼ ἐτέλεσσας·
+καὶ νῦν ἐν Δαναοῖσι θεοπροπέων ἀγορεύεις
+ὡς δὴ τοῦδʼ ἕνεκά σφιν ἑκηβόλος ἄλγεα τεύχει,
+οὕνεκʼ ἐγὼ κούρης Χρυσηΐδος ἀγλάʼ ἄποινα
+οὐκ ἔθελον δέξασθαι, ἐπεὶ πολὺ βούλομαι αὐτὴν
+οἴκοι ἔχειν· καὶ γάρ ῥα Κλυταιμνήστρης προβέβουλα
+κουριδίης ἀλόχου, ἐπεὶ οὔ ἑθέν ἐστι χερείων,
+οὐ δέμας οὐδὲ φυήν, οὔτʼ ἂρ φρένας οὔτέ τι ἔργα.
+ἀλλὰ καὶ ὧς ἐθέλω δόμεναι πάλιν εἰ τό γʼ ἄμεινον·
+βούλομʼ ἐγὼ λαὸν σῶν ἔμμεναι ἢ ἀπολέσθαι·
+αὐτὰρ ἐμοὶ γέρας αὐτίχʼ ἑτοιμάσατʼ ὄφρα μὴ οἶος
+Ἀργείων ἀγέραστος ἔω, ἐπεὶ οὐδὲ ἔοικε·
+λεύσσετε γὰρ τό γε πάντες ὅ μοι γέρας ἔρχεται ἄλλῃ.
+
+
+τὸν δʼ ἠμείβετʼ ἔπειτα ποδάρκης δῖος Ἀχιλλεύς·
+
+Ἀτρεΐδη κύδιστε φιλοκτεανώτατε πάντων,
+πῶς γάρ τοι δώσουσι γέρας μεγάθυμοι Ἀχαιοί;
+οὐδέ τί που ἴδμεν ξυνήϊα κείμενα πολλά·
+ἀλλὰ τὰ μὲν πολίων ἐξεπράθομεν, τὰ δέδασται,
+λαοὺς δʼ οὐκ ἐπέοικε παλίλλογα ταῦτʼ ἐπαγείρειν.
+ἀλλὰ σὺ μὲν νῦν τήνδε θεῷ πρόες· αὐτὰρ Ἀχαιοὶ
+τριπλῇ τετραπλῇ τʼ ἀποτείσομεν, αἴ κέ ποθι Ζεὺς
+δῷσι πόλιν Τροίην εὐτείχεον ἐξαλαπάξαι.
+
+
+τὸν δʼ ἀπαμειβόμενος προσέφη κρείων Ἀγαμέμνων·
+
+μὴ δʼ οὕτως ἀγαθός περ ἐὼν θεοείκελʼ Ἀχιλλεῦ
+κλέπτε νόῳ, ἐπεὶ οὐ παρελεύσεαι οὐδέ με πείσεις.
+ἦ ἐθέλεις ὄφρʼ αὐτὸς ἔχῃς γέρας, αὐτὰρ ἔμʼ αὔτως
+ἧσθαι δευόμενον, κέλεαι δέ με τήνδʼ ἀποδοῦναι;
+ἀλλʼ εἰ μὲν δώσουσι γέρας μεγάθυμοι Ἀχαιοὶ
+ἄρσαντες κατὰ θυμὸν ὅπως ἀντάξιον ἔσται·
+εἰ δέ κε μὴ δώωσιν ἐγὼ δέ κεν αὐτὸς ἕλωμαι
+ἢ τεὸν ἢ Αἴαντος ἰὼν γέρας, ἢ Ὀδυσῆος
+ἄξω ἑλών· ὃ δέ κεν κεχολώσεται ὅν κεν ἵκωμαι.
+ἀλλʼ ἤτοι μὲν ταῦτα μεταφρασόμεσθα καὶ αὖτις,
+νῦν δʼ ἄγε νῆα μέλαιναν ἐρύσσομεν εἰς ἅλα δῖαν,
+ἐν δʼ ἐρέτας ἐπιτηδὲς ἀγείρομεν, ἐς δʼ ἑκατόμβην
+θείομεν, ἂν δʼ αὐτὴν Χρυσηΐδα καλλιπάρῃον
+βήσομεν· εἷς δέ τις ἀρχὸς ἀνὴρ βουληφόρος ἔστω,
+ἢ Αἴας ἢ Ἰδομενεὺς ἢ δῖος Ὀδυσσεὺς
+ἠὲ σὺ Πηλεΐδη πάντων ἐκπαγλότατʼ ἀνδρῶν,
+ὄφρʼ ἥμιν ἑκάεργον ἱλάσσεαι ἱερὰ ῥέξας.
+
+
+τὸν δʼ ἄρʼ ὑπόδρα ἰδὼν προσέφη πόδας ὠκὺς Ἀχιλλεύς·
+
+ὤ μοι ἀναιδείην ἐπιειμένε κερδαλεόφρον
+πῶς τίς τοι πρόφρων ἔπεσιν πείθηται Ἀχαιῶν
+ἢ ὁδὸν ἐλθέμεναι ἢ ἀνδράσιν ἶφι μάχεσθαι;
+οὐ γὰρ ἐγὼ Τρώων ἕνεκʼ ἤλυθον αἰχμητάων
+δεῦρο μαχησόμενος, ἐπεὶ οὔ τί μοι αἴτιοί εἰσιν·
+οὐ γὰρ πώποτʼ ἐμὰς βοῦς ἤλασαν οὐδὲ μὲν ἵππους,
+οὐδέ ποτʼ ἐν Φθίῃ ἐριβώλακι βωτιανείρῃ
+καρπὸν ἐδηλήσαντʼ, ἐπεὶ ἦ μάλα πολλὰ μεταξὺ
+οὔρεά τε σκιόεντα θάλασσά τε ἠχήεσσα·
+ἀλλὰ σοὶ ὦ μέγʼ ἀναιδὲς ἅμʼ ἑσπόμεθʼ ὄφρα σὺ χαίρῃς,
+τιμὴν ἀρνύμενοι Μενελάῳ σοί τε κυνῶπα
+πρὸς Τρώων· τῶν οὔ τι μετατρέπῃ οὐδʼ ἀλεγίζεις·
+καὶ δή μοι γέρας αὐτὸς ἀφαιρήσεσθαι ἀπειλεῖς,
+ᾧ ἔπι πολλὰ μόγησα, δόσαν δέ μοι υἷες Ἀχαιῶν.
+οὐ μὲν σοί ποτε ἶσον ἔχω γέρας ὁππότʼ Ἀχαιοὶ
+Τρώων ἐκπέρσωσʼ εὖ ναιόμενον πτολίεθρον·
+ἀλλὰ τὸ μὲν πλεῖον πολυάϊκος πολέμοιο
+χεῖρες ἐμαὶ διέπουσʼ· ἀτὰρ ἤν ποτε δασμὸς ἵκηται,
+σοὶ τὸ γέρας πολὺ μεῖζον, ἐγὼ δʼ ὀλίγον τε φίλον τε
+ἔρχομʼ ἔχων ἐπὶ νῆας, ἐπεί κε κάμω πολεμίζων.
+νῦν δʼ εἶμι Φθίην δʼ, ἐπεὶ ἦ πολὺ φέρτερόν ἐστιν
+οἴκαδʼ ἴμεν σὺν νηυσὶ κορωνίσιν, οὐδέ σʼ ὀΐω
+ἐνθάδʼ ἄτιμος ἐὼν ἄφενος καὶ πλοῦτον ἀφύξειν.
+
+
+τὸν δʼ ἠμείβετʼ ἔπειτα ἄναξ ἀνδρῶν Ἀγαμέμνων·
+
+φεῦγε μάλʼ εἴ τοι θυμὸς ἐπέσσυται, οὐδέ σʼ ἔγωγε
+λίσσομαι εἵνεκʼ ἐμεῖο μένειν· πάρʼ ἔμοιγε καὶ ἄλλοι
+οἵ κέ με τιμήσουσι, μάλιστα δὲ μητίετα Ζεύς.
+ἔχθιστος δέ μοί ἐσσι διοτρεφέων βασιλήων·
+αἰεὶ γάρ τοι ἔρις τε φίλη πόλεμοί τε μάχαι τε·
+εἰ μάλα καρτερός ἐσσι, θεός που σοὶ τό γʼ ἔδωκεν·
+οἴκαδʼ ἰὼν σὺν νηυσί τε σῇς καὶ σοῖς ἑτάροισι
+Μυρμιδόνεσσιν ἄνασσε, σέθεν δʼ ἐγὼ οὐκ ἀλεγίζω,
+οὐδʼ ὄθομαι κοτέοντος· ἀπειλήσω δέ τοι ὧδε·
+ὡς ἔμʼ ἀφαιρεῖται Χρυσηΐδα Φοῖβος Ἀπόλλων,
+τὴν μὲν ἐγὼ σὺν νηΐ τʼ ἐμῇ καὶ ἐμοῖς ἑτάροισι
+πέμψω, ἐγὼ δέ κʼ ἄγω Βρισηΐδα καλλιπάρῃον
+αὐτὸς ἰὼν κλισίην δὲ τὸ σὸν γέρας ὄφρʼ ἐῢ εἰδῇς
+ὅσσον φέρτερός εἰμι σέθεν, στυγέῃ δὲ καὶ ἄλλος
+ἶσον ἐμοὶ φάσθαι καὶ ὁμοιωθήμεναι ἄντην.
+
+
+ὣς φάτο· Πηλεΐωνι δʼ ἄχος γένετʼ, ἐν δέ οἱ ἦτορ
+στήθεσσιν λασίοισι διάνδιχα μερμήριξεν,
+ἢ ὅ γε φάσγανον ὀξὺ ἐρυσσάμενος παρὰ μηροῦ
+τοὺς μὲν ἀναστήσειεν, ὃ δʼ Ἀτρεΐδην ἐναρίζοι,
+ἦε χόλον παύσειεν ἐρητύσειέ τε θυμόν.
+ἧος ὃ ταῦθʼ ὥρμαινε κατὰ φρένα καὶ κατὰ θυμόν,
+ἕλκετο δʼ ἐκ κολεοῖο μέγα ξίφος, ἦλθε δʼ Ἀθήνη
+οὐρανόθεν· πρὸ γὰρ ἧκε θεὰ λευκώλενος Ἥρη
+ἄμφω ὁμῶς θυμῷ φιλέουσά τε κηδομένη τε·
+στῆ δʼ ὄπιθεν, ξανθῆς δὲ κόμης ἕλε Πηλεΐωνα
+οἴῳ φαινομένη· τῶν δʼ ἄλλων οὔ τις ὁρᾶτο·
+θάμβησεν δʼ Ἀχιλεύς, μετὰ δʼ ἐτράπετʼ, αὐτίκα δʼ ἔγνω
+Παλλάδʼ Ἀθηναίην· δεινὼ δέ οἱ ὄσσε φάανθεν·
+καί μιν φωνήσας ἔπεα πτερόεντα προσηύδα·
+
+τίπτʼ αὖτʼ αἰγιόχοιο Διὸς τέκος εἰλήλουθας;
+ἦ ἵνα ὕβριν ἴδῃ Ἀγαμέμνονος Ἀτρεΐδαο;
+ἀλλʼ ἔκ τοι ἐρέω, τὸ δὲ καὶ τελέεσθαι ὀΐω·
+ᾗς ὑπεροπλίῃσι τάχʼ ἄν ποτε θυμὸν ὀλέσσῃ.
+
+
+τὸν δʼ αὖτε προσέειπε θεὰ γλαυκῶπις Ἀθήνη·
+
+ἦλθον ἐγὼ παύσουσα τὸ σὸν μένος, αἴ κε πίθηαι,
+οὐρανόθεν· πρὸ δέ μʼ ἧκε θεὰ λευκώλενος Ἥρη
+ἄμφω ὁμῶς θυμῷ φιλέουσά τε κηδομένη τε·
+ἀλλʼ ἄγε λῆγʼ ἔριδος, μηδὲ ξίφος ἕλκεο χειρί·
+ἀλλʼ ἤτοι ἔπεσιν μὲν ὀνείδισον ὡς ἔσεταί περ·
+ὧδε γὰρ ἐξερέω, τὸ δὲ καὶ τετελεσμένον ἔσται·
+καί ποτέ τοι τρὶς τόσσα παρέσσεται ἀγλαὰ δῶρα
+ὕβριος εἵνεκα τῆσδε· σὺ δʼ ἴσχεο, πείθεο δʼ ἡμῖν.
+
+
+τὴν δʼ ἀπαμειβόμενος προσέφη πόδας ὠκὺς Ἀχιλλεύς·
+
+χρὴ μὲν σφωΐτερόν γε θεὰ ἔπος εἰρύσσασθαι
+καὶ μάλα περ θυμῷ κεχολωμένον· ὧς γὰρ ἄμεινον·
+ὅς κε θεοῖς ἐπιπείθηται μάλα τʼ ἔκλυον αὐτοῦ.
+
+
+ἦ καὶ ἐπʼ ἀργυρέῃ κώπῃ σχέθε χεῖρα βαρεῖαν,
+ἂψ δʼ ἐς κουλεὸν ὦσε μέγα ξίφος, οὐδʼ ἀπίθησε
+μύθῳ Ἀθηναίης· ἣ δʼ Οὔλυμπον δὲ βεβήκει
+δώματʼ ἐς αἰγιόχοιο Διὸς μετὰ δαίμονας ἄλλους.
+
+Πηλεΐδης δʼ ἐξαῦτις ἀταρτηροῖς ἐπέεσσιν
+Ἀτρεΐδην προσέειπε, καὶ οὔ πω λῆγε χόλοιο·
+
+οἰνοβαρές, κυνὸς ὄμματʼ ἔχων, κραδίην δʼ ἐλάφοιο,
+οὔτέ ποτʼ ἐς πόλεμον ἅμα λαῷ θωρηχθῆναι
+οὔτε λόχον δʼ ἰέναι σὺν ἀριστήεσσιν Ἀχαιῶν
+τέτληκας θυμῷ· τὸ δέ τοι κὴρ εἴδεται εἶναι.
+ἦ πολὺ λώϊόν ἐστι κατὰ στρατὸν εὐρὺν Ἀχαιῶν
+δῶρʼ ἀποαιρεῖσθαι ὅς τις σέθεν ἀντίον εἴπῃ·
+δημοβόρος βασιλεὺς ἐπεὶ οὐτιδανοῖσιν ἀνάσσεις·
+ἦ γὰρ ἂν Ἀτρεΐδη νῦν ὕστατα λωβήσαιο.
+ἀλλʼ ἔκ τοι ἐρέω καὶ ἐπὶ μέγαν ὅρκον ὀμοῦμαι·
+ναὶ μὰ τόδε σκῆπτρον, τὸ μὲν οὔ ποτε φύλλα καὶ ὄζους
+φύσει, ἐπεὶ δὴ πρῶτα τομὴν ἐν ὄρεσσι λέλοιπεν,
+οὐδʼ ἀναθηλήσει· περὶ γάρ ῥά ἑ χαλκὸς ἔλεψε
+φύλλά τε καὶ φλοιόν· νῦν αὖτέ μιν υἷες Ἀχαιῶν
+ἐν παλάμῃς φορέουσι δικασπόλοι, οἵ τε θέμιστας
+πρὸς Διὸς εἰρύαται· ὃ δέ τοι μέγας ἔσσεται ὅρκος·
+ἦ ποτʼ Ἀχιλλῆος ποθὴ ἵξεται υἷας Ἀχαιῶν
+σύμπαντας· τότε δʼ οὔ τι δυνήσεαι ἀχνύμενός περ
+χραισμεῖν, εὖτʼ ἂν πολλοὶ ὑφʼ Ἕκτορος ἀνδροφόνοιο
+θνήσκοντες πίπτωσι· σὺ δʼ ἔνδοθι θυμὸν ἀμύξεις
+χωόμενος ὅ τʼ ἄριστον Ἀχαιῶν οὐδὲν ἔτισας.
+
+
+ὣς φάτο Πηλεΐδης, ποτὶ δὲ σκῆπτρον βάλε γαίῃ
+χρυσείοις ἥλοισι πεπαρμένον, ἕζετο δʼ αὐτός·
+Ἀτρεΐδης δʼ ἑτέρωθεν ἐμήνιε· τοῖσι δὲ Νέστωρ
+ἡδυεπὴς ἀνόρουσε λιγὺς Πυλίων ἀγορητής,
+τοῦ καὶ ἀπὸ γλώσσης μέλιτος γλυκίων ῥέεν αὐδή·
+τῷ δʼ ἤδη δύο μὲν γενεαὶ μερόπων ἀνθρώπων
+ἐφθίαθʼ, οἵ οἱ πρόσθεν ἅμα τράφεν ἠδʼ ἐγένοντο
+ἐν Πύλῳ ἠγαθέῃ, μετὰ δὲ τριτάτοισιν ἄνασσεν·
+ὅ σφιν ἐὺ φρονέων ἀγορήσατο καὶ μετέειπεν·
+
+ὦ πόποι ἦ μέγα πένθος Ἀχαιΐδα γαῖαν ἱκάνει·
+ἦ κεν γηθήσαι Πρίαμος Πριάμοιό τε παῖδες
+ἄλλοι τε Τρῶες μέγα κεν κεχαροίατο θυμῷ
+εἰ σφῶϊν τάδε πάντα πυθοίατο μαρναμένοιϊν,
+οἳ περὶ μὲν βουλὴν Δαναῶν, περὶ δʼ ἐστὲ μάχεσθαι.
+ἀλλὰ πίθεσθʼ· ἄμφω δὲ νεωτέρω ἐστὸν ἐμεῖο·
+ἤδη γάρ ποτʼ ἐγὼ καὶ ἀρείοσιν ἠέ περ ὑμῖν
+ἀνδράσιν ὡμίλησα, καὶ οὔ ποτέ μʼ οἵ γʼ ἀθέριζον.
+οὐ γάρ πω τοίους ἴδον ἀνέρας οὐδὲ ἴδωμαι,
+οἷον Πειρίθοόν τε Δρύαντά τε ποιμένα λαῶν
+Καινέα τʼ Ἐξάδιόν τε καὶ ἀντίθεον Πολύφημον
+Θησέα τʼ Αἰγεΐδην, ἐπιείκελον ἀθανάτοισιν·
+κάρτιστοι δὴ κεῖνοι ἐπιχθονίων τράφεν ἀνδρῶν·
+κάρτιστοι μὲν ἔσαν καὶ καρτίστοις ἐμάχοντο
+φηρσὶν ὀρεσκῴοισι καὶ ἐκπάγλως ἀπόλεσσαν.
+καὶ μὲν τοῖσιν ἐγὼ μεθομίλεον ἐκ Πύλου ἐλθὼν
+τηλόθεν ἐξ ἀπίης γαίης· καλέσαντο γὰρ αὐτοί·
+καὶ μαχόμην κατʼ ἔμʼ αὐτὸν ἐγώ· κείνοισι δʼ ἂν οὔ τις
+τῶν οἳ νῦν βροτοί εἰσιν ἐπιχθόνιοι μαχέοιτο·
+καὶ μέν μευ βουλέων ξύνιεν πείθοντό τε μύθῳ·
+ἀλλὰ πίθεσθε καὶ ὔμμες, ἐπεὶ πείθεσθαι ἄμεινον·
+μήτε σὺ τόνδʼ ἀγαθός περ ἐὼν ἀποαίρεο κούρην,
+ἀλλʼ ἔα ὥς οἱ πρῶτα δόσαν γέρας υἷες Ἀχαιῶν·
+μήτε σὺ Πηλείδη ἔθελʼ ἐριζέμεναι βασιλῆϊ
+ἀντιβίην, ἐπεὶ οὔ ποθʼ ὁμοίης ἔμμορε τιμῆς
+σκηπτοῦχος βασιλεύς, ᾧ τε Ζεὺς κῦδος ἔδωκεν.
+εἰ δὲ σὺ καρτερός ἐσσι θεὰ δέ σε γείνατο μήτηρ,
+ἀλλʼ ὅ γε φέρτερός ἐστιν ἐπεὶ πλεόνεσσιν ἀνάσσει.
+Ἀτρεΐδη σὺ δὲ παῦε τεὸν μένος· αὐτὰρ ἔγωγε
+λίσσομʼ Ἀχιλλῆϊ μεθέμεν χόλον, ὃς μέγα πᾶσιν
+ἕρκος Ἀχαιοῖσιν πέλεται πολέμοιο κακοῖο.
+
+
+τὸν δʼ ἀπαμειβόμενος προσέφη κρείων Ἀγαμέμνων·
+
+ναὶ δὴ ταῦτά γε πάντα γέρον κατὰ μοῖραν ἔειπες·
+ἀλλʼ ὅδʼ ἀνὴρ ἐθέλει περὶ πάντων ἔμμεναι ἄλλων,
+πάντων μὲν κρατέειν ἐθέλει, πάντεσσι δʼ ἀνάσσειν,
+πᾶσι δὲ σημαίνειν, ἅ τινʼ οὐ πείσεσθαι ὀΐω·
+εἰ δέ μιν αἰχμητὴν ἔθεσαν θεοὶ αἰὲν ἐόντες
+τοὔνεκά οἱ προθέουσιν ὀνείδεα μυθήσασθαι;
+
+
+τὸν δʼ ἄρʼ ὑποβλήδην ἠμείβετο δῖος Ἀχιλλεύς·
+
+ἦ γάρ κεν δειλός τε καὶ οὐτιδανὸς καλεοίμην
+εἰ δὴ σοὶ πᾶν ἔργον ὑπείξομαι ὅττί κεν εἴπῃς·
+ἄλλοισιν δὴ ταῦτʼ ἐπιτέλλεο, μὴ γὰρ ἔμοιγε
+σήμαινʼ· οὐ γὰρ ἔγωγʼ ἔτι σοὶ πείσεσθαι ὀΐω.
+ἄλλο δέ τοι ἐρέω, σὺ δʼ ἐνὶ φρεσὶ βάλλεο σῇσι·
+χερσὶ μὲν οὔ τοι ἔγωγε μαχήσομαι εἵνεκα κούρης
+οὔτε σοὶ οὔτέ τῳ ἄλλῳ, ἐπεί μʼ ἀφέλεσθέ γε δόντες·
+τῶν δʼ ἄλλων ἅ μοί ἐστι θοῇ παρὰ νηῒ μελαίνῃ
+τῶν οὐκ ἄν τι φέροις ἀνελὼν ἀέκοντος ἐμεῖο·
+εἰ δʼ ἄγε μὴν πείρησαι ἵνα γνώωσι καὶ οἵδε·
+αἶψά τοι αἷμα κελαινὸν ἐρωήσει περὶ δουρί.
+
+
+ὣς τώ γʼ ἀντιβίοισι μαχεσσαμένω ἐπέεσσιν
+ἀνστήτην, λῦσαν δʼ ἀγορὴν παρὰ νηυσὶν Ἀχαιῶν·
+Πηλεΐδης μὲν ἐπὶ κλισίας καὶ νῆας ἐΐσας
+ἤϊε σύν τε Μενοιτιάδῃ καὶ οἷς ἑτάροισιν·
+Ἀτρεΐδης δʼ ἄρα νῆα θοὴν ἅλα δὲ προέρυσσεν,
+ἐν δʼ ἐρέτας ἔκρινεν ἐείκοσιν, ἐς δʼ ἑκατόμβην
+βῆσε θεῷ, ἀνὰ δὲ Χρυσηΐδα καλλιπάρῃον
+εἷσεν ἄγων· ἐν δʼ ἀρχὸς ἔβη πολύμητις Ὀδυσσεύς.
+
+οἳ μὲν ἔπειτʼ ἀναβάντες ἐπέπλεον ὑγρὰ κέλευθα,
+λαοὺς δʼ Ἀτρεΐδης ἀπολυμαίνεσθαι ἄνωγεν·
+οἳ δʼ ἀπελυμαίνοντο καὶ εἰς ἅλα λύματα βάλλον,
+ἕρδον δʼ Ἀπόλλωνι τεληέσσας ἑκατόμβας
+ταύρων ἠδʼ αἰγῶν παρὰ θῖνʼ ἁλὸς ἀτρυγέτοιο·
+κνίση δʼ οὐρανὸν ἷκεν ἑλισσομένη περὶ καπνῷ.
+
+ὣς οἳ μὲν τὰ πένοντο κατὰ στρατόν· οὐδʼ Ἀγαμέμνων
+λῆγʼ ἔριδος τὴν πρῶτον ἐπηπείλησʼ Ἀχιλῆϊ,
+ἀλλʼ ὅ γε Ταλθύβιόν τε καὶ Εὐρυβάτην προσέειπε,
+τώ οἱ ἔσαν κήρυκε καὶ ὀτρηρὼ θεράποντε·
+
+ἔρχεσθον κλισίην Πηληϊάδεω Ἀχιλῆος·
+χειρὸς ἑλόντʼ ἀγέμεν Βρισηΐδα καλλιπάρῃον·
+εἰ δέ κε μὴ δώῃσιν ἐγὼ δέ κεν αὐτὸς ἕλωμαι
+ἐλθὼν σὺν πλεόνεσσι· τό οἱ καὶ ῥίγιον ἔσται.
+
+
+ὣς εἰπὼν προΐει, κρατερὸν δʼ ἐπὶ μῦθον ἔτελλε·
+τὼ δʼ ἀέκοντε βάτην παρὰ θῖνʼ ἁλὸς ἀτρυγέτοιο,
+Μυρμιδόνων δʼ ἐπί τε κλισίας καὶ νῆας ἱκέσθην,
+τὸν δʼ εὗρον παρά τε κλισίῃ καὶ νηῒ μελαίνῃ
+ἥμενον· οὐδʼ ἄρα τώ γε ἰδὼν γήθησεν Ἀχιλλεύς.
+τὼ μὲν ταρβήσαντε καὶ αἰδομένω βασιλῆα
+στήτην, οὐδέ τί μιν προσεφώνεον οὐδʼ ἐρέοντο·
+αὐτὰρ ὃ ἔγνω ᾗσιν ἐνὶ φρεσὶ φώνησέν τε·
+
+χαίρετε κήρυκες Διὸς ἄγγελοι ἠδὲ καὶ ἀνδρῶν,
+ἆσσον ἴτʼ· οὔ τί μοι ὔμμες ἐπαίτιοι ἀλλʼ Ἀγαμέμνων,
+ὃ σφῶϊ προΐει Βρισηΐδος εἵνεκα κούρης.
+ἀλλʼ ἄγε διογενὲς Πατρόκλεες ἔξαγε κούρην
+καί σφωϊν δὸς ἄγειν· τὼ δʼ αὐτὼ μάρτυροι ἔστων
+πρός τε θεῶν μακάρων πρός τε θνητῶν ἀνθρώπων
+καὶ πρὸς τοῦ βασιλῆος ἀπηνέος εἴ ποτε δʼ αὖτε
+χρειὼ ἐμεῖο γένηται ἀεικέα λοιγὸν ἀμῦναι
+τοῖς ἄλλοις· ἦ γὰρ ὅ γʼ ὀλοιῇσι φρεσὶ θύει,
+οὐδέ τι οἶδε νοῆσαι ἅμα πρόσσω καὶ ὀπίσσω,
+ὅππως οἱ παρὰ νηυσὶ σόοι μαχέοιντο Ἀχαιοί.
+
+
+ὣς φάτο, Πάτροκλος δὲ φίλῳ ἐπεπείθεθʼ ἑταίρῳ,
+ἐκ δʼ ἄγαγε κλισίης Βρισηΐδα καλλιπάρῃον,
+δῶκε δʼ ἄγειν· τὼ δʼ αὖτις ἴτην παρὰ νῆας Ἀχαιῶν·
+ἣ δʼ ἀέκουσʼ ἅμα τοῖσι γυνὴ κίεν· αὐτὰρ Ἀχιλλεὺς
+δακρύσας ἑτάρων ἄφαρ ἕζετο νόσφι λιασθείς,
+θῖνʼ ἔφʼ ἁλὸς πολιῆς, ὁρόων ἐπʼ ἀπείρονα πόντον·
+πολλὰ δὲ μητρὶ φίλῃ ἠρήσατο χεῖρας ὀρεγνύς·
+
+μῆτερ ἐπεί μʼ ἔτεκές γε μινυνθάδιόν περ ἐόντα,
+τιμήν πέρ μοι ὄφελλεν Ὀλύμπιος ἐγγυαλίξαι
+Ζεὺς ὑψιβρεμέτης· νῦν δʼ οὐδέ με τυτθὸν ἔτισεν·
+ἦ γάρ μʼ Ἀτρεΐδης εὐρὺ κρείων Ἀγαμέμνων
+ἠτίμησεν· ἑλὼν γὰρ ἔχει γέρας αὐτὸς ἀπούρας.
+
+
+ὣς φάτο δάκρυ χέων, τοῦ δʼ ἔκλυε πότνια μήτηρ
+ἡμένη ἐν βένθεσσιν ἁλὸς παρὰ πατρὶ γέροντι·
+καρπαλίμως δʼ ἀνέδυ πολιῆς ἁλὸς ἠΰτʼ ὀμίχλη,
+καί ῥα πάροιθʼ αὐτοῖο καθέζετο δάκρυ χέοντος,
+χειρί τέ μιν κατέρεξεν ἔπος τʼ ἔφατʼ ἔκ τʼ ὀνόμαζε·
+
+τέκνον τί κλαίεις; τί δέ σε φρένας ἵκετο πένθος;
+ἐξαύδα, μὴ κεῦθε νόῳ, ἵνα εἴδομεν ἄμφω.
+
+
+τὴν δὲ βαρὺ στενάχων προσέφη πόδας ὠκὺς Ἀχιλλεύς·
+
+οἶσθα· τί ἤ τοι ταῦτα ἰδυίῃ πάντʼ ἀγορεύω;
+ᾠχόμεθʼ ἐς Θήβην ἱερὴν πόλιν Ἠετίωνος,
+τὴν δὲ διεπράθομέν τε καὶ ἤγομεν ἐνθάδε πάντα·
+καὶ τὰ μὲν εὖ δάσσαντο μετὰ σφίσιν υἷες Ἀχαιῶν,
+ἐκ δʼ ἕλον Ἀτρεΐδῃ Χρυσηΐδα καλλιπάρῃον.
+Χρύσης δʼ αὖθʼ ἱερεὺς ἑκατηβόλου Ἀπόλλωνος
+ἦλθε θοὰς ἐπὶ νῆας Ἀχαιῶν χαλκοχιτώνων
+λυσόμενός τε θύγατρα φέρων τʼ ἀπερείσιʼ ἄποινα,
+στέμματʼ ἔχων ἐν χερσὶν ἑκηβόλου Ἀπόλλωνος
+χρυσέῳ ἀνὰ σκήπτρῳ, καὶ λίσσετο πάντας Ἀχαιούς,
+Ἀτρεΐδα δὲ μάλιστα δύω κοσμήτορε λαῶν.
+ἔνθʼ ἄλλοι μὲν πάντες ἐπευφήμησαν Ἀχαιοὶ
+αἰδεῖσθαί θʼ ἱερῆα καὶ ἀγλαὰ δέχθαι ἄποινα·
+ἀλλʼ οὐκ Ἀτρεΐδῃ Ἀγαμέμνονι ἥνδανε θυμῷ,
+ἀλλὰ κακῶς ἀφίει, κρατερὸν δʼ ἐπὶ μῦθον ἔτελλε·
+χωόμενος δʼ ὁ γέρων πάλιν ᾤχετο· τοῖο δʼ Ἀπόλλων
+εὐξαμένου ἤκουσεν, ἐπεὶ μάλα οἱ φίλος ἦεν,
+ἧκε δʼ ἐπʼ Ἀργείοισι κακὸν βέλος· οἳ δέ νυ λαοὶ
+θνῇσκον ἐπασσύτεροι, τὰ δʼ ἐπῴχετο κῆλα θεοῖο
+πάντῃ ἀνὰ στρατὸν εὐρὺν Ἀχαιῶν· ἄμμι δὲ μάντις
+εὖ εἰδὼς ἀγόρευε θεοπροπίας ἑκάτοιο.
+αὐτίκʼ ἐγὼ πρῶτος κελόμην θεὸν ἱλάσκεσθαι·
+Ἀτρεΐωνα δʼ ἔπειτα χόλος λάβεν, αἶψα δʼ ἀναστὰς
+ἠπείλησεν μῦθον ὃ δὴ τετελεσμένος ἐστί·
+τὴν μὲν γὰρ σὺν νηῒ θοῇ ἑλίκωπες Ἀχαιοὶ
+ἐς Χρύσην πέμπουσιν, ἄγουσι δὲ δῶρα ἄνακτι·
+τὴν δὲ νέον κλισίηθεν ἔβαν κήρυκες ἄγοντες
+κούρην Βρισῆος τήν μοι δόσαν υἷες Ἀχαιῶν.
+ἀλλὰ σὺ εἰ δύνασαί γε περίσχεο παιδὸς ἑῆος·
+ἐλθοῦσʼ Οὔλυμπον δὲ Δία λίσαι, εἴ ποτε δή τι
+ἢ ἔπει ὤνησας κραδίην Διὸς ἠὲ καὶ ἔργῳ.
+πολλάκι γάρ σεο πατρὸς ἐνὶ μεγάροισιν ἄκουσα
+εὐχομένης ὅτʼ ἔφησθα κελαινεφέϊ Κρονίωνι
+οἴη ἐν ἀθανάτοισιν ἀεικέα λοιγὸν ἀμῦναι,
+ὁππότε μιν ξυνδῆσαι Ὀλύμπιοι ἤθελον ἄλλοι
+Ἥρη τʼ ἠδὲ Ποσειδάων καὶ Παλλὰς Ἀθήνη·
+ἀλλὰ σὺ τόν γʼ ἐλθοῦσα θεὰ ὑπελύσαο δεσμῶν,
+ὦχʼ ἑκατόγχειρον καλέσασʼ ἐς μακρὸν Ὄλυμπον,
+ὃν Βριάρεων καλέουσι θεοί, ἄνδρες δέ τε πάντες
+Αἰγαίωνʼ, ὃ γὰρ αὖτε βίην οὗ πατρὸς ἀμείνων·
+ὅς ῥα παρὰ Κρονίωνι καθέζετο κύδεϊ γαίων·
+τὸν καὶ ὑπέδεισαν μάκαρες θεοὶ οὐδʼ ἔτʼ ἔδησαν.
+τῶν νῦν μιν μνήσασα παρέζεο καὶ λαβὲ γούνων
+αἴ κέν πως ἐθέλῃσιν ἐπὶ Τρώεσσιν ἀρῆξαι,
+τοὺς δὲ κατὰ πρύμνας τε καὶ ἀμφʼ ἅλα ἔλσαι Ἀχαιοὺς
+κτεινομένους, ἵνα πάντες ἐπαύρωνται βασιλῆος,
+γνῷ δὲ καὶ Ἀτρεΐδης εὐρὺ κρείων Ἀγαμέμνων
+ἣν ἄτην ὅ τʼ ἄριστον Ἀχαιῶν οὐδὲν ἔτισεν.
+
+
+τὸν δʼ ἠμείβετʼ ἔπειτα Θέτις κατὰ δάκρυ χέουσα·
+
+ὤ μοι τέκνον ἐμόν, τί νύ σʼ ἔτρεφον αἰνὰ τεκοῦσα;
+αἴθʼ ὄφελες παρὰ νηυσὶν ἀδάκρυτος καὶ ἀπήμων
+ἧσθαι, ἐπεί νύ τοι αἶσα μίνυνθά περ οὔ τι μάλα δήν·
+νῦν δʼ ἅμα τʼ ὠκύμορος καὶ ὀϊζυρὸς περὶ πάντων
+ἔπλεο· τώ σε κακῇ αἴσῃ τέκον ἐν μεγάροισι.
+τοῦτο δέ τοι ἐρέουσα ἔπος Διὶ τερπικεραύνῳ
+εἶμʼ αὐτὴ πρὸς Ὄλυμπον ἀγάννιφον αἴ κε πίθηται.
+ἀλλὰ σὺ μὲν νῦν νηυσὶ παρήμενος ὠκυπόροισι
+μήνιʼ Ἀχαιοῖσιν, πολέμου δʼ ἀποπαύεο πάμπαν·
+Ζεὺς γὰρ ἐς Ὠκεανὸν μετʼ ἀμύμονας Αἰθιοπῆας
+χθιζὸς ἔβη κατὰ δαῖτα, θεοὶ δʼ ἅμα πάντες ἕποντο·
+δωδεκάτῃ δέ τοι αὖτις ἐλεύσεται Οὔλυμπον δέ,
+καὶ τότʼ ἔπειτά τοι εἶμι Διὸς ποτὶ χαλκοβατὲς δῶ,
+καί μιν γουνάσομαι καί μιν πείσεσθαι ὀΐω.
+
+
+ὣς ἄρα φωνήσασʼ ἀπεβήσετο, τὸν δὲ λίπʼ αὐτοῦ
+χωόμενον κατὰ θυμὸν ἐϋζώνοιο γυναικὸς
+τήν ῥα βίῃ ἀέκοντος ἀπηύρων· αὐτὰρ Ὀδυσσεὺς
+ἐς Χρύσην ἵκανεν ἄγων ἱερὴν ἑκατόμβην.
+οἳ δʼ ὅτε δὴ λιμένος πολυβενθέος ἐντὸς ἵκοντο
+ἱστία μὲν στείλαντο, θέσαν δʼ ἐν νηῒ μελαίνῃ,
+ἱστὸν δʼ ἱστοδόκῃ πέλασαν προτόνοισιν ὑφέντες
+καρπαλίμως, τὴν δʼ εἰς ὅρμον προέρεσσαν ἐρετμοῖς.
+ἐκ δʼ εὐνὰς ἔβαλον, κατὰ δὲ πρυμνήσιʼ ἔδησαν·
+ἐκ δὲ καὶ αὐτοὶ βαῖνον ἐπὶ ῥηγμῖνι θαλάσσης,
+ἐκ δʼ ἑκατόμβην βῆσαν ἑκηβόλῳ Ἀπόλλωνι·
+ἐκ δὲ Χρυσηῒς νηὸς βῆ ποντοπόροιο.
+τὴν μὲν ἔπειτʼ ἐπὶ βωμὸν ἄγων πολύμητις Ὀδυσσεὺς
+πατρὶ φίλῳ ἐν χερσὶ τίθει καί μιν προσέειπεν·
+
+ὦ Χρύση, πρό μʼ ἔπεμψεν ἄναξ ἀνδρῶν Ἀγαμέμνων
+παῖδά τε σοὶ ἀγέμεν, Φοίβῳ θʼ ἱερὴν ἑκατόμβην
+ῥέξαι ὑπὲρ Δαναῶν ὄφρʼ ἱλασόμεσθα ἄνακτα,
+ὃς νῦν Ἀργείοισι πολύστονα κήδεʼ ἐφῆκεν.
+
+
+ὣς εἰπὼν ἐν χερσὶ τίθει, ὃ δὲ δέξατο χαίρων
+παῖδα φίλην· τοὶ δʼ ὦκα θεῷ ἱερὴν ἑκατόμβην
+ἑξείης ἔστησαν ἐΰδμητον περὶ βωμόν,
+χερνίψαντο δʼ ἔπειτα καὶ οὐλοχύτας ἀνέλοντο.
+τοῖσιν δὲ Χρύσης μεγάλʼ εὔχετο χεῖρας ἀνασχών·
+
+κλῦθί μευ ἀργυρότοξʼ, ὃς Χρύσην ἀμφιβέβηκας
+Κίλλαν τε ζαθέην Τενέδοιό τε ἶφι ἀνάσσεις·
+ἦ μὲν δή ποτʼ ἐμεῦ πάρος ἔκλυες εὐξαμένοιο,
+τίμησας μὲν ἐμέ, μέγα δʼ ἴψαο λαὸν Ἀχαιῶν·
+ἠδʼ ἔτι καὶ νῦν μοι τόδʼ ἐπικρήηνον ἐέλδωρ·
+ἤδη νῦν Δαναοῖσιν ἀεικέα λοιγὸν ἄμυνον.
+
+
+ὣς ἔφατʼ εὐχόμενος, τοῦ δʼ ἔκλυε Φοῖβος Ἀπόλλων.
+αὐτὰρ ἐπεί ῥʼ εὔξαντο καὶ οὐλοχύτας προβάλοντο,
+αὐέρυσαν μὲν πρῶτα καὶ ἔσφαξαν καὶ ἔδειραν,
+μηρούς τʼ ἐξέταμον κατά τε κνίσῃ ἐκάλυψαν
+δίπτυχα ποιήσαντες, ἐπʼ αὐτῶν δʼ ὠμοθέτησαν·
+καῖε δʼ ἐπὶ σχίζῃς ὁ γέρων, ἐπὶ δʼ αἴθοπα οἶνον
+λεῖβε· νέοι δὲ παρʼ αὐτὸν ἔχον πεμπώβολα χερσίν.
+αὐτὰρ ἐπεὶ κατὰ μῆρε κάη καὶ σπλάγχνα πάσαντο,
+μίστυλλόν τʼ ἄρα τἆλλα καὶ ἀμφʼ ὀβελοῖσιν ἔπειραν,
+ὤπτησάν τε περιφραδέως, ἐρύσαντό τε πάντα.
+αὐτὰρ ἐπεὶ παύσαντο πόνου τετύκοντό τε δαῖτα
+δαίνυντʼ, οὐδέ τι θυμὸς ἐδεύετο δαιτὸς ἐΐσης.
+αὐτὰρ ἐπεὶ πόσιος καὶ ἐδητύος ἐξ ἔρον ἕντο,
+κοῦροι μὲν κρητῆρας ἐπεστέψαντο ποτοῖο,
+νώμησαν δʼ ἄρα πᾶσιν ἐπαρξάμενοι δεπάεσσιν·
+οἳ δὲ πανημέριοι μολπῇ θεὸν ἱλάσκοντο
+καλὸν ἀείδοντες παιήονα κοῦροι Ἀχαιῶν
+μέλποντες ἑκάεργον· ὃ δὲ φρένα τέρπετʼ ἀκούων.
+
+ἦμος δʼ ἠέλιος κατέδυ καὶ ἐπὶ κνέφας ἦλθε,
+δὴ τότε κοιμήσαντο παρὰ πρυμνήσια νηός·
+ἦμος δʼ ἠριγένεια φάνη ῥοδοδάκτυλος Ἠώς,
+καὶ τότʼ ἔπειτʼ ἀνάγοντο μετὰ στρατὸν εὐρὺν Ἀχαιῶν·
+τοῖσιν δʼ ἴκμενον οὖρον ἵει ἑκάεργος Ἀπόλλων·
+οἳ δʼ ἱστὸν στήσαντʼ ἀνά θʼ ἱστία λευκὰ πέτασσαν,
+ἐν δʼ ἄνεμος πρῆσεν μέσον ἱστίον, ἀμφὶ δὲ κῦμα
+στείρῃ πορφύρεον μεγάλʼ ἴαχε νηὸς ἰούσης·
+ἣ δʼ ἔθεεν κατὰ κῦμα διαπρήσσουσα κέλευθον.
+αὐτὰρ ἐπεί ῥʼ ἵκοντο κατὰ στρατὸν εὐρὺν Ἀχαιῶν,
+νῆα μὲν οἵ γε μέλαιναν ἐπʼ ἠπείροιο ἔρυσσαν
+ὑψοῦ ἐπὶ ψαμάθοις, ὑπὸ δʼ ἕρματα μακρὰ τάνυσσαν·
+αὐτοὶ δʼ ἐσκίδναντο κατὰ κλισίας τε νέας τε.
+
+αὐτὰρ ὃ μήνιε νηυσὶ παρήμενος ὠκυπόροισι
+διογενὴς Πηλῆος υἱὸς πόδας ὠκὺς Ἀχιλλεύς·
+οὔτέ ποτʼ εἰς ἀγορὴν πωλέσκετο κυδιάνειραν
+οὔτέ ποτʼ ἐς πόλεμον, ἀλλὰ φθινύθεσκε φίλον κῆρ
+αὖθι μένων, ποθέεσκε δʼ ἀϋτήν τε πτόλεμόν τε.
+
+ἀλλʼ ὅτε δή ῥʼ ἐκ τοῖο δυωδεκάτη γένετʼ ἠώς,
+καὶ τότε δὴ πρὸς Ὄλυμπον ἴσαν θεοὶ αἰὲν ἐόντες
+πάντες ἅμα, Ζεὺς δʼ ἦρχε· Θέτις δʼ οὐ λήθετʼ ἐφετμέων
+παιδὸς ἑοῦ, ἀλλʼ ἥ γʼ ἀνεδύσετο κῦμα θαλάσσης.
+ἠερίη δʼ ἀνέβη μέγαν οὐρανὸν Οὔλυμπόν τε.
+εὗρεν δʼ εὐρύοπα Κρονίδην ἄτερ ἥμενον ἄλλων
+ἀκροτάτῃ κορυφῇ πολυδειράδος Οὐλύμποιο·
+καί ῥα πάροιθʼ αὐτοῖο καθέζετο, καὶ λάβε γούνων
+σκαιῇ, δεξιτερῇ δʼ ἄρʼ ὑπʼ ἀνθερεῶνος ἑλοῦσα
+λισσομένη προσέειπε Δία Κρονίωνα ἄνακτα·
+
+Ζεῦ πάτερ εἴ ποτε δή σε μετʼ ἀθανάτοισιν ὄνησα
+ἢ ἔπει ἢ ἔργῳ, τόδε μοι κρήηνον ἐέλδωρ·
+τίμησόν μοι υἱὸν ὃς ὠκυμορώτατος ἄλλων
+ἔπλετʼ· ἀτάρ μιν νῦν γε ἄναξ ἀνδρῶν Ἀγαμέμνων
+ἠτίμησεν· ἑλὼν γὰρ ἔχει γέρας αὐτὸς ἀπούρας.
+ἀλλὰ σύ πέρ μιν τῖσον Ὀλύμπιε μητίετα Ζεῦ·
+τόφρα δʼ ἐπὶ Τρώεσσι τίθει κράτος ὄφρʼ ἂν Ἀχαιοὶ
+υἱὸν ἐμὸν τίσωσιν ὀφέλλωσίν τέ ἑ τιμῇ.
+
+
+ὣς φάτο· τὴν δʼ οὔ τι προσέφη νεφεληγερέτα Ζεύς,
+ἀλλʼ ἀκέων δὴν ἧστο· Θέτις δʼ ὡς ἥψατο γούνων
+ὣς ἔχετʼ ἐμπεφυυῖα, καὶ εἴρετο δεύτερον αὖτις·
+
+νημερτὲς μὲν δή μοι ὑπόσχεο καὶ κατάνευσον
+ἢ ἀπόειπʼ, ἐπεὶ οὔ τοι ἔπι δέος, ὄφρʼ ἐῢ εἰδέω
+ὅσσον ἐγὼ μετὰ πᾶσιν ἀτιμοτάτη θεός εἰμι.
+
+
+τὴν δὲ μέγʼ ὀχθήσας προσέφη νεφεληγερέτα Ζεύς·
+
+ἦ δὴ λοίγια ἔργʼ ὅ τέ μʼ ἐχθοδοπῆσαι ἐφήσεις
+Ἥρῃ ὅτʼ ἄν μʼ ἐρέθῃσιν ὀνειδείοις ἐπέεσσιν·
+ἣ δὲ καὶ αὔτως μʼ αἰεὶ ἐν ἀθανάτοισι θεοῖσι
+νεικεῖ, καί τέ μέ φησι μάχῃ Τρώεσσιν ἀρήγειν.
+ἀλλὰ σὺ μὲν νῦν αὖτις ἀπόστιχε μή τι νοήσῃ
+Ἥρη· ἐμοὶ δέ κε ταῦτα μελήσεται ὄφρα τελέσσω·
+εἰ δʼ ἄγε τοι κεφαλῇ κατανεύσομαι ὄφρα πεποίθῃς·
+τοῦτο γὰρ ἐξ ἐμέθεν γε μετʼ ἀθανάτοισι μέγιστον
+τέκμωρ· οὐ γὰρ ἐμὸν παλινάγρετον οὐδʼ ἀπατηλὸν
+οὐδʼ ἀτελεύτητον ὅ τί κεν κεφαλῇ κατανεύσω.
+
+
+ἦ καὶ κυανέῃσιν ἐπʼ ὀφρύσι νεῦσε Κρονίων·
+ἀμβρόσιαι δʼ ἄρα χαῖται ἐπερρώσαντο ἄνακτος
+κρατὸς ἀπʼ ἀθανάτοιο· μέγαν δʼ ἐλέλιξεν Ὄλυμπον.
+
+τώ γʼ ὣς βουλεύσαντε διέτμαγεν· ἣ μὲν ἔπειτα
+εἰς ἅλα ἆλτο βαθεῖαν ἀπʼ αἰγλήεντος Ὀλύμπου,
+Ζεὺς δὲ ἑὸν πρὸς δῶμα· θεοὶ δʼ ἅμα πάντες ἀνέσταν
+ἐξ ἑδέων σφοῦ πατρὸς ἐναντίον· οὐδέ τις ἔτλη
+μεῖναι ἐπερχόμενον, ἀλλʼ ἀντίοι ἔσταν ἅπαντες.
+ὣς ὃ μὲν ἔνθα καθέζετʼ ἐπὶ θρόνου· οὐδέ μιν Ἥρη
+ἠγνοίησεν ἰδοῦσʼ ὅτι οἱ συμφράσσατο βουλὰς
+ἀργυρόπεζα Θέτις θυγάτηρ ἁλίοιο γέροντος.
+αὐτίκα κερτομίοισι Δία Κρονίωνα προσηύδα·
+
+τίς δʼ αὖ τοι δολομῆτα θεῶν συμφράσσατο βουλάς;
+αἰεί τοι φίλον ἐστὶν ἐμεῦ ἀπὸ νόσφιν ἐόντα
+κρυπτάδια φρονέοντα δικαζέμεν· οὐδέ τί πώ μοι
+πρόφρων τέτληκας εἰπεῖν ἔπος ὅττι νοήσῃς.
+
+
+τὴν δʼ ἠμείβετʼ ἔπειτα πατὴρ ἀνδρῶν τε θεῶν τε·
+
+Ἥρη μὴ δὴ πάντας ἐμοὺς ἐπιέλπεο μύθους
+εἰδήσειν· χαλεποί τοι ἔσοντʼ ἀλόχῳ περ ἐούσῃ·
+ἀλλʼ ὃν μέν κʼ ἐπιεικὲς ἀκουέμεν οὔ τις ἔπειτα
+οὔτε θεῶν πρότερος τὸν εἴσεται οὔτʼ ἀνθρώπων·
+ὃν δέ κʼ ἐγὼν ἀπάνευθε θεῶν ἐθέλωμι νοῆσαι
+μή τι σὺ ταῦτα ἕκαστα διείρεο μηδὲ μετάλλα.
+
+
+τὸν δʼ ἠμείβετʼ ἔπειτα βοῶπις πότνια Ἥρη·
+
+αἰνότατε Κρονίδη ποῖον τὸν μῦθον ἔειπες;
+καὶ λίην σε πάρος γʼ οὔτʼ εἴρομαι οὔτε μεταλλῶ,
+ἀλλὰ μάλʼ εὔκηλος τὰ φράζεαι ἅσσʼ ἐθέλῃσθα.
+νῦν δʼ αἰνῶς δείδοικα κατὰ φρένα μή σε παρείπῃ
+ἀργυρόπεζα Θέτις θυγάτηρ ἁλίοιο γέροντος·
+ἠερίη γὰρ σοί γε παρέζετο καὶ λάβε γούνων·
+τῇ σʼ ὀΐω κατανεῦσαι ἐτήτυμον ὡς Ἀχιλῆα
+τιμήσῃς, ὀλέσῃς δὲ πολέας ἐπὶ νηυσὶν Ἀχαιῶν.
+
+
+τὴν δʼ ἀπαμειβόμενος προσέφη νεφεληγερέτα Ζεύς·
+
+δαιμονίη αἰεὶ μὲν ὀΐεαι οὐδέ σε λήθω·
+πρῆξαι δʼ ἔμπης οὔ τι δυνήσεαι, ἀλλʼ ἀπὸ θυμοῦ
+μᾶλλον ἐμοὶ ἔσεαι· τὸ δέ τοι καὶ ῥίγιον ἔσται.
+εἰ δʼ οὕτω τοῦτʼ ἐστὶν ἐμοὶ μέλλει φίλον εἶναι·
+ἀλλʼ ἀκέουσα κάθησο, ἐμῷ δʼ ἐπιπείθεο μύθῳ,
+μή νύ τοι οὐ χραίσμωσιν ὅσοι θεοί εἰσʼ ἐν Ὀλύμπῳ
+ἆσσον ἰόνθʼ, ὅτε κέν τοι ἀάπτους χεῖρας ἐφείω.
+
+
+ὣς ἔφατʼ ἔδεισεν δὲ βοῶπις πότνια Ἥρη,
+καί ῥʼ ἀκέουσα καθῆστο ἐπιγνάμψασα φίλον κῆρ·
+ὄχθησαν δʼ ἀνὰ δῶμα Διὸς θεοὶ Οὐρανίωνες·
+τοῖσιν δʼ Ἥφαιστος κλυτοτέχνης ἦρχʼ ἀγορεύειν
+μητρὶ φίλῃ ἐπίηρα φέρων λευκωλένῳ Ἥρῃ·
+
+ἦ δὴ λοίγια ἔργα τάδʼ ἔσσεται οὐδʼ ἔτʼ ἀνεκτά,
+εἰ δὴ σφὼ ἕνεκα θνητῶν ἐριδαίνετον ὧδε,
+ἐν δὲ θεοῖσι κολῳὸν ἐλαύνετον· οὐδέ τι δαιτὸς
+ἐσθλῆς ἔσσεται ἦδος, ἐπεὶ τὰ χερείονα νικᾷ.
+μητρὶ δʼ ἐγὼ παράφημι καὶ αὐτῇ περ νοεούσῃ
+πατρὶ φίλῳ ἐπίηρα φέρειν Διί, ὄφρα μὴ αὖτε
+νεικείῃσι πατήρ, σὺν δʼ ἡμῖν δαῖτα ταράξῃ.
+εἴ περ γάρ κʼ ἐθέλῃσιν Ὀλύμπιος ἀστεροπητὴς
+ἐξ ἑδέων στυφελίξαι· ὃ γὰρ πολὺ φέρτατός ἐστιν.
+ἀλλὰ σὺ τὸν ἐπέεσσι καθάπτεσθαι μαλακοῖσιν·
+αὐτίκʼ ἔπειθʼ ἵλαος Ὀλύμπιος ἔσσεται ἡμῖν.
+
+
+ὣς ἄρʼ ἔφη καὶ ἀναΐξας δέπας ἀμφικύπελλον
+μητρὶ φίλῃ ἐν χειρὶ τίθει καί μιν προσέειπε·
+
+τέτλαθι μῆτερ ἐμή, καὶ ἀνάσχεο κηδομένη περ,
+μή σε φίλην περ ἐοῦσαν ἐν ὀφθαλμοῖσιν ἴδωμαι
+θεινομένην, τότε δʼ οὔ τι δυνήσομαι ἀχνύμενός περ
+χραισμεῖν· ἀργαλέος γὰρ Ὀλύμπιος ἀντιφέρεσθαι·
+ἤδη γάρ με καὶ ἄλλοτʼ ἀλεξέμεναι μεμαῶτα
+ῥῖψε ποδὸς τεταγὼν ἀπὸ βηλοῦ θεσπεσίοιο,
+πᾶν δʼ ἦμαρ φερόμην, ἅμα δʼ ἠελίῳ καταδύντι
+κάππεσον ἐν Λήμνῳ, ὀλίγος δʼ ἔτι θυμὸς ἐνῆεν·
+ἔνθά με Σίντιες ἄνδρες ἄφαρ κομίσαντο πεσόντα.
+
+
+ὣς φάτο, μείδησεν δὲ θεὰ λευκώλενος Ἥρη,
+μειδήσασα δὲ παιδὸς ἐδέξατο χειρὶ κύπελλον·
+αὐτὰρ ὃ τοῖς ἄλλοισι θεοῖς ἐνδέξια πᾶσιν
+οἰνοχόει γλυκὺ νέκταρ ἀπὸ κρητῆρος ἀφύσσων·
+ἄσβεστος δʼ ἄρʼ ἐνῶρτο γέλως μακάρεσσι θεοῖσιν
+ὡς ἴδον Ἥφαιστον διὰ δώματα ποιπνύοντα.
+
+ὣς τότε μὲν πρόπαν ἦμαρ ἐς ἠέλιον καταδύντα
+δαίνυντʼ, οὐδέ τι θυμὸς ἐδεύετο δαιτὸς ἐΐσης,
+οὐ μὲν φόρμιγγος περικαλλέος ἣν ἔχʼ Ἀπόλλων,
+Μουσάων θʼ αἳ ἄειδον ἀμειβόμεναι ὀπὶ καλῇ.
+
+αὐτὰρ ἐπεὶ κατέδυ λαμπρὸν φάος ἠελίοιο,
+οἳ μὲν κακκείοντες ἔβαν οἶκον δὲ ἕκαστος,
+ἧχι ἑκάστῳ δῶμα περικλυτὸς ἀμφιγυήεις
+Ἥφαιστος ποίησεν ἰδυίῃσι πραπίδεσσι·
+Ζεὺς δὲ πρὸς ὃν λέχος ἤϊʼ Ὀλύμπιος ἀστεροπητής,
+ἔνθα πάρος κοιμᾶθʼ ὅτε μιν γλυκὺς ὕπνος ἱκάνοι·
+ἔνθα καθεῦδʼ ἀναβάς, παρὰ δὲ χρυσόθρονος Ἥρη.
+</frontier>
+</LAYERS>

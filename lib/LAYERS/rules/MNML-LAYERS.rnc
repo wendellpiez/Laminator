@@ -11,16 +11,17 @@ default namespace = "http://wendellpiez.com/ns/xMNML"
 #    so the schema provides them as options
 #  Hint: use XSLT LAYERS-detail.xsl to normalize and elaborate a LAYERS document
 
-start =
-    element LAYERS {
+start = LAYERS | layer
+
+LAYERS = element LAYERS {
       layer*,
       element frontier { text }
     }
 
 layer = element layer {
     attribute  ranges { xsd:NMTOKENS }?,
-    (attribute mixing { xsd:NMTOKENS } |
-     attribute class  { 'ohco' | 'mch' } ),
+    (attribute mixing { xsd:NMTOKENS } | # list range types showing arbitrary overlap
+     attribute form  { 'ohco' | 'mch' } ),
     element range {
         attribute gi { xsd:NCName },
         attribute id { xsd:integer }?,

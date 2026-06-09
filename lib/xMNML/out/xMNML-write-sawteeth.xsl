@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="3.0"
   xmlns:mn="http://wendellpiez.com/ns/xMNML"
+  xpath-default-namespace="http://wendellpiez.com/ns/xMNML"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   expand-text="true">
@@ -44,7 +45,7 @@
     <xsl:text>]</xsl:text>
   </xsl:template>
   
-  <xsl:template match="annotation" mode="tag">
+  <xsl:template match="annotation">
     <xsl:if test="position()=1">
       <xsl:text> </xsl:text>
     </xsl:if>

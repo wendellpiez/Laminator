@@ -52,8 +52,11 @@
     <xsl:sequence select="$layer/range[@starting &lt;= $offset][@ending >= $offset]"/>
   </xsl:function>-->
 
+  <!--To limit the layers: override this template in an importing XSLT
+      or filter the layers before using this XSLT -->
   <xsl:template match="/LAYERS">
-    <xsl:apply-templates select="layer[1]"/>
+    <!-- By default, producing all layers -->
+    <xsl:apply-templates select="layer"/>
   </xsl:template>
   
   <xsl:template match="/LAYERS/layer" expand-text="true">
