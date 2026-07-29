@@ -26,7 +26,7 @@
      will be performed - set this to some (integer) value in a calling pipeline
      for a more 'paranoid' parser run: it will error out if it goes too deep 
   -->
-  <p:option name="max-tagging-depth" select="0" as="xs:nonNegativeInteger"/>
+  <p:option name="max-tagging-depth" select="xs:nonNegativeInteger(0)" as="xs:nonNegativeInteger"/>
   
   <!-- [ten}[nine}[eight}... Here we go good luck -->
   
@@ -36,6 +36,7 @@
      </p:with-input>
   </p:invisible-xml>
   
+  <!-- Passes $stack-limit parameter to control stacking depth -->
   <p:xslt name="matched" parameters="map { 'stack-limit': $max-tagging-depth }">
     <p:with-input port="stylesheet" href="src/mnml-matching.xsl"/>
   </p:xslt>

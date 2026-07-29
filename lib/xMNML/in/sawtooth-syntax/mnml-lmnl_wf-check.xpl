@@ -31,9 +31,9 @@
 
   <p:output port="result" serialization="map { 'indent': true() }" pipe="result@parse_result"/>
 
-  <p:input port="mnml-source" content-types="text/plain"/>
+  <p:input  port="mnml-source" content-types="text/plain"/>
 
-  <p:option name="max-tagging-depth" as="xs:integer" select="1000"/>
+  <p:option name="max-tagging-depth" as="xs:nonNegativeInteger" select="xs:nonNegativeInteger(1000)"/>
   
   <p:variable name="filename"
     select="p:document-property(.,'base-uri') => tokenize('/') => reverse() => head()"/>
