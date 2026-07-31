@@ -15,7 +15,7 @@
   
   -->
   
-  <xsl:output indent="true"/>
+  
   
   <xsl:mode on-no-match="shallow-copy"/>
 

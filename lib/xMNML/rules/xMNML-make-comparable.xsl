@@ -24,6 +24,9 @@
     </xsl:copy>
   </xsl:template>
 
+  <!-- Line numbers and positions are removed  -->
+  <xsl:template match="@L | @ch"/>
+  
   <!-- Sorting tags fairly aggressively into a canonical order
        (should be the same as ../rules/LAYERS-detail.xsl -->
   <xsl:template match="LMNL">

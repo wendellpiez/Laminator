@@ -28,20 +28,23 @@
   -->
   <p:option name="max-tagging-depth" select="xs:nonNegativeInteger(0)" as="xs:nonNegativeInteger"/>
   
+  <p:option   name="stop-on-tagging-error" select="'yes'"/>
+  <p:variable name="terminating"           select="not($stop-on-tagging-error = ('no','false','0'))"/>
+  
   <!-- [ten}[nine}[eight}... Here we go good luck -->
   
   <p:invisible-xml cx:processor="markup-blitz" name="parsed-tags">
      <p:with-input port="grammar">
-        <p:document href="src/mnml-lmnl.ixml" content-type="text/plain"/>
+        <p:document href="src/mnml-lmnl-explicit.ixml" content-type="text/plain"/>
      </p:with-input>
   </p:invisible-xml>
   
   <!-- Passes $stack-limit parameter to control stacking depth -->
-  <p:xslt name="matched" parameters="map { 'stack-limit': $max-tagging-depth }">
+  <p:xslt name="matched" parameters="map { 'stack-limit': $max-tagging-depth, 'terminate-on-fail': $terminating }">
     <p:with-input port="stylesheet" href="src/mnml-matching.xsl"/>
   </p:xslt>
   
-  <p:xslt name="matched-and-measured">
+  <p:xslt name="matched-and-measured" parameters="map { 'terminate-on-fail': $terminating }">
     <p:with-input port="stylesheet" href="src/mnml-measuring.xsl"/>
   </p:xslt>
   

@@ -2,6 +2,11 @@
 
 Everything has been built and tested using XML Calabash 3.0.x for XProc and MarkupBlitz as an iXML processor.
 
+nb: as of 20260729 the XSLT src/mnml-matching-marking.xsl is a WIP replacement for mnml-matching.xsl, to be used with a modified grammar to capture line and character offsets for errors trapped in mnml-measuring.xsl. To complete this work:
+
+- the grammar must be corrected so as not to suppress any literals
+- mnml-matching-marking.xsl to be extended and tested (to replace current mnml-matching.xsl)
+- mnml-measuring to be extended (to report error locations) and tested
 
 ## Pipeline `sawteeth-to-xMNML.xpl`
 

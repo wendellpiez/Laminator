@@ -2,7 +2,7 @@
 <p:declare-step xmlns:p="http://www.w3.org/ns/xproc"
   xmlns:mnml="http://wendellpiez.com/ns/xMNML"
   xmlns:c="http://www.w3.org/ns/xproc-step" version="3.0"
-  type="mnml:parse_MNML-LMNL">
+  type="mnml:parse_mnml-lmnl">
   
   
   <p:import href="xMNML/in/sawtooth-syntax/sawteeth-to-xMNML.xpl"/>

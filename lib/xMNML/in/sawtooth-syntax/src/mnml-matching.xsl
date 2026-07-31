@@ -3,13 +3,17 @@
   xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="#all" version="3.0"
   expand-text="true">
 
-  <!--
-    Consumes tokens produced from mnml-lmnl.ixml parse
+  <!-- like mnml-matching.xsl, except will mark line and character offsets
     
-    produces an annotated copy ready for casting into a range model
+    IN PROGRESS - this works, except the grammar must be modified so as not
+    to drop any literal characters (even markup)
+    permitting line and character counts to be accurate
     -->
 
-  <xsl:mode on-no-match="fail" use-accumulators="tag_stack"/>
+  <xsl:param    as="xs:boolean" name="terminate-on-fail"  select="true()"/>
+  <xsl:variable as="xs:string"  name="messages-terminate" select="if ($terminate-on-fail) then 'yes' else 'no'"/>
+  
+  <xsl:mode on-no-match="fail" use-accumulators="tag_stack char_offset line_offset"/>
 
   <xsl:mode name="walk" on-no-match="fail" use-accumulators="tag_stack"/>
   
@@ -40,27 +44,47 @@
   -->
 
   <xsl:accumulator name="tag_stack" initial-value="()" as="element()*">
-    <xsl:accumulator-rule match="start" select="($value, .)"/>
-    <xsl:accumulator-rule match="end">
-      <xsl:variable name="rID" select="@name"/>
-      <xsl:sequence select="$value except ($value[@name = $rID][last()])"/>
+    <xsl:accumulator-rule match="start" phase="start" select="($value, .)"/>
+    <xsl:accumulator-rule match="end"   phase="end">
+      <xsl:variable name="identifier" select="child::name"/>
+      <xsl:sequence select="$value except ($value[child::name = $identifier][last()])"/>
     </xsl:accumulator-rule>
   </xsl:accumulator>
-
+  
+  <!--If there is more than one matching rule, the last in document order is used.
+      https://www.w3.org/TR/xslt-30/#accumulator-informal-rules -->
+  <xsl:accumulator name="char_offset" initial-value="0" as="xs:integer">
+    <xsl:accumulator-rule match="text()"                  phase="end" select="$value + string-length(.)"/>
+    <xsl:accumulator-rule match="text()[matches(.,'\n')]" phase="end" select="replace(.,'^.*\n','') => string-length()"/>
+  </xsl:accumulator>
+  
+  <xsl:accumulator name="line_offset" initial-value="0" as="xs:integer">
+    <xsl:accumulator-rule match="text | pad" select="$value + ( string-to-codepoints(.)[.=10] => count() )"/>
+  </xsl:accumulator>
+  
   <xsl:variable name="ID_delim" select="'='"/>
   
   <xsl:template match="/">
     <xsl:apply-templates/>
   </xsl:template>
-
+  
+  
+  <xsl:template match="comment() | processing-instruction()"/>
+  
   <xsl:template match="/LMNL">
     <xsl:copy>
       <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="text[string(.) => not()]"/>
-
+  <xsl:template match="annotation/text" priority="101">
+    <xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="pad"/>
+  
+  <xsl:template match="text[string(.) => not()]" priority="11"/>
+  
   <!-- Ordinary case - if our stack limit is the default 0, we just go -->
   <xsl:template match="text">
     <xsl:variable name="within" as="xs:string*">
@@ -83,7 +107,7 @@
   <xsl:template match="text[$limiting]" priority="101">
     <xsl:choose>
       <xsl:when test="count(accumulator-before('tag_stack')) gt $stack-limit">
-        <xsl:message terminate="true">Stack limit { $stack-limit } was exceeded ... we have open ranges { accumulator-before('tag_stack')/@name => string-join(', ') } ...</xsl:message>
+        <xsl:message terminate="true">Stack limit { $stack-limit } exceeded ... we have open ranges { accumulator-before('tag_stack')/child::name => string-join(', ') } ...</xsl:message>
       </xsl:when>
       <xsl:otherwise>
         <xsl:variable name="within" as="xs:string*">
@@ -99,44 +123,62 @@
   
   <xsl:template match="start | empty">    
     <xsl:copy>
+      <xsl:apply-templates select="child::name"/>
       <xsl:apply-templates select="@*"/>
       <xsl:attribute name="rID">
         <xsl:apply-templates select="." mode="rID"/>
       </xsl:attribute>
+      <xsl:call-template name="mark_position"/>
       <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
 
   <xsl:template match="end">
-    <xsl:variable name="matching" select="@name"/>
+    <xsl:variable name="matching" select="child::name"/>
     <xsl:variable name="isClosing"
-      select="((preceding-sibling::start[1]|preceding-sibling::end[1])[last()]/accumulator-after('tag_stack'))
-      [@name=$matching][last()]"/>
+      select="accumulator-before('tag_stack')[child::name=$matching][last()]"/>
+    <xsl:if test="empty($isClosing)">
+      <xsl:message terminate="{ $messages-terminate }">[mnml-matching] Range end tag {{{ child::name }] has no preceding start tag to close... open ranges include { accumulator-before('tag_stack')/child::name/('''' || . || '''') => string-join(', ') } - see line { accumulator-before('line_offset') + 1 }, position { accumulator-before('char_offset') + 1 }</xsl:message>
+    </xsl:if>
     
     <xsl:copy>
+      <xsl:apply-templates select="child::name"/>
       <xsl:apply-templates select="@*"/>
       <xsl:attribute name="rID">
         <xsl:apply-templates select="$isClosing" mode="rID"/>
       </xsl:attribute>
+      <xsl:call-template name="mark_position"/>
       <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="text()">
+  <xsl:template name="mark_position">
+    <xsl:attribute name="L"  select="accumulator-before('line_offset') + 1"/>
+    <xsl:attribute name="ch" select="accumulator-before('char_offset') + 1"/> 
+  </xsl:template>
+  
+  <!-- outside <text> all text in the input is markup -->
+  <xsl:template match="text()"/>
+  
+  <xsl:template match="text/text()" priority="101">
     <!-- Unescaping by removing reverse solidi when preceded by { [ or \ -->
     <xsl:text>{ replace(.,'\\([\[\{\\])','$1') }</xsl:text>
   </xsl:template>
 
   <xsl:template match="annotation">
-    <xsl:copy-of select="."/>
+    <xsl:copy>
+      <xsl:call-template name="mark_position"/>
+      <xsl:attribute name="gi" select="child::gi"/>
+      <xsl:apply-templates select="text"/>
+    </xsl:copy>
   </xsl:template>
 
-  <xsl:template priority="101" match="@name[contains(., $ID_delim)]">
+  <xsl:template priority="101" match="name[contains(., $ID_delim)]">
     <xsl:attribute name="gi">{ tokenize(., $ID_delim)[1] }</xsl:attribute>
     <xsl:attribute name="id">{ tokenize(., $ID_delim)[2] }</xsl:attribute>
   </xsl:template>
 
-  <xsl:template match="@name">
+  <xsl:template match="name">
     <xsl:attribute name="gi">{ . }</xsl:attribute>
   </xsl:template>
 
@@ -149,7 +191,7 @@
     <xsl:variable name="n">
       <xsl:number count="start | empty" format="{ $zeroPadded }"/>
     </xsl:variable>
-    <xsl:text>r{ $n }{ @name/('_' || replace(.,'=.*','')) }</xsl:text>
+    <xsl:text>r{ $n }_{ (child::name/replace(.,'=.*',''),'0')[1] }</xsl:text>
   </xsl:template>
 
 </xsl:stylesheet>

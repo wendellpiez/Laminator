@@ -107,7 +107,7 @@ Keep in mind the library's functionalities are all very basic, and require addit
 
 #### LMNL input
 
-To parse LMNL syntax (MNML subset) to build xMNML (XML), use the pipeline `parse_MNML-LMNL.xpl`
+To parse LMNL syntax (MNML subset) to build xMNML (XML), use the pipeline `parse_mnml-lmnl.xpl`. It delivers either xMNML or LAYERS XML, or both.
 
 #### XML input
 

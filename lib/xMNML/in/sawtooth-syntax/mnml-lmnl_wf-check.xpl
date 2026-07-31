@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<p:declare-step xmlns:p="http://www.w3.org/ns/xproc" xmlns:c="http://www.w3.org/ns/xproc-step"
+<p:declare-step xmlns:p="http://www.w3.org/ns/xproc"
+  xmlns:c="http://www.w3.org/ns/xproc-step"
+  xmlns:cx="http://xmlcalabash.com/ns/extensions"
   xmlns:mnml="http://wendellpiez.com/ns/xMNML" 
   xmlns:xs="http://www.w3.org/2001/XMLSchema" 
   exclude-inline-prefixes="#all"
@@ -11,12 +13,6 @@
       Useful for go/no-go testing of parse examples ('known good' and 'known bad')
       cf TEST_WFCHECK-SAWTEETH.xpl
         
-        NOTE: NOTE A COMPLETE TEST YET, ONLY CHECKS SYNTAX, NOT
-        TAG INTEGRITY
-        - FOR REGRESSION TESTING, SEE ../../../../demo/baselines/TEST_xMNML-BUILD.xpl
-          
-      (later: does it pass other tests for integrity as a range model?)
-      i.e. are matching and measuring working correctly
         
       output ports:
           report - tells us about what came back, xMNML or error
@@ -26,14 +22,17 @@
 
   <p:import href="sawteeth-to-xMNML.xpl"/>
 
+  <p:input  port="mnml-source" content-types="text/plain"/>
+  
   <p:output port="report" primary="true" serialization="map { 'indent': true(),
         'omit-xml-declaration': true() }"/>
 
-  <p:output port="result" serialization="map { 'indent': true() }" pipe="result@parse_result"/>
-
-  <p:input  port="mnml-source" content-types="text/plain"/>
+  <p:output port="result" serialization="map { 'indent': true(), 'omit-xml-declaration': true() }" pipe="result@parse_result"/>
 
   <p:option name="max-tagging-depth" as="xs:nonNegativeInteger" select="xs:nonNegativeInteger(1000)"/>
+  
+  <p:option   name="show-errors"    select="'hide'" as="xs:string"/>
+  <p:variable name="showing-errors" select="$show-errors = ('show','yes','true','1')"/>
   
   <p:variable name="filename"
     select="p:document-property(.,'base-uri') => tokenize('/') => reverse() => head()"/>
@@ -64,7 +63,7 @@
       <p:identity>
         <p:with-input>
           <WHEE file="{ $filename }"
-            echo="{ substring($echo,1,30) }{ substring($echo,30)[normalize-space()] ! '...' }">All good ... seeing { name(/*)} in namespace { namespace-uri(/*) }</WHEE>
+            echo="{ substring($echo,1,30) }{ substring($echo,30)[normalize-space()] ! '...' }"/>
         </p:with-input>
       </p:identity>
     </p:when>
@@ -72,10 +71,15 @@
       <p:identity>
         <p:with-input>
           <OOPS file="{ $filename }"
-            echo="{ substring($echo,1,30) }{ substring($echo,30)[normalize-space()] ! '...' }"
-            >Errors are reported ...</OOPS>
-        </p:with-input>
+            echo="{ substring($echo,1,30) }{ substring($echo,30)[normalize-space()] ! '...' }"/>
+        </p:with-input>          
       </p:identity>
+      <p:if test="$showing-errors">
+        <p:insert match="/OOPS" position="first-child">
+          <p:with-input port="insertion" pipe="@parse_result" select="/*/c:errors/c:error/*:message/text()"/>
+        </p:insert>
+        <!--<p:namespace-delete prefixes="cx"/>-->
+      </p:if>
     </p:otherwise>
   </p:choose>
 

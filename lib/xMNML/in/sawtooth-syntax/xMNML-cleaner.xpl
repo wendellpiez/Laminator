@@ -4,7 +4,8 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   type="mnml:cleanup">
 
-  <!-- Strips whitespace everywhere except inside 'text' elements -->
+  <!-- Strips whitespace everywhere except inside 'text' elements,
+       and removes @L and @ch attributes (not comparable) -->
   
   <p:input port="source"/>
   
@@ -17,7 +18,8 @@
           <xsl:strip-space elements="*"/>
           <xsl:preserve-space elements="text"
             xpath-default-namespace="http://wendellpiez.com/ns/xMNML"/>
-          <xsl:template match="/"><xsl:copy-of select="/"/></xsl:template>
+          <xsl:mode on-no-match="shallow-copy"/>
+          <xsl:template match="@L | @ch"/>
         </xsl:stylesheet>
       </p:inline>
     </p:with-input>

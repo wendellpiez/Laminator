@@ -10,7 +10,7 @@ TODO: UNIT TEST
       VALIDATE RESULTS AGAINST SCHEMA
       
       -->
-    <xsl:output indent="true"/>
+    <!--<xsl:output indent="true"/>-->
 
     <xsl:mode on-no-match="fail" use-accumulators="offsets"/>
 

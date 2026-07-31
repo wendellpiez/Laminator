@@ -14,6 +14,10 @@
     but this is clean and easy.
     -->
 
+  <!-- $terminate-on-fail can be set to false() if broken parse results are interesting -->
+  <xsl:param    as="xs:boolean" name="terminate-on-fail"  select="true()"/>
+  <xsl:variable as="xs:string"  name="messages-terminate" select="if ($terminate-on-fail) then 'yes' else 'no'"/>
+  
   <xsl:mode on-no-match="fail" use-accumulators="counter"/>
 
   <xsl:accumulator name="counter" initial-value="0" as="xs:integer">
@@ -42,6 +46,10 @@
   <xsl:template match="start">
     <xsl:variable name="ender" select="key('end-for-id', @rID)"/>
     <!-- Gratuitous since calculable, but easy to determine -->
+    <xsl:if test="empty($ender)">
+      <xsl:message terminate="{ $messages-terminate }" expand-text="true">[mnml-measuring] No end appears for start tag [{ @gi }}} - see line { @L }, position { @ch }</xsl:message>
+    </xsl:if>
+    <!-- requires configuration to enable <xsl:assert test="exists($ender)">No end appears for start tag</xsl:assert>-->
     <start>
       <xsl:apply-templates select="@*"/>
       <xsl:attribute name="off" select="accumulator-before('counter')"/>
@@ -63,7 +71,11 @@
   <!--end markers are left for conveniece in reserializing -->
   <xsl:template match="end">
     <xsl:variable name="starter" select="key('start-for-id', @rID)"/>
-    <end>
+    <xsl:if test="empty($starter)">
+      <xsl:message terminate="{ $messages-terminate }" expand-text="true">[mnml-measuring] No start appears for end tag {{{ @gi }] - see line { @L }, position { @ch }</xsl:message>
+    </xsl:if>
+    <!-- requires configuration to enable <xsl:assert test="exists($starter)">No start appears for end tag</xsl:assert> -->
+    <end> 
       <xsl:apply-templates select="@*"/>
       <xsl:attribute name="off" select="accumulator-before('counter')"/>
       <xsl:attribute name="ext"
