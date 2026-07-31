@@ -5,10 +5,13 @@
     exclude-inline-prefixes="#all"
     version="3.0">
     
-    <!-- Use this pipeline to regression test the xMNML build process
+    <!--       
+      Use this pipeline to regression test the xMNML build process
     
     Over LMNL inputs, this pipeline produces xMNML and then compares that to
-    files (baselines) maintained in the `expected` folder 
+    files (baselines) maintained in the `expected` folder.
+    
+    If it fails, the first thing to do is check to make sure these targets are current.
                             
     -->
     
@@ -45,7 +48,7 @@
         <p:with-input port="source">
             <p:document  href="data/Housekeeper144-146.lmnl" content-type="text/plain"/>
         </p:with-input>
-        <p:with-input port="expected" href="expected/Housekeeper-xMNML.xml"/>
+        <p:with-input port="expected" href="expected/Housekeeper144-146-xMNML.xml"/>
     </mnml:go-nogo>
     
     <mnml:go-nogo name="comparing-edges">

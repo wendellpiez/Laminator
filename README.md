@@ -16,7 +16,7 @@ Think of XML, for *markup languages*, except - (1) with a distinctive syntax, an
 {excerpt]
 ```
 
-In this repository you may find working code, demonstrations, and links to demonstrations. The implementation is XML-based: it uses [XProc](https://xproc.org/) and relies on XSLT and [Invisible XML](https://invisiblexml.org/). The supported subset of LMNL (MNML) aligns closely with XML, for easy handling and production of XML and HTML data and documents, as both input and output.
+In this repository you will find working code, demonstrations, and links to demonstrations. The implementation is XML-based: it uses [XProc](https://xproc.org/) and relies on XSLT and [Invisible XML](https://invisiblexml.org/). The supported subset of LMNL (MNML) aligns closely with XML, for easy handling and production of XML and HTML data and documents, as both input and output.
 
 ## In this repository
 
@@ -28,6 +28,17 @@ In this repository you may find working code, demonstrations, and links to demon
 - [testing]() - tests are dispersed through the repository but linked here
 
 LMNL markup ('sawteeth' or 'sawtooth syntax') is designed to be workable 'by hand' in a text editor, but LMNL can also be generated from XML or other structured data. 
+
+## XProc file names
+
+A naming convention provides hints on how XProc pipelines are intended to be used.
+
+An all-upper-case file name (apart from the `.xpl` suffix) indicates that the XProc pipeline is designed to be run like a self-contained script, with no arguments. Its internal settings give it access to everything it needs.
+
+Lower-case file names are used for XProc pipelines that are designed to be run primarily as steps in other pipelines, and they may require runtime bindings or settings (to be set by a calling pipeline). Sometimes they are provided with defaults for testing.
+
+A file name in upper case except with a lower-case suffix, typically `_source`, indicates that the pipeline is meant as a primary entry point, but that a binding on an input port, named `source` in this case, must be provided. An example is the pipeline that provides MNML LMNL syntax validation checking, 
+[lib/xMNML/in/sawtooth-syntax/MNML-WFCHECK-source.xpl](lib/MNML-WFCHECK-source.xpl), which serves as a wrapper for the component pipeline [lib/xMNML/in/sawtooth-syntax/mnml-lmnl_wf-check.xpl](lib/xMNML/in/sawtooth-syntax/mnml-lmnl_wf-check.xpl).
 
 ## Prior work and acknowledgements
 

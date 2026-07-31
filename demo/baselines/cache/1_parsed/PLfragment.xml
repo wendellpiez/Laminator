@@ -1,375 +1,448 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LMNL>
    <text/>
-   <start name="excerpt">
-      <annotation gi="title">Paradise Lost I 1-26</annotation>
-      <annotation gi="book">I</annotation>
-      <annotation gi="ll">1-26</annotation>
-      <annotation gi="author">John Milton</annotation>
-   </start>
+   <start>[<name>excerpt</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>title</gi>}<text>Paradise Lost I 1-26</text>{]</annotation>
+      <pad>
+      </pad>
+      <annotation>[<gi>book</gi>}<text>I</text>{]</annotation>
+      <pad>
+      </pad>
+      <annotation>[<gi>ll</gi>}<text>1-26</text>{]</annotation>
+      <annotation>[<gi>author</gi>}<text>John Milton</text>{]</annotation>}</start>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.1</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.1</text>{]</annotation>
+      <pad>
+      </pad>}</start>
    <text/>
-   <start name="s"/>
+   <start>[<name>s</name>}</start>
    <text/>
-   <start name="phr"/>
+   <start>[<name>phr</name>}</start>
    <text>Of Man's first disobedience,</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>and </text>
-   <start name="np=1"/>
+   <start>[<name>np=1</name>}</start>
    <text>the fruit</text>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.2</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.2</text>{]</annotation>
+      <pad>
+      </pad>}</start>
    <text>Of </text>
-   <start name="np=2"/>
+   <start>[<name>np=2</name>}</start>
    <text>that forbidden tree</text>
-   <end name="np=1"/>
+   <end>{<name>np=1</name>]</end>
    <text> whose mortal taste</text>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.3</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.3</text>{]</annotation>
+      <pad>
+      </pad>}</start>
    <text>Brought death into the World,</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>and all our woe,</text>
-   <end name="phr"/>
+   <end>{<name>phr</name>]</end>
    <text/>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.4</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.4</text>{]</annotation>
+      <pad>
+      </pad>}</start>
    <text/>
-   <start name="phr"/>
+   <start>[<name>phr</name>}</start>
    <text>With loss of Eden,</text>
-   <end name="np=2"/>
+   <end>{<name>np=2</name>]</end>
    <text/>
-   <end name="phr"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>till one greater Man</text>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.5</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.5</text>{]</annotation>
+      <pad>
+      </pad>}</start>
    <text>Restore us,</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>and regain the blissful seat,</text>
-   <end name="phr"/>
+   <end>{<name>phr</name>]</end>
    <text/>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.6</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.6</text>{]</annotation>
+      <pad>
+      </pad>}</start>
    <text/>
-   <start name="phr"/>
+   <start>[<name>phr</name>}</start>
    <text>Sing,</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="np=3"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>np=3</name>}</start>
    <text/>
-   <start name="phr"/>
+   <start>[<name>phr</name>}</start>
    <text>Heavenly Muse,</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>that,</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>on the secret top</text>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.7</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.7</text>{]</annotation>
+      <pad>
+      </pad>}</start>
    <text>Of Oreb,</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>or of Sinai,</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>didst inspire</text>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.8</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.8</text>{]</annotation>
+      <pad>
+      </pad>}</start>
    <text/>
-   <start name="np=4"/>
+   <start>[<name>np=4</name>}</start>
    <text>That Shepherd</text>
-   <end name="np=3"/>
+   <end>{<name>np=3</name>]</end>
    <text> who first taught the chosen seed</text>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.9</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.9</text>{]</annotation>
+      <pad>
+      </pad>}</start>
    <text>In the beginning how the heavens and earth</text>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.10</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.10</text>{]</annotation>}</start>
    <text>Rose out of Chaos:</text>
-   <end name="phr"/>
+   <end>{<name>phr</name>]</end>
    <text/>
-   <end name="np=4"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>np=4</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>or,</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>if Sion hill</text>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.11</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.11</text>{]</annotation>}</start>
    <text>Delight thee more,</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>and </text>
-   <start name="np=5"/>
+   <start>[<name>np=5</name>}</start>
    <text>Siloa's brook that flowed</text>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.12</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.12</text>{]</annotation>}</start>
    <text>Fast by the oracle of God,</text>
-   <end name="phr"/>
+   <end>{<name>phr</name>]</end>
    <text/>
-   <end name="np=5">
-      <annotation gi="ref">John 9</annotation>
-   </end>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>np=5</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>ref</gi>}<text>John 9</text>{]</annotation>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>I thence</text>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.13</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.13</text>{]</annotation>}</start>
    <text>Invoke thy aid to </text>
-   <start name="np=6"/>
+   <start>[<name>np=6</name>}</start>
    <text>my adventurous song,</text>
-   <end name="phr"/>
+   <end>{<name>phr</name>]</end>
    <text/>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.14</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.14</text>{]</annotation>}</start>
    <text/>
-   <start name="phr"/>
+   <start>[<name>phr</name>}</start>
    <text>That with no middle flight intends to soar</text>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.15</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.15</text>{]</annotation>}</start>
    <text>Above th' Aonian mount,</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>while it pursues</text>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.16</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.16</text>{]</annotation>}</start>
    <text/>
-   <start name="np=7"/>
+   <start>[<name>np=7</name>}</start>
    <text>Things unattempted yet in prose or rhyme.</text>
-   <end name="np=7"/>
+   <end>{<name>np=7</name>]</end>
    <text/>
-   <end name="np=6"/>
+   <end>{<name>np=6</name>]</end>
    <text/>
-   <end name="phr"/>
+   <end>{<name>phr</name>]</end>
    <text/>
-   <end name="s"/>
+   <end>{<name>s</name>]</end>
    <text/>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.17</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.17</text>{]</annotation>}</start>
    <text/>
-   <start name="s"/>
+   <start>[<name>s</name>}</start>
    <text/>
-   <start name="phr"/>
+   <start>[<name>phr</name>}</start>
    <text>And chiefly thou,</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="np=8"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>np=8</name>}</start>
    <text/>
-   <start name="phr"/>
+   <start>[<name>phr</name>}</start>
    <text>O Spirit,</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>that dost prefer</text>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.18</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.18</text>{]</annotation>}</start>
    <text>Before all temples th' upright heart and pure,</text>
-   <end name="np=8"/>
+   <end>{<name>np=8</name>]</end>
    <text/>
-   <end name="phr"/>
+   <end>{<name>phr</name>]</end>
    <text/>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.19</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.19</text>{]</annotation>}</start>
    <text/>
-   <start name="phr"/>
+   <start>[<name>phr</name>}</start>
    <text>Instruct me,</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>for Thou know'st;</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>Thou from the first</text>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.20</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.20</text>{]</annotation>}</start>
    <text>Wast present,</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>and,</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>with mighty wings outspread,</text>
-   <end name="phr"/>
+   <end>{<name>phr</name>]</end>
    <text/>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.21</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.21</text>{]</annotation>}</start>
    <text/>
-   <start name="phr"/>
+   <start>[<name>phr</name>}</start>
    <text>Dove-like sat'st brooding on the vast Abyss,</text>
-   <end name="phr"/>
+   <end>{<name>phr</name>]</end>
    <text/>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.22</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.22</text>{]</annotation>}</start>
    <text/>
-   <start name="phr"/>
+   <start>[<name>phr</name>}</start>
    <text>And mad'st it pregnant:</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>what in me is dark</text>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.23</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.23</text>{]</annotation>}</start>
    <text>Illumine,</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>what is low raise and support;</text>
-   <end name="phr"/>
+   <end>{<name>phr</name>]</end>
    <text/>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.24</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.24</text>{]</annotation>}</start>
    <text/>
-   <start name="phr"/>
+   <start>[<name>phr</name>}</start>
    <text>That,</text>
-   <end name="phr"/>
-   <text> </text>
-   <start name="phr"/>
+   <end>{<name>phr</name>]</end>
+   <text>
+   </text>
+   <start>[<name>phr</name>}</start>
    <text>to the height of this great argument,</text>
-   <end name="phr"/>
+   <end>{<name>phr</name>]</end>
    <text/>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.25</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.25</text>{]</annotation>}</start>
    <text/>
-   <start name="phr"/>
+   <start>[<name>phr</name>}</start>
    <text>I may assert Eternal Providence,</text>
-   <end name="phr"/>
+   <end>{<name>phr</name>]</end>
    <text/>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">Bk.1.26</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>Bk.1.26</text>{]</annotation>}</start>
    <text/>
-   <start name="phr"/>
+   <start>[<name>phr</name>}</start>
    <text>And justify the ways of God to men.</text>
-   <end name="phr"/>
+   <end>{<name>phr</name>]</end>
    <text/>
-   <end name="s"/>
+   <end>{<name>s</name>]</end>
    <text/>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <end name="excerpt"/>
+   </text>
+   <end>{<name>excerpt</name>]</end>
    <text>
-</text>
+   </text>
 </LMNL>

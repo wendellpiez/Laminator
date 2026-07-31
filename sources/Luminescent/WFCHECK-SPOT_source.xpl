@@ -3,17 +3,17 @@
   xmlns:mnml="http://wendellpiez.com/ns/xMNML" exclude-inline-prefixes="#all" version="3.0">
 
   <!-- Bind any plain text to 'source' to check its MNML LMNL well-formedness -->
-  
+
   <p:import href="../../lib/xMNML/in/sawtooth-syntax/mnml-lmnl_wf-check.xpl"/>
 
   <p:input port="source">
-    <p:document content-type="text/plain" href="Frankenstein1831.lmnl"/>
+    <p:document content-type="text/plain" href="Tempest.lmnl"/>
   </p:input>
 
-  <p:output port="result" serialization="map{ 'indent': true() }" pipe="result@wf-check"/>
+  <!--<p:output port="result" serialization="map{ 'indent': true() }" pipe="result@wf-check"/>-->
 
-  <p:output port="report" serialization="map{ 'indent': true() }" pipe="report@wf-check"/>
+  <p:output port="report" serialization="map{ 'indent': true(), 'omit-xml-declaration': true() }" pipe="report@wf-check"/>
  
-  <mnml:mnml-lmnl_wf-check name="wf-check"/>
+  <mnml:mnml-lmnl_wf-check name="wf-check" show-errors="yes"/>
 
 </p:declare-step>

@@ -5,8 +5,8 @@
     exclude-inline-prefixes="#all"
     version="3.0">
     
-    <p:import href="../../lib/xMNML-into/sawtooth-syntax/mnml-lmnl_wf-check.xpl"/>
-    
+    <p:import href="../../lib/xMNML/in/sawtooth-syntax/mnml-lmnl_wf-check.xpl"/>
+                    
     <p:output port="result" serialization="map{ 'indent': true() }"/>
     
     <p:directory-list path="." include-filter="\.lmnl$" max-depth="2"/>

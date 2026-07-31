@@ -18,7 +18,7 @@
         <p:load href="{ base-uri(/*) }" message="Loading { base-uri(/*) }"
           content-type="text/plain"/>
         
-        <mnml:mnml-lmnl_wf-check name="wf-check"/>
+        <mnml:mnml-lmnl_wf-check name="wf-check" show-errors="no"/>
         
     </p:for-each>
     

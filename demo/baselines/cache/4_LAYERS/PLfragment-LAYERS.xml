@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LAYERS xmlns="http://wendellpiez.com/ns/xMNML">
-   <layer ranges="excerpt l s phr np" mixing="np">
-      <range rID="r01_excerpt" gi="excerpt" starting="0" ending="1105">
-         <annotation gi="title">Paradise Lost I 1-26</annotation>
-         <annotation gi="book">I</annotation>
-         <annotation gi="ll">1-26</annotation>
-         <annotation gi="author">John Milton</annotation>
+   <layer ranges="excerpt l s phr np"
+          mixing="np">
+      <range rID="r01_excerpt"
+             gi="excerpt"
+             starting="0"
+             ending="1105">
+         <annotation L="1"
+                     ch="10"
+                     gi="title">Paradise Lost I 1-26</annotation>
+         <annotation L="1"
+                     ch="40"
+                     gi="book">I</annotation>
+         <annotation L="1"
+                     ch="50"
+                     gi="ll">1-26</annotation>
+         <annotation L="1"
+                     ch="60"
+                     gi="author">John Milton</annotation>
       </range>
-      <range rID="r03_s" gi="s" starting="1" ending="671"/>
+      <range rID="r03_s"
+             gi="s"
+             starting="1"
+             ending="671"/>
       <range rID="r02_l"
              gi="l"
              starting="1"
              ending="43"
              overlaps="r05_phr r06_np">
-         <annotation gi="n">Bk.1.1</annotation>
+         <annotation L="2"
+                     ch="4"
+                     gi="n">Bk.1.1</annotation>
       </range>
-      <range rID="r04_phr" gi="phr" starting="1" ending="29"/>
+      <range rID="r04_phr"
+             gi="phr"
+             starting="1"
+             ending="29"/>
       <range rID="r05_phr"
              gi="phr"
              starting="30"
@@ -32,7 +52,9 @@
              starting="44"
              ending="85"
              overlaps="r06_np r08_np">
-         <annotation gi="n">Bk.1.2</annotation>
+         <annotation L="3"
+                     ch="4"
+                     gi="n">Bk.1.2</annotation>
       </range>
       <range rID="r08_np"
              gi="np"
@@ -45,17 +67,27 @@
              starting="86"
              ending="132"
              overlaps="r05_phr">
-         <annotation gi="n">Bk.1.3</annotation>
+         <annotation L="4"
+                     ch="4"
+                     gi="n">Bk.1.3</annotation>
       </range>
-      <range rID="r10_phr" gi="phr" starting="116" ending="132"/>
+      <range rID="r10_phr"
+             gi="phr"
+             starting="116"
+             ending="132"/>
       <range rID="r11_l"
              gi="l"
              starting="133"
              ending="172"
              overlaps="r08_np r13_phr">
-         <annotation gi="n">Bk.1.4</annotation>
+         <annotation L="5"
+                     ch="4"
+                     gi="n">Bk.1.4</annotation>
       </range>
-      <range rID="r12_phr" gi="phr" starting="133" ending="151"/>
+      <range rID="r12_phr"
+             gi="phr"
+             starting="133"
+             ending="151"/>
       <range rID="r13_phr"
              gi="phr"
              starting="152"
@@ -66,25 +98,41 @@
              starting="173"
              ending="214"
              overlaps="r13_phr">
-         <annotation gi="n">Bk.1.5</annotation>
+         <annotation L="6"
+                     ch="4"
+                     gi="n">Bk.1.5</annotation>
       </range>
-      <range rID="r15_phr" gi="phr" starting="185" ending="214"/>
+      <range rID="r15_phr"
+             gi="phr"
+             starting="185"
+             ending="214"/>
       <range rID="r16_l"
              gi="l"
              starting="215"
              ending="259"
              overlaps="r18_np r21_phr">
-         <annotation gi="n">Bk.1.6</annotation>
+         <annotation L="7"
+                     ch="4"
+                     gi="n">Bk.1.6</annotation>
       </range>
-      <range rID="r17_phr" gi="phr" starting="215" ending="220"/>
+      <range rID="r17_phr"
+             gi="phr"
+             starting="215"
+             ending="220"/>
       <range rID="r18_np"
              gi="np"
              starting="221"
              ending="309"
              id="3"
              overlaps="r16_l r24_phr r25_l r26_np"/>
-      <range rID="r19_phr" gi="phr" starting="221" ending="235"/>
-      <range rID="r20_phr" gi="phr" starting="236" ending="241"/>
+      <range rID="r19_phr"
+             gi="phr"
+             starting="221"
+             ending="235"/>
+      <range rID="r20_phr"
+             gi="phr"
+             starting="236"
+             ending="241"/>
       <range rID="r21_phr"
              gi="phr"
              starting="242"
@@ -95,9 +143,14 @@
              starting="260"
              ending="295"
              overlaps="r21_phr r24_phr">
-         <annotation gi="n">Bk.1.7</annotation>
+         <annotation L="8"
+                     ch="4"
+                     gi="n">Bk.1.7</annotation>
       </range>
-      <range rID="r23_phr" gi="phr" starting="269" ending="281"/>
+      <range rID="r23_phr"
+             gi="phr"
+             starting="269"
+             ending="281"/>
       <range rID="r24_phr"
              gi="phr"
              starting="282"
@@ -114,19 +167,31 @@
              starting="296"
              ending="342"
              overlaps="r18_np">
-         <annotation gi="n">Bk.1.8</annotation>
+         <annotation L="9"
+                     ch="4"
+                     gi="n">Bk.1.8</annotation>
       </range>
-      <range rID="r27_l" gi="l" starting="343" ending="385">
-         <annotation gi="n">Bk.1.9</annotation>
+      <range rID="r27_l"
+             gi="l"
+             starting="343"
+             ending="385">
+         <annotation L="10"
+                     ch="4"
+                     gi="n">Bk.1.9</annotation>
       </range>
       <range rID="r28_l"
              gi="l"
              starting="386"
              ending="421"
              overlaps="r24_phr r26_np r30_phr">
-         <annotation gi="n">Bk.1.10</annotation>
+         <annotation L="11"
+                     ch="4"
+                     gi="n">Bk.1.10</annotation>
       </range>
-      <range rID="r29_phr" gi="phr" starting="405" ending="408"/>
+      <range rID="r29_phr"
+             gi="phr"
+             starting="405"
+             ending="408"/>
       <range rID="r30_phr"
              gi="phr"
              starting="409"
@@ -137,7 +202,9 @@
              starting="422"
              ending="470"
              overlaps="r30_phr r32_phr r33_np">
-         <annotation gi="n">Bk.1.11</annotation>
+         <annotation L="12"
+                     ch="4"
+                     gi="n">Bk.1.11</annotation>
       </range>
       <range rID="r32_phr"
              gi="phr"
@@ -150,14 +217,19 @@
              ending="497"
              id="5"
              overlaps="r31_l r34_l">
-         <annotation place="end" gi="ref">John 9</annotation>
+         <annotation L="13"
+                     ch="54"
+                     place="end"
+                     gi="ref">John 9</annotation>
       </range>
       <range rID="r34_l"
              gi="l"
              starting="471"
              ending="506"
              overlaps="r32_phr r33_np r35_phr">
-         <annotation gi="n">Bk.1.12</annotation>
+         <annotation L="13"
+                     ch="4"
+                     gi="n">Bk.1.12</annotation>
       </range>
       <range rID="r35_phr"
              gi="phr"
@@ -169,7 +241,9 @@
              starting="507"
              ending="545"
              overlaps="r37_np">
-         <annotation gi="n">Bk.1.13</annotation>
+         <annotation L="14"
+                     ch="4"
+                     gi="n">Bk.1.13</annotation>
       </range>
       <range rID="r37_np"
              gi="np"
@@ -182,58 +256,98 @@
              starting="546"
              ending="612"
              overlaps="r40_l"/>
-      <range rID="r38_l" gi="l" starting="546" ending="588">
-         <annotation gi="n">Bk.1.14</annotation>
+      <range rID="r38_l"
+             gi="l"
+             starting="546"
+             ending="588">
+         <annotation L="15"
+                     ch="4"
+                     gi="n">Bk.1.14</annotation>
       </range>
       <range rID="r40_l"
              gi="l"
              starting="589"
              ending="629"
              overlaps="r39_phr r41_phr">
-         <annotation gi="n">Bk.1.15</annotation>
+         <annotation L="16"
+                     ch="4"
+                     gi="n">Bk.1.15</annotation>
       </range>
       <range rID="r41_phr"
              gi="phr"
              starting="613"
              ending="671"
              overlaps="r40_l"/>
-      <range rID="r42_l" gi="l" starting="630" ending="671">
-         <annotation gi="n">Bk.1.16</annotation>
+      <range rID="r42_l"
+             gi="l"
+             starting="630"
+             ending="671">
+         <annotation L="17"
+                     ch="4"
+                     gi="n">Bk.1.16</annotation>
       </range>
-      <range rID="r43_np" gi="np" starting="630" ending="671" id="7"/>
+      <range rID="r43_np"
+             gi="np"
+             starting="630"
+             ending="671"
+             id="7"/>
       <range rID="r44_l"
              gi="l"
              starting="672"
              ending="716"
              overlaps="r47_np r49_phr">
-         <annotation gi="n">Bk.1.17</annotation>
+         <annotation L="18"
+                     ch="4"
+                     gi="n">Bk.1.17</annotation>
       </range>
-      <range rID="r46_phr" gi="phr" starting="672" ending="689"/>
-      <range rID="r45_s" gi="s" starting="672" ending="1104"/>
+      <range rID="r46_phr"
+             gi="phr"
+             starting="672"
+             ending="689"/>
+      <range rID="r45_s"
+             gi="s"
+             starting="672"
+             ending="1104"/>
       <range rID="r47_np"
              gi="np"
              starting="690"
              ending="763"
              id="8"
              overlaps="r44_l"/>
-      <range rID="r48_phr" gi="phr" starting="690" ending="699"/>
+      <range rID="r48_phr"
+             gi="phr"
+             starting="690"
+             ending="699"/>
       <range rID="r49_phr"
              gi="phr"
              starting="700"
              ending="763"
              overlaps="r44_l"/>
-      <range rID="r50_l" gi="l" starting="717" ending="763">
-         <annotation gi="n">Bk.1.18</annotation>
+      <range rID="r50_l"
+             gi="l"
+             starting="717"
+             ending="763">
+         <annotation L="19"
+                     ch="4"
+                     gi="n">Bk.1.18</annotation>
       </range>
       <range rID="r51_l"
              gi="l"
              starting="764"
              ending="814"
              overlaps="r54_phr">
-         <annotation gi="n">Bk.1.19</annotation>
+         <annotation L="20"
+                     ch="4"
+                     gi="n">Bk.1.19</annotation>
       </range>
-      <range rID="r52_phr" gi="phr" starting="764" ending="776"/>
-      <range rID="r53_phr" gi="phr" starting="777" ending="794"/>
+      <range rID="r52_phr"
+             gi="phr"
+             starting="764"
+             ending="776"/>
+      <range rID="r53_phr"
+             gi="phr"
+             starting="777"
+             ending="794"/>
       <range rID="r54_phr"
              gi="phr"
              starting="795"
@@ -244,22 +358,43 @@
              starting="815"
              ending="862"
              overlaps="r54_phr">
-         <annotation gi="n">Bk.1.20</annotation>
+         <annotation L="21"
+                     ch="4"
+                     gi="n">Bk.1.20</annotation>
       </range>
-      <range rID="r56_phr" gi="phr" starting="829" ending="833"/>
-      <range rID="r57_phr" gi="phr" starting="834" ending="862"/>
-      <range rID="r58_l" gi="l" starting="863" ending="907">
-         <annotation gi="n">Bk.1.21</annotation>
+      <range rID="r56_phr"
+             gi="phr"
+             starting="829"
+             ending="833"/>
+      <range rID="r57_phr"
+             gi="phr"
+             starting="834"
+             ending="862"/>
+      <range rID="r58_l"
+             gi="l"
+             starting="863"
+             ending="907">
+         <annotation L="22"
+                     ch="4"
+                     gi="n">Bk.1.21</annotation>
       </range>
-      <range rID="r59_phr" gi="phr" starting="863" ending="907"/>
+      <range rID="r59_phr"
+             gi="phr"
+             starting="863"
+             ending="907"/>
       <range rID="r60_l"
              gi="l"
              starting="908"
              ending="950"
              overlaps="r62_phr">
-         <annotation gi="n">Bk.1.22</annotation>
+         <annotation L="23"
+                     ch="4"
+                     gi="n">Bk.1.22</annotation>
       </range>
-      <range rID="r61_phr" gi="phr" starting="908" ending="931"/>
+      <range rID="r61_phr"
+             gi="phr"
+             starting="908"
+             ending="931"/>
       <range rID="r62_phr"
              gi="phr"
              starting="932"
@@ -270,22 +405,54 @@
              starting="951"
              ending="991"
              overlaps="r62_phr">
-         <annotation gi="n">Bk.1.23</annotation>
+         <annotation L="24"
+                     ch="4"
+                     gi="n">Bk.1.23</annotation>
       </range>
-      <range rID="r64_phr" gi="phr" starting="961" ending="991"/>
-      <range rID="r66_phr" gi="phr" starting="992" ending="997"/>
-      <range rID="r65_l" gi="l" starting="992" ending="1035">
-         <annotation gi="n">Bk.1.24</annotation>
+      <range rID="r64_phr"
+             gi="phr"
+             starting="961"
+             ending="991"/>
+      <range rID="r66_phr"
+             gi="phr"
+             starting="992"
+             ending="997"/>
+      <range rID="r65_l"
+             gi="l"
+             starting="992"
+             ending="1035">
+         <annotation L="25"
+                     ch="4"
+                     gi="n">Bk.1.24</annotation>
       </range>
-      <range rID="r67_phr" gi="phr" starting="998" ending="1035"/>
-      <range rID="r68_l" gi="l" starting="1036" ending="1068">
-         <annotation gi="n">Bk.1.25</annotation>
+      <range rID="r67_phr"
+             gi="phr"
+             starting="998"
+             ending="1035"/>
+      <range rID="r68_l"
+             gi="l"
+             starting="1036"
+             ending="1068">
+         <annotation L="26"
+                     ch="4"
+                     gi="n">Bk.1.25</annotation>
       </range>
-      <range rID="r69_phr" gi="phr" starting="1036" ending="1068"/>
-      <range rID="r70_l" gi="l" starting="1069" ending="1104">
-         <annotation gi="n">Bk.1.26</annotation>
+      <range rID="r69_phr"
+             gi="phr"
+             starting="1036"
+             ending="1068"/>
+      <range rID="r70_l"
+             gi="l"
+             starting="1069"
+             ending="1104">
+         <annotation L="27"
+                     ch="4"
+                     gi="n">Bk.1.26</annotation>
       </range>
-      <range rID="r71_phr" gi="phr" starting="1069" ending="1104"/>
+      <range rID="r71_phr"
+             gi="phr"
+             starting="1069"
+             ending="1104"/>
    </layer>
    <frontier>
 Of Man's first disobedience, and the fruit

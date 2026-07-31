@@ -1,338 +1,865 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LMNL>
-   <start gi="excerpt" rID="r01_excerpt">
-      <annotation gi="title">Paradise Lost I 1-26</annotation>
-      <annotation gi="book">I</annotation>
-      <annotation gi="ll">1-26</annotation>
-      <annotation gi="author">John Milton</annotation>
+   <start gi="excerpt"
+          rID="r01_excerpt"
+          L="1"
+          ch="1">
+      <annotation L="1"
+                  ch="10"
+                  gi="title">Paradise Lost I 1-26</annotation>
+      <annotation L="1"
+                  ch="40"
+                  gi="book">I</annotation>
+      <annotation L="1"
+                  ch="50"
+                  gi="ll">1-26</annotation>
+      <annotation L="1"
+                  ch="60"
+                  gi="author">John Milton</annotation>
    </start>
    <text cf="r01_excerpt">
-</text>
-   <start gi="l" rID="r02_l">
-      <annotation gi="n">Bk.1.1</annotation>
+   </text>
+   <start gi="l"
+          rID="r02_l"
+          L="2"
+          ch="1">
+      <annotation L="2"
+                  ch="4"
+                  gi="n">Bk.1.1</annotation>
    </start>
-   <start gi="s" rID="r03_s"/>
-   <start gi="phr" rID="r04_phr"/>
+   <start gi="s"
+          rID="r03_s"
+          L="2"
+          ch="17"/>
+   <start gi="phr"
+          rID="r04_phr"
+          L="2"
+          ch="20"/>
    <text cf="r01_excerpt r02_l r03_s r04_phr">Of Man's first disobedience,</text>
-   <end gi="phr" rID="r04_phr"/>
-   <text cf="r01_excerpt r02_l r03_s"> </text>
-   <start gi="phr" rID="r05_phr"/>
+   <end gi="phr"
+        rID="r04_phr"
+        L="2"
+        ch="53"/>
+   <text cf="r01_excerpt r02_l r03_s">
+   </text>
+   <start gi="phr"
+          rID="r05_phr"
+          L="2"
+          ch="59"/>
    <text cf="r01_excerpt r02_l r03_s r05_phr">and </text>
-   <start gi="np" id="1" rID="r06_np"/>
+   <start gi="np"
+          id="1"
+          rID="r06_np"
+          L="2"
+          ch="68"/>
    <text cf="r01_excerpt r02_l r03_s r05_phr r06_np">the fruit</text>
-   <end gi="l" rID="r02_l"/>
+   <end gi="l"
+        rID="r02_l"
+        L="2"
+        ch="83"/>
    <text cf="r01_excerpt r03_s r05_phr r06_np">
-</text>
-   <start gi="l" rID="r07_l">
-      <annotation gi="n">Bk.1.2</annotation>
+   </text>
+   <start gi="l"
+          rID="r07_l"
+          L="3"
+          ch="1">
+      <annotation L="3"
+                  ch="4"
+                  gi="n">Bk.1.2</annotation>
    </start>
    <text cf="r01_excerpt r03_s r05_phr r06_np r07_l">Of </text>
-   <start gi="np" id="2" rID="r08_np"/>
+   <start gi="np"
+          id="2"
+          rID="r08_np"
+          L="3"
+          ch="20"/>
    <text cf="r01_excerpt r03_s r05_phr r06_np r07_l r08_np">that forbidden tree</text>
-   <end gi="np" id="1" rID="r06_np"/>
+   <end gi="np"
+        id="1"
+        rID="r06_np"
+        L="3"
+        ch="45"/>
    <text cf="r01_excerpt r03_s r05_phr r07_l r08_np"> whose mortal taste</text>
-   <end gi="l" rID="r07_l"/>
+   <end gi="l"
+        rID="r07_l"
+        L="3"
+        ch="70"/>
    <text cf="r01_excerpt r03_s r05_phr r08_np">
-</text>
-   <start gi="l" rID="r09_l">
-      <annotation gi="n">Bk.1.3</annotation>
+   </text>
+   <start gi="l"
+          rID="r09_l"
+          L="4"
+          ch="1">
+      <annotation L="4"
+                  ch="4"
+                  gi="n">Bk.1.3</annotation>
    </start>
    <text cf="r01_excerpt r03_s r05_phr r08_np r09_l">Brought death into the World,</text>
-   <end gi="phr" rID="r05_phr"/>
-   <text cf="r01_excerpt r03_s r08_np r09_l"> </text>
-   <start gi="phr" rID="r10_phr"/>
+   <end gi="phr"
+        rID="r05_phr"
+        L="4"
+        ch="46"/>
+   <text cf="r01_excerpt r03_s r08_np r09_l">
+   </text>
+   <start gi="phr"
+          rID="r10_phr"
+          L="4"
+          ch="52"/>
    <text cf="r01_excerpt r03_s r08_np r09_l r10_phr">and all our woe,</text>
-   <end gi="phr" rID="r10_phr"/>
-   <end gi="l" rID="r09_l"/>
+   <end gi="phr"
+        rID="r10_phr"
+        L="4"
+        ch="73"/>
+   <end gi="l"
+        rID="r09_l"
+        L="4"
+        ch="78"/>
    <text cf="r01_excerpt r03_s r08_np">
-</text>
-   <start gi="l" rID="r11_l">
-      <annotation gi="n">Bk.1.4</annotation>
+   </text>
+   <start gi="l"
+          rID="r11_l"
+          L="5"
+          ch="1">
+      <annotation L="5"
+                  ch="4"
+                  gi="n">Bk.1.4</annotation>
    </start>
-   <start gi="phr" rID="r12_phr"/>
+   <start gi="phr"
+          rID="r12_phr"
+          L="5"
+          ch="17"/>
    <text cf="r01_excerpt r03_s r08_np r11_l r12_phr">With loss of Eden,</text>
-   <end gi="np" id="2" rID="r08_np"/>
-   <end gi="phr" rID="r12_phr"/>
-   <text cf="r01_excerpt r03_s r11_l"> </text>
-   <start gi="phr" rID="r13_phr"/>
+   <end gi="np"
+        id="2"
+        rID="r08_np"
+        L="5"
+        ch="40"/>
+   <end gi="phr"
+        rID="r12_phr"
+        L="5"
+        ch="46"/>
+   <text cf="r01_excerpt r03_s r11_l">
+   </text>
+   <start gi="phr"
+          rID="r13_phr"
+          L="5"
+          ch="52"/>
    <text cf="r01_excerpt r03_s r11_l r13_phr">till one greater Man</text>
-   <end gi="l" rID="r11_l"/>
+   <end gi="l"
+        rID="r11_l"
+        L="5"
+        ch="77"/>
    <text cf="r01_excerpt r03_s r13_phr">
-</text>
-   <start gi="l" rID="r14_l">
-      <annotation gi="n">Bk.1.5</annotation>
+   </text>
+   <start gi="l"
+          rID="r14_l"
+          L="6"
+          ch="1">
+      <annotation L="6"
+                  ch="4"
+                  gi="n">Bk.1.5</annotation>
    </start>
    <text cf="r01_excerpt r03_s r13_phr r14_l">Restore us,</text>
-   <end gi="phr" rID="r13_phr"/>
-   <text cf="r01_excerpt r03_s r14_l"> </text>
-   <start gi="phr" rID="r15_phr"/>
+   <end gi="phr"
+        rID="r13_phr"
+        L="6"
+        ch="28"/>
+   <text cf="r01_excerpt r03_s r14_l">
+   </text>
+   <start gi="phr"
+          rID="r15_phr"
+          L="6"
+          ch="34"/>
    <text cf="r01_excerpt r03_s r14_l r15_phr">and regain the blissful seat,</text>
-   <end gi="phr" rID="r15_phr"/>
-   <end gi="l" rID="r14_l"/>
+   <end gi="phr"
+        rID="r15_phr"
+        L="6"
+        ch="68"/>
+   <end gi="l"
+        rID="r14_l"
+        L="6"
+        ch="73"/>
    <text cf="r01_excerpt r03_s">
-</text>
-   <start gi="l" rID="r16_l">
-      <annotation gi="n">Bk.1.6</annotation>
+   </text>
+   <start gi="l"
+          rID="r16_l"
+          L="7"
+          ch="1">
+      <annotation L="7"
+                  ch="4"
+                  gi="n">Bk.1.6</annotation>
    </start>
-   <start gi="phr" rID="r17_phr"/>
+   <start gi="phr"
+          rID="r17_phr"
+          L="7"
+          ch="17"/>
    <text cf="r01_excerpt r03_s r16_l r17_phr">Sing,</text>
-   <end gi="phr" rID="r17_phr"/>
-   <text cf="r01_excerpt r03_s r16_l"> </text>
-   <start gi="np" id="3" rID="r18_np"/>
-   <start gi="phr" rID="r19_phr"/>
+   <end gi="phr"
+        rID="r17_phr"
+        L="7"
+        ch="27"/>
+   <text cf="r01_excerpt r03_s r16_l">
+   </text>
+   <start gi="np"
+          id="3"
+          rID="r18_np"
+          L="7"
+          ch="33"/>
+   <start gi="phr"
+          rID="r19_phr"
+          L="7"
+          ch="39"/>
    <text cf="r01_excerpt r03_s r16_l r18_np r19_phr">Heavenly Muse,</text>
-   <end gi="phr" rID="r19_phr"/>
-   <text cf="r01_excerpt r03_s r16_l r18_np"> </text>
-   <start gi="phr" rID="r20_phr"/>
+   <end gi="phr"
+        rID="r19_phr"
+        L="7"
+        ch="58"/>
+   <text cf="r01_excerpt r03_s r16_l r18_np">
+   </text>
+   <start gi="phr"
+          rID="r20_phr"
+          L="7"
+          ch="64"/>
    <text cf="r01_excerpt r03_s r16_l r18_np r20_phr">that,</text>
-   <end gi="phr" rID="r20_phr"/>
-   <text cf="r01_excerpt r03_s r16_l r18_np"> </text>
-   <start gi="phr" rID="r21_phr"/>
+   <end gi="phr"
+        rID="r20_phr"
+        L="7"
+        ch="74"/>
+   <text cf="r01_excerpt r03_s r16_l r18_np">
+   </text>
+   <start gi="phr"
+          rID="r21_phr"
+          L="7"
+          ch="80"/>
    <text cf="r01_excerpt r03_s r16_l r18_np r21_phr">on the secret top</text>
-   <end gi="l" rID="r16_l"/>
+   <end gi="l"
+        rID="r16_l"
+        L="7"
+        ch="102"/>
    <text cf="r01_excerpt r03_s r18_np r21_phr">
-</text>
-   <start gi="l" rID="r22_l">
-      <annotation gi="n">Bk.1.7</annotation>
+   </text>
+   <start gi="l"
+          rID="r22_l"
+          L="8"
+          ch="1">
+      <annotation L="8"
+                  ch="4"
+                  gi="n">Bk.1.7</annotation>
    </start>
    <text cf="r01_excerpt r03_s r18_np r21_phr r22_l">Of Oreb,</text>
-   <end gi="phr" rID="r21_phr"/>
-   <text cf="r01_excerpt r03_s r18_np r22_l"> </text>
-   <start gi="phr" rID="r23_phr"/>
+   <end gi="phr"
+        rID="r21_phr"
+        L="8"
+        ch="25"/>
+   <text cf="r01_excerpt r03_s r18_np r22_l">
+   </text>
+   <start gi="phr"
+          rID="r23_phr"
+          L="8"
+          ch="31"/>
    <text cf="r01_excerpt r03_s r18_np r22_l r23_phr">or of Sinai,</text>
-   <end gi="phr" rID="r23_phr"/>
-   <text cf="r01_excerpt r03_s r18_np r22_l"> </text>
-   <start gi="phr" rID="r24_phr"/>
+   <end gi="phr"
+        rID="r23_phr"
+        L="8"
+        ch="48"/>
+   <text cf="r01_excerpt r03_s r18_np r22_l">
+   </text>
+   <start gi="phr"
+          rID="r24_phr"
+          L="8"
+          ch="54"/>
    <text cf="r01_excerpt r03_s r18_np r22_l r24_phr">didst inspire</text>
-   <end gi="l" rID="r22_l"/>
+   <end gi="l"
+        rID="r22_l"
+        L="8"
+        ch="72"/>
    <text cf="r01_excerpt r03_s r18_np r24_phr">
-</text>
-   <start gi="l" rID="r25_l">
-      <annotation gi="n">Bk.1.8</annotation>
+   </text>
+   <start gi="l"
+          rID="r25_l"
+          L="9"
+          ch="1">
+      <annotation L="9"
+                  ch="4"
+                  gi="n">Bk.1.8</annotation>
    </start>
-   <start gi="np" id="4" rID="r26_np"/>
+   <start gi="np"
+          id="4"
+          rID="r26_np"
+          L="9"
+          ch="17"/>
    <text cf="r01_excerpt r03_s r18_np r24_phr r25_l r26_np">That Shepherd</text>
-   <end gi="np" id="3" rID="r18_np"/>
+   <end gi="np"
+        id="3"
+        rID="r18_np"
+        L="9"
+        ch="36"/>
    <text cf="r01_excerpt r03_s r24_phr r25_l r26_np"> who first taught the chosen seed</text>
-   <end gi="l" rID="r25_l"/>
+   <end gi="l"
+        rID="r25_l"
+        L="9"
+        ch="75"/>
    <text cf="r01_excerpt r03_s r24_phr r26_np">
-</text>
-   <start gi="l" rID="r27_l">
-      <annotation gi="n">Bk.1.9</annotation>
+   </text>
+   <start gi="l"
+          rID="r27_l"
+          L="10"
+          ch="1">
+      <annotation L="10"
+                  ch="4"
+                  gi="n">Bk.1.9</annotation>
    </start>
    <text cf="r01_excerpt r03_s r24_phr r26_np r27_l">In the beginning how the heavens and earth</text>
-   <end gi="l" rID="r27_l"/>
+   <end gi="l"
+        rID="r27_l"
+        L="10"
+        ch="59"/>
    <text cf="r01_excerpt r03_s r24_phr r26_np">
-</text>
-   <start gi="l" rID="r28_l">
-      <annotation gi="n">Bk.1.10</annotation>
+   </text>
+   <start gi="l"
+          rID="r28_l"
+          L="11"
+          ch="1">
+      <annotation L="11"
+                  ch="4"
+                  gi="n">Bk.1.10</annotation>
    </start>
    <text cf="r01_excerpt r03_s r24_phr r26_np r28_l">Rose out of Chaos:</text>
-   <end gi="phr" rID="r24_phr"/>
-   <end gi="np" id="4" rID="r26_np"/>
-   <text cf="r01_excerpt r03_s r28_l"> </text>
-   <start gi="phr" rID="r29_phr"/>
+   <end gi="phr"
+        rID="r24_phr"
+        L="11"
+        ch="35"/>
+   <end gi="np"
+        id="4"
+        rID="r26_np"
+        L="11"
+        ch="40"/>
+   <text cf="r01_excerpt r03_s r28_l">
+   </text>
+   <start gi="phr"
+          rID="r29_phr"
+          L="11"
+          ch="47"/>
    <text cf="r01_excerpt r03_s r28_l r29_phr">or,</text>
-   <end gi="phr" rID="r29_phr"/>
-   <text cf="r01_excerpt r03_s r28_l"> </text>
-   <start gi="phr" rID="r30_phr"/>
+   <end gi="phr"
+        rID="r29_phr"
+        L="11"
+        ch="55"/>
+   <text cf="r01_excerpt r03_s r28_l">
+   </text>
+   <start gi="phr"
+          rID="r30_phr"
+          L="11"
+          ch="61"/>
    <text cf="r01_excerpt r03_s r28_l r30_phr">if Sion hill</text>
-   <end gi="l" rID="r28_l"/>
+   <end gi="l"
+        rID="r28_l"
+        L="11"
+        ch="78"/>
    <text cf="r01_excerpt r03_s r30_phr">
-</text>
-   <start gi="l" rID="r31_l">
-      <annotation gi="n">Bk.1.11</annotation>
+   </text>
+   <start gi="l"
+          rID="r31_l"
+          L="12"
+          ch="1">
+      <annotation L="12"
+                  ch="4"
+                  gi="n">Bk.1.11</annotation>
    </start>
    <text cf="r01_excerpt r03_s r30_phr r31_l">Delight thee more,</text>
-   <end gi="phr" rID="r30_phr"/>
-   <text cf="r01_excerpt r03_s r31_l"> </text>
-   <start gi="phr" rID="r32_phr"/>
+   <end gi="phr"
+        rID="r30_phr"
+        L="12"
+        ch="35"/>
+   <text cf="r01_excerpt r03_s r31_l">
+   </text>
+   <start gi="phr"
+          rID="r32_phr"
+          L="12"
+          ch="41"/>
    <text cf="r01_excerpt r03_s r31_l r32_phr">and </text>
-   <start gi="np" id="5" rID="r33_np"/>
+   <start gi="np"
+          id="5"
+          rID="r33_np"
+          L="12"
+          ch="50"/>
    <text cf="r01_excerpt r03_s r31_l r32_phr r33_np">Siloa's brook that flowed</text>
-   <end gi="l" rID="r31_l"/>
+   <end gi="l"
+        rID="r31_l"
+        L="12"
+        ch="81"/>
    <text cf="r01_excerpt r03_s r32_phr r33_np">
-</text>
-   <start gi="l" rID="r34_l">
-      <annotation gi="n">Bk.1.12</annotation>
+   </text>
+   <start gi="l"
+          rID="r34_l"
+          L="13"
+          ch="1">
+      <annotation L="13"
+                  ch="4"
+                  gi="n">Bk.1.12</annotation>
    </start>
    <text cf="r01_excerpt r03_s r32_phr r33_np r34_l">Fast by the oracle of God,</text>
-   <end gi="phr" rID="r32_phr"/>
-   <end gi="np" id="5" rID="r33_np">
-      <annotation gi="ref">John 9</annotation>
+   <end gi="phr"
+        rID="r32_phr"
+        L="13"
+        ch="43"/>
+   <end gi="np"
+        id="5"
+        rID="r33_np"
+        L="13"
+        ch="48">
+      <annotation L="13"
+                  ch="54"
+                  gi="ref">John 9</annotation>
    </end>
-   <text cf="r01_excerpt r03_s r34_l"> </text>
-   <start gi="phr" rID="r35_phr"/>
+   <text cf="r01_excerpt r03_s r34_l">
+   </text>
+   <start gi="phr"
+          rID="r35_phr"
+          L="13"
+          ch="69"/>
    <text cf="r01_excerpt r03_s r34_l r35_phr">I thence</text>
-   <end gi="l" rID="r34_l"/>
+   <end gi="l"
+        rID="r34_l"
+        L="13"
+        ch="82"/>
    <text cf="r01_excerpt r03_s r35_phr">
-</text>
-   <start gi="l" rID="r36_l">
-      <annotation gi="n">Bk.1.13</annotation>
+   </text>
+   <start gi="l"
+          rID="r36_l"
+          L="14"
+          ch="1">
+      <annotation L="14"
+                  ch="4"
+                  gi="n">Bk.1.13</annotation>
    </start>
    <text cf="r01_excerpt r03_s r35_phr r36_l">Invoke thy aid to </text>
-   <start gi="np" id="6" rID="r37_np"/>
+   <start gi="np"
+          id="6"
+          rID="r37_np"
+          L="14"
+          ch="35"/>
    <text cf="r01_excerpt r03_s r35_phr r36_l r37_np">my adventurous song,</text>
-   <end gi="phr" rID="r35_phr"/>
-   <end gi="l" rID="r36_l"/>
+   <end gi="phr"
+        rID="r35_phr"
+        L="14"
+        ch="61"/>
+   <end gi="l"
+        rID="r36_l"
+        L="14"
+        ch="66"/>
    <text cf="r01_excerpt r03_s r37_np">
-</text>
-   <start gi="l" rID="r38_l">
-      <annotation gi="n">Bk.1.14</annotation>
+   </text>
+   <start gi="l"
+          rID="r38_l"
+          L="15"
+          ch="1">
+      <annotation L="15"
+                  ch="4"
+                  gi="n">Bk.1.14</annotation>
    </start>
-   <start gi="phr" rID="r39_phr"/>
+   <start gi="phr"
+          rID="r39_phr"
+          L="15"
+          ch="17"/>
    <text cf="r01_excerpt r03_s r37_np r38_l r39_phr">That with no middle flight intends to soar</text>
-   <end gi="l" rID="r38_l"/>
+   <end gi="l"
+        rID="r38_l"
+        L="15"
+        ch="64"/>
    <text cf="r01_excerpt r03_s r37_np r39_phr">
-</text>
-   <start gi="l" rID="r40_l">
-      <annotation gi="n">Bk.1.15</annotation>
+   </text>
+   <start gi="l"
+          rID="r40_l"
+          L="16"
+          ch="1">
+      <annotation L="16"
+                  ch="4"
+                  gi="n">Bk.1.15</annotation>
    </start>
    <text cf="r01_excerpt r03_s r37_np r39_phr r40_l">Above th' Aonian mount,</text>
-   <end gi="phr" rID="r39_phr"/>
-   <text cf="r01_excerpt r03_s r37_np r40_l"> </text>
-   <start gi="phr" rID="r41_phr"/>
+   <end gi="phr"
+        rID="r39_phr"
+        L="16"
+        ch="40"/>
+   <text cf="r01_excerpt r03_s r37_np r40_l">
+   </text>
+   <start gi="phr"
+          rID="r41_phr"
+          L="16"
+          ch="46"/>
    <text cf="r01_excerpt r03_s r37_np r40_l r41_phr">while it pursues</text>
-   <end gi="l" rID="r40_l"/>
+   <end gi="l"
+        rID="r40_l"
+        L="16"
+        ch="67"/>
    <text cf="r01_excerpt r03_s r37_np r41_phr">
-</text>
-   <start gi="l" rID="r42_l">
-      <annotation gi="n">Bk.1.16</annotation>
+   </text>
+   <start gi="l"
+          rID="r42_l"
+          L="17"
+          ch="1">
+      <annotation L="17"
+                  ch="4"
+                  gi="n">Bk.1.16</annotation>
    </start>
-   <start gi="np" id="7" rID="r43_np"/>
+   <start gi="np"
+          id="7"
+          rID="r43_np"
+          L="17"
+          ch="17"/>
    <text cf="r01_excerpt r03_s r37_np r41_phr r42_l r43_np">Things unattempted yet in prose or rhyme.</text>
-   <end gi="np" id="7" rID="r43_np"/>
-   <end gi="np" id="6" rID="r37_np"/>
-   <end gi="phr" rID="r41_phr"/>
-   <end gi="s" rID="r03_s"/>
-   <end gi="l" rID="r42_l"/>
+   <end gi="np"
+        id="7"
+        rID="r43_np"
+        L="17"
+        ch="64"/>
+   <end gi="np"
+        id="6"
+        rID="r37_np"
+        L="17"
+        ch="70"/>
+   <end gi="phr"
+        rID="r41_phr"
+        L="17"
+        ch="76"/>
+   <end gi="s"
+        rID="r03_s"
+        L="17"
+        ch="81"/>
+   <end gi="l"
+        rID="r42_l"
+        L="17"
+        ch="84"/>
    <text cf="r01_excerpt">
-</text>
-   <start gi="l" rID="r44_l">
-      <annotation gi="n">Bk.1.17</annotation>
+   </text>
+   <start gi="l"
+          rID="r44_l"
+          L="18"
+          ch="1">
+      <annotation L="18"
+                  ch="4"
+                  gi="n">Bk.1.17</annotation>
    </start>
-   <start gi="s" rID="r45_s"/>
-   <start gi="phr" rID="r46_phr"/>
+   <start gi="s"
+          rID="r45_s"
+          L="18"
+          ch="17"/>
+   <start gi="phr"
+          rID="r46_phr"
+          L="18"
+          ch="20"/>
    <text cf="r01_excerpt r44_l r45_s r46_phr">And chiefly thou,</text>
-   <end gi="phr" rID="r46_phr"/>
-   <text cf="r01_excerpt r44_l r45_s"> </text>
-   <start gi="np" id="8" rID="r47_np"/>
-   <start gi="phr" rID="r48_phr"/>
+   <end gi="phr"
+        rID="r46_phr"
+        L="18"
+        ch="42"/>
+   <text cf="r01_excerpt r44_l r45_s">
+   </text>
+   <start gi="np"
+          id="8"
+          rID="r47_np"
+          L="18"
+          ch="48"/>
+   <start gi="phr"
+          rID="r48_phr"
+          L="18"
+          ch="54"/>
    <text cf="r01_excerpt r44_l r45_s r47_np r48_phr">O Spirit,</text>
-   <end gi="phr" rID="r48_phr"/>
-   <text cf="r01_excerpt r44_l r45_s r47_np"> </text>
-   <start gi="phr" rID="r49_phr"/>
+   <end gi="phr"
+        rID="r48_phr"
+        L="18"
+        ch="68"/>
+   <text cf="r01_excerpt r44_l r45_s r47_np">
+   </text>
+   <start gi="phr"
+          rID="r49_phr"
+          L="18"
+          ch="74"/>
    <text cf="r01_excerpt r44_l r45_s r47_np r49_phr">that dost prefer</text>
-   <end gi="l" rID="r44_l"/>
+   <end gi="l"
+        rID="r44_l"
+        L="18"
+        ch="95"/>
    <text cf="r01_excerpt r45_s r47_np r49_phr">
-</text>
-   <start gi="l" rID="r50_l">
-      <annotation gi="n">Bk.1.18</annotation>
+   </text>
+   <start gi="l"
+          rID="r50_l"
+          L="19"
+          ch="1">
+      <annotation L="19"
+                  ch="4"
+                  gi="n">Bk.1.18</annotation>
    </start>
    <text cf="r01_excerpt r45_s r47_np r49_phr r50_l">Before all temples th' upright heart and pure,</text>
-   <end gi="np" id="8" rID="r47_np"/>
-   <end gi="phr" rID="r49_phr"/>
-   <end gi="l" rID="r50_l"/>
+   <end gi="np"
+        id="8"
+        rID="r47_np"
+        L="19"
+        ch="63"/>
+   <end gi="phr"
+        rID="r49_phr"
+        L="19"
+        ch="69"/>
+   <end gi="l"
+        rID="r50_l"
+        L="19"
+        ch="74"/>
    <text cf="r01_excerpt r45_s">
-</text>
-   <start gi="l" rID="r51_l">
-      <annotation gi="n">Bk.1.19</annotation>
+   </text>
+   <start gi="l"
+          rID="r51_l"
+          L="20"
+          ch="1">
+      <annotation L="20"
+                  ch="4"
+                  gi="n">Bk.1.19</annotation>
    </start>
-   <start gi="phr" rID="r52_phr"/>
+   <start gi="phr"
+          rID="r52_phr"
+          L="20"
+          ch="17"/>
    <text cf="r01_excerpt r45_s r51_l r52_phr">Instruct me,</text>
-   <end gi="phr" rID="r52_phr"/>
-   <text cf="r01_excerpt r45_s r51_l"> </text>
-   <start gi="phr" rID="r53_phr"/>
+   <end gi="phr"
+        rID="r52_phr"
+        L="20"
+        ch="34"/>
+   <text cf="r01_excerpt r45_s r51_l">
+   </text>
+   <start gi="phr"
+          rID="r53_phr"
+          L="20"
+          ch="40"/>
    <text cf="r01_excerpt r45_s r51_l r53_phr">for Thou know'st;</text>
-   <end gi="phr" rID="r53_phr"/>
-   <text cf="r01_excerpt r45_s r51_l"> </text>
-   <start gi="phr" rID="r54_phr"/>
+   <end gi="phr"
+        rID="r53_phr"
+        L="20"
+        ch="62"/>
+   <text cf="r01_excerpt r45_s r51_l">
+   </text>
+   <start gi="phr"
+          rID="r54_phr"
+          L="20"
+          ch="68"/>
    <text cf="r01_excerpt r45_s r51_l r54_phr">Thou from the first</text>
-   <end gi="l" rID="r51_l"/>
+   <end gi="l"
+        rID="r51_l"
+        L="20"
+        ch="92"/>
    <text cf="r01_excerpt r45_s r54_phr">
-</text>
-   <start gi="l" rID="r55_l">
-      <annotation gi="n">Bk.1.20</annotation>
+   </text>
+   <start gi="l"
+          rID="r55_l"
+          L="21"
+          ch="1">
+      <annotation L="21"
+                  ch="4"
+                  gi="n">Bk.1.20</annotation>
    </start>
    <text cf="r01_excerpt r45_s r54_phr r55_l">Wast present,</text>
-   <end gi="phr" rID="r54_phr"/>
-   <text cf="r01_excerpt r45_s r55_l"> </text>
-   <start gi="phr" rID="r56_phr"/>
+   <end gi="phr"
+        rID="r54_phr"
+        L="21"
+        ch="30"/>
+   <text cf="r01_excerpt r45_s r55_l">
+   </text>
+   <start gi="phr"
+          rID="r56_phr"
+          L="21"
+          ch="36"/>
    <text cf="r01_excerpt r45_s r55_l r56_phr">and,</text>
-   <end gi="phr" rID="r56_phr"/>
-   <text cf="r01_excerpt r45_s r55_l"> </text>
-   <start gi="phr" rID="r57_phr"/>
+   <end gi="phr"
+        rID="r56_phr"
+        L="21"
+        ch="45"/>
+   <text cf="r01_excerpt r45_s r55_l">
+   </text>
+   <start gi="phr"
+          rID="r57_phr"
+          L="21"
+          ch="51"/>
    <text cf="r01_excerpt r45_s r55_l r57_phr">with mighty wings outspread,</text>
-   <end gi="phr" rID="r57_phr"/>
-   <end gi="l" rID="r55_l"/>
+   <end gi="phr"
+        rID="r57_phr"
+        L="21"
+        ch="84"/>
+   <end gi="l"
+        rID="r55_l"
+        L="21"
+        ch="89"/>
    <text cf="r01_excerpt r45_s">
-</text>
-   <start gi="l" rID="r58_l">
-      <annotation gi="n">Bk.1.21</annotation>
+   </text>
+   <start gi="l"
+          rID="r58_l"
+          L="22"
+          ch="1">
+      <annotation L="22"
+                  ch="4"
+                  gi="n">Bk.1.21</annotation>
    </start>
-   <start gi="phr" rID="r59_phr"/>
+   <start gi="phr"
+          rID="r59_phr"
+          L="22"
+          ch="17"/>
    <text cf="r01_excerpt r45_s r58_l r59_phr">Dove-like sat'st brooding on the vast Abyss,</text>
-   <end gi="phr" rID="r59_phr"/>
-   <end gi="l" rID="r58_l"/>
+   <end gi="phr"
+        rID="r59_phr"
+        L="22"
+        ch="66"/>
+   <end gi="l"
+        rID="r58_l"
+        L="22"
+        ch="71"/>
    <text cf="r01_excerpt r45_s">
-</text>
-   <start gi="l" rID="r60_l">
-      <annotation gi="n">Bk.1.22</annotation>
+   </text>
+   <start gi="l"
+          rID="r60_l"
+          L="23"
+          ch="1">
+      <annotation L="23"
+                  ch="4"
+                  gi="n">Bk.1.22</annotation>
    </start>
-   <start gi="phr" rID="r61_phr"/>
+   <start gi="phr"
+          rID="r61_phr"
+          L="23"
+          ch="17"/>
    <text cf="r01_excerpt r45_s r60_l r61_phr">And mad'st it pregnant:</text>
-   <end gi="phr" rID="r61_phr"/>
-   <text cf="r01_excerpt r45_s r60_l"> </text>
-   <start gi="phr" rID="r62_phr"/>
+   <end gi="phr"
+        rID="r61_phr"
+        L="23"
+        ch="45"/>
+   <text cf="r01_excerpt r45_s r60_l">
+   </text>
+   <start gi="phr"
+          rID="r62_phr"
+          L="23"
+          ch="51"/>
    <text cf="r01_excerpt r45_s r60_l r62_phr">what in me is dark</text>
-   <end gi="l" rID="r60_l"/>
+   <end gi="l"
+        rID="r60_l"
+        L="23"
+        ch="74"/>
    <text cf="r01_excerpt r45_s r62_phr">
-</text>
-   <start gi="l" rID="r63_l">
-      <annotation gi="n">Bk.1.23</annotation>
+   </text>
+   <start gi="l"
+          rID="r63_l"
+          L="24"
+          ch="1">
+      <annotation L="24"
+                  ch="4"
+                  gi="n">Bk.1.23</annotation>
    </start>
    <text cf="r01_excerpt r45_s r62_phr r63_l">Illumine,</text>
-   <end gi="phr" rID="r62_phr"/>
-   <text cf="r01_excerpt r45_s r63_l"> </text>
-   <start gi="phr" rID="r64_phr"/>
+   <end gi="phr"
+        rID="r62_phr"
+        L="24"
+        ch="26"/>
+   <text cf="r01_excerpt r45_s r63_l">
+   </text>
+   <start gi="phr"
+          rID="r64_phr"
+          L="24"
+          ch="32"/>
    <text cf="r01_excerpt r45_s r63_l r64_phr">what is low raise and support;</text>
-   <end gi="phr" rID="r64_phr"/>
-   <end gi="l" rID="r63_l"/>
+   <end gi="phr"
+        rID="r64_phr"
+        L="24"
+        ch="67"/>
+   <end gi="l"
+        rID="r63_l"
+        L="24"
+        ch="72"/>
    <text cf="r01_excerpt r45_s">
-</text>
-   <start gi="l" rID="r65_l">
-      <annotation gi="n">Bk.1.24</annotation>
+   </text>
+   <start gi="l"
+          rID="r65_l"
+          L="25"
+          ch="1">
+      <annotation L="25"
+                  ch="4"
+                  gi="n">Bk.1.24</annotation>
    </start>
-   <start gi="phr" rID="r66_phr"/>
+   <start gi="phr"
+          rID="r66_phr"
+          L="25"
+          ch="17"/>
    <text cf="r01_excerpt r45_s r65_l r66_phr">That,</text>
-   <end gi="phr" rID="r66_phr"/>
-   <text cf="r01_excerpt r45_s r65_l"> </text>
-   <start gi="phr" rID="r67_phr"/>
+   <end gi="phr"
+        rID="r66_phr"
+        L="25"
+        ch="27"/>
+   <text cf="r01_excerpt r45_s r65_l">
+   </text>
+   <start gi="phr"
+          rID="r67_phr"
+          L="25"
+          ch="33"/>
    <text cf="r01_excerpt r45_s r65_l r67_phr">to the height of this great argument,</text>
-   <end gi="phr" rID="r67_phr"/>
-   <end gi="l" rID="r65_l"/>
+   <end gi="phr"
+        rID="r67_phr"
+        L="25"
+        ch="75"/>
+   <end gi="l"
+        rID="r65_l"
+        L="25"
+        ch="80"/>
    <text cf="r01_excerpt r45_s">
-</text>
-   <start gi="l" rID="r68_l">
-      <annotation gi="n">Bk.1.25</annotation>
+   </text>
+   <start gi="l"
+          rID="r68_l"
+          L="26"
+          ch="1">
+      <annotation L="26"
+                  ch="4"
+                  gi="n">Bk.1.25</annotation>
    </start>
-   <start gi="phr" rID="r69_phr"/>
+   <start gi="phr"
+          rID="r69_phr"
+          L="26"
+          ch="17"/>
    <text cf="r01_excerpt r45_s r68_l r69_phr">I may assert Eternal Providence,</text>
-   <end gi="phr" rID="r69_phr"/>
-   <end gi="l" rID="r68_l"/>
+   <end gi="phr"
+        rID="r69_phr"
+        L="26"
+        ch="54"/>
+   <end gi="l"
+        rID="r68_l"
+        L="26"
+        ch="59"/>
    <text cf="r01_excerpt r45_s">
-</text>
-   <start gi="l" rID="r70_l">
-      <annotation gi="n">Bk.1.26</annotation>
+   </text>
+   <start gi="l"
+          rID="r70_l"
+          L="27"
+          ch="1">
+      <annotation L="27"
+                  ch="4"
+                  gi="n">Bk.1.26</annotation>
    </start>
-   <start gi="phr" rID="r71_phr"/>
+   <start gi="phr"
+          rID="r71_phr"
+          L="27"
+          ch="17"/>
    <text cf="r01_excerpt r45_s r70_l r71_phr">And justify the ways of God to men.</text>
-   <end gi="phr" rID="r71_phr"/>
-   <end gi="s" rID="r45_s"/>
-   <end gi="l" rID="r70_l"/>
+   <end gi="phr"
+        rID="r71_phr"
+        L="27"
+        ch="57"/>
+   <end gi="s"
+        rID="r45_s"
+        L="27"
+        ch="62"/>
+   <end gi="l"
+        rID="r70_l"
+        L="27"
+        ch="65"/>
    <text cf="r01_excerpt">
-</text>
-   <end gi="excerpt" rID="r01_excerpt"/>
+   </text>
+   <end gi="excerpt"
+        rID="r01_excerpt"
+        L="28"
+        ch="1"/>
    <text cf="">
-</text>
+   </text>
 </LMNL>

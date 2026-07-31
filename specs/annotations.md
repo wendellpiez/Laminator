@@ -12,5 +12,37 @@ In LMNL this was nominally supported. It raises enough complications for both pa
 
 Meanwhile some simple creative uses of plain-text annotations include links to other files - which can be any format at all subject, to implementors' choices.
 
+## Some ideas
+
+### Change the syntax
+
+Use annotation tagging delimiters `[>` and `<]` instead of range delimiters `[}{]`
+
+Since annotations do not overlap this should work?
+
+Or, make an annotation naming syntax discrete from range GIs?
+
+```
+[@ann}annotation{@ann]
+```
+
+or maybe (better?)
+
+```
+[#range [ann}annotation{ann]}range of text{range#]
+```
+
+### Don't use markup
+
+Instead of treating them as code literals, use annotations as pointers:
+
+```
+[comment [file}comment.lmnl{note]} ... {comment]
+```
+
+Then a parser doesn't have to do anything (beyond parse what is retrieved), while processing becomes dependent on file traversal.
+
+Potential issues: limiting the pointer syntax to avoid markup delimiters 
+
 ---
 end

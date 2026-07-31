@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMNL xmlns="http://wendellpiez.com/ns/xMNML">
+   <start gi="excerpt"
+          rID="r1_excerpt"
+          L="1"
+          ch="1"
+          off="0"
+          ext="123">
+      <annotation L="1" ch="10" gi="author">Robert Frost</annotation>
+      <annotation L="1" ch="32" gi="date">1915</annotation>
+      <annotation L="1" ch="44" gi="title">The Housekeeper</annotation>
+   </start>
+   <text cf="r1_excerpt" off="0" ext="1">
+</text>
+   <start gi="s" rID="r2_s" L="2" ch="1" off="1" ext="50"/>
+   <start gi="l" rID="r3_l" L="2" ch="4" off="1" ext="33">
+      <annotation L="2" ch="7" gi="n">144</annotation>
+   </start>
+   <text cf="r1_excerpt r2_s r3_l" off="1" ext="33">He manages to keep the upper hand</text>
+   <end gi="l" rID="r3_l" L="2" ch="49" off="34" ext="33"/>
+   <text cf="r1_excerpt r2_s" off="34" ext="1">
+</text>
+   <start gi="l" rID="r4_l" L="3" ch="1" off="35" ext="43">
+      <annotation L="3" ch="4" gi="n">145</annotation>
+   </start>
+   <text cf="r1_excerpt r2_s r4_l" off="35" ext="16">On his own farm.</text>
+   <end gi="s" rID="r2_s" L="3" ch="29" off="51" ext="50"/>
+   <text cf="r1_excerpt r4_l" off="51" ext="1"> </text>
+   <start gi="s" rID="r5_s" L="3" ch="33" off="52" ext="10"/>
+   <text cf="r1_excerpt r4_l r5_s" off="52" ext="10">He's boss.</text>
+   <end gi="s" rID="r5_s" L="3" ch="46" off="62" ext="10"/>
+   <text cf="r1_excerpt r4_l" off="62" ext="1"> </text>
+   <start gi="s" rID="r6_s" L="3" ch="50" off="63" ext="59"/>
+   <text cf="r1_excerpt r4_l r6_s" off="63" ext="15">But as to hens:</text>
+   <end gi="l" rID="r4_l" L="3" ch="68" off="78" ext="43"/>
+   <text cf="r1_excerpt r6_s" off="78" ext="1">
+</text>
+   <start gi="l" rID="r7_l" L="4" ch="1" off="79" ext="43">
+      <annotation L="4" ch="4" gi="n">146</annotation>
+   </start>
+   <text cf="r1_excerpt r6_s r7_l" off="79" ext="43">We fence our flowers in and the hens range.</text>
+   <end gi="l" rID="r7_l" L="4" ch="56" off="122" ext="43"/>
+   <end gi="s" rID="r6_s" L="4" ch="59" off="122" ext="59"/>
+   <text cf="r1_excerpt" off="122" ext="1">
+</text>
+   <end gi="excerpt"
+        rID="r1_excerpt"
+        L="5"
+        ch="1"
+        off="123"
+        ext="123"/>
+   <text off="123" ext="1">
+</text>
+</LMNL>

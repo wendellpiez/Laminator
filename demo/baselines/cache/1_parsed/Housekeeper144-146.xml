@@ -1,47 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LMNL>
    <text/>
-   <start name="excerpt">
-      <annotation gi="author">Robert Frost</annotation>
-      <annotation gi="date">1915</annotation>
-      <annotation gi="title">The Housekeeper</annotation>
-   </start>
+   <start>[<name>excerpt</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>author</gi>}<text>Robert Frost</text>{]</annotation>
+      <annotation>[<gi>date</gi>}<text>1915</text>{]</annotation>
+      <annotation>[<gi>title</gi>}<text>The Housekeeper</text>{]</annotation>
+      <pad>
+      </pad>}</start>
    <text>
-</text>
-   <start name="s"/>
+   </text>
+   <start>[<name>s</name>}</start>
    <text/>
-   <start name="l">
-      <annotation gi="n">144</annotation>
-   </start>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>144</text>{]</annotation>}</start>
    <text>He manages to keep the upper hand</text>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">145</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>145</text>{]</annotation>}</start>
    <text>On his own farm.</text>
-   <end name="s"/>
-   <text> </text>
-   <start name="s"/>
+   <end>{<name>s</name>]</end>
+   <text>
+   </text>
+   <start>[<name>s</name>}</start>
    <text>He's boss.</text>
-   <end name="s"/>
-   <text> </text>
-   <start name="s"/>
+   <end>{<name>s</name>]</end>
+   <text>
+   </text>
+   <start>[<name>s</name>}</start>
    <text>But as to hens:</text>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text>
-</text>
-   <start name="l">
-      <annotation gi="n">146</annotation>
-   </start>
+   </text>
+   <start>[<name>l</name>
+      <pad>
+      </pad>
+      <annotation>[<gi>n</gi>}<text>146</text>{]</annotation>}</start>
    <text>We fence our flowers in and the hens range.</text>
-   <end name="l"/>
+   <end>{<name>l</name>]</end>
    <text/>
-   <end name="s"/>
+   <end>{<name>s</name>]</end>
    <text>
-</text>
-   <end name="excerpt"/>
+   </text>
+   <end>{<name>excerpt</name>]</end>
    <text>
-</text>
+   </text>
 </LMNL>
