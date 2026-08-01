@@ -76,9 +76,9 @@
       </p:identity>
       <p:if test="$showing-errors">
         <p:insert match="/OOPS" position="first-child">
-          <p:with-input port="insertion" pipe="@parse_result" select="/*/c:errors/c:error/*:message/text()"/>
+          <p:with-input port="insertion" pipe="@parse_result" select="/*/c:errors/c:error/(*:message | cx:cause)"/>
         </p:insert>
-        <!--<p:namespace-delete prefixes="cx"/>-->
+        <p:namespace-delete prefixes="cx"/>
       </p:if>
     </p:otherwise>
   </p:choose>

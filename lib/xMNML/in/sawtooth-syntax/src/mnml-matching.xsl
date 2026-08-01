@@ -138,7 +138,7 @@
     <xsl:variable name="isClosing"
       select="accumulator-before('tag_stack')[child::name=$matching][last()]"/>
     <xsl:if test="empty($isClosing)">
-      <xsl:message terminate="{ $messages-terminate }">[mnml-matching] Range end tag {{{ child::name }] has no preceding start tag to close... open ranges include { accumulator-before('tag_stack')/child::name/('''' || . || '''') => string-join(', ') } - see line { accumulator-before('line_offset') + 1 }, position { accumulator-before('char_offset') + 1 }</xsl:message>
+      <xsl:message terminate="{ $messages-terminate }">[mnml-matching] Range end tag {{{ child::name }] has no preceding start tag to close... open ranges include { accumulator-before('tag_stack')/child::name/('''' || . || '''') => string-join(', ') } - see line { accumulator-before('line_offset') + 1 }, column { accumulator-before('char_offset') + 1 }</xsl:message>
     </xsl:if>
     
     <xsl:copy>

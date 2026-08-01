@@ -1,0 +1,58 @@
+; LMNL Sawtooth Syntax syntax file for Helios Texpad
+
+; to use:
+; In your system, find the folder C:\Users\userX\AppData\Roaming\Helios\TextPad\7\
+; Confirm that it matches the setting in Configure/Preferences/Folders/Syntax
+; Copy the file lmnl.syn into that folder
+; Create a new TextPad Document Class for LMNL (Configure/Preferences/Document Classes)
+; Its file association should be *.lmnl
+; Its settings should be: UTF-8, Unix, no indent, no wrapping
+; Its syntax file should be lmnl.syn off the list (found in the folder listed
+; Once the syntax is bound and working colors can be adjusted from the same settings
+
+JSON=1
+
+[Syntax]
+Namespace1 = 2
+IgnoreCase = No
+; InitKeyWordChars = A-Za-z*$'
+; KeyWordChars = -A-Za-z0-9*:_
+BracketChars = []{}
+OperatorChars = =
+; PreprocStart =
+SyntaxStart = {
+SyntaxEnd = }
+StringsSpanLines = Yes
+; CommentStart = ;|
+; CommentEnd = |;
+; ; CommentStartAlt =
+; CommentEndAlt =
+; SingleComment = ;
+; SingleCommentCol =
+; SingleCommentAlt =
+; SingleCommentColAlt =
+; StringStart = "
+; StringEnd = "
+; StringAlt =
+; StringEsc = \
+; CharStart =
+; CharEnd =
+CharEsc = \
+
+[Keywords 1]
+LMNL
+EPIC
+book
+tale
+speech
+scene
+l
+prolepsis
+prayer
+para
+
+[Keywords 2]
+by
+to
+n
+set

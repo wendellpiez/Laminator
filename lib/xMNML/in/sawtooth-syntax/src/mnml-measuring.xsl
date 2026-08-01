@@ -47,7 +47,7 @@
     <xsl:variable name="ender" select="key('end-for-id', @rID)"/>
     <!-- Gratuitous since calculable, but easy to determine -->
     <xsl:if test="empty($ender)">
-      <xsl:message terminate="{ $messages-terminate }" expand-text="true">[mnml-measuring] No end appears for start tag [{ @gi }}} - see line { @L }, position { @ch }</xsl:message>
+      <xsl:message terminate="{ $messages-terminate }" expand-text="true">[mnml-measuring] No end appears for start tag [{ @gi }}} - see line { @L }, column { @ch }</xsl:message>
     </xsl:if>
     <!-- requires configuration to enable <xsl:assert test="exists($ender)">No end appears for start tag</xsl:assert>-->
     <start>
@@ -72,7 +72,7 @@
   <xsl:template match="end">
     <xsl:variable name="starter" select="key('start-for-id', @rID)"/>
     <xsl:if test="empty($starter)">
-      <xsl:message terminate="{ $messages-terminate }" expand-text="true">[mnml-measuring] No start appears for end tag {{{ @gi }] - see line { @L }, position { @ch }</xsl:message>
+      <xsl:message terminate="{ $messages-terminate }" expand-text="true">[mnml-measuring] No start appears for end tag {{{ @gi }] - see line { @L }, column { @ch }</xsl:message>
     </xsl:if>
     <!-- requires configuration to enable <xsl:assert test="exists($starter)">No start appears for end tag</xsl:assert> -->
     <end> 
