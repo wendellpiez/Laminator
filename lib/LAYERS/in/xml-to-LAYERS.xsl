@@ -2,13 +2,12 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://wendellpiez.com/ns/xMNML"
     exclude-result-prefixes="#all" version="3.0" expand-text="true">
-<!--
 
-An easy way to go from any XML into MNML LMNL
-means we are now able to skip writing it into LMNL syntax first and then parsing.
-TODO: UNIT TEST
-      VALIDATE RESULTS AGAINST SCHEMA
+  <!-- An easy way to go from any XML into MNML LMNL
+       without writing and parsing tags again.
       
+      This could use with some illustrative unit testing.
+
       -->
     <!--<xsl:output indent="true"/>-->
 
@@ -22,11 +21,11 @@ TODO: UNIT TEST
 
     <xsl:template match="/">
         <LAYERS>
-          <layer>
+          <layer form="ohco" ranges="{ //*/name() => distinct-values() }">
             <xsl:apply-templates/>
           </layer>
           <frontier>
-            <xsl:text>{ string-join(descendant::text(),'') }</xsl:text>
+            <xsl:text>{ .//text() => string-join('') }</xsl:text>
           </frontier>
         </LAYERS>
     </xsl:template>

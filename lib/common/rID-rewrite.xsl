@@ -7,20 +7,14 @@
     exclude-result-prefixes="#all"
     version="3.0">
 
-<!-- Rewrites all the range IDs
+<!-- Rewrites all the range IDs in xMNML
+    
+    Also works on LAYERS
+    
      Assumes rIDs coming in are all correct and distinct (start/end pairs)
   To do:
     unit test this 
     hook together with reinscription for normalized IDs in its result
-    write
-      xMNML LMNL serializer
-      xMNML XML tree builder
-        HTML production for display
-        TEI integration (for Scholia)
-      xLMNL range filter
-      xLMNL Scholia merge
-      xLMNL s/phr projector/inferencer (find this in Luminescent?)
-        etc.
   -->
   
   <xsl:param name="prefix" as="xs:string"/>
