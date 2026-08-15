@@ -11,8 +11,19 @@
   <!--
     Repairs order of 'range' elements given in a layer, 
     normalizes LAYERS sets and annotates its 'layer' element(s)
+    Addes @overlaps to ranges
     Should work even if @rID is out of order - uses only offsets
   
+  TODO: a parallel Schematron to test:
+    range ordering of @starting and @ending
+      @starting to be >= ../preceding-sibling::*/@starting
+      
+      @ending to be >= ../preceding-sibling::*/starting OR
+        @starting != ../preceding-sibling::*/@starting
+        
+        Test overlaps?
+        Test OHCO (no overlaps) or MCH (no overlaps among homonym ranges)
+        
   -->
   
   
