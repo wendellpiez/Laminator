@@ -1,0 +1,29 @@
+Textpad demo notes
+
+
+DEMO ONE - Editing LMNL
+
+1. Open a LMNL document (from File/Recent)
+2. Examine it.
+
+  Syntax coloring
+  Live editing -
+    - parsing support
+    - range report card
+  CLIP library
+    show new ranges in range report
+
+DEMO TWO - Setup
+
+1. Adding clip library
+   (Editing clip library)
+2. Adding LMNL as a document type
+     Configure/Preferences/Document Classes
+      add new document class
+      set up
+3. Adding LMNL parsing pipeline as a tool
+   (Java calling XML Calabash)
+
+DEMO THREE - CL processing with Laminator
+
+  XML Calabash - (XProc Zone?)

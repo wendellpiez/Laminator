@@ -55,5 +55,20 @@ In the Settings for the new Document Class, be sure **Default Encoding** is set 
 
 The Textpad Clip Libraries are useful for LMNL tagging. Selected text can be wrapped in a clip, which can represent start/end tag pairs. You will want to make clips for your vocabulary. These files can also be shared.
 
+Use the right-mouse button (context menu) on the Clip Library selector pulldown to add new Clip Libraries, and on the Clip library itself to add new items. (Tip: select a run of text as for copying, and a clip will be created from your clipboard buffer.)
+
+## LMNL File Name Filter
+
+By adding `LMNL Files (*.lmnl)` as an option among the **File Name Filters** under **Configure / Preferences** you can induce Textpad to see LMNL files and treat them as you want.
+
+## Useful Textpad Features
+
+For whatever reason Textpad hits a sweet spot for lightweight markup processing, at least for those not fortified by Emacs or spoiled by BBEdit.
+
+Its search/replace is powerful. For example, using Textpad search/replace alone, you can add markup to number the lines in your poem.
+
+Another useful feature is the **Mark Flags**.
+
+
 ---
 20260801
