@@ -1,21 +1,29 @@
 # Editing LMNL in TextPad
 
-TextPad is a plain text editor developed by Helios Software, available from textpad.com. These instructions have been tested for Textpad version 9.6.6.
+TextPad is a plain text editor developed by Helios Software Solutions, available from textpad.com. These instructions have been tested for Textpad version 9.6.6.
 
-TextPad is 'nagware': free to install and run, but with periodic notifications to the user requesting a license until one is provided. (They are inexpensive). It is also:
+TextPad is 'reminderware': free to install and run, but with periodic notifications to the user requesting a license until one is provided. (They are not expensive). It is also:
 
 - Lightweight and lean especially by today's standards
 - Capable, well designed, and intelligible
-- Supports extensible document types, such as LMNL
+- Extensible for new document types, such as LMNL
   - with syntax coloring
-- Provides a clip library feature adaptable for use supporting LMNL markup
+- Provides a clip library feature
 - Provides controls to run external tools such as XProc pipelines for on-the-fly checking
 
 ## MNML LMNL parse checking as a TextPad Tool
 
-With this configuration, you can parse a LMNL document in TextPad with a button or keystroke.
+With a parsing (syntax checking) script installed as Tool 1, use the menu option, the button or Ctrl-1 to invoke it. A pipeline definition, `MNML-WFCHECK-source.xpl`, is given for this purpose.
 
 Parsing the document frequently while editing assures the syntax stays orderly, as is required for all subsequent processing. A pipeline from the repository can perform this operation, reporting back the status of a parse (erroneous or presumed successful) on completion.
+
+<details><summary>Too daunting?</summary>
+
+Setting up the tools to run the first time is the battle. The setup task here will be easier if you already know how to invoke the scripts (pipelines) from the command line. In any case, patience, care and persistence are worth it, since nothing will work until everything works.
+
+If you need help setting this up to work, reach out! Even apart from the likelihood of remaining bugs, this could be made easier -- even as it is, it will not work with other software on other platforms. As always YMMV.
+
+</details>
 
 In Textpad, open Configure/Preferences
 
@@ -67,8 +75,7 @@ For whatever reason Textpad hits a sweet spot for lightweight markup processing,
 
 Its search/replace is powerful. For example, using Textpad search/replace alone, you can add markup to number the lines in your poem.
 
-Another useful feature is the **Mark Flags**.
-
+Another useful feature is **Mark Flags** (on Search) with related features and functionality.
 
 ---
-20260801
+20260826
