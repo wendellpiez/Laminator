@@ -2,6 +2,7 @@
 <p:declare-step xmlns:p="http://www.w3.org/ns/xproc"
     xmlns:c="http://www.w3.org/ns/xproc-step"
     xmlns:mnml="http://wendellpiez.com/ns/xMNML"
+    type="mnml:TEST_LAYERS_ROUNDTRIP"
     exclude-inline-prefixes="#all"
     version="3.0">
     
@@ -49,7 +50,6 @@
     <p:xslt name="comparable-back">
       <p:with-input port="stylesheet" href="../../lib/xMNML/rules/xMNML-make-comparable.xsl"/>
     </p:xslt>
-
 
     <!-- Errors out if the documents don't appear equal -->
     <p:compare fail-if-not-equal="true" name="comparing" message="Checking { $baseURI } ...">

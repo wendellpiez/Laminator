@@ -22,7 +22,9 @@
 
   <p:import href="sawteeth-to-xMNML.xpl"/>
 
-  <p:input  port="mnml-source" content-types="text/plain"/>
+  <p:input  port="mnml-source" content-types="text/plain">
+    <p:document href="src/demo-sawteeth-source.lmnl" content-type="text/plain"/>
+  </p:input>
   
   <p:output port="report" primary="true" serialization="map { 'indent': true(),
         'omit-xml-declaration': true() }"/>
@@ -37,7 +39,8 @@
   <p:variable name="filename"
     select="p:document-property(.,'base-uri') => tokenize('/') => reverse() => head()"/>
 
-  <p:variable name="echo" select="string(.) ! normalize-space(.)"/>
+  <p:variable name="echo" select="string(/) ! normalize-space(.)"/>
+  <!--<p:variable name="echo" select="'ECHO ECHO ECHO!!!'"/>-->
 
   <p:try message="Parsing { $filename } - nominal tagging stack limit is { $max-tagging-depth }">
     <mnml:sawteeth-to-xMNML>

@@ -3,9 +3,10 @@
     xmlns:c="http://www.w3.org/ns/xproc-step"
     xmlns:mnml="http://wendellpiez.com/ns/xMNML"
     exclude-inline-prefixes="#all"
+    type="mnml:TEST_xMNML-BUILD"
     version="3.0">
     
-    <!--       
+    <!--        
       Use this pipeline to regression test the xMNML build process
     
     Over LMNL inputs, this pipeline produces xMNML and then compares that to

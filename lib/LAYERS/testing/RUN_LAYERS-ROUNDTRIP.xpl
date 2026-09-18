@@ -3,7 +3,8 @@
     xmlns:c="http://www.w3.org/ns/xproc-step"
     xmlns:mnml="http://wendellpiez.com/ns/xMNML"
     exclude-inline-prefixes="#all"
-    version="3.0">
+    version="3.0"
+  type="mnml:RUN_LAYERS-ROUNDTRIP">
   
   <!-- Calls the local copy of PLfragment by default, but any LMNL instance should do it -->
   <p:import href="../../xMNML/in/sawtooth-syntax/sawteeth-to-xMNML.xpl"/>

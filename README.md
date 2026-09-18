@@ -18,18 +18,31 @@ Think of XML, for *markup languages*, except - (1) with a distinctive syntax, an
 
 In this repository you will find working code, demonstrations, and links to demonstrations. The implementation is XML-based: it uses [XProc](https://xproc.org/) and relies on XSLT and [Invisible XML](https://invisiblexml.org/). The supported subset of LMNL (MNML) aligns closely with XML, for easy handling and production of XML and HTML data and documents, as both input and output.
 
-## In this repository
+
+LMNL markup ('sawteeth' or 'sawtooth syntax') is designed to be workable 'by hand' in a text editor, but LMNL can also be generated from XML or other structured data. 
+
+## Overview
+
+### In this repository
 
 - [demo](demo) has demonstrations you can inspect and run off line (requires XProc and provided [source data](sources))
 - [lib](lib) contains XProc, XSLT, and other code supporting xMNML, an XML-based representation of a document as a range model
 - [papers](papers) contains any papers written so far, or links to them
 - [sources](sources) contains source data ready for inspection or play
 - [specs](specs/) - some work in progress toward Specifications - what is said here is not formal, but not wrong either; and links are provided to the formalisms (grammmar, schema etc.)
-- [testing]() - tests are dispersed through the repository but linked here
+- [testing]() - tests are dispersed through the repository but documented and linked here
 
-LMNL markup ('sawteeth' or 'sawtooth syntax') is designed to be workable 'by hand' in a text editor, but LMNL can also be generated from XML or other structured data. 
+### Dependencies (2026)
 
-## XProc file names
+The code base uses **XSLT** and **XProc** wherever possible, with occasional use of **RelaxNG**, **Schematron** and other technologies native to the XML stack. Parsing MNML LMNL syntax is dependent on an XProc **Invisible XML** step. Pipelines in the repository will deliver results using a generic XProc 3.0/3.1 engine such as XML Calabash or Morgana IIIse. Both of these processors (at this time) require Java 17.
+
+Internal (transitory) data sets are also maintained in XML.
+
+**XQuery** is not currently used, although since XSLT and XProc  rely heavily on XPath, the code base is largely transparent to XQuery. An XQuery-based implementation is also conceivable and could reuse much of the architecture and logic in this library.
+
+Developers who are newcomers to markup languages may want to work with LMNL and XML in parallel. Ultimately, LMNL capabilities should *not* depend on XML capabilities or on Java (for example, LMNL operations might be supported by Javascript in a browser. This line of development is set aside for now mainly because close XML integration is so useful.
+
+### XProc file names
 
 A naming convention provides hints on how XProc pipelines are intended to be used.
 
@@ -40,7 +53,7 @@ Lower-case file names are used for XProc pipelines that are designed to be run p
 A file name in upper case except with a lower-case suffix, typically `_source`, indicates that the pipeline is meant as a primary entry point, but that a binding on an input port, named `source` in this case, must be provided. An example is the pipeline that provides MNML LMNL syntax validation checking, 
 [lib/xMNML/in/sawtooth-syntax/MNML-WFCHECK-source.xpl](lib/MNML-WFCHECK-source.xpl), which serves as a wrapper for the component pipeline [lib/xMNML/in/sawtooth-syntax/mnml-lmnl_wf-check.xpl](lib/xMNML/in/sawtooth-syntax/mnml-lmnl_wf-check.xpl).
 
-## Prior work and acknowledgements
+### Prior work and acknowledgements
 
 At different times there have been LMNL processors, both partial and complete (if not always well tested), developed by Jeni Tennison, Gavin Nicol, Alex Czmiel, Gregor Middell, Paul Caton, John Cowan and others. (Please let me know if you should be on this list.) The current developer (Wendell Piez) participated in this work from its inception, presenting my own XSLT- and XProc-based implementation, [Luminescent](https://github.com/wendellpiez/Luminescent/tree/master), in 2012.
 
@@ -52,7 +65,7 @@ LMNL is a data model supporting applications in text processing. In contrast to 
 
 Applications for which this approach to markup is well suited include the analysis, translation and representation of literary texts.
 
-Laminator is a library of functions and utilities supporting MNML LMNL (syntax and operations) on an XML stack, leveraging and capitalizing on these various externalities:
+Laminator is a library of functions and utilities supporting MNML LMNL (syntax and operations) on an XML stack, leveraging and capitalizing (as noted) on these various externalities:
 
 - XML and TEI (Text Encoding Initiative)
 - XProc, a pipelining and data processing language, with its implementations
@@ -64,14 +77,18 @@ Laminator is a library of functions and utilities supporting MNML LMNL (syntax a
 
 In addition to parsing and serializing (reading and writing) LMNL syntax, the Laminator offers (or will offer):
 
-- Making LMNL (and xMNML) from XML
-- Merging of xMNML documents
+- Making MNML LMNL from XML
+- Processing MNML LMNL
+  - Filtering ranges
+  - Renaming ranges
+  - Query
+- Merging documents
   - Scenarios include 'text alike' (matching on offsets) and 'text unalike' (matching in other ways)
   - Range inferencing - new ranges based on heuristics and analysis
-- Generating XML from MNML LMNL
+- Generating XML
   - Rebuilding hierarchies of interest
   - 'Gracefully degrade' multiple concurrent hierarchies into XML-conventional notations (e.g. milestones)
-- Validation and querying
+- Validation
   - Validation against xMNML rules to support process integrity
   - Schemas and constraint sets for documents showing overlap
 - Generating graphs and visualizations (for example, range maps)
@@ -89,15 +106,15 @@ For more on XProc:
 - [XProc 3.0/3.1 Community Portal](https://xproc.org/)
 - [XProc Zone](https://wendellpiez.github.io/xproc-zone/) - by the author
 
-## The name “Laminator”
+### The name “Laminator”
 
 LMNL is of course the *Layered* Markup and Annotation Language.
 
 With the Laminator, adding and removing new layers, and examining and assessing them, should be easy, fun and rewarding of insights.
 
-## Relation to LMNL, the Layered Markup and Annotation Language (from 2001)
+### Relation to LMNL, the Layered Markup and Annotation Language (from 2002)
 
-The current project is an initiative of the developer (solely), with no *direct* connection (and many indirect connections) to earlier initiatives. I remain grateful to all contributors and collaborators, and to those who have encouraged this work in its various forms, and not only the work on LMNL (since 2001) but also and more generally, work on data models and text processing altogether.
+The current project is an initiative of the developer (solely), with no *direct* connection (and many indirect connections) to earlier initiatives. I remain grateful to all contributors and collaborators, and to those who have encouraged this work in its various forms, and not only the work on LMNL (since 2002) but also and more generally, work on data models and text processing altogether.
 
 MNML LMNL is a LMNL subset selected to support a useful and interesting application profile, while being easy to specify and implement (at least by comparison). Part of the rationale is that as long as we stick close to XML technologies (which XProc and iXML permit us to do), we can turn to XML when we have well-defined hierarchies.
 
