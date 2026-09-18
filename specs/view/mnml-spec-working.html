@@ -1,0 +1,857 @@
+
+
+<section xmlns="http://www.w3.org/1999/xhtml" data-tag="Standards Document" class="labeled sts_standard">
+   <header>
+      <h1>MNML Specification</h1>
+      <blockquote>
+         <p>Warning: this is a <b>PRESENTATION</b> version of this document. <i>NOT FOR EDITING</i>.</p>
+      </blockquote>
+   </header>
+   <section style="padding:0.4em; outline: thin dotted black; margin: 0.4em 0em" data-tag="Front Matter" class="labeled sts_front">
+      <h2><span class="gen">Front matter</span></h2>
+      <div data-tag="NISO STS Standard Metadata" class="labeled sts_std-meta">
+         <div data-tag="Title Wrapper" class="labeled sts_title-wrap">
+            <div data-tag="Main Title Part" class="labeled sts_main">MNML Specification</div>
+         </div>
+      </div>
+   </section>
+   <main data-tag="Body of the Standards Document" class="labeled sts_body">
+      <section id="intro" data-tag="Section" class="titled sts_sec">
+         <h2><span data-tag="Title" class="labeled sts_title">Introduction</span></h2>
+         <p data-tag="Paragraph" class="labeled sts_p">MNML (pronounced "minimal") is Minimally Annotated Markup in LMNL (pronounced "liminal").</p>
+         <p data-tag="Paragraph" class="labeled sts_p">LMNL is the Layered Markup and Annotation Language (Piez and Tennison 2002).</p>
+         <p data-tag="Paragraph" class="labeled sts_p">This document specifies MNML, designed as a formal subset of LMNL: all MNML documents
+            are also LMNL documents. However, LMNL is not defined here. Because LMNL is taken
+            on as a design constraint, inferences can be made about it inasmuch as features of
+            MNML LMNL must also be true of LMNL at large. But while all MNML documents are also
+            LMNL documents, the reverse is not the case. As a subset, MNML LMNL follows all the
+            rules of LMNL, and then adds some.</p>
+         <p data-tag="Paragraph" class="labeled sts_p">Features of LMNL excluded from MNML are out of scope for this document. They include
+            structured and annotated annotations, LMNL atoms, and potentially other features.
+            <a href="./annotations.md" target="external" data-tag="External Link" class="sts_ext-link">Annotations</a> are discussed in a companion article.</p>
+         <p data-tag="Paragraph" class="labeled sts_p">As a specification, this document seeks to be abstract and notional, and thus to represent
+            no particular point of view. Where first person pronounds occur, "we" can refer to
+            users of LMNL, present and former, or people who talk about or used to talk about
+            LMNL or MNML LMNL.</p>
+      </section>
+      <section id="definition-scope" data-tag="Section" class="titled sts_sec">
+         <h2><span data-tag="Title" class="labeled sts_title">Scope of definitions</span></h2>
+         <p data-tag="Paragraph" class="labeled sts_p">As a LMNL subset, MNML LMNL is a data model. Along with this model we propose a syntax
+            called <b data-tag="Bold" class="sts_bold">MNML LMNL syntax</b>. It is also related to the LMNL initiative in replicating, for the most part, the
+            proposed "sawtooth" or "sabertooth" syntax associated with the LMNL proposal and used
+            to illustrated LMNL examples.</p>
+         <p data-tag="Paragraph" class="labeled sts_p">As noted, LMNL and LMNL syntax are not defined or even fully described here.</p>
+         <p data-tag="Paragraph" class="labeled sts_p">An instance of the LMNL data model is a <b data-tag="Bold" class="sts_bold">MNML (LMNL) document</b>; the model describes it and its constituent parts, the conceptual structures it provides
+            to support information processing and retrieval. Along with these structures, a definitive
+            mapping is described from this syntax into the model.</p>
+         <p data-tag="Paragraph" class="labeled sts_p">In addition to the MNML model as an abstraction, two other artifacts are defined specifically
+            for the Laminator implementation of MNML LMNL: an XML-based <b data-tag="Bold" class="sts_bold">tag sequence model</b> called xMNML, and another XML-based <b data-tag="Bold" class="sts_bold">range model</b>, called LAYERS. These descriptions are not normative even for MNML LMNL (much less
+            LMNL in general), but they are useful inasmuch as they describe its implementation
+            in the Laminator.</p>
+         <div data-tag="List" class="labeled sts_list">
+            <ul>
+               <li data-tag="List Item" class="labeled sts_list-item">
+                  <p data-tag="Paragraph" class="labeled sts_p"><a href="xMNML_spec.md" target="external" data-tag="External Link" class="sts_ext-link">XMNML Specification</a></p>
+               </li>
+               <li data-tag="List Item" class="labeled sts_list-item">
+                  <p data-tag="Paragraph" class="labeled sts_p"><a href="LAYERS_spec.md" target="external" data-tag="External Link" class="sts_ext-link">LAYERS model Specification</a></p>
+               </li>
+            </ul>
+         </div>
+         <p data-tag="Paragraph" class="labeled sts_p">LAYERS stands for <i data-tag="Italic" class="sts_italic">Layered Assembly of Enumerated Range Sequences</i>.</p>
+      </section>
+      <section id="axioms" data-tag="Section" class="titled sts_sec">
+         <h2><span data-tag="Title" class="labeled sts_title">Axioms and assumptions</span></h2>
+         <section id="conformance" data-tag="Section" class="titled sts_sec">
+            <h3><span data-tag="Title" class="labeled sts_title">Conformance</span></h3>
+            <p data-tag="Paragraph" class="labeled sts_p">MNML LMNL is defined as an abstract range model, enabling a <b data-tag="Bold" class="sts_bold">text</b> or <b data-tag="Bold" class="sts_bold">text value</b>, a string, to be addressed by means of its <b data-tag="Bold" class="sts_bold">ranges</b>, abstractly defined entities describing their text contents and amending or decorating
+               the text with annotations. Conformance to these specifications requires an implementation
+               that uses this model (or, internally, another model to exactly the same effect) to
+               provide for rules-based processing of information so described -- a set of ranges
+               over a text -- to create new information sets. These may be LMNL range models, which
+               can be written out and expressed as LMNL or XML syntax instances. They may also be
+               encoded in plain text; JSON or other object notation; XML; or binary formats.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">Because of this, LMNL or MNML LMNL conformance ("does the application use the model?")
+               may sometimes be difficult to verify by formal means, even assuming specifications
+               to be clear and complete.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">In contrast, conformance to MNML LMNL syntax -- i.e., the fitness of a given string
+               for processing as MNML LMNL -- can be defined (as below), at least in part, by reference
+               to the grammar used to describe it (and in the Laminator, to configure its processing).
+               An instance that does not parse unambiguously with this grammar can be stipulated
+               to be out of bounds, and the parser will be able to tell us why.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">Accordingly, while the syntax can be provided with unit tests offering coverage of
+               its features (and some testing of this kind can be found in the Laminator code base),
+               the larger question of whether a piece of software is "using LMNL" or even "MNML LMNL"
+               must be determined at the interface between this software and its users, including
+               other LMNL users, and not (or not only) by whether and how it resembles the Laminator
+               (or any other implementation) in either its results or its operations -- even while
+               systems should be returning the same results for the same operations. (Some XML-based
+               and object-based systems, especially those that use offsets over string values to
+               identify ranges, are already 'LMNL-like'.)</p>
+            <p data-tag="Paragraph" class="labeled sts_p">Note however that we do not yet [20260915] seek to define either an API, or a query
+               language, for LMNL or MNML LMNL. Both of these will require again addressing the conformance
+               and testability questions.</p>
+         </section>
+         <section id="lmnl-relation" data-tag="Section" class="titled sts_sec">
+            <h3><span data-tag="Title" class="labeled sts_title">Relation to LMNL</span></h3>
+            <p data-tag="Paragraph" class="labeled sts_p">These specifications seek to <i data-tag="Italic" class="sts_italic">describe</i> LMNL while <i data-tag="Italic" class="sts_italic">defining</i> MNML LMNL processing to support LMNL, or more specifically the features of LMNL captured
+               and codified in the MNML subset. Features of LMNL that are not implemented by MNML
+               LMNL may also be described, but nothing said here should be taken as a normative statement
+               regarding LMNL itself, whether applying to a feature that is in scope for MNML LMNL
+               (such as overlapping ranges), or one that is not (such as structured and annotated
+               annotations).</p>
+         </section>
+         <section id="files" data-tag="Section" class="titled sts_sec">
+            <h3><span data-tag="Title" class="labeled sts_title">Files, strings and documents</span></h3>
+            <p data-tag="Paragraph" class="labeled sts_p">The "base unit" for parsing (processing) MNML LMNL data is a UTF-8 string. In these
+               specifications we describe operations over files, but an implementation does not have
+               to work with files as such, to qualify as a MNML LMNL processor, as the same operations
+               can be performed over strings maintained in any form, and irrespective of the particular
+               input/output operations related to maintenance and persistence.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">Since MNML LMNL has no inclusion mechanism defined in the model (applications may
+               merge documents according to their own requirements), there is practical synonymy
+               between <i data-tag="Italic" class="sts_italic">file</i> and <i data-tag="Italic" class="sts_italic">instance</i>. <i data-tag="Italic" class="sts_italic">Document</i> describes the same entity again, except regarded as an abstraction. A MNML document
+               can be produced from any file whose content is a string using the prescribed syntax;
+               such a string, stored as a file, is a MNML file and also -- when parsed -- is a MNML
+               instance.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">For purposes of this (preliminary) specification, such a string is defined as any
+               UTF-8 character sequence that can be parsed unambiguously using the iXML grammar for
+               LMNL syntax designated by Laminator, namely <span data-tag="Code Text" class="sts_code">../lib/xMNML/in/sawtooth-syntax/src/mnml-lmnl-explicit.ixml</span> at the time of writing, and deliver XML results from an Invisible XML parse of the
+               input with this grammar.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">The rules enforced by this grammar are expected to correspond (never to conflict)
+               with the rules of the syntax described here. If and where they are found to vary,
+               conformance itself must be considered undefined until the issues in question are resolved
+               and documents revised or updated accordingly.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">The purpose of close alignment with the Laminator and its iXML implementation here
+               is to center its grammar as the locus of control for the supported syntax, not to
+               create a dependency on Laminator or iXML. If treating this grammar as normative poses
+               any kind of problem with regard to system dependencies (in future), the specification
+               can be externalized or abstracted from the grammar in question, or from iXML in general.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">An alternative LMNL or even MNML LMNL implementation might opt for a different syntax
+               altogether (or many of them), in addition to or instead of sawtooth syntax.</p>
+         </section>
+         <section id="char-misc" data-tag="Section" class="titled sts_sec">
+            <h3><span data-tag="Title" class="labeled sts_title">Characters: Unicode normalization, whitespace, notation and naming</span></h3>
+            <p data-tag="Paragraph" class="labeled sts_p">UTF-8 is considered as a character sequence without normalization, where each character
+               is distinguishable by a position in the sequence in combination with a code point
+               for the character (or other unambiguous representation). If normalization of a UTF-8
+               string results in a detectably different UTF-8 string, they are not considered the
+               same: strings are the same only if they are also the same at the codepoint level,
+               i.e. when decomposed into characters, with no further adjustment or normalization.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">In specifications and documentation, we may sometimes use regular expression notation
+               for character classes (<span data-tag="Code Text" class="sts_code">\n</span> for new line, etc.), but this is a convenience and the notation has no special meaning
+               for MNML LMNL.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">Throughout these specifications, line feeds in inputs are assumed to have been normalized
+               to Unix-conventional <span data-tag="Code Text" class="sts_code">LF</span>, i.e. no <span data-tag="Code Text" class="sts_code">CR</span> characters are given in the data. Ensure your <span data-tag="Code Text" class="sts_code">CR</span> or <span data-tag="Code Text" class="sts_code">CR/LF</span> have been converted to <span data-tag="Code Text" class="sts_code">LF</span> to avoid any issues.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">[TODO: test to see if iXML parse enforces this?]</p>
+            <p data-tag="Paragraph" class="labeled sts_p">Whitespace defined as in XML: <span data-tag="Code Text" class="sts_code">\s+</span> where <span data-tag="Code Text" class="sts_code">\s</span> is <span data-tag="Code Text" class="sts_code">LF|TAB|SPACE</span>. All whitespace in the data (not in tags) is considered part of the data stream and
+               not subject to normalization, improvement or correction.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">In order to help ensure alignment with XML systems, names are specified as in XML:
+               <span data-tag="Code Text" class="sts_code">\i\c*</span> (in XPath regular expression syntax).</p>
+         </section>
+      </section>
+      <section id="sawteeth" data-tag="Section" class="titled sts_sec">
+         <h2><span data-tag="Title" class="labeled sts_title">MNML LMNL Syntax</span></h2>
+         <p data-tag="Paragraph" class="labeled sts_p">MNML LMNL is defined in two parts, which can be used together or separately. MNML
+            LMNL Syntax takes after LMNL syntax, nicknamed 'sawteeth' (by John C) or 'saberteeth'
+            (by Alex Cz), and may be referred to as such.</p>
+         <section id="syntax-description" data-tag="Section" class="titled sts_sec">
+            <h3><span data-tag="Title" class="labeled sts_title">Syntax Description</span></h3>
+            <p data-tag="Paragraph" class="labeled sts_p">MNML LMNL Syntax defines how a string of characters is to be rendered as a markup
+               stream to a MNML application. For convenience, the markup stream resulting from a
+               syntax parse can be described as an XML document. A MNML LMNL Syntax parser is <i data-tag="Italic" class="sts_italic">NOT</i> required to emit or expose such an XML structure, but what it does emit must be rich
+               enough (no information loss) that such a document could be produced from its result
+               using appropriate means (depending on its form).</p>
+            <p data-tag="Paragraph" class="labeled sts_p">Such an XML document representation of the LMNL markup stream or tag sequence is implicit
+               in the Laminator iXML grammar for MNML LMNL syntax, but the iXML grammar should be
+               considered as informative with respect to its design, not normative. (The iXML grammar
+               in the implementation captures additional information for convenience in this implementation.
+               If it is useful, we can codify this XML and provide a schema for it.)</p>
+            <p data-tag="Paragraph" class="labeled sts_p">Strings of characters, or documents, that do not conform to the grammar, are not considered
+               to be MNML LMNL syntax instances, and must be reported as such. A conforming syntax
+               parser MAY refuse to process such an instance, rejecting it with an exception, and
+               it MUST have a processing mode that supports this behavior, stopping and reporting
+               an exception (nominal error) for the first detected syntax violation in any nominated
+               input. In other words, where inputs do not conform to the grammar, a conforming processor
+               MUST make available a report of detected errors or ambiguities to a downstream processor,
+               if it does not error out as just described.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">In addition to matching the requirements of the grammar with respect to character
+               sequencing (rendering useful distinctions between tagging and text content), a string
+               must also conform to a few rules for <i data-tag="Italic" class="sts_italic">regularity</i> in tagging, which enable the straightforward and unambiguous construction, by automated
+               means, of the corresponding information structure in an implementation. For example,
+               every start tag is required to have a single (determinable) matching end tag.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">To help specify these clearly, they are given at the end of the syntax description.</p>
+            <section id="ixml-grammar" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">iXML grammar</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">See the file at <a href="../lib/xMNML/in/sawtooth-syntax/src/mnml-lmnl-explicit.ixml" target="external" data-tag="External Link" class="sts_ext-link">../lib/xMNML/in/sawtooth-syntax/src/mnml-lmnl-explicit.ixml</a>.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">An iXML grammar is given for MNML LMNL syntax in the Laminator processor. It defines
+                  an XML target format for an Invisible XML parse of MNML LMNL Sawteeth instances, producing
+                  an XML format suitable for futher processing.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">(For comparison, older iXML grammars may also be available, but none should be considered
+                  definitive of anything.)</p>
+               <p data-tag="Paragraph" class="labeled sts_p">If any conflicts are found between that document and statements made here, <i data-tag="Italic" class="sts_italic">both</i> interpretations must be considered in question until adequate reconciliation has
+                  been made. Commit dates for relevant files <i data-tag="Italic" class="sts_italic">MAY</i> be taken into consideration if there are discrepancies between this description,
+                  and the implementation offered. An implementation must always determine the "right
+                  thing" in any case.</p>
+            </section>
+            <section id="escaping" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">Escape syntax</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">Three characters, reserved to support tagging in LMNL syntax, are not to be used otherwise
+                  in text streams: the two open bracket characters <span data-tag="Code Text" class="sts_code">[</span> and <span data-tag="Code Text" class="sts_code">{</span>, and the reverse solidus <span data-tag="Code Text" class="sts_code">\</span>.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Sawtooth syntax uses the open brackets <span data-tag="Code Text" class="sts_code">[</span> and <span data-tag="Code Text" class="sts_code">{</span> as its <i data-tag="Italic" class="sts_italic">open tag delimiters</i> (or 'start tag delimiters'). The close brackets <span data-tag="Code Text" class="sts_code">]</span> and <span data-tag="Code Text" class="sts_code">}</span> are the corresponding <i data-tag="Italic" class="sts_italic">close tag</i> (or 'end tag') delimiters. These characters are used to make tags.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Because these characters direct a parser to read tags, representing the characters
+                  themselves can be accommodated with an escaped sequence as a representation, using
+                  the <span data-tag="Code Text" class="sts_code">\</span> character as the escape. So: <span data-tag="Code Text" class="sts_code">\[</span> and <span data-tag="Code Text" class="sts_code">\{</span> for <span data-tag="Code Text" class="sts_code">[</span> and <span data-tag="Code Text" class="sts_code">{</span> respectively, and <span data-tag="Code Text" class="sts_code">\\</span> for the reverse solidus itself (<span data-tag="Code Text" class="sts_code">\</span>).</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Unlike XML, LMNL syntax does not support escape sequences for character references,
+                  parsed entities or marked escaped (CDATA) sections.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">The <b data-tag="Bold" class="sts_bold">close delimiters</b> <span data-tag="Code Text" class="sts_code">]</span> and <span data-tag="Code Text" class="sts_code">}</span> are not provided with an escaped form: they do not need it, and their use would complicate
+                  internal indexing. When they appear in content they can simply be used like any other
+                  character.</p>
+               <section id="escape-summary" data-tag="Section" class="titled sts_sec">
+                  <h5><span data-tag="Title" class="labeled sts_title">Summary</span></h5>
+                  <div data-tag="List" class="labeled sts_list">
+                     <ul>
+                        <li data-tag="List Item" class="labeled sts_list-item">
+                           <p data-tag="Paragraph" class="labeled sts_p">Escape "[" as <span data-tag="Code Text" class="sts_code">\[</span> and "{" as <span data-tag="Code Text" class="sts_code">\{</span>. Escape "" as <span data-tag="Code Text" class="sts_code">\\</span></p>
+                        </li>
+                        <li data-tag="List Item" class="labeled sts_list-item">
+                           <p data-tag="Paragraph" class="labeled sts_p">Nothing else is to be escaped</p>
+                        </li>
+                        <li data-tag="List Item" class="labeled sts_list-item">
+                           <p data-tag="Paragraph" class="labeled sts_p">Using <span data-tag="Code Text" class="sts_code">\</span> followed by anything but the characters <span data-tag="Code Text" class="sts_code">[</span> <span data-tag="Code Text" class="sts_code">{</span> or <span data-tag="Code Text" class="sts_code">\</span> results in an error</p>
+                        </li>
+                        <li data-tag="List Item" class="labeled sts_list-item">
+                           <p data-tag="Paragraph" class="labeled sts_p">Using <span data-tag="Code Text" class="sts_code">[</span> or <span data-tag="Code Text" class="sts_code">{</span> to indicate anything but tagging results in an error</p>
+                        </li>
+                     </ul>
+                  </div>
+               </section>
+            </section>
+         </section>
+         <section id="syntax-tagging" data-tag="Section" class="titled sts_sec">
+            <h3><span data-tag="Title" class="labeled sts_title">Tagging</span></h3>
+            <p data-tag="Paragraph" class="labeled sts_p">Ranges are defined by the presence of corresponding start and end tags in the data,
+               whose placement is taken to mark the start and end of the range. Tag correspondence
+               is determined by matching the range name (generic identifier) and (if present) tag
+               identifier.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">XXX examples TBD XXX</p>
+            <p data-tag="Paragraph" class="labeled sts_p">A grammar can be used to distinguish tagging from text, but in order to render an
+               internal range model from tagging, ambiguities must be avoided; consequently, more
+               regularities are also observable in tagged LMNL-syntax documents.</p>
+            <section id="starts-and-ends" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">Start and end tags</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">Start tags (or "open tags") in LMNL begin with <span data-tag="Code Text" class="sts_code">[</span> and end with <span data-tag="Code Text" class="sts_code">}</span>.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">The open delimiter <span data-tag="Code Text" class="sts_code">[</span> is followed immediately by a range name, <i data-tag="Italic" class="sts_italic">optional</i> annotations, and the close delimiter <span data-tag="Code Text" class="sts_code">{</span>. So: <span data-tag="Code Text" class="sts_code">[start}</span>.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">End tags (or "close tags") are exactly the same, except they open with <span data-tag="Code Text" class="sts_code">{</span> and end with <span data-tag="Code Text" class="sts_code">]</span>. So, <span data-tag="Code Text" class="sts_code">{start]</span> is the <i data-tag="Italic" class="sts_italic">end tag</i> for a range named "start".</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Each end tag matches a single start tag appearing before it, and is matched by it.
+                  Empty tags are not matched (even with other tags of the same name), as they are taken
+                  to start and end in one place.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">A range is opened with its start tag and closed with its end tag. The end tag matching
+                  a given start tag, and closing its range, is the next end tag appearing after all
+                  intervening start tags with the same name (including ID), working forward, have been
+                  closed. If no such start tags intervene (the usual case), the end tag is the next
+                  end tag whose name matches.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">XXX [EXAMPLE] XXX</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Component IDs on tags can be used to indicate overlap between two ranges given the
+                  same range (type) name, as also described below.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">XXX [EXAMPLE] XXX</p>
+            </section>
+            <section id="tag-annotations" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">Annotations</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">An annotation looks like a small range given in a start tag, end tag or empty tag,
+                  except:</p>
+               <div data-tag="List" class="labeled sts_list">
+                  <ul>
+                     <li data-tag="List Item" class="labeled sts_list-item">
+                        <p data-tag="Paragraph" class="labeled sts_p">No tags (start, end or empty) may appear in its value, before the annotation's own
+                           end tag is given</p>
+                     </li>
+                     <li data-tag="List Item" class="labeled sts_list-item">
+                        <p data-tag="Paragraph" class="labeled sts_p">An annotation end tag takes the form <span data-tag="Code Text" class="sts_code">{]</span>, with no name required or permitted</p>
+                     </li>
+                     <li data-tag="List Item" class="labeled sts_list-item">
+                        <p data-tag="Paragraph" class="labeled sts_p">Whitespace can appear between annotations, for legibility, and must precede a first
+                           annotation given; such whitespace is not considered part of the data set and may not
+                           be respected (considered in processing</p>
+                     </li>
+                     <li data-tag="List Item" class="labeled sts_list-item">
+                        <p data-tag="Paragraph" class="labeled sts_p">The characters "[" "{" "" MUST be escaped, as elsewhere, and will result in errors
+                           if found outside such a sequence.</p>
+                     </li>
+                  </ul>
+               </div>
+               <p data-tag="Paragraph" class="labeled sts_p">Also note: annotations MAY be given on end tags as well as on start tags. End tag
+                  annotations are considered to appear in order after the start tag annotations (in
+                  their given order) for the same range.</p>
+               <section id="annotation-order" data-tag="Section" class="titled sts_sec">
+                  <h5><span data-tag="Title" class="labeled sts_title">Order of annotations</span></h5>
+                  <p data-tag="Paragraph" class="labeled sts_p">The order of annotations on a range will persist, unless deliberately altered, in
+                     processing. In other words, annotations on ranges are ordered, and preserve the order
+                     in which they are given in the syntax, modulo other interventions. Annotations may
+                     use the same names as other annotations on the same range. They maintain distinct
+                     identities even when homologous.</p>
+                  <p data-tag="Paragraph" class="labeled sts_p">To keep the model simple, however, the fact that an annotation is given on a start
+                     or an end tag is <i data-tag="Italic" class="sts_italic">not</i> considered to be information. A LMNL processor may freely rewrite a range's annotations
+                     to appear on either its start tag or end tag, or to split the annotations between
+                     them, provided their order is respected. So an annotation given on an end tag might
+                     be moved to a start tag in reserialized outputs.</p>
+               </section>
+            </section>
+            <section id="empty-ranges" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">Empty tags for empty ranges</span></h4>
+            </section>
+            <section id="tag-ordering" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">Tag ordering</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">Tags appear in a given order in the syntax, but this order is not retained in the
+                  model, In the model, ranges can be put into order, but tag order is not given, and
+                  must be undefined in some scenarious, such as merging two LMNL documents into one
+                  by consolidating ranges.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">XXX [with examples of slippage] XXX</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Slippage can also occur in annotation placement on between the start and end tags
+                  on a given range. Annotation order on a range should be respected, but all annotations
+                  can be given on a start tag or end tag, or split between them, without affecting the
+                  range.</p>
+            </section>
+            <section id="tag-correspondence-rules" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">Rules for regularity</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">Each start tag must correspond to exactly one end tag, which follows it in the character
+                  stream. This <b data-tag="Bold" class="sts_bold">correspondence</b> between start and end tags is the closest thing in LMNL to the XML end-tag-matching
+                  rule [XXX ref XXX]: the difference is that end tags in MNML LMNL do not have to be
+                  the first end tag after the start tag they match.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">As in XML, each end tag must similarly correspond to exactly one start tag, which
+                  precedes it.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">By default, documents containing start and end tags with no matching tag should not
+                  be processed or discarded, instead producing exceptions and stopping. A processor
+                  <b data-tag="Bold" class="sts_bold">MAY</b> provide modes with exception handling for these problems, but they should be only
+                  enabled explicitly and come with defenses (such as runtime warnings).</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Empty tags (for empty ranges) are not matched to corresponding tags, and empty ranges,
+                  even with the same name as other ranges marked by start and end tags in the same document,
+                  have no effect for purposes of matching.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">A processor <i data-tag="Italic" class="sts_italic">MAY</i> report a warning when a tag component ID (a name suffix with <span data-tag="Code Text" class="sts_code">=</span>) is given on an empty tag range name, as it has no effect in the general case. (It
+                  has no effect unless it conflicts with another ID, in which case it is an error.)
+                  Empty range tags never need tag component IDs since they do not correspond with (match
+                  to) other tags but are "self-closing".</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Tag component IDs do <i data-tag="Italic" class="sts_italic">not</i> have to be distinct across the document, as they suffice, along with the other rules
+                  of tag matching, to provide for marking up arbitrary overlap [XXX link XXX]. But overloading
+                  them with semantics (using "meaningful IDs") is not generally advisable, as they can
+                  be rewritten internally and are not guaranteed to persist when a document is rewritten.</p>
+            </section>
+         </section>
+      </section>
+      <section id="range-model" data-tag="Section" class="titled sts_sec">
+         <h2><span data-tag="Title" class="labeled sts_title">MNML LMNL Range Model</span></h2>
+         <section id="names" data-tag="Section" class="titled sts_sec">
+            <h3><span data-tag="Title" class="labeled sts_title">Naming</span></h3>
+            <p data-tag="Paragraph" class="labeled sts_p">As noted, names in MNML LMNL must follow the XML naming rules (XXX ref XXX). This
+               is primarily in order to achieve seamless mapping MNML LMNL data into XML-based systems
+               in which names are constrained.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">This rule is relaxed slightly for the name "tag ID" component, which by itself may
+               start with any name character (<span data-tag="Code Text" class="sts_code">\c</span>), not only an XML name-start character (<span data-tag="Code Text" class="sts_code">\i</span>).</p>
+            <p data-tag="Paragraph" class="labeled sts_p">So a name with no ID component matches <span data-tag="Code Text" class="sts_code">\i\c*</span> while a name and ID component together match <span data-tag="Code Text" class="sts_code">(\i\c*)=(\c+)</span>. A tag may not have an empty string as an ID component.</p>
+            <section id="generic-identifiers" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">Range (type) name or Generic Identifier (gi)</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">A <b data-tag="Bold" class="sts_bold">range name</b> is given to a range to distinguish it from other ranges. Usually such distinctions
+                  are made not among individual ranges, but among range types. For example, a document
+                  may have many ranges named "paragraph".</p>
+            </section>
+            <section id="anonymous-ranges" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">Anonymous ranges and annotations</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">Anonymous ranges and annotations (that have no names assigned) <i data-tag="Italic" class="sts_italic">are</i> permitted in MNML LMNL, but not considered advisable, as a good use case for them
+                  has not emerged (at time of writing).</p>
+               <p data-tag="Paragraph" class="labeled sts_p">XXX COMEBACKTO XXX is this a good idea or does the Principle of Least Surprise suggest
+                  we exclude them?</p>
+            </section>
+            <section id="name-ID" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">Range name 'tag ID' component</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">A range name <i data-tag="Italic" class="sts_italic">may</i> have an ID component, called its "tag ID", to distinguish a range from others with
+                  the same generic identifier. The ID component is given as a suffix to the name prepended
+                  with an equal sign '='. This is ordinarily done only to disambiguate tagging in cases
+                  of <i data-tag="Italic" class="sts_italic">arbitrary overlap</i>, as ID components are not intended for any other useful purpose. Such an identifier
+                  <i data-tag="Italic" class="sts_italic">MAY</i> be preserved internally so it can be used again when a document is serialized (written
+                  out) again, after processing, for the convenience of users; but applications are also
+                  free to rewrite them or add them if necessary or useful. When a truly persistent identifier
+                  is needed (in contrast) one can be provided as an annotation: do not use the tag ID
+                  for this purpose.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">If a tag ID appears on a start or end tag indicates it is to be matched <i data-tag="Italic" class="sts_italic">only</i> with the corresponding (end or start) tag with the same combination of range (type)
+                  name (GI) and tag ID.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">XXX TODO EXAMPLE XXX</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Note that the ID component of a name is typically <i data-tag="Italic" class="sts_italic">not</i> used as an internal identifier and should not be overloaded for this purpose, but
+                  simply used as a name part. (Think of it as the first name given to disambiguate a
+                  surname among siblings.)</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Annotation names are not distinguished with ID components: the character <span data-tag="Code Text" class="sts_code">=</span> is not permitted in annotation names, and results in an error.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">For convenience in working with XML names, all names in LMNL syntax (not their ID
+                  parts) must follow the XML naming rules -- informally, names much match <span data-tag="Code Text" class="sts_code">\i\c*</span> in XPath regex syntax.</p>
+            </section>
+            <section id="name-clashes" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">Homonymy and synonymy</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">Two ranges are <b data-tag="Bold" class="sts_bold">homonymous</b> if they have the same type name (GI), irrespective of a tag ID. More loosely they
+                  are said to have the same <b data-tag="Bold" class="sts_bold">type</b>. LMNL as conventionally used will reflect XML practice in this, for example naming
+                  all paragraphs <span data-tag="Code Text" class="sts_code">p</span> or <span data-tag="Code Text" class="sts_code">para</span>(these being ranges in LMNL, not elements).</p>
+               <p data-tag="Paragraph" class="labeled sts_p">It must be kept in mind, however, that two ranges have the same type by virtue of
+                  being named the same, and nothing else - type assignment is nominal, and types need
+                  not be defined intensionally (for example, as sharing defined characteristics or properties)
+                  or tested in any way, but are merely accepted as assigned and defined extensionally.
+                  A type is what it is (a kind of string, presumably), and two ranges are the same type
+                  because their tags (range type names or generic identifiers) say they are.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">If two ranges have the same name (irrespective of ID) <i data-tag="Italic" class="sts_italic">and</i> their annotations are the same with respect to their names, values and their given
+                  order, the ranges can be described as <b data-tag="Bold" class="sts_bold">synonymous</b> - they 'say the same (thing)'. It may be wise to design such that this does not occur,
+                  but it is not prohibited as it may in theory reflect features or properties of interest.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">XXX [Examples] XXX</p>
+            </section>
+            <section id="name-overloading" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">Avoiding synonymy - range name overloading</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">Ranges that are both synonymous and congruent can be especially problematic as they
+                  appear to be identical in all respects, but their identities are retained in the model
+                  (visible to application processing). Without a warrant from application logic, a processor
+                  is not free to collapse them or remove one in favor of the other. To avoid the confusion
+                  this can cause, annotations can be used (so ranges of the same nominal type are homonymous,
+                  but not synonymous). Alternatively range names can be overloaded, as was sometimes
+                  done in SGML. So not just <span data-tag="Code Text" class="sts_code">div</span> but <span data-tag="Code Text" class="sts_code">div1</span>, <span data-tag="Code Text" class="sts_code">div2</span> etc. can make suitable range names, with the numeral indicating the nominal "depth"
+                  of the range, if interpolating a hierarchy by the relative enclosure. (And a <span data-tag="Code Text" class="sts_code">div0/div1/div2</span> hierarchy can be rendered as a plain <span data-tag="Code Text" class="sts_code">div/div/div</span> hierarchy in an application.)</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Since the model can "see" enclosure but not hierarchy, this is good to have: the names
+                  help clarify both range boundaries and the (nominally or provisionally) "intended"
+                  hierarchy in the overloaded names. At the same time, the information as given (in
+                  this case, the nesting level) is subject to testing and validation. Rather than a
+                  necessary reflection of the design of the document, such tagging -- or so it becomes
+                  possible to regard it -- becomes a claim made with respect to it.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Another way to put it is that since the (hierarchical) "model of the text" is not
+                  given by the schema or syntax, it becomes a significant and emergent property of the
+                  instance or set of instances being described.</p>
+            </section>
+            <section id="name-colons" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">Colons in names</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">Colons in names are like any other name character, but applications may appropriate
+                  them for use. For example, binding names to namespaces the way XML does can be a useful
+                  way of differentiating between range families (layers) explicitly in the tagging.
+                  But this is true of any permitted character: such application semantics are not part
+                  of MNML LMNL as such and are not expected to be portable across implementations (work
+                  the same), without prior coordination. In general, MNML LMNL processors are not expected
+                  to do anything special with colons or names containing colons.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">In brief: there is nothing special about colons in names in MNML LMNL, but there might
+                  be in LMNL applications.</p>
+            </section>
+         </section>
+         <section id="base-layer" data-tag="Section" class="titled sts_sec">
+            <h3><span data-tag="Title" class="labeled sts_title">Document frontier ('base layer')</span></h3>
+            <p data-tag="Paragraph" class="labeled sts_p">A "base layer" is available to any LMNL document irrespective of other ranges indicated
+               by markup, consisting of the document text value itself. This is also called the "frontier".
+               It does not appear as a range in the model, but inasmuch as layers (selections of
+               ranges) can be built on other layers, all layers in the model are considered to reference
+               the base layer.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">When documents start with a start tag, and end with the end tag corresponding to the
+               start tag, they have at least one range congruent with (whose value is the same as
+               and which starts and ends in the same place) the base layer.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">Note that whitespace after the last end tag of a document is sufficient to make the
+               frontier (the document base layer) different from the value of the range that was
+               closed with that tag.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">In LMNL, each annotation has its own frontier (base layer), namely its text content,
+               but since MNLM LMNL annotations constitute name/value pairs (with no structure or
+               markup), their frontiers are effectively the same as their values.</p>
+         </section>
+         <section id="range-values" data-tag="Section" class="titled sts_sec">
+            <h3><span data-tag="Title" class="labeled sts_title">Ranges, annotations and values</span></h3>
+            <div data-tag="List" class="labeled sts_list">
+               <ul>
+                  <li data-tag="List Item" class="labeled sts_list-item">
+                     <p data-tag="Paragraph" class="labeled sts_p">ranges have identity and are distinguishable from other ranges by:</p>
+                  </li>
+                  <li data-tag="List Item" class="labeled sts_list-item">
+                     <p data-tag="Paragraph" class="labeled sts_p">the specific frontier (UTF string value) they are bound to</p>
+                  </li>
+                  <li data-tag="List Item" class="labeled sts_list-item">
+                     <p data-tag="Paragraph" class="labeled sts_p">relation to frontier (offset and extent)</p>
+                  </li>
+                  <li data-tag="List Item" class="labeled sts_list-item">
+                     <p data-tag="Paragraph" class="labeled sts_p">their names, annotations and provenance</p>
+                  </li>
+                  <li data-tag="List Item" class="labeled sts_list-item">
+                     <p data-tag="Paragraph" class="labeled sts_p">because they are distinguishable does not mean they are not 'the same' if an application
+                        says they are</p>
+                  </li>
+                  <li data-tag="List Item" class="labeled sts_list-item">
+                     <p data-tag="Paragraph" class="labeled sts_p">in rare cases they are not distinguishable</p>
+                  </li>
+                  <li data-tag="List Item" class="labeled sts_list-item">
+                     <p data-tag="Paragraph" class="labeled sts_p">up to an application to determine whether they are 'the same'</p>
+                  </li>
+               </ul>
+            </div>
+            <p data-tag="Paragraph" class="labeled sts_p">In MNML LMNL, "values" are always strings. Applications may cast strings into typed
+               data or object structures to support features, but this is not part of MNML LMNL.
+               No special provision is made for numeric data types, Booleans, dates and durations
+               or any complex data at the syntax level, while applications (including validators)
+               are free to constrain these strings appropriately.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">The values of all ranges in LMNL are determined in reference to their <i data-tag="Italic" class="sts_italic">base layer</i> (the document frontier), which does not change even if ranges are reallocated from
+               one layer to another. (In the Laminator, ranges can be in only one layer at a time.)</p>
+            <p data-tag="Paragraph" class="labeled sts_p">This having been said, the value of a range corresponds to the value of the text appearing
+               before its start and end tags, excluding any other tagging.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">The value of an annotation corresponds with the value of the text appearing before
+               the end-annotation delimiter <span data-tag="Code Text" class="sts_code">{]</span>.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">Note that two ranges that are not congruent can have <i data-tag="Italic" class="sts_italic">equal</i> values (their texts can be the same) without the values being the same, as such,
+               as they can be distinguished by the different segments they occupy in the frontier.</p>
+            <section id="xMNML-values" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">Range values and the xMNML model</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">In the LAYERS model, the frontier (base layer) is exposed in its simple form, but
+                  in the xMNML LMNL model, it is split across nominal <b data-tag="Bold" class="sts_bold">text value</b> elements, which are keyed to the ranges the enclose (cover) them by virtue of linking
+                  to their start tag markers.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">This makes the xMNML model a virtual "database" to the MNML LMNL document. Given a
+                  range, finding all the text that belongs only to that range is straightforward; as
+                  those text values are represented in the model separately, each with links to its
+                  own ranges, finding all the ranges covering or overlapping with the given range can
+                  be done without looking at the entire text, or all ranges.</p>
+            </section>
+            <section id="overlap-terminology" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">Terminology of range relations</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">One range can <i data-tag="Italic" class="sts_italic">enclose</i> another range if it starts before or with it and ends after or with it. An enclosed
+                  range, however, is <i data-tag="Italic" class="sts_italic">not</i> said to be "contained" by its enclosing range, inasmuch as there is no generally
+                  <i data-tag="Italic" class="sts_italic">necessary</i> hierarchy among arbitrary ranges, whose semantics may be entirely disjunct, in the
+                  general case. Are pages inside the chapter, or is the chapter inside the pages?</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Two ranges that do not overlap are considered to be <i data-tag="Italic" class="sts_italic">discrete</i>.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">A range <i data-tag="Italic" class="sts_italic">precedes</i> another range if it ends before, or with, the other's start, and <i data-tag="Italic" class="sts_italic">follows</i> another range if it starts after, or with, the other's end.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Two ranges are coterminous if any of their start or end positions occur together.
+                  A range that ends where another range starts is coterminous with it, but discrete,
+                  which makes the ranges continuous and adjoining, while their values (substrings of
+                  the base layer) are <i data-tag="Italic" class="sts_italic">contiguous</i> -- or it may start where another starts - they are coterminous, and one encloses
+                  the other.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Note that these rules mean that the binding of tags to ranges happens <i data-tag="Italic" class="sts_italic">irrespective of tag ordering</i> at any given position of text. The start tags for two ranges that start together
+                  can come in either order: to a MNML LMNL processor, they start in the same position
+                  and are co-terminous in either case.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">A MNML LMNL processor <i data-tag="Italic" class="sts_italic">MAY</i> optionally trace tag ordering internally, for use when possible or useful in offering
+                  either warnings (if tag re-ordering is considered noteworthy) or options to preserve
+                  tag ordering where possible. (The Laminator processing library does <i data-tag="Italic" class="sts_italic">not</i> currently do this [20260914], although it does preserve tag line numbers and offsets
+                  of tags in a LMNL syntax source document, which could be used similarly.)</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Annotations are not considered to be contiguous with other annotations even when they
+                  are not separated with whitespace in the syntax. They <i data-tag="Italic" class="sts_italic">are</i> considered to be ordered with respect to their parent or home range, but MNML LMNL
+                  does not require retaining whitespace as given in a source syntax instance, when processing
+                  or serializing.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Two ranges that start <i data-tag="Italic" class="sts_italic">and</i> end in the same place are considered <i data-tag="Italic" class="sts_italic">congruent</i>. Every range in a set of congruent ranges encloses each of the other ranges in the
+                  set, as enclosure is <i data-tag="Italic" class="sts_italic">mutual</i> among congruent ranges, as are overlap and discreteness among ranges that are overlapping
+                  or discrete. Note that an enclosing or enclosed range is <i data-tag="Italic" class="sts_italic">not</i> said to overlap the range that encloses it or is enclosed by it, even though the
+                  ranges are coterminous, but not discrete.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Any given pair of ranges in the same layer will be</p>
+               <div data-tag="List" class="labeled sts_list">
+                  <ul>
+                     <li data-tag="List Item" class="labeled sts_list-item">
+                        <p data-tag="Paragraph" class="labeled sts_p">congruent,</p>
+                     </li>
+                     <li data-tag="List Item" class="labeled sts_list-item">
+                        <p data-tag="Paragraph" class="labeled sts_p"><i data-tag="Italic" class="sts_italic">or</i> enclosing/enclosed,</p>
+                     </li>
+                     <li data-tag="List Item" class="labeled sts_list-item">
+                        <p data-tag="Paragraph" class="labeled sts_p"><i data-tag="Italic" class="sts_italic">or</i> overlapping,</p>
+                     </li>
+                     <li data-tag="List Item" class="labeled sts_list-item">
+                        <p data-tag="Paragraph" class="labeled sts_p"><i data-tag="Italic" class="sts_italic">or</i> discrete</p>
+                     </li>
+                  </ul>
+               </div>
+               <p data-tag="Paragraph" class="labeled sts_p">Ranges allocated to separate layers in a LMNL document do not have these relations,
+                  although layers can always be merged, in which case they do.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">[XXX] examples TODO [XXX]</p>
+               <p data-tag="Paragraph" class="labeled sts_p">This distinction corresponds to whether there is complete, or partial, or no concurrence
+                  in the values of the ranges considered as substrings of the document's value, or (equivalently)
+                  references to its base layer -- that is, not only by their text sequence but also
+                  their placement within the document. Simply, the values of two congruent ranges are
+                  the same; the value of an enclosed range can be found as a substring in an enclosing
+                  range's value; two overlapping ranges will have some value (a substring of each) in
+                  common (within the base layer); and two discrete ranges will not claim any substrings
+                  in common from the base layer -- even if their values are the same, regarded as strings.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">XXX [EXAMPLE] XXX</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Congruent ranges with the same type name are "colliding" or "in collision". (As in
+                  "Worlds", referencing the book by Velikovsky.) Even when ranges collide, processors
+                  must respect range identity and persistence in naming, values and annotations.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">XXX [EXAMPLE] XXX</p>
+            </section>
+            <section id="arbitrary-overlap" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">Arbitrary overlap ('self-overlap')</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p"><i data-tag="Italic" class="sts_italic">Arbitrary overlap</i> describes when two ranges with the same type name overlap one another. In the literature
+                  on overlapping structures in markup, this condition is called "self-overlap"; a better
+                  name (thinks a developer) might be "sibling rivalry". An example of this is when ranges
+                  are marked for indexing, with no special distinctions made among the ranges so marked
+                  that would motivate distinctive type names. The most convenient way to do this is
+                  simply to mark the terms and let indexing software do the rest.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Arbitrary overlap raises a question for the parser as to whether two ranges named
+                  the same are overlapping, or enclosing/enclosed. Tag IDs (range name component IDs)
+                  are provided in the syntax to provide for disambiguating the two possible cases (extrapolating
+                  to all possible cases).</p>
+               <p data-tag="Paragraph" class="labeled sts_p">XXX [EXAMPLE] XXX</p>
+            </section>
+         </section>
+      </section>
+      <section id="layers" data-tag="Section" class="titled sts_sec">
+         <h2><span data-tag="Title" class="labeled sts_title">Layers</span></h2>
+         <p data-tag="Paragraph" class="labeled sts_p">Because ranges can be congruent - more than one range can span across the same value
+            in the base layer - there is no limit to how many ranges can be identified for on
+            a document. Additionally, ranges can be, in general, defined implicitly instead of
+            explicit, i.e., determined (defined or observed) by the application of rules or their
+            descriptions using standoff markup. Until a model is instantiated internally, that
+            is, not all ranges must be defined by enumeration (for example, in markup).</p>
+         <p data-tag="Paragraph" class="labeled sts_p">This openness makes the primary work of a MNML LMNL processor the management and marshalling
+            of ranges, by family and by type, arbitrarily according to applicaition logic. The
+            <b data-tag="Bold" class="sts_bold">layers</b> feature of the MNML LMNL model is proposed to help make such processing tractable,
+            so that it can be specified, planned and implemented.</p>
+         <p data-tag="Paragraph" class="labeled sts_p">At present, there is no normative way and no single recommended way to specify that
+            ranges belong to layers, in the syntax. To the extent that this is a requirement (it
+            usually is not), a naming convention can be applied to tags. For example, in a simple
+            case, upper-case tag names could identify ranges for one layer, while lower-case names
+            identify ranges for another.) Application logic can then be used to separate ranges
+            out into layers.</p>
+         <p data-tag="Paragraph" class="labeled sts_p">This makes it easier to optimize processing internally for operations such as casting
+            from LMNL into XML, where distinguishing ranges layers can be convenient.</p>
+         <section id="hierarchies" data-tag="Section" class="titled sts_sec">
+            <h3><span data-tag="Title" class="labeled sts_title">Layers and hierarchies</span></h3>
+            <p data-tag="Paragraph" class="labeled sts_p">A layer is an arbitrary set of ranges enumerated explicitly. A layer may be created
+               either by parsing markup and allocating ranges into layers according to application
+               logic, or dynamically inside a processor.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">Overlapping ranges <i data-tag="Italic" class="sts_italic">MAY</i> be assigned to the same layer; in the case of arbitrary overlap, this may be normal.
+               At the same time, when ranges assigned to layers align so as to make hierarchies,
+               this is detectable, as noted below.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">By default, the Laminator parses a MNML instance into a version in which all ranges
+               are collected together in a single layer, including overlapping ranges. Ranges always
+               reference the base layer (string contents) of the document, no matter what layer(s)
+               they are assigned to.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">Layers are an optional feature of LMNL in the sense that whatever a processor does
+               internally, designers are always free to use the simplest possible arrangement - a
+               single layer of ranges sitting over a single base layer.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">Being able to discriminate between sets of ranges, by allocating them into separate
+               layers, is also a useful thing to be able to do. A single LMNL instance may have an
+               indefinite number of layers; these are not even always evident in the syntax, but
+               may be implicit or introduced dynamically or interactively. The layers in a LMNL document
+               are not intrinsic to it. Instead, they need to be considered as useful to applications
+               in both <i data-tag="Italic" class="sts_italic">maintaining</i> and <i data-tag="Italic" class="sts_italic">interfacing</i> with families of ranges, whose categories (and indeed, whose entire 'life cycle')
+               will depend on the applications in view.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">Internally, Laminator maintains a LAYERS model for handling and working with layers.</p>
+            <section id="ohco-hierarchies" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">Layers and Ordered Hierarchies of Content Objects (OHCO)</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">To be <i data-tag="Italic" class="sts_italic">well nested</i> is a property of a set of ranges and accordingly of a layer. It means that no ranges
+                  in the layer overlap any others in the same layer. Such a set of ranges can be straightforwardly
+                  cast into a hierarchical structure with no adjustment of range boundaries or splitting,
+                  reallocation or hiding of ranges or range markers. It is said to be an "OHCO" layer,
+                  in reference to the "OHCO" model of Renear, Mylonas and Durand (1993).</p>
+            </section>
+            <section id="mch-hierarchies" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">Multiple Concurrent Hierarchies (MCH)</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">An "MCH" layer is a set of ranges that does not qualify as an OHCO - some ranges within
+                  the set are found to overlap others. However, of the cases of overlap, none of the
+                  ranges overlap any others <i data-tag="Italic" class="sts_italic">with the same name</i> - i.e., <i data-tag="Italic" class="sts_italic">homonymous</i>. For example, a set of div ranges may overlap a set of page ranges, but none of the
+                  page ranges overlap pages, and none of the divs overlap divs. This is called "MCH"
+                  because the structure represents <i data-tag="Italic" class="sts_italic">multiple concurrent hierarchies</i>.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Where ranges show arbitrary overlap - where there are ranges that overlap other ranges
+                  with the same name (and therefore presumed to represent the same type) - we have neither
+                  OHCO nor MCH.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">These categories make casting into hierarchies much easier, since they can be detected
+                  early and acted on whenever appropriate. As secondary properties they are also subject
+                  to testing and updating -- since applications are liable to make changes that invalidate
+                  them, they must be kept in order internally.</p>
+            </section>
+         </section>
+      </section>
+      <section id="validation" data-tag="Section" class="titled sts_sec">
+         <h2><span data-tag="Title" class="labeled sts_title">Validation</span></h2>
+         <p data-tag="Paragraph" class="labeled sts_p">LMNL semantics, like all semantics, are made in part by making a <i data-tag="Italic" class="sts_italic">selection</i> from available alternatives, which selection is not foreordained or predetermined,
+            but which are constrained by those alternatives in ways that can make such selection
+            meaningful. Those alternatives are stipulated by the applicable set of rules.</p>
+         <p data-tag="Paragraph" class="labeled sts_p">For example, the MNML tagging rules stipulate that a document that fails to parse
+            using the grammar, is out of bounds: its ranges are not rendered and cannot be checked.</p>
+         <p data-tag="Paragraph" class="labeled sts_p">Once syntax rules are followed, however, ranges can be rendered, and become visible
+            to processors, making them subject to new sets of constraints at higher levels.</p>
+         <p data-tag="Paragraph" class="labeled sts_p">XML provides a model of this architecture, and MNML LMNL is analogous, allowing for
+            differences such as the lack of a formal schema language that accounts for overlap.</p>
+         <p data-tag="Paragraph" class="labeled sts_p">The fact that such a schema language is yet to come (at time of writing) does not
+            mean that we cannot validate MCH - we only need to define it in terms we can test.
+            The Laminator LAYERS model provides a way to do this, as might (similarly) any implementation
+            of LMNL layers, where distinctions between sets of ranges can be made.</p>
+         <p data-tag="Paragraph" class="labeled sts_p">We can broadly distinguish between two layers:</p>
+         <p data-tag="Paragraph" class="labeled sts_p">Syntax checking is analogous to XML well-formedness checking, providing assurances
+            for processability but not much more. This constitutes MNML LMNL Syntax Conformance.</p>
+         <p data-tag="Paragraph" class="labeled sts_p">Checks on vocabulary, annotations, annotation usage, structure, overlap or lack thereof,
+            hierarchy, MCH, and arbitrary (expression-based) assertions can and should be done
+            by applications.</p>
+      </section>
+      <section id="applications" data-tag="Section" class="titled sts_sec">
+         <h2><span data-tag="Title" class="labeled sts_title">Application scenarios</span></h2>
+         <p data-tag="Paragraph" class="labeled sts_p">The Laminator offers an implementation platform both for processing documents rendered
+            as range models, and also for maintaining such documents in the form of markup. Both
+            parsing and serialization -- reading and writing sawtooth syntax -- are supported,
+            for any MNML LMNL.</p>
+         <p data-tag="Paragraph" class="labeled sts_p">However, parsing is not the only way to create LMNL documents and serialization is
+            not the only way they can be exposed for further work. They can be created by any
+            programmatic means, and outputs can include LMNL tagging, XML markup or anything else
+            (especially any other text-based format).</p>
+         <p data-tag="Paragraph" class="labeled sts_p">The Laminator uses XProc to organize and orchestrate this open-ended set of processes.
+            One important feature XProc offers for this is in its composability: the Laminator
+            offers pipelines that can be combined as utilities in other pipelines. Specialized
+            processing for particular tagging (application) profiles can be layered on top of
+            the general capabilities given by the library.</p>
+         <p data-tag="Paragraph" class="labeled sts_p">Interestingly, this can be done in several different ways, using approaches with different
+            strengths and weaknesses, making solutions to certain kinds of document (range) manipulation
+            problems more or less tractable. Knowing the full range of these approaches is the
+            best way of avoiding the unnecessary complexity that results from an operation done
+            "the hard way" when an easy way is available.</p>
+         <p data-tag="Paragraph" class="labeled sts_p">It is not likely that a LMNL-based operation or Laminator pipeline will be ever be
+            as good as generic XML and XSLT for structural transformations, as the model is not
+            built for those.</p>
+         <p data-tag="Paragraph" class="labeled sts_p">At the same time, for some operations especially those relating to the management
+            of overlapping ranges, and the structures in which they are found, MNML LMNL is highly
+            convenient, and it is difficult to describe or limit the kinds of markup applications
+            that might benefit from its capabilities:</p>
+         <div data-tag="List" class="labeled sts_list">
+            <ul>
+               <li data-tag="List Item" class="labeled sts_list-item">
+                  <p data-tag="Paragraph" class="labeled sts_p">Extraction of plain text cross-sections based on arbitrary criteria (markup or inferencing)</p>
+               </li>
+               <li data-tag="List Item" class="labeled sts_list-item">
+                  <p data-tag="Paragraph" class="labeled sts_p">Traceable production of XML from 'sloppy' sources</p>
+               </li>
+               <li data-tag="List Item" class="labeled sts_list-item">
+                  <p data-tag="Paragraph" class="labeled sts_p">Any kind of range-based processing</p>
+               </li>
+               <li data-tag="List Item" class="labeled sts_list-item">
+                  <p data-tag="Paragraph" class="labeled sts_p">Modeling more complex and higher-order data structures</p>
+               </li>
+               <li data-tag="List Item" class="labeled sts_list-item">
+                  <p data-tag="Paragraph" class="labeled sts_p">Discontinuity, range identity</p>
+               </li>
+            </ul>
+         </div>
+         <section id="methodologies" data-tag="Section" class="titled sts_sec">
+            <h3><span data-tag="Title" class="labeled sts_title">Methods and methodologies</span></h3>
+            <p data-tag="Paragraph" class="labeled sts_p">One of the most interesting features of the pipeline architecture is its openness
+               to various complementary approaches to text and document processing, which have different
+               strengths. The Laminator not only parses and writes LMNL and XML syntax, it also orchestrates
+               XSLT (and XQuery), and it supports processing "raw text", that is, LMNL -- or XML
+               -- tags-as-text. These approaches to document or range modification can be used together
+               as well as separately.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">LMNL has a broad range of potential applications that can be usefully distinguished,
+               by scale and complexity; by the nature and form of the source data (whether sourced
+               in XML, marked up automatically or by hand or ported in some other way); and by the
+               required results. The differences between the methods may not be in their capabilities
+               as much as in how easy they are to develop, apply and reuse when needed.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">Indeed, the approaches listed here are only those prompted by experience with XProc-based
+               pipelines. An XQuery-based, or a non-XML MNML LMNL engine, might offer others as well.</p>
+            <section id="syntax-wrangling" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">METHOD: SYNTAX WRANGLING with MNML LMNL syntax - sawteeth</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">MNML LMNL syntax has an iXML grammar, but parsing with a grammar is not the only conceivable
+                  way to work with this syntax and produce viable LMNL outputs. A MNML LMNL file is
+                  also a string and can be worked on using string processing.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Care must be taken to ensure syntax is still correct after such modifications -- no
+                  differently from modifying an XML file by hand, or as a string, an early parse after
+                  such a modification provides assurances that the information (however modified) remains
+                  intact and legible. Because LMNL constrains the order of annotations appearing on
+                  a range, it is even a little more amenable than XML to this approach.</p>
+            </section>
+            <section id="xmnml-manipulating" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">METHOD: manipulating xMNML (tagged text model)</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">xMNML can be produced by parsing MNML syntax, or by conversion from XML with a deterministic
+                  mapping (treating XML as a notation representing a range model), or by other means,
+                  including programmatic ones.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">An xMNML instance can also be serialized again using LMNL syntax, or it can be cast
+                  to XML using either of two methods, <i data-tag="Italic" class="sts_italic">ripping</i> and <i data-tag="Italic" class="sts_italic">building</i>. Ripping is quick-and-dirty but often effective. Building is more fault tolerant
+                  and more generalized.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Any document that can be "built" into XML can also be "ripped" into XML by subjecting
+                  it to certain modifications first, to resolve overlaps handled implicitly in "building".
+                  These modifications, or indeed any modifications, can be effected by changing the
+                  xMNML document within the XProc pipeline that handles reading and writing it.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Some operations over LMNL ranges and their values are easily accomplished using the
+                  xMNML model as a 'range retrieval' database.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Refreshing xMNML - rules for rewriting IDs and text to an updated range set - this
+                  can be done by casting to LAYERS and back.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Use case: text segmenting by exporting selected ranges</p>
+            </section>
+            <section id="layers-manipulating" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">METHOD: manipulating LAYERS (range model)</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">Merging and filtering ranges and range families are even easier to do over LAYERS
+                  than over xMNML.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">It also presents the document's value (base layer) as a single string, making it useful
+                  for analysis of the data with no markup in play. For example, a LAYERS instance can
+                  be input to a process that interpolates and introduces new ranges reflecting analysis
+                  of the text in a new LAYERS document that can then be written to LMNL or XML.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Because the LAYERS model also permits storing, internally, structures that are not
+                  transparently expressible using the syntax -- such as sets of ranges that happen to
+                  form clean hierarchies (OHCO or MCH) -- they can also be useful for operations that
+                  can take advantage of these structures.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">A generic XSLT can convert any LAYERS instance into the corresponding xMNML instance.
+                  Another one can create LAYERS from any xMNML. LAYERS instances can also be created
+                  directly from XML using a utility for that purpose.</p>
+            </section>
+            <section id="xml-syntax-wrangling" data-tag="Section" class="titled sts_sec">
+               <h4><span data-tag="Title" class="labeled sts_title">METHOD: SYNTAX WRANGLING WITH XML - 'slurping' and 'ripping'</span></h4>
+               <p data-tag="Paragraph" class="labeled sts_p">To 'slurp' MNML is to create xMNML or LAYERS (the internal formats used by the Laminator)
+                  directly from XML, without writing LMNL syntax first. Simple XSLTs can do this and
+                  it saves steps and cycles.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">To 'rip' XML is to write xMNML tag sequence out in XML format. Every start range marker
+                  becomes an XML start tag, while end range markers become end tags etc. As long as
+                  annotation names are distinct on their ranges (since name collisions among sibling
+                  attributes is illegal in XML), and as long as tags <i data-tag="Italic" class="sts_italic">happen to nest</i> -- what we get from ripping is a text file that <i data-tag="Italic" class="sts_italic">happens to be XML</i>.</p>
+               <p data-tag="Paragraph" class="labeled sts_p">Necessary provisions can be carried out up front to suppress or rewrite where overlap
+                  prevents a clean mapping into XML. Such provisions can include introducing new (discontinous)
+                  'wrapper' ranges to substite in for ranges that overlap, or marking their starts and
+                  ends with empties, which the ripper casts into XML empty elements for marking using
+                  a 'milestone' convention.</p>
+            </section>
+         </section>
+      </section>
+      <section id="ai-policy" data-tag="Section" class="titled sts_sec">
+         <h2><span data-tag="Title" class="labeled sts_title">Policy on AIs and code generation</span></h2>
+         <p data-tag="Paragraph" class="labeled sts_p">No generative AIs have been used for specifications, code, tests, examples or documentation
+            in this project.</p>
+         <p data-tag="Paragraph" class="labeled sts_p">Exceptions to the "no AI assistance" rule may sometimes be relaxed (git commit messages);
+            and code <i data-tag="Italic" class="sts_italic">MAY</i> be automatically generated and executed within the repository or applications (for
+            example, for validation or under CI/CD), only not with LLMs or other non-deterministic
+            means, either as authors of code or "agents in the loop".</p>
+      </section>
+      <section id="questions" data-tag="Section" class="titled sts_sec">
+         <h2><span data-tag="Title" class="labeled sts_title">Questions and open issues</span></h2>
+         <section id="scaling" data-tag="Section" class="titled sts_sec">
+            <h3><span data-tag="Title" class="labeled sts_title">Scaling (document size) and caching</span></h3>
+            <p data-tag="Paragraph" class="labeled sts_p">Parsing and tag-matching operations should scale O(n) i.e. linear to the size of inputs
+               - do they?</p>
+            <div data-tag="List" class="labeled sts_list">
+               <ul>
+                  <li data-tag="List Item" class="labeled sts_list-item">
+                     <p data-tag="Paragraph" class="labeled sts_p">Length of frontier</p>
+                  </li>
+                  <li data-tag="List Item" class="labeled sts_list-item">
+                     <p data-tag="Paragraph" class="labeled sts_p">'Density' of ranges - how many ranges per character?</p>
+                  </li>
+                  <li data-tag="List Item" class="labeled sts_list-item">
+                     <p data-tag="Paragraph" class="labeled sts_p">'Weight' of ranges - how heavily annotated?</p>
+                  </li>
+                  <li data-tag="List Item" class="labeled sts_list-item">
+                     <p data-tag="Paragraph" class="labeled sts_p">Depth of nesting (enclosure) in tag matching</p>
+                  </li>
+                  <li data-tag="List Item" class="labeled sts_list-item">
+                     <p data-tag="Paragraph" class="labeled sts_p">Where are the current bottlenecks? (including starting JVM)</p>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <section id="metadata" data-tag="Section" class="titled sts_sec">
+            <h3><span data-tag="Title" class="labeled sts_title">Metadata conventions and failsafes</span></h3>
+            <p data-tag="Paragraph" class="labeled sts_p">LMNL makes no special provision for document metadata as a constituent element of
+               LMNL instances.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">In part this is because (unlike XML) LMNL is not used strictly for structured data,
+               but for loosely-structured or unstructured data; so it is less amenable than XML to
+               including tagged structures in document contents within the document as such.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">It is very convenient, that is, to "keep the metadata out of the frontier", and in
+               LMNL, that means keeping metadata in annotations, the natural place for it.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">Such annotations can include information regarding titles/creators/encoders/dates,
+               identifiers and hashes of data contents, for robustness.</p>
+            <p data-tag="Paragraph" class="labeled sts_p">Unfortunately, MNML LMNL limits annotations to name-value pairs so they cannot be
+               provided with further structure except implicitly (not in the LMNL model).</p>
+            <p data-tag="Paragraph" class="labeled sts_p">Accordingly, two approaches are recommended:</p>
+            <div data-tag="List" class="labeled sts_list">
+               <ul>
+                  <li data-tag="List Item" class="labeled sts_list-item">
+                     <p data-tag="Paragraph" class="labeled sts_p">Include links to structured metadata</p>
+                  </li>
+                  <li data-tag="List Item" class="labeled sts_list-item">
+                     <p data-tag="Paragraph" class="labeled sts_p">Accompany all LMNL with <span data-tag="Code Text" class="sts_code">readme</span> documents in their repositories, in a containing folder</p>
+                  </li>
+               </ul>
+            </div>
+            <p data-tag="Paragraph" class="labeled sts_p">Suggestion: use TEI Headers for your Digital Humanities project metadata.</p>
+         </section>
+      </section>
+   </main>
+</section>

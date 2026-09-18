@@ -44,5 +44,9 @@ Then a parser doesn't have to do anything (beyond parse what is retrieved), whil
 
 Potential issues: limiting the pointer syntax to avoid markup delimiters 
 
+At the other end of the pointer could be XML or LMNL (or anything) as well as plain text.
+
+
+
 ---
 end
