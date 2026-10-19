@@ -5,7 +5,7 @@
   xpath-default-namespace="http://wendellpiez.com/ns/xMNML"
   exclude-result-prefixes="#all" version="3.0">
 
-  <xsl:output indent="true"/>
+  <!--<xsl:output indent="true"/>-->
 
   <!-- Names of ranges to be promoted -->
   <xsl:param name="promote" as="xs:string" select="//(start|end)/@gi => distinct-values() => string-join(' ')"/>

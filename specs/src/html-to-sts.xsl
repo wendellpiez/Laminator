@@ -68,26 +68,27 @@
   
   <xsl:template match="h2 | h3 | h4 | h5" mode="sec-id">
       <xsl:analyze-string select="." regex="\[(.+)\]">
-        <xsl:matching-substring>
-          <xsl:text expand-text="true">{ regex-group(1) }</xsl:text>
-        </xsl:matching-substring>
+        <!-- Bracketed text is captured -->
+        <xsl:matching-substring expand-text="true">{ regex-group(1) }</xsl:matching-substring>
       </xsl:analyze-string>
   </xsl:template>
   
-  <xsl:template match="h2 | h3 | h4 | h5">
-    <xsl:if test="exists(preceding-sibling::*)" expand-text="true">
+  <xsl:template match="h2 | h3 | h4 | h5" expand-text="true">
+    <xsl:if test="exists(preceding-sibling::*)">
       <xsl:message>WARNING: { name() }: '{ . }' IS OUT OF ORDER - should be #{ (.|ancestor::section)/'#' => string-join() }</xsl:message>
     </xsl:if>
     <title>
-      <xsl:apply-templates mode="title-strip"/>
+      <xsl:text>#{ (.|ancestor::section)/'#' => string-join() } [</xsl:text>
+      <xsl:apply-templates select="." mode="sec-id"/>
+      <xsl:text>] </xsl:text>
+      <xsl:apply-templates/>
     </title>
   </xsl:template>
   
-  <xsl:template match="text()" mode="title-strip">
+  <xsl:template match="h2//text() | h3//text() | h4//text() | h5//text()">
     <xsl:analyze-string select="." regex="\[(.+)\]\s*">
-      <xsl:non-matching-substring>
-        <xsl:text expand-text="true">{ . }</xsl:text>
-      </xsl:non-matching-substring>
+      <!-- bracketed text is discarded with its trailing whitespace -->
+      <xsl:non-matching-substring expand-text="true">{ . }</xsl:non-matching-substring>
     </xsl:analyze-string>
   </xsl:template>
   
@@ -96,7 +97,6 @@
       <xsl:apply-templates/>
     </p>
   </xsl:template>
-  
   
   <xsl:template match="ul">
     <list>

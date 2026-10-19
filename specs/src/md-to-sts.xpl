@@ -35,6 +35,4 @@
     <p:with-input port="stylesheet" href="sts-html.xsl"/>
   </p:xslt>
   
-  
-  
 </p:declare-step>

@@ -1,8 +1,6 @@
 # Laminator Demonstrations
 
-These are underway or planned.
-
-Currently the demonstrations produce SVG diagrams, but xMNML is capable of much more than illustration.
+Several small demonstrations each useful in a distinctive way -
 
 ## baselines
 
@@ -28,6 +26,7 @@ Percy Shelley, **Julian and Madallo**
 
 Lucian, **De Morte Peregrini**
 
-## Analytics (planned)
+## Analytics
 
-Generic MNML LMNL analytics, such as overlap reporters and lightweight validators.
+Generic MNML LMNL analytics, such as overlap reporters and lightweight validators. Just scratching the surface here!
+

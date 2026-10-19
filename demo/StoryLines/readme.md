@@ -2,6 +2,10 @@
 
 Graphical examination of narrative, rhetorical, compositional and physical structures of literary artifacts (prose and poetry).
 
+The work here spins off earlier work on LMNL (cf Luminescent, 2012).
+
+Since deploying this small demonstration, the same work continues on in the EpicMarkup repository - range maps for epic.
+
 ## Range Maps
 
 One of the interesting possibilities of LMNL markup is the exploration of narrative and rhetorical structures in literary texts.

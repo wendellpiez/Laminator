@@ -34,9 +34,9 @@ But not XML.
 - `[s}...{s]` and `[l}...{l]` overlap
 - Behind the scenes, a *range model*
 
-## LMNL 2001
+## LMNL 2002
 
-LMNL: The Layered Markup and Annotation Language (Tennison and Piez 2001)
+LMNL: The Layered Markup and Annotation Language (Tennison and Piez 2002)
 
 Proposed as a research project in the form of an open source initiative.
 

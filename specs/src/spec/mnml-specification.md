@@ -1,15 +1,57 @@
 
-
+punchlist
+  o examples - both artificial and real
+  o links?
+  o sketch out conformance testing
+    o easy parsing
+    o easy tag matching (notes to sawtooth implementation)
+    o brute-force testing for bracket matching
+       - strip out \\\[ \\\] \\\{ \\\}
+       - count and match
+    o but a parser can often know it is broken before reaching the end
 
 # MNML Specification
 
-## [intro] Introduction
+# IP considerations and copyright
+
+MNML LMNL expresses and exploits concepts that have been in the public domain in living memory. As long as we have had digital encoding, we have had digital text encoding. As long as we have had strings, we have had substrings ("ranges") and offsets. This work seeks not to define anything new but rather to codify a terminology describing something that has been well known as established Prior Art for some time already. As evidence for this claim we offer not only LMNL (2002) but also the work on which it was based (XML, SGML, OTA COCOA etc etc).
+
+This specification is copyright 2026 by Wendell Piez. Please do not quote from or use this work without attribution.
+
+The works in this and related repositories are provided with license terms (in place), generally as free as possibly given their own dependencies. Please assume licenses in keeping with a Creative Commons BY-SA license: provide credits and similar terms going forward.
+
+## [builder-guidance] Guidance for builders
+
+To whom is this specification useful or interesting?
+
+  - **Humanists**: Users and developers who are trying the Laminator and want deeper exposure to the concepts, because they are interested in using it. (Humanists do not have to be so-called 'secular humanists' or ascribe to any ideology; 'religious humanists' or 'none' are very much included, if you are human or interested in humanity.)
+  - **Technologists**: Researchers who wish to understand and possibly experiment with a different parsing and processing strategy for markup (supporting overlap)
+Some readers may be in both groups: welcome!
+
+Another differentiator will be those to whom the XProc (XSLT, XPath) foundation of the Laminator (toolkit) is a welcome feature (and expect to use or at least refer to it), and others who would prefer something different, and to look at MNML markup without the Laminator lens.
+
+- I  - Humanist, XProc is okay
+- II - Humanist, XProc is not okay
+- III - Technologist, XSLT/XProc is okay
+- IV - Technologist, XProc is not okay
+
+Group III takes care of itself: dive in! This group can include beginner XMLers as well as veterans.
+
+Group I should also be provided for, especially if as a Humanist you have the assistance and support of a Technologist. Teamwork! (Please make inquiries.)
+
+Group II is difficult to know how to help. You probably want to be talking to members of other groups. You are welcome too! (everyone has overlap) but you probably also need to find allies who can help you with your stack, domain and problem.
+
+This leaves Group IV. If you are in this group and wish to adapt LMNL or MNML LMNL concepts and definitions to your own stack, please do your best and worst under the terms of license agreements. Your engagement is very welcome and I hope you contact the project for help, ideas and encouragement.
+
+An alternative implementation that supports data interchange using MNML LMNL encoding is a long-term goal not planned for at this time (2026). At the same time, it is hoped that this specification and related documents should raise the chance that this happens at least from zero.
+
+## [mnml-and-lmnl] MNML and LMNL
 
 MNML (pronounced "minimal") is Minimally Annotated Markup in LMNL (pronounced "liminal").
 
 LMNL is the Layered Markup and Annotation Language (Piez and Tennison 2002).
 
-This document specifies MNML, designed as a formal subset of LMNL: all MNML documents are also LMNL documents. However, LMNL is not defined here. Because LMNL is taken on as a design constraint, inferences can be made about it inasmuch as features of MNML LMNL must also be true of LMNL at large. But while all MNML documents are also LMNL documents, the reverse is not the case. As a subset, MNML LMNL follows all the rules of LMNL, and then adds some.
+This document specifies MNML, designed as a formal subset of LMNL: all MNML documents are also LMNL documents. However, LMNL is not defined here. Because LMNL is taken on as a design constraint, inferences can be made about it inasmuch as features of MNML LMNL must also be true of LMNL at large. But while all MNML documents are also LMNL documents, the reverse is not the case. MNML LMNL follows all the rules of LMNL, and then adds additional constraints: extension by restriction.
 
 Features of LMNL excluded from MNML are out of scope for this document. They include structured and annotated annotations, LMNL atoms, and potentially other features. [Annotations](./annotations.md) are discussed in a companion article.
 
@@ -17,13 +59,13 @@ As a specification, this document seeks to be abstract and notional, and thus to
 
 ## [definition-scope] Scope of definitions
 
-As a LMNL subset, MNML LMNL is a data model. Along with this model we propose a syntax called **MNML LMNL syntax**. It is also related to the LMNL initiative in replicating, for the most part, the proposed "sawtooth" or "sabertooth" syntax associated with the LMNL proposal and used to illustrated LMNL examples.
+As a form of LMNL, MNML LMNL is a data model. Along with this model we propose a syntax called **MNML LMNL syntax**. It is also related to the LMNL initiative in replicating, for the most part, the proposed "sawtooth" or "sabertooth" syntax associated with the LMNL proposal and used to illustrated LMNL examples.
 
 As noted, LMNL and LMNL syntax are not defined or even fully described here.
 
-An instance of the LMNL data model is a **MNML (LMNL) document**; the model describes it and its constituent parts, the conceptual structures it provides to support information processing and retrieval. Along with these structures, a definitive mapping is described from this syntax into the model.
+An instance of the LMNL data model is a **MNML (LMNL) document**; the model describes it and its constituent parts, which together provide a conceptual structure supporting information processing and retrieval. (It is analogous to an XML information model next to XML, or the row and columns of CSV next to a CSV or TSV instance.) Along with these structures, a definitive mapping is described from this syntax into the model.
 
-In addition to the MNML model as an abstraction, two other artifacts are defined specifically for the Laminator implementation of MNML LMNL: an XML-based **tag sequence model** called xMNML, and another XML-based **range model**, called LAYERS. These descriptions are not normative even for MNML LMNL (much less LMNL in general), but they are useful inasmuch as they describe its implementation in the Laminator.
+In addition to the MNML model as an abstraction, two other data formats are defined specifically for the Laminator implementation of MNML LMNL: an XML-based **tag sequence model** called xMNML, and another XML-based **range model**, called LAYERS. These descriptions are not normative even for MNML LMNL (much less LMNL in general), but they are useful inasmuch as they describe its implementation in the Laminator.
 
 *  [XMNML Specification](xMNML_spec.md) 
 *  [LAYERS model Specification](LAYERS_spec.md) 
@@ -40,7 +82,7 @@ Because of this, LMNL or MNML LMNL conformance ("does the application use the mo
 
 In contrast, conformance to MNML LMNL syntax -- i.e., the fitness of a given string for processing as MNML LMNL -- can be defined (as below), at least in part, by reference to the grammar used to describe it (and in the Laminator, to configure its processing). An instance that does not parse unambiguously with this grammar can be stipulated to be out of bounds, and the parser will be able to tell us why.
 
-Accordingly, while the syntax can be provided with unit tests offering coverage of its features (and some testing of this kind can be found in the Laminator code base), the larger question of whether a piece of software is "using LMNL" or even "MNML LMNL" must be determined at the interface between this software and its users, including other LMNL users, and not (or not only) by whether and how it resembles the Laminator (or any other implementation) in either its results or its operations -- even while systems should be returning the same results for the same operations. (Some XML-based and object-based systems, especially those that use offsets over string values to identify ranges, are already 'LMNL-like'.)
+Accordingly, while the syntax can be provided with unit tests offering coverage of its features (and some testing of this kind can be found in the Laminator code base), the larger question of whether a piece of software is "using LMNL" or even "MNML LMNL" must be determined at the interface between this software and its users, including other LMNL users, and not (or not only) by whether and how it resembles the Laminator (or any other implementation) in either its results or its operations -- even while systems should be returning the same results for the same operations. (Some XML-based and object-based systems, especially those that use offsets over strings to identify ranges, are already 'LMNL-like'.)
 
 Note however that we do not yet [20260915] seek to define either an API, or a query language, for LMNL or MNML LMNL. Both of these will require again addressing the conformance and testability questions.
 
@@ -64,17 +106,29 @@ An alternative LMNL or even MNML LMNL implementation might opt for a different s
 
 ### [char-misc] Characters: Unicode normalization, whitespace, notation and naming
 
-UTF-8 is considered as a character sequence without normalization, where each character is distinguishable by a position in the sequence in combination with a code point for the character (or other unambiguous representation). If normalization of a UTF-8 string results in a detectably different UTF-8 string, they are not considered the same: strings are the same only if they are also the same at the codepoint level, i.e. when decomposed into characters, with no further adjustment or normalization.
+A "string" and hence a **value** is defined as a UTF-8 character sequence without normalization, where each character is distinguishable by a position in the sequence in combination with a code point for the character (or other unambiguous representation). Other text encodings **MAY** be supported by processors able to transcode them definitively into UTF-8. Additionally, processors **MAY** use alternative encoding schemes, or none at all, as long as they are able to read and write UTF-8.
+
+#### Normalization and string comparison
+
+When normalization of a UTF-8 string results in a detectably different UTF-8 string, they are not considered the same: strings are the same only if they are also the same at the codepoint level, i.e. when decomposed into characters, with no further adjustment or normalization.
 
 In specifications and documentation, we may sometimes use regular expression notation for character classes (`\n` for new line, etc.), but this is a convenience and the notation has no special meaning for MNML LMNL.
+
+#### LF, but not CR
 
 Throughout these specifications, line feeds in inputs are assumed to have been normalized to Unix-conventional `LF`, i.e. no `CR` characters are given in the data. Ensure your `CR` or `CR/LF` have been converted to `LF` to avoid any issues.
 
 [TODO: test to see if iXML parse enforces this?]
 
-Whitespace defined as in XML: `\s+` where `\s` is `LF|TAB|SPACE`. All whitespace in the data (not in tags) is considered part of the data stream and not subject to normalization, improvement or correction.
+#### Whitespace
+
+In the MNML LMNL specifications, whitespace defined as in XML: `\s+` where `\s` is `LF|TAB|SPACE`. All whitespace in the data (not in tags) is considered part of the data stream and not subject to normalization, improvement or correction.
+
+#### Names
 
 In order to help ensure alignment with XML systems, names are specified as in XML: `\i\c*` (in XPath regular expression syntax).
+
+Currently this rule is expressed in the grammar used to parse the syntax, mainly because many things are simplified when names are known ahead of time to be easily convertible.
 
 ## [sawteeth] MNML LMNL Syntax
 
@@ -126,9 +180,33 @@ The **close delimiters** `]` and `}` are not provided with an escaped form: they
 
 Ranges are defined by the presence of corresponding start and end tags in the data, whose placement is taken to mark the start and end of the range. Tag correspondence is determined by matching the range name (generic identifier) and (if present) tag identifier.
 
-XXX examples TBD XXX
+Tagging a range named "foo":
 
-A grammar can be used to distinguish tagging from text, but in order to render an internal range model from tagging, ambiguities must be avoided; consequently, more regularities are also observable in tagged LMNL-syntax documents.
+```
+[foo}XXX XXXX{foo]
+```
+
+Tagging a range named *foo* with an overlapping range named *bar*:
+
+
+```
+[foo}XXX [bar}XXXX{foo] YYYY ZZZ{bar]
+```
+
+*foo* and *bar* with a new range, *baz* (overlapping *foo* but enclosed inside *bar*)
+
+```
+[foo}XXX [bar}[baz}XXXX{foo] YYYY{baz] ZZZ{bar]
+```
+
+The same, except with an annotation, ZIP=AAA, added to the *baz* range:
+
+```
+[foo}XXX [bar}[baz [zip}AAA{]}XXXX{foo] YYYY{baz] ZZZ{bar]
+```
+
+
+A grammar can be used to distinguish tagging from text, permitting a LMNL processor to make deterministic inferences about the ranges being represented. To map into MNML, however, other regularities must be observable (rules must be followed). These include the suitability of names and values as well as the unambiguous matching of end tags to their corresponding start tags.
 
 #### [starts-and-ends] Start and end tags
 
@@ -136,24 +214,15 @@ Start tags (or "open tags") in LMNL begin with `[` and end with `}`.
 
 The open delimiter `[` is followed immediately by a range name, *optional* annotations, and the close delimiter `{`. So: `[start}`.
 
-End tags (or "close tags") are exactly the same, except they open with `{` and end with `]`. So, `{start]` is the *end tag* for a range named "start".
+End tags (or "close tags") are similar, except they open with `{` and end with `]`. So, `{start]` is the *end tag* for a range named "start".
 
-Each end tag matches a single start tag appearing before it, and is matched by it. Empty tags are not matched (even with other tags of the same name), as they are taken to start and end in one place.
-
-A range is opened with its start tag and closed with its end tag. The end tag matching a given start tag, and closing its range, is the next end tag appearing after all intervening start tags with the same name (including ID), working forward, have been closed. If no such start tags intervene (the usual case), the end tag is the next end tag whose name matches.
-
-XXX [EXAMPLE] XXX
-
-Component IDs on tags can be used to indicate overlap between two ranges given the same range (type) name, as also described below.
-
-XXX [EXAMPLE] XXX
 
 #### [tag-annotations] Annotations
 
 An annotation looks like a small range given in a start tag, end tag or empty tag, except:
 
 
-* No tags (start, end or empty) may appear in its value, before the annotation's own end tag is given
+* No tags (start, end or empty) may appear before the annotation end tag is give
 * An annotation end tag takes the form `{]`, with no name required or permitted
 * Whitespace can appear between annotations, for legibility, and must precede a first annotation given; such whitespace is not considered part of the data set and may not be respected (considered in processing
 * The characters "[" "{" "\" MUST be escaped, as elsewhere, and will result in errors if found outside such a sequence.
@@ -162,19 +231,59 @@ Also note: annotations MAY be given on end tags as well as on start tags. End ta
 
 ##### [annotation-order] Order of annotations
 
-The order of annotations on a range will persist, unless deliberately altered, in processing. In other words, annotations on ranges are ordered, and preserve the order in which they are given in the syntax, modulo other interventions. Annotations may use the same names as other annotations on the same range. They maintain distinct identities even when homologous.
+The order of annotations on a range will persist, unless deliberately altered, in processing. In other words, annotations on ranges are ordered, and preserve the order in which they are given in the syntax (unless altered specifically). Annotations may use the same names as other annotations on the same range. They maintain distinct identities even when homonymous or even synonymous (same name, same value).
 
 To keep the model simple, however, the fact that an annotation is given on a start or an end tag is *not* considered to be information. A LMNL processor may freely rewrite a range's annotations to appear on either its start tag or end tag, or to split the annotations between them, provided their order is respected. So an annotation given on an end tag might be moved to a start tag in reserialized outputs.
+
+##### [annotation-syntax] Annotation syntax
+
+The syntax permits annotations to be on end tags as well as on start tags.
+
+Since the model does not retain where an annotation is given, with the result that a serialized LMNL document does not retain whether an annotatio is given on a range's start or end tag, and is apt to move.
+
+In other words, these are the same in the model:
+
+```
+[foo [bar}ZZZZ{]}QQQQQQQQ{foo [bar}YYY{]]
+```
+
+```
+[foo [bar}ZZZZ{][bar}YYY{]}QQQQQQQQ{foo]
+```
+
+```
+[foo}QQQQQQQQ{foo [bar}ZZZZ{][bar}YYY{]]
+```
+
+While this is *not* the same (the values of the annotations have changed):
+
+```
+[foo [bar}YYY{]}QQQQQQQQ{foo [bar}ZZZZ{]]
+```
+
+#### Tag matching
+
+Each end tag matches a single start tag appearing before it, and is matched by it. Empty tags are not matched (even with other tags of the same name), as they are taken to start and end in one place.
+
+When interpreting the syntax into ranges, a range is taken to begin with its start tag and end with its end tag, without respect to any other tagging (for any other ranges). For this to occur, tags must be **matched**. The end tag matching a given start tag, and closing the range it opens, is the next end tag appearing after all intervening start tags with the same name (including the tag ID, if given), working forward, have been closed. If no such start tags intervene (the usual case), the end tag is the next end tag whose name matches.
+
+```
+[foo [qux}AA{]}BBBBBBB[foo [qux}CC{]}DDDDDD{foo]QQ{foo] 
+```
+
+The value of the `foo` range with the annotation `[qux}AA{]` is "BBBBBBBDDDDDDQQ".
+
+The value of the `foo` range annotated `[qux}CC{]` is "DDDDDD"
 
 #### [empty-ranges] Empty tags for empty ranges
 
 #### [tag-ordering] Tag ordering
 
-Tags appear in a given order in the syntax, but this order is not retained in the model, In the model, ranges can be put into order, but tag order is not given, and must be undefined in some scenarious, such as merging two LMNL documents into one by consolidating ranges.
+Tags appear in a given order in the syntax, but this order is not retained in the model, In the model, the order of ranges can be determied (partly) by their start locations, but among ranges starting in a given location, tag order is not given. There are also scenarios, such as merging two LMNL documents into one by consolidating ranges, where tag order is necessarily undefined in the general case. (For specific cases rules can always be made.)
 
 XXX [with examples of slippage] XXX
 
-Slippage can also occur in annotation placement on between the start and end tags on a given range. Annotation order on a range should be respected, but all annotations can be given on a start tag or end tag, or split between them, without affecting the range.
+As noted above, slippage can also occur in annotation placement on between the start and end tags on a given range. Annotation order on a range should be respected, but all annotations can be given on a start tag or end tag, or split between them, without affecting the range.
 
 #### [tag-correspondence-rules] Rules for regularity
 
@@ -186,9 +295,9 @@ By default, documents containing start and end tags with no matching tag should 
 
 Empty tags (for empty ranges) are not matched to corresponding tags, and empty ranges, even with the same name as other ranges marked by start and end tags in the same document, have no effect for purposes of matching.
 
-A processor *MAY* report a warning when a tag component ID (a name suffix with `=`) is given on an empty tag range name, as it has no effect in the general case. (It has no effect unless it conflicts with another ID, in which case it is an error.) Empty range tags never need tag component IDs since they do not correspond with (match to) other tags but are "self-closing".
+A processor *MAY* report a warning when a tag ID (a name suffix with `=`) is given on an empty tag range name, as it has no effect in the general case. (It has no effect unless it conflicts with another ID, in which case it is an error.) Empty range tags never need tag IDs since they do not correspond with (match to) other tags but are "self-closing".
 
-Tag component IDs do *not* have to be distinct across the document, as they suffice, along with the other rules of tag matching, to provide for marking up arbitrary overlap [XXX link XXX]. But overloading them with semantics (using "meaningful IDs") is not generally advisable, as they can be rewritten internally and are not guaranteed to persist when a document is rewritten.
+Tag IDs do *not* have to be distinct across the document, as they suffice, along with the other rules of tag matching, to provide for marking up arbitrary overlap [XXX link XXX]. But overloading them with semantics (using "meaningful IDs") is not generally advisable, as they can be rewritten internally and are not guaranteed to persist when a document is rewritten.
 
 ## [range-model] MNML LMNL Range Model
 
@@ -198,7 +307,7 @@ As noted, names in MNML LMNL must follow the XML naming rules (XXX ref XXX). Thi
 
 This rule is relaxed slightly for the name "tag ID" component, which by itself may start with any name character (`\c`), not only an XML name-start character (`\i`).
 
-So a name with no ID component matches `\i\c*` while a name and ID component together match `(\i\c*)=(\c+)`. A tag may not have an empty string as an ID component.
+So a name matches `\i\c*(=\c+)?`, or alternatively (with groups to match captured substrings) `(\i\c*)(=(\c+))?` . A tag may not have an empty string as an ID component.
 
 #### [generic-identifiers] Range (type) name or Generic Identifier (gi)
 
@@ -252,7 +361,7 @@ In brief: there is nothing special about colons in names in MNML LMNL, but there
 
 A "base layer" is available to any LMNL document irrespective of other ranges indicated by markup, consisting of the document text value itself. This is also called the "frontier". It does not appear as a range in the model, but inasmuch as layers (selections of ranges) can be built on other layers, all layers in the model are considered to reference the base layer.
 
-When documents start with a start tag, and end with the end tag corresponding to the start tag, they have at least one range congruent with (whose value is the same as and which starts and ends in the same place) the base layer.
+When documents start with a start tag, and end with the end tag corresponding to the start tag, they have at least one range congruent with the base layer. It is not a requirement for MNML LMNL that there be a single (nominal) "document range", although this may be convenient.
 
 Note that whitespace after the last end tag of a document is sufficient to make the frontier (the document base layer) different from the value of the range that was closed with that tag.
 
@@ -271,19 +380,25 @@ In LMNL, each annotation has its own frontier (base layer), namely its text cont
 
 In MNML LMNL, "values" are always strings. Applications may cast strings into typed data or object structures to support features, but this is not part of MNML LMNL. No special provision is made for numeric data types, Booleans, dates and durations or any complex data at the syntax level, while applications (including validators) are free to constrain these strings appropriately.
 
-The values of all ranges in LMNL are determined in reference to their *base layer* (the document frontier), which does not change even if ranges are reallocated from one layer to another. (In the Laminator, ranges can be in only one layer at a time.)
+The values of all ranges in LMNL are determined in reference to their *base layer* (the document frontier), which does not change even if ranges are reallocated from one layer to another. (In the Laminator, ranges can be in only one layer at a time.) A single document has only a single frontier. However ranges are defined (whether by markup or other means), they are implicitly anchored to their locations within this string.
 
-This having been said, the value of a range corresponds to the value of the text appearing before its start and end tags, excluding any other tagging.
+The value of a range corresponds to the value of the text appearing before its start and end tags, excluding any other tagging.
 
 The value of an annotation corresponds with the value of the text appearing before the end-annotation delimiter `{]`.
 
-Note that two ranges that are not congruent can have *equal* values (their texts can be the same) without the values being the same, as such, as they can be distinguished by the different segments they occupy in the frontier.
+Note that two ranges that are not congruent can have *equal* values (their texts can be the same) and even "the same" value, when their respective values (defined as substrings of the base layer) are determined. These substrings should still be distinguishable as occupying different segments they occupy in the frontier.
+
+Ranges that are congruent necessarily also have the same values (as properties) and "value" (as an assessed or secondary property).
 
 #### [xMNML-values] Range values and the xMNML model
 
-In the LAYERS model, the frontier (base layer) is exposed in its simple form, but in the xMNML LMNL model, it is split across nominal **text value** elements, which are keyed to the ranges the enclose (cover) them by virtue of linking to their start tag markers.
+In the LAYERS model, the frontier (base layer) is exposed in its simple form, but in the xMNML LMNL model, it is split across nominal **text value** elements, each one linking to the ranges thate enclose (cover) them.
 
-This makes the xMNML model a virtual "database" to the MNML LMNL document. Given a range, finding all the text that belongs only to that range is straightforward; as those text values are represented in the model separately, each with links to its own ranges, finding all the ranges covering or overlapping with the given range can be done without looking at the entire text, or all ranges.
+This makes the xMNML model a virtual "database" to the MNML LMNL document. Given a range, finding all the text that belongs only to that range is easily acquired, by splicing together all the text value elements keyed to that range.
+
+Similarly, finding all the ranges covering or overlapping with the given range can be done without looking at the entire text, or all ranges.
+
+The base layer is not kept in an xMNML document explicitly, being the collection of all the text value elements.
 
 #### [overlap-terminology] Terminology of range relations
 
@@ -293,25 +408,36 @@ Two ranges that do not overlap are considered to be *discrete*.
 
 A range *precedes* another range if it ends before, or with, the other's start, and *follows* another range if it starts after, or with, the other's end.
 
-Two ranges are coterminous if any of their start or end positions occur together. A range that ends where another range starts is coterminous with it, but discrete, which makes the ranges continuous and adjoining, while their values (substrings of the base layer) are *contiguous* -- or it may start where another starts - they are coterminous, and one encloses the other.
+Two ranges are coterminous if any of their start or end positions occur together. A range that ends where another range starts is coterminous with it, but discrete. When one range starts together with another, they are coterminous, and one encloses the other (or congrues with it).
 
 Note that these rules mean that the binding of tags to ranges happens *irrespective of tag ordering* at any given position of text. The start tags for two ranges that start together can come in either order: to a MNML LMNL processor, they start in the same position and are co-terminous in either case.
 
+Coterminous ranges can be problematic in some situations, if tag ordering is considered significant. It can easily be avoided by placing content (even if only whitespace) between tags appearing together.
+
 A MNML LMNL processor *MAY* optionally trace tag ordering internally, for use when possible or useful in offering either warnings (if tag re-ordering is considered noteworthy) or options to preserve tag ordering where possible. (The Laminator processing library does *not* currently do this [20260914], although it does preserve tag line numbers and offsets of tags in a LMNL syntax source document, which could be used similarly.)
 
-Annotations are not considered to be contiguous with other annotations even when they are not separated with whitespace in the syntax. They *are* considered to be ordered with respect to their parent or home range, but MNML LMNL does not require retaining whitespace as given in a source syntax instance, when processing or serializing.
+Annotations are not considered to be contiguous with other annotations even when they are not separated with whitespace in the syntax. They *are* considered to be ordered with respect to their parent or home range, but MNML LMNL does not require retaining whitespace as given within tags in a source syntax instance, when processing or serializing.
 
 Two ranges that start *and* end in the same place are considered *congruent*. Every range in a set of congruent ranges encloses each of the other ranges in the set, as enclosure is *mutual* among congruent ranges, as are overlap and discreteness among ranges that are overlapping or discrete. Note that an enclosing or enclosed range is *not* said to overlap the range that encloses it or is enclosed by it, even though the ranges are coterminous, but not discrete.
 
-Any given pair of ranges in the same layer will be
+#### Overlap and layers
 
+Because MNML LMNL makes it possible to allocate ranges to layers, they can be treated separately (in 'families') even if overlapping in the general case. That is, the layers collectively can contain overlapping ranges, without any of the ranges overlapping any others *in the same layer*.
+
+Thus we can have a "pages" layer that overlaps a "structural" layer, with each of their range sets discrete, and each one a discrete hierarchy.
+
+(Note this is different from keeping them in the same layer and detecting the layer has multiple hierarchies, as noted below.)
+
+Any given pair of ranges in the same layer will be one (and only one) of the following:
 
 * congruent,
-* *or* enclosing/enclosed,
+* *or* enclosing/enclosed ('nesting'),
 * *or* overlapping,
 * *or* discrete
 
 Ranges allocated to separate layers in a LMNL document do not have these relations, although layers can always be merged, in which case they do.
+
+Thus these relations are *undefined* for ranges in separate layers, except when explicitly regarded together (as it were in a layer), and although their precedence (which one starts first) is clear in any case. Since the relations are scoped to the layer, to say two ranges overlap (or do not) implicitly asserts they are in the same layer, or can be assumed to be so.
 
 [XXX] examples TODO [XXX]
 
@@ -319,23 +445,27 @@ This distinction corresponds to whether there is complete, or partial, or no con
 
 XXX [EXAMPLE] XXX
 
-Congruent ranges with the same type name are "colliding" or "in collision". (As in "Worlds", referencing the book by Velikovsky.) Even when ranges collide, processors must respect range identity and persistence in naming, values and annotations.
+Congruent ranges with the same type name are "colliding" or "in collision". Even when ranges collide, processors must respect range identity and persistence in naming, values and annotations.
 
 XXX [EXAMPLE] XXX
 
 #### [arbitrary-overlap] Arbitrary overlap ('self-overlap')
 
-*Arbitrary overlap* describes when two ranges with the same type name overlap one another. In the literature on overlapping structures in markup, this condition is called "self-overlap"; a better name (thinks a developer) might be "sibling rivalry". An example of this is when ranges are marked for indexing, with no special distinctions made among the ranges so marked that would motivate distinctive type names. The most convenient way to do this is simply to mark the terms and let indexing software do the rest.
+*Arbitrary overlap* describes when two ranges with the same type name overlap one another. (In a looser sense it describes any kind of overlap at all, but that is the point.) In the literature on overlapping structures in markup, this condition is called "self-overlap"; a better name (thinks a developer) might be "sibling rivalry". An example of this is when ranges are marked for indexing, with no special distinctions made among the ranges so marked that would motivate distinctive type names. The most convenient way to do this is simply to mark the terms and let the processor do the rest.
 
-Arbitrary overlap raises a question for the parser as to whether two ranges named the same are overlapping, or enclosing/enclosed. Tag IDs (range name component IDs) are provided in the syntax to provide for disambiguating the two possible cases (extrapolating to all possible cases).
+Arbitrary overlap might raise a question for the parser as to whether two ranges named the same are overlapping, or enclosing/enclosed. To address this ambiguity, the LMNL syntax parsing rule (implemented in tag matching) is "most recent start tag wins", i.e. we match going "bottom-up" were we closing hierarchies (which we are not). To provide for the case where a prior start tag should instead be matched -- before the most recent preceding name match -- tag IDs (captured and treated as **range name qualifiers** ) can be given. With the ID treated as a component (qualifier) of the name (in both start and end tags), tag matching rules then do the right thing to match them.
+
+Apart from supporting arbitrary overlap, tag (name component) IDs are not actually needed in LMNL tagging.
 
 XXX [EXAMPLE] XXX
 
 ## [layers] Layers
 
-Because ranges can be congruent - more than one range can span across the same value in the base layer - there is no limit to how many ranges can be identified for on a document. Additionally, ranges can be, in general, defined implicitly instead of explicit, i.e., determined (defined or observed) by the application of rules or their descriptions using standoff markup. Until a model is instantiated internally, that is, not all ranges must be defined by enumeration (for example, in markup).
+Because ranges can be congruent - more than one range can span across the same region in the base layer - there is no limit to how many ranges can be identified in a document. Additionally, ranges can be, in general, defined implicitly instead of provided "explicitly" in the usual way, i.e. as markup. They can also be determined (defined or observed) by the application of rules ("all words starting with *s* ") or their descriptions using standoff markup. A MNML LMNL application may accept range definitions from a variety of sources. In particular, until a model is instantiated internally, not all ranges must be defined by enumeration or 'extensionally' (as is the cast for markup), and there is no requirement or expectation that MNML instances be acquired only by parsing MNML syntax.
 
-This openness makes the primary work of a MNML LMNL processor the management and marshalling of ranges, by family and by type, arbitrarily according to applicaition logic. The **layers** feature of the MNML LMNL model is proposed to help make such processing tractable, so that it can be specified, planned and implemented.
+In other words, it is entirely up to an application what it thinks important ranges are, or how it determines their presence. The syntax is one convenient way to assert the presence of (MNML LMNL) ranges over text. It can also be useful to acquire other kinds of sources (describing range sets asserted over a frontier), as well as to unify such information acquired in different forms.
+
+This openness makes the primary work of a MNML LMNL processor the management and marshalling of ranges, by family and by type, arbitrarily according to application logic. The **layers** feature of the MNML LMNL model is proposed to help make such processing tractable, so that it can be specified, planned and implemented.
 
 At present, there is no normative way and no single recommended way to specify that ranges belong to layers, in the syntax. To the extent that this is a requirement (it usually is not), a naming convention can be applied to tags. For example, in a simple case, upper-case tag names could identify ranges for one layer, while lower-case names identify ranges for another.) Application logic can then be used to separate ranges out into layers.
 
@@ -351,7 +481,7 @@ By default, the Laminator parses a MNML instance into a version in which all ran
 
 Layers are an optional feature of LMNL in the sense that whatever a processor does internally, designers are always free to use the simplest possible arrangement - a single layer of ranges sitting over a single base layer.
 
-Being able to discriminate between sets of ranges, by allocating them into separate layers, is also a useful thing to be able to do. A single LMNL instance may have an indefinite number of layers; these are not even always evident in the syntax, but may be implicit or introduced dynamically or interactively. The layers in a LMNL document are not intrinsic to it. Instead, they need to be considered as useful to applications in both *maintaining* and *interfacing* with families of ranges, whose categories (and indeed, whose entire 'life cycle') will depend on the applications in view.
+Being able to discriminate between sets of ranges, by allocating them into separate layers, is also a useful thing to be able to do. A single LMNL instance may have an indefinite number of layers; these do not need to be made evident in the syntax, but may be implicit or introduced dynamically or interactively. The layers in a LMNL document are not intrinsic to it. Instead, they need to be considered as useful to applications in both *maintaining* and *interfacing* with families of ranges, whose categories (and indeed, whose entire 'life cycle') will depend on the applications in view.
 
 Internally, Laminator maintains a LAYERS model for handling and working with layers.
 
@@ -429,7 +559,7 @@ An xMNML instance can also be serialized again using LMNL syntax, or it can be c
 
 Any document that can be "built" into XML can also be "ripped" into XML by subjecting it to certain modifications first, to resolve overlaps handled implicitly in "building". These modifications, or indeed any modifications, can be effected by changing the xMNML document within the XProc pipeline that handles reading and writing it.
 
-Some operations over LMNL ranges and their values are easily accomplished using the xMNML model as a 'range retrieval' database.
+Some operations over LMNL ranges and their values are easily accomplished using the xMNML model as a 'range retrieval' database. (As described briefly above.)
 
 Refreshing xMNML - rules for rewriting IDs and text to an updated range set - this can be done by casting to LAYERS and back.
 
@@ -444,6 +574,8 @@ It also presents the document's value (base layer) as a single string, making it
 Because the LAYERS model also permits storing, internally, structures that are not transparently expressible using the syntax -- such as sets of ranges that happen to form clean hierarchies (OHCO or MCH) -- they can also be useful for operations that can take advantage of these structures.
 
 A generic XSLT can convert any LAYERS instance into the corresponding xMNML instance. Another one can create LAYERS from any xMNML. LAYERS instances can also be created directly from XML using a utility for that purpose.
+
+Use cases: Analytic report of range usage; Range maps
 
 #### [xml-syntax-wrangling] METHOD: SYNTAX WRANGLING WITH XML - 'slurping' and 'ripping'
 
@@ -471,11 +603,19 @@ Parsing and tag-matching operations should scale O(n) i.e. linear to the size of
 * Depth of nesting (enclosure) in tag matching
 * Where are the current bottlenecks? (including starting JVM)
 
+One notable property of MNML LMNL syntax is that violations of tag matching rules cannot be detected until the entire document has been ingested. This makes them a little more difficult to insulate from bad inputs than XML, which can report an error as soon as an end-tag matching rule fails.
+
+LMNL tag matching rules are more like XML's ID/IDREF rules (which come with some schema languages), namely constraints on referentiality in general.
+
+However, systems are also expected to be able to cache intermediate representations of documents and information sets to alleviate performance and maintenance issues.
+
 ### [metadata] Metadata conventions and failsafes
 
 LMNL makes no special provision for document metadata as a constituent element of LMNL instances.
 
-In part this is because (unlike XML) LMNL is not used strictly for structured data, but for loosely-structured or unstructured data; so it is less amenable than XML to including tagged structures in document contents within the document as such.
+In part this is because LMNL is conceived as a framework for the definition of application languages (**markup** languages), which may have such provisions (as do HTML, TEI and many other markup applications, but not XML as such).
+
+This is also because (unlike XML) LMNL is not used strictly for structured data, but for loosely-structured or unstructured data; so it is less amenable than XML to including tagged structures in document *contents* within the document as such.
 
 It is very convenient, that is, to "keep the metadata out of the frontier", and in LMNL, that means keeping metadata in annotations, the natural place for it.
 
@@ -483,11 +623,11 @@ Such annotations can include information regarding titles/creators/encoders/date
 
 Unfortunately, MNML LMNL limits annotations to name-value pairs so they cannot be provided with further structure except implicitly (not in the LMNL model).
 
-Accordingly, two approaches are recommended:
+Accordingly, two approaches are recommended, if it is convenient to keep the metadata out of document contents:
 
-* Include links to structured metadata
+* Instead, include links to structured metadata (external but local)
 * Accompany all LMNL with `readme` documents in their repositories, in a containing folder
 
-Suggestion: use TEI Headers for your Digital Humanities project metadata.
+Suggestion: use TEI Headers for your Digital Humanities project metadata. It can even be stored out of line, or LMNL can be embedded in TEI.
 
 ---
