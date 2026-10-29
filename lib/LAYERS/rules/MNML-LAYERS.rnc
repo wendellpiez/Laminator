@@ -2,9 +2,9 @@ default namespace = "http://wendellpiez.com/ns/xMNML"
 
 # The model is intended to be *almost* as minimalistic as possible
 #  Only a little semantic redundancy (hooks for optimization) is offered:
-#  layer/(@class|@mixed) telling us about the layer - one of the two attributes may be present, not both
+#  layer/(@mixing | @form) telling us about the layer - one of the two attributes may be present, not both
 #    since mixing any range type (permitting it to overlap others of the same type) precludes MCH and therefore also OHCO
-#  layer/@ranges indicates range types included
+#  layer/@ranges indicates range types included in the layer
 #  range/@overlaps pointing to overlapping ranges
 #    These properties are all validable and corrigible by normalization
 #    as they can be determined statically
@@ -20,8 +20,8 @@ LAYERS = element LAYERS {
 
 layer = element layer {
     attribute  ranges { xsd:NMTOKENS }?,
-    (attribute mixing { xsd:NMTOKENS } | # list range types showing arbitrary overlap
-     attribute form  { 'ohco' | 'mch' } ),
+    (attribute mixing { xsd:NMTOKENS } |   # list range types showing arbitrary overlap
+     attribute form  { 'ohco' | 'mch' } ), # 'ohco' means ranges constitute a clean hierarchy; 'mch' means no arbitrary overlap
     element range {
         attribute gi { xsd:NCName },
         attribute id { xsd:integer }?,
@@ -29,10 +29,16 @@ layer = element layer {
         attribute starting { xsd:integer },
         attribute ending { xsd:integer },
         attribute overlaps { xsd:NMTOKENS }?,
-            element annotation {
+        lineno_attrs, # meaningless but to support transmission        
+        element annotation {
               attribute gi { xsd:NCName },
               attribute place { 'end' }?,
+              lineno_attrs,
               text
         }*
     }*
 }
+   
+lineno_attrs =
+    attribute L   { xsd:integer }?, # Line number in instance (count of preceding LF)
+    attribute ch  { xsd:integer }?  # character position in instance (string length since most recent LF)

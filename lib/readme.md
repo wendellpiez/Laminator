@@ -2,59 +2,9 @@
 
 Generic code for working with MNML LMNL.
 
-See the readme documents and code base for the current state.
+See the readme documents and code base for the current state, as this document is a (rough) placeholder and clearing house.
 
-Test pipelines and XSpec tests can be found close to their test targets.
-
-
-## TODO
-
-o document top/down
-
-how to use the Laminator
-
-o Putting together a pipeline
-  o XML source
-  o LMNL source (as plain text)
-  o capturing results
-o Starting with XML
-  o convert to LMNL tags
-  o or, go straight into xMNML or RANGES
-o Starting with LMNL
-o pivoting from xMNML
-    o 'ripping' XML (the 'wrong' way)
-    o building XML (the 'right' way)
-    o back to LMNL
-    o out to RANGES
-o pivoting from RANGES
-    o merging, filtering
-    o sorting, renaming
-    o handling IDs and avoiding clashes
-    o handling range synonymy / congruity
-    o hierarchies
-      o detecting and distinguishing
-      o @form = (ohco|mch)?
-    o inscribing (tags) back to xMNML
-    o or, go straight to XML ('ripping') w/o xMNML tags en route
-o XPath matching xMNML
-o XPath matching RANGES
-o Range signatures
-    
-How Laminator works
-  xMNML - tags in a sequence
-    needs a specification.md
-      schema + rules
-      referential integrity
-  RANGES - abstracted range model
-    needs a specification.md
-  lossless conversion between models
-    Can be tested
-    (exposes the deltas, e.g. around tag ordering and whitespace)
-  two models offer two different 'surfaces' for operations
-    directly over ranges
-    or via tagging/inferencing
-
-Keep reading - much of this is detailed below.
+Test pipelines and XSpec tests can be found close to their test targets (stylesheets and XProc pipelines being tested).
 
 ## Models
 
@@ -147,32 +97,7 @@ Merging and sifting ranges and range types is one of the most basic and useful t
 
 ## Conceptual map
 
-A mermaid flowchart diagram shows the moving pieces.
-
-Any process can be assumed to be XSLT even if functionally very simple ('tag writing').
-
-TBD (potentially) - shortcuts implemented as direct transformations (while we are doing our best to factor out complexity) - e.g. the XML builder could work on both xMNML and LAYERS inputs
-
-```mermaid
-flowchart TD
-    lmnlIN[LMNL] -.->|iXML| lmnlTAGS(MNML tag sequence)
-    subgraph parser
-    lmnlTAGS -.->|matcher XSLT| MATCHED(matched)
-    MATCHED -.->|measurer XSLT| XMNML{xMNML}
-    end
-    
-    lmnlOUT -.-> lmnlIN
-    XMNML -.->|serialize| lmnlOUT[LMNL]
-    XMNML  -.->|index| LAYERS[[LAYERS]]
-    LAYERS -.->|inscribe| XMNML
- 
-    XMNML  -->|build| xmlOUT[XML]
-    XMNML  -->|rip| xmlOUT[XML]
-    xmlOUT --> lmnlOUT
-
-```
-
-A few pathways are not shown in the picture, for example converting directly from XML straight into xLMNL or LAYERS, not via LMNL tagging.
+![Lamintor architecture (flow diagram)](laminator-architecture.svg)
 
 The LAYERS model is useful
 
@@ -188,48 +113,6 @@ The LAYERS model is useful
   - a well-ordered, complete and correct xMNML document will convert losslessly, otherwise not
 
 
----
-
-### Version prior to April 2026
-
-Cornered rectangles - i.e., only XML and LMNL - will take the form of persistent data objects on your system. Everything else is internal to pipelines and not visible to the end user, only to developers and builders.
-
-```mermaid
-flowchart TD
-    lmnlIN[LMNL] -->|iXML| lmnlTAGS(MNML tag sequence)
-    lmnlTAGS -->|matcher XSLT| MATCHED(matched)
-    MATCHED -->|measurer XSLT| XMNML{xMNML}
-    lmnlOUT --> lmnlIN
-    XMNML -->|rip| XMLOUT1[XML]
-    XMNML-->|transform| xmnmlOUT{xMNML}
-    XMLOUT1 --> lmnlOUT
-    XMLOUT1 --> XMNML
-    XMNML -->|build| xmlOUT2[XML]
-    xmlOUT2 --> XMNML
-    xmlOUT2 --> lmnlOUT
-    XMNML -->|serialize| lmnlOUT[LMNL]
-    xmnmlOUT --> lmnlOUT
-    xmnmlOUT --> XMNML
-```
-
-Here is the same architecture, except with more labels, and the MNML LMNL parsing steps are reduced to a black box, "XProc/iXML Pipeline".
-
-```mermaid
-flowchart TD
-    lmnlIN[LMNL] -->|XProc/iXML pipeline| XMNML{xMNML}
-    lmnlOUT --> lmnlIN
-    XMNML -->|rip| XMLOUT1[XML]
-    XMNML-->|xform| xmnmlOUT{xMNML}
-    XMLOUT1 -->|serialize| lmnlOUT
-    XMLOUT1 -->|rip| XMNML
-    XMNML -->|build| xmlOUT2[XML]
-    xmlOUT2 -->|rip| XMNML
-    xmlOUT2 -->|serialize| lmnlOUT
-    XMNML -->|serialize| lmnlOUT[LMNL]
-    xmnmlOUT -->|serialize| lmnlOUT
-    xmnmlOUT -->|xform| XMNML
-```
-
 ### Ripping and building: xMNML to XML, XML to xLMNL
 
 In the diagram, *build* refers to a process that produces XML from xMNML by a hierarchical node traversal - guaranteeing XML results from any xMNML input, at the cost of splitting ranges across element boundaries when they overlap.
@@ -241,6 +124,36 @@ This is a cheap-and-easy (and fast) way to convert xMNML when its fitness for su
 And XML always safely "rips" into xMNML because XML has no overlap to be a problem in xMNML, if that were a problem.
 
 Both "ripping" and "building" can include other operations in the conversion, such as removing ranges of certain types (so corresponding elements do not break hierarchies), rewriting end-tag/start-tag pairs into XML 'milestones', or other manipulations. Careful "ripping" from XML can be a good way to see overlaps that are not rendered explicitly in source XML, but can become true ranges (marked with starts and ends) when ripped.
+
+
+## how to use the Laminator
+
+o Putting together a pipeline
+  o XML source
+  o LMNL source (as plain text)
+  o capturing results
+o Starting with XML
+  o convert to LMNL tags
+  o or, go straight into xMNML or RANGES
+o Starting with LMNL
+o pivoting from xMNML
+    o 'ripping' XML (the 'wrong' way)
+    o building XML (the 'right' way)
+    o back to LMNL
+    o out to RANGES
+o pivoting from RANGES
+    o merging, filtering
+    o sorting, renaming
+    o handling IDs and avoiding clashes
+    o handling range synonymy / congruity
+    o hierarchies
+      o detecting and distinguishing
+      o @form = (ohco|mch)?
+    o inscribing (tags) back to xMNML
+    o or, go straight to XML ('ripping') w/o xMNML tags en route
+o XPath matching xMNML
+o XPath matching RANGES
+o Range signatures
 
 ---
 end

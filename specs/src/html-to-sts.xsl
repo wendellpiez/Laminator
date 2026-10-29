@@ -56,36 +56,36 @@
   
   <xsl:template match="section" expand-text="true">
     <xsl:variable name="id">
-      <xsl:apply-templates select="h2[1] | h3[1] | h4[1] | h5[1]" mode="sec-id"/>
+      <xsl:apply-templates select="(h1, h2, h3, h4, h5, h6)[1]" mode="sec-id"/>
     </xsl:variable>
-    <xsl:if test="not( matches($id,'\i\c*') )">
-      <xsl:message terminate="yes">div has no good section ID, only '{ $id }'</xsl:message>
+    <xsl:if test="not( normalize-space($id))">
+      <xsl:message>Section has no ID - cf "{ (h1, h2, h3, h4, h5, h6)[1] }"</xsl:message>
     </xsl:if>
-    <sec id="{ $id }">
+    <sec id="{ ( $id[normalize-space(.)], generate-id() )[1] }">
       <xsl:apply-templates/>
     </sec>
   </xsl:template>
   
-  <xsl:template match="h2 | h3 | h4 | h5" mode="sec-id">
+  <xsl:template match="h1 | h2 | h3 | h4 | h5" mode="sec-id">
       <xsl:analyze-string select="." regex="\[(.+)\]">
         <!-- Bracketed text is captured -->
         <xsl:matching-substring expand-text="true">{ regex-group(1) }</xsl:matching-substring>
       </xsl:analyze-string>
   </xsl:template>
   
-  <xsl:template match="h2 | h3 | h4 | h5" expand-text="true">
+  <xsl:template match="h1 | h2 | h3 | h4 | h5" expand-text="true">
     <xsl:if test="exists(preceding-sibling::*)">
       <xsl:message>WARNING: { name() }: '{ . }' IS OUT OF ORDER - should be #{ (.|ancestor::section)/'#' => string-join() }</xsl:message>
     </xsl:if>
     <title>
-      <xsl:text>#{ (.|ancestor::section)/'#' => string-join() } [</xsl:text>
+      <!--<xsl:text>#{ (.|ancestor::section)/'#' => string-join() } [</xsl:text>
       <xsl:apply-templates select="." mode="sec-id"/>
-      <xsl:text>] </xsl:text>
+      <xsl:text>] </xsl:text>-->
       <xsl:apply-templates/>
     </title>
   </xsl:template>
   
-  <xsl:template match="h2//text() | h3//text() | h4//text() | h5//text()">
+  <xsl:template match="h1//text() | h2//text() | h3//text() | h4//text() | h5//text()">
     <xsl:analyze-string select="." regex="\[(.+)\]\s*">
       <!-- bracketed text is discarded with its trailing whitespace -->
       <xsl:non-matching-substring expand-text="true">{ . }</xsl:non-matching-substring>

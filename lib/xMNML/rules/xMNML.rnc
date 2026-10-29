@@ -26,20 +26,27 @@ text_span =
 
 annotation = 
     element annotation { gi_attr,
+        lineno_attrs,
         text # validated against unescaped delimiters \ [ { elsewhere
     }
 
 
-range_attrs    = gi_attr,
+range_attrs    =
+    gi_attr,
     attribute id { xsd:integer }?,
     attribute rID { xsd:NCName }
 
-position_attrs =  offset_attr,
-    attribute ext { xsd:integer }
+position_attrs = 
+    offset_attr,
+    attribute ext { xsd:integer },
+    lineno_attrs
+    
+lineno_attrs =
+    attribute L   { xsd:integer }?, # Line number in instance (count of preceding LF)
+    attribute ch  { xsd:integer }?  # character position in instance (string length since most recent LF)
 
 offset_attr    = attribute off { xsd:integer }
 
 gi_attr        = attribute gi { xsd:NCName }?
-
 
 # end

@@ -69,5 +69,14 @@ What it includes:
 
 For some ideas on how to provide for LMNL annotations, see the [Annotation Concepts](annotations.md) document.
 
+# In this folder
+
+## Draft specification describing the MNML LMNL data model
+
+This document describes the rules and terminology of MNML LMNL, describing the kinds of data objects found in LMNL and their properties.
+
+Alongside it, find functiona specifications of formats for the Laminator library in the form of schemas.
+
+
 ---
 end

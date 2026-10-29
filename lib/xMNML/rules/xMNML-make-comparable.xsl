@@ -32,21 +32,21 @@
   <xsl:template match="LMNL">
     <xsl:copy>
       <xsl:copy-of select="@*"/>
-        <xsl:for-each-group select="*" group-by="@off">
-          <xsl:sort select="@off" data-type="number"/>
-          <xsl:apply-templates select="current-group()/self::end">
-            <xsl:sort select="@ext" order="descending"/>
-            <xsl:sort select="@gi || @id/('#'||.)"/>
-            <xsl:sort select="@rID"/>
-          </xsl:apply-templates>
-          <xsl:apply-templates select="current-group()/self::empty"/>
-          <xsl:apply-templates select="current-group()/self::start">
-            <xsl:sort select="@ext" order="ascending"/>
-            <xsl:sort select="@gi || @id/('#'||.)" order="descending"/>
-            <xsl:sort select="@rID" order="descending"/>
-          </xsl:apply-templates>
-          <xsl:apply-templates select="current-group()/self::text"/>
-        </xsl:for-each-group>
+      <xsl:for-each-group select="*" group-by="@off">
+        <xsl:sort select="@off" data-type="number"/>
+        <xsl:apply-templates select="current-group()/self::end">
+          <xsl:sort select="@ext" order="descending"/>
+          <xsl:sort select="@gi || @id/('#' || .)"/>
+          <xsl:sort select="@rID"/>
+        </xsl:apply-templates>
+        <xsl:apply-templates select="current-group()/self::empty"/>
+        <xsl:apply-templates select="current-group()/self::start">
+          <xsl:sort select="@ext" order="ascending"/>
+          <xsl:sort select="@gi || @id/('#' || .)" order="descending"/>
+          <xsl:sort select="@rID" order="descending"/>
+        </xsl:apply-templates>
+        <xsl:apply-templates select="current-group()/self::text"/>
+      </xsl:for-each-group>
     </xsl:copy>
   </xsl:template>
   
